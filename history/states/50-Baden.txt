@@ -1,0 +1,36 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			9517 20 
+		}
+		victory_points = {
+			11499 3 
+		}
+		owner = ZZZ #GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		519 694 3679 3690 6555 6581 6934 9517 9545 9655 11486 11499 13126 
+	}
+	manpower=2543427
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 428
+	name = "STATE_428"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9975 1 }
+		owner = ZZZ #IND
+		add_core_of = IND
+		
+		buildings = {infrastructure = 4 arms_factory = 1 9975 = { naval_base = 2 } } 
+	}
+
+	provinces = { 1061 1103 1144 1190 4064 4090 4132 4187 7020 7150 7165 7207 9975 10118 11952 12037 12092 }
+
+	manpower = 10590200 # = 12092
+	buildings_max_level_factor = 1.000
+}

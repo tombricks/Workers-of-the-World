@@ -1,0 +1,25 @@
+state = {
+	id = 113
+	name = "STATE_113"
+	state_category = city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 11293 5 }
+		owner = ZZZ #ENG
+		add_core_of = ENG
+		add_core_of = IRE
+		
+		buildings = {infrastructure = 7 arms_factory = 1 industrial_complex = 5 air_base = 3 11293 = { naval_base = 6 } } 
+	}
+
+	provinces = { 285 303 369 3342 3359 7377 11293 11303 }
+
+	manpower = 1357600 # = 11303
+	buildings_max_level_factor = 1.000
+}

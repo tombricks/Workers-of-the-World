@@ -1,0 +1,23 @@
+state = {
+	id = 730
+	name = "STATE_730"
+	state_category = tiny_island
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #USA
+		add_core_of = USA
+		
+		buildings = {infrastructure = 3 373 = { naval_base = 1 } } 
+	}
+
+	provinces = { 373 }
+
+	manpower = 3426 # = 373
+	buildings_max_level_factor = 1.000
+}

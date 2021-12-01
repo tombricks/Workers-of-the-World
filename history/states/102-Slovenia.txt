@@ -1,0 +1,24 @@
+state = {
+	id = 102
+	name = "STATE_102"
+	state_category = large_town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9627 3 }
+		owner = ZZZ #YUG
+		add_core_of = YUG
+		
+		buildings = {infrastructure = 6 } 
+	}
+
+	provinces = { 596 665 3631 3654 6650 6672 9596 9627 }
+
+	manpower = 1144300 # = 9627
+	buildings_max_level_factor = 1.000
+}

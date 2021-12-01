@@ -1,0 +1,24 @@
+state = {
+	id = 467
+	name = "STATE_467"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 4872 5 }
+		owner = ZZZ #USA
+		add_core_of = USA
+		
+		buildings = {infrastructure = 4 industrial_complex = 1 } 
+	}
+
+	provinces = { 1848 1873 3721 4218 4426 4790 4872 5119 12145 12636 12688 }
+
+	manpower = 651071 # = 12688
+	buildings_max_level_factor = 1.000
+}

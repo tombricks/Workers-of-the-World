@@ -1,0 +1,24 @@
+state = {
+	id = 557
+	name = "STATE_557"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 5034 1 }
+		owner = ZZZ #MLI
+		add_core_of = MLI
+		
+		buildings = {infrastructure = 1 } 
+	}
+
+	provinces = { 5034 5077 7992 8058 10814 }
+
+	manpower = 225000 # = 10814
+	buildings_max_level_factor = 1.000
+}

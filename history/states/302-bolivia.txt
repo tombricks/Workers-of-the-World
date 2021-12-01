@@ -1,0 +1,25 @@
+state = {
+	id = 302
+	name = "STATE_302"
+	state_category = city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 5230 5 }
+		owner = ZZZ #PBC
+		add_core_of = PBC
+		
+		buildings = {infrastructure = 3 arms_factory = 1 industrial_complex = 5 air_base = 2 } 
+		add_extra_state_shared_building_slots = 2
+	}
+
+	provinces = { 2174 5179 5229 5230 8157 8225 10938 10952 10987 12930 12979 13134 13174 13195 }
+
+	manpower = 2044500 # = 2044500
+	buildings_max_level_factor = 1.000
+}

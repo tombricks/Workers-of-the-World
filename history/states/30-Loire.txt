@@ -1,0 +1,24 @@
+
+state={
+	id=30
+	name="STATE_30"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		owner = ZZZ #FRA		add_core_of = FRA
+		
+		buildings = {infrastructure = 7 industrial_complex = 1 air_base = 2 } 
+
+	}
+
+	provinces={
+		3495 3509 3523 9478 11463 11613 
+	}
+	manpower = 1388400 #=11616
+	buildings_max_level_factor=1.000
+	state_category = city
+}

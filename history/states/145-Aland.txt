@@ -1,0 +1,23 @@
+state = {
+	id = 145
+	name = "STATE_145"
+	state_category = small_island
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #FIN
+		add_core_of = FIN
+		
+		buildings = {infrastructure = 5 9228 = { naval_base = 1 } } 
+	}
+
+	provinces = { 9228 }
+
+	manpower = 27400 # = 9228
+	buildings_max_level_factor = 1.000
+}

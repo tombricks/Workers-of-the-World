@@ -1,0 +1,28 @@
+
+state={
+	id=27
+	name="STATE_27"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			3652 5 
+		}
+		owner = ZZZ #FRA		add_core_of = FRA
+		
+		buildings = {infrastructure = 7 industrial_complex = 2 air_base = 2 } 
+		buildings = {industrial_complex = 3 } 
+
+	}
+
+	provinces={
+		648 667 680 817 3506 3652 3669 3681 9609 9625 9644 11628 11794 
+	}
+	manpower = 1370800 #=11628
+	buildings_max_level_factor=1.000
+	state_category = city
+}

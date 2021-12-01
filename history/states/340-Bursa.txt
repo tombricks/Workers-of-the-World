@@ -1,0 +1,25 @@
+state = {
+	id = 340
+	name = "STATE_340"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 947 10 }
+		victory_points = { 9799 5 }
+		owner = ZZZ #TUR
+		add_core_of = TUR
+		
+		buildings = {infrastructure = 4 industrial_complex = 1 dockyard = 1 } 
+	}
+
+	provinces = { 785 947 3786 3851 6864 6912 9799 9887 11778 11867 }
+
+	manpower = 1077853 # = 11867
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=549
+	name="STATE_549"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			2096 1 
+		}
+		owner = ZZZ #EAF
+		add_core_of = EAF
+		add_claim_by = SUD
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1953 2096 4033 7996 10764 10857 10859 10877 10908 12744 12800 
+	}
+	manpower = 3694293 #=12887
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

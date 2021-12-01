@@ -1,0 +1,23 @@
+state = {
+	id = 564
+	name = "STATE_564"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		
+		buildings = {infrastructure = 4 } 
+	}
+
+	provinces = { 1696 4705 4766 4837 7751 7816 7835 7860 10528 10658 12507 12644 }
+
+	manpower = 370893 # = 12644
+	buildings_max_level_factor = 1.000
+}

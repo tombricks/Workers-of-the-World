@@ -1,0 +1,26 @@
+state = {
+	id = 68
+	name = "STATE_68"
+	state_category = city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 3473 1 }
+		owner = ZZZ #ZAP
+		add_core_of = ZAP
+		add_core_of = POL
+		add_claim_by = GER
+		
+		buildings = {infrastructure = 6 industrial_complex = 1 } 
+	}
+
+	provinces = { 444 537 3473 3572 6236 9387 11478 }
+
+	manpower = 1250840 # = 11478
+	buildings_max_level_factor = 1.000
+}

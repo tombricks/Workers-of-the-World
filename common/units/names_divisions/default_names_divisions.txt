@@ -1,0 +1,12 @@
+﻿generic_infantry = 
+{
+	name = "Infantry Units"
+
+	for_countries = { ZZZ }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Unit"
+}

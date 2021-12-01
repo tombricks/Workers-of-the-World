@@ -1,0 +1,26 @@
+
+state={
+	id=817
+	name="STATE_817"
+	provinces={
+		3916 5014 
+	}
+	history = {
+		owner = ZZZ #UAR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3916 3 
+		}
+		add_core_of = UAR
+		add_core_of = IRQ
+		add_core_of = KUR
+	}
+	state_category = town
+	manpower=1
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 515
+	name = "STATE_515"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #WAF
+		add_core_of = WAF
+		
+		buildings = {infrastructure = 1 } 
+	}
+
+	provinces = { 1956 4913 7939 8028 8128 10758 10780 10805 10917 }
+
+	manpower = 1456356 # = 1456356
+	buildings_max_level_factor = 1.000
+}

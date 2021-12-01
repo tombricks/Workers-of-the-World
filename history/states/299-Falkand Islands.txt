@@ -1,0 +1,23 @@
+state = {
+	id = 299
+	name = "STATE_299"
+	state_category = enclave
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #ARG
+		add_core_of = ARG
+		
+		buildings = {infrastructure = 2 12960 = { naval_base = 1 } } 
+	}
+
+	provinces = { 12960 }
+
+	manpower = 2463 # = 12960
+	buildings_max_level_factor = 1.000
+}

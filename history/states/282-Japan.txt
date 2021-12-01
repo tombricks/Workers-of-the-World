@@ -1,0 +1,26 @@
+state = {
+	id = 282
+	name = "STATE_282"
+	state_category = megalopolis
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 1182 50 }
+		owner = ZZZ #JPN
+		add_core_of = JPN
+		
+		buildings = {infrastructure = 8 air_base = 6 industrial_complex = 5 arms_factory = 2 dockyard = 4 9998 = { naval_base = 6 } } 
+		buildings = {arms_factory = 4 dockyard = 4 industrial_complex = 6 } 
+		add_extra_state_shared_building_slots = 5
+	}
+
+	provinces = { 993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 }
+
+	manpower = 13773000 # = 11908
+	buildings_max_level_factor = 1.000
+}

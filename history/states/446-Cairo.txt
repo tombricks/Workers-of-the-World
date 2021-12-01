@@ -1,0 +1,29 @@
+state = {
+	id = 446
+	name = "STATE_446"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 7011 20 }
+		victory_points = { 12049 5 }
+		victory_points = { 3996 5 }
+		victory_points = { 4073 3 }
+		victory_points = { 1068 3 }
+		owner = ZZZ #UAR
+		add_core_of = UAR
+		add_core_of = EGY
+		
+		buildings = {infrastructure = 5 industrial_complex = 1 air_base = 5 12049 = { naval_base = 2 } } 
+	}
+
+	provinces = { 1068 3996 4055 4073 4143 7011 7188 10005 10031 12004 12049 992 7117 }
+
+	manpower = 6586596 # = 7117
+	buildings_max_level_factor = 1.000
+}

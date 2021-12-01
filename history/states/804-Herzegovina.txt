@@ -1,0 +1,24 @@
+state = {
+	id = 804
+	name = "STATE_804"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9894 3 }
+		owner = ZZZ #YUG
+		add_core_of = YUG
+		
+		buildings = {infrastructure = 3 } 
+	}
+
+	provinces = { 953 6942 9894 11845 }
+
+	manpower = 547200 # = 11845
+	buildings_max_level_factor = 1.000
+}

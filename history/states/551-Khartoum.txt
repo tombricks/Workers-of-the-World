@@ -1,0 +1,40 @@
+
+state={
+	id=551
+	name="STATE_551"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			12806 3 
+		}
+		victory_points = {
+			12725 1 
+		}
+		owner = ZZZ #UAR
+		add_core_of = UAR
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			12725 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1914 1960 1977 2003 2016 2046 2088 4138 4918 4961 4963 5060 7925 7989 8052 8084 8105 10739 10743 10745 10784 10795 10827 10851 10902 12725 12796 12806 12826 12836 12862 12881 12887 
+	}
+	manpower = 1993507 #=4961
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

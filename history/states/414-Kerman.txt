@@ -1,0 +1,25 @@
+state = {
+	id = 414
+	name = "STATE_414"
+	state_category = wasteland
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10913 1 }
+		victory_points = { 7990 1 }
+		owner = ZZZ #IRN
+		add_core_of = IRN
+		
+		buildings = {infrastructure = 1 } 
+	}
+
+	provinces = { 1986 7990 10759 10890 10913 11249 12739 12809 12852 12895 }
+
+	manpower = 486013 # = 12895
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=680
+	name="STATE_680"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		owner = ZZZ #UAR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = UAR
+		add_core_of = SYR
+	}
+
+	provinces={
+		7513 10383 12316 12442 
+	}
+	manpower=1803000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

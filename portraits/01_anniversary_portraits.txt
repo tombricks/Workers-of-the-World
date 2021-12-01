@@ -1,0 +1,349 @@
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_europe_generic_land_6.dds"	
+			"gfx/leaders/Europe/portrait_europe_generic_land_7.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_8.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/portrait_europe_generic_navy_4.dds"	
+			"gfx/leaders/Europe/portrait_europe_generic_navy_5.dds"	
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+		template_ideology = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_europe_generic_land_6.dds"	
+			"gfx/leaders/Europe/portrait_europe_generic_land_7.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_8.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/portrait_europe_generic_navy_4.dds"	
+			"gfx/leaders/Europe/portrait_europe_generic_navy_5.dds"	
+		}
+	}
+
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"	
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"	
+			}
+		}
+		template_ideology = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"	
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/South America/portrait_south_america_generic_7.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_8.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_9.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/South America/portrait_south_america_generic_7.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_8.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_9.dds"
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/South America/portrait_south_america_generic_7.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_8.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_9.dds"
+			}
+		}
+		template_ideology = {
+				male = { 
+					"gfx/leaders/South America/portrait_south_america_generic_7.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_8.dds"
+					"gfx/leaders/South America/portrait_south_america_generic_9.dds" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_europe_generic_land_6.dds"	
+			"gfx/leaders/Europe/portrait_europe_generic_land_7.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_land_8.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/portrait_europe_generic_navy_4.dds"	
+			"gfx/leaders/Europe/portrait_europe_generic_navy_5.dds"	
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+		democratic = {
+				male = {
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds" 
+			}
+		}
+		fascism = {
+				male = {
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds" 
+			}
+		}
+		template_ideology = {
+				male = {
+					"gfx/leaders/Europe/portrait_europe_generic_4.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_5.dds"	
+					"gfx/leaders/Europe/portrait_europe_generic_6.dds"	
+					"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+					"gfx/leaders/Europe/portrait_europe_generic_8.dds" 
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_land_4.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_4.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Africa/Portrait_Africa_Generic_4.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Africa/Portrait_Africa_Generic_4.dds"		
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Africa/Portrait_Africa_Generic_4.dds"
+			}
+		}
+		template_ideology = {
+				male = { 
+					"gfx/leaders/Africa/Portrait_Africa_Generic_4.dds"
+			}
+		}
+	}
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"gfx/leaders/Asia/portrait_asia_generic_land_6.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Asia/portrait_asia_generic_navy_4.dds"
+		}
+	}
+
+	political = {
+		communism = {
+				male = {
+					"gfx/leaders/Asia/portrait_asia_generic_4.dds" 
+			}
+		}
+		democratic = {
+				male = {
+					"gfx/leaders/Asia/portrait_asia_generic_4.dds" 
+			}
+		}
+		fascism = {
+				male = {
+					"gfx/leaders/Asia/portrait_asia_generic_4.dds" 
+			}
+		}
+		template_ideology = {
+				male = {
+					"gfx/leaders/Asia/portrait_asia_generic_4.dds" 
+			}
+		}
+	}	
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+			"gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
+			"gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_1.dds"
+			"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_2.dds"
+			"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			}
+		}
+		template_ideology = {
+				male = { 
+					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			}
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 293
+	name = "STATE_293"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10840 3 }
+		owner = ZZZ #UAR
+		add_core_of = UAR
+		add_core_of = YEM
+		
+		buildings = {infrastructure = 3 arms_factory = 1 industrial_complex = 1 10840 = { naval_base = 1 } } 
+	}
+
+	provinces = { 1920 1973 4924 10752 10840 }
+
+	manpower = 2489500 # = 10840
+	buildings_max_level_factor = 1.000
+}

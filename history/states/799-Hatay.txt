@@ -1,0 +1,24 @@
+state = {
+	id = 799
+	name = "STATE_799"
+	state_category = enclave
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 12029 1 }
+		owner = ZZZ #TUR
+		add_core_of = TUR
+		
+		buildings = {infrastructure = 2 } 
+	}
+
+	provinces = { 12029 }
+
+	manpower = 234379 # = 1
+	buildings_max_level_factor = 1.000
+}

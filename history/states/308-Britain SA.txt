@@ -1,0 +1,23 @@
+state = {
+	id = 308
+	name = "STATE_308"
+	state_category = tiny_island
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #CBN
+		add_core_of = CBN
+		
+		buildings = {infrastructure = 4 4450 = { naval_base = 1 } 7123 = { naval_base = 1 } } 
+	}
+
+	provinces = { 4450 7123 }
+
+	manpower = 25678 # = 7123
+	buildings_max_level_factor = 1.000
+}

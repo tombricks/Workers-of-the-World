@@ -1,0 +1,3 @@
+leader_traits = {
+	temp_trait = { random = no }
+}

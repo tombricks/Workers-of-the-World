@@ -1,0 +1,24 @@
+state = {
+	id = 508
+	name = "STATE_508"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 8216 1 }
+		owner = ZZZ #ARG
+		add_core_of = ARG
+		
+		buildings = {infrastructure = 3 industrial_complex = 1 } 
+	}
+
+	provinces = { 2136 2224 8195 8216 8253 11001 12928 12978 }
+
+	manpower = 781311 # = 12978
+	buildings_max_level_factor = 1.000
+}

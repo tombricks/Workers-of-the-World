@@ -1,0 +1,25 @@
+state = {
+	id = 267
+	name = "STATE_267"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10737 5 }
+		victory_points = { 12248 1 }
+		owner = ZZZ #AFG
+		add_core_of = AFG
+		
+		buildings = {infrastructure = 2 arms_factory = 1 industrial_complex = 1 } 
+	}
+
+	provinces = { 5082 7448 7519 7584 7916 7984 10476 10737 10781 10826 10852 10896 12248 12314 12653 12769 12831 12877 }
+
+	manpower = 4637140 # = 12877
+	buildings_max_level_factor = 1.000
+}

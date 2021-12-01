@@ -1,0 +1,23 @@
+state = {
+	id = 555
+	name = "STATE_555"
+	state_category = tiny_island
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		
+		buildings = {infrastructure = 3 1399 = { naval_base = 3 } } 
+	}
+
+	provinces = { 1399 1515 13037 }
+
+	manpower = 15000 # = 13037
+	buildings_max_level_factor = 1.000
+}

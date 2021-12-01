@@ -1,0 +1,24 @@
+state = {
+	id = 136
+	name = "STATE_136"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #ENG
+		add_core_of = ENG
+		add_core_of = SCO
+		
+		buildings = {infrastructure = 6 dockyard = 2 } 
+	}
+
+	provinces = { 200 3150 9161 11055 11136 11207 11306 }
+
+	manpower = 745466 # = 11306
+	buildings_max_level_factor = 1.000
+}

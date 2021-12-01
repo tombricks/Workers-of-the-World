@@ -1,0 +1,24 @@
+state = {
+	id = 767
+	name = "STATE_767"
+	state_category = wasteland
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #UAR
+		add_core_of = UAR
+		add_core_of = SUD
+		
+		buildings = {infrastructure = 0 } 
+	}
+
+	provinces = { 7987 8103 10900 }
+
+	manpower = 8143 # = 10900
+	buildings_max_level_factor = 1.000
+}

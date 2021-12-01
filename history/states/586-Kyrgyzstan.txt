@@ -1,0 +1,25 @@
+state = {
+	id = 586
+	name = "STATE_586"
+	state_category = city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 1591 3 }
+		owner = ZZZ #KAZ
+		add_core_of = KAZ
+		
+		buildings = {infrastructure = 3 industrial_complex = 3 } 
+		buildings = {industrial_complex = 4 } 
+	}
+
+	provinces = { 1591 1840 4773 4845 7706 10146 10547 10603 12640 12658 }
+
+	manpower = 2563404 # = 2563404
+	buildings_max_level_factor = 1.000
+}

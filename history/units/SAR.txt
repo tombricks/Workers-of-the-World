@@ -1,0 +1,13 @@
+﻿division_template = {
+	name = "Staatspolizei"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+
+units = {
+	##### No standing army #####
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 182
+	name = "STATE_182"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9940 5 }
+		victory_points = { 12058 3 }
+		owner = ZZZ #GRE
+		add_core_of = GRE
+		
+		buildings = {infrastructure = 3 air_base = 2 12058 = { naval_base = 1 } 9940 = { naval_base = 3 } } 
+	}
+
+	provinces = { 1164 4170 9940 12058 }
+
+	manpower = 387900 # = 12058
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 642
+	name = "STATE_642"
+	state_category = tiny_island
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #ZZZ
+		
+		buildings = {infrastructure = 3 13050 = { naval_base = 1 } } 
+	}
+
+	provinces = { 13050 }
+
+	manpower = 24 # = 13050
+	buildings_max_level_factor = 1.000
+}

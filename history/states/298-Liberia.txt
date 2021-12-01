@@ -1,0 +1,25 @@
+state = {
+	id = 298
+	name = "STATE_298"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 7959 3 }
+		owner = ZZZ #MLI
+		add_core_of = MLI
+		
+		buildings = {infrastructure = 2 arms_factory = 1 industrial_complex = 1 7959 = { naval_base = 2 } } 
+		add_extra_state_shared_building_slots = 1
+	}
+
+	provinces = { 7959 8006 }
+
+	manpower = 745000 # = 8006
+	buildings_max_level_factor = 1.000
+}

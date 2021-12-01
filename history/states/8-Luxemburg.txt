@@ -1,0 +1,24 @@
+state = {
+	id = 8
+	name = "STATE_8"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 6583 5 }
+		owner = ZZZ #LUX
+		add_core_of = LUX
+		
+		buildings = {infrastructure = 6 arms_factory = 1 industrial_complex = 3 } 
+	}
+
+	provinces = { 6583 }
+
+	manpower = 294748 # = 6583
+	buildings_max_level_factor = 1.000
+}

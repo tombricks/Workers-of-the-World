@@ -1,0 +1,24 @@
+state = {
+	id = 694
+	name = "STATE_694"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9377 1 }
+		owner = ZZZ #CBN
+		add_core_of = CBN
+		
+		buildings = {infrastructure = 4 air_base = 1 177 = { naval_base = 3 } 9377 = { naval_base = 1 } } 
+	}
+
+	provinces = { 177 9377 13084 }
+
+	manpower = 444290 # = 13084
+	buildings_max_level_factor = 1.000
+}

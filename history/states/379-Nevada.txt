@@ -1,0 +1,23 @@
+state = {
+	id = 379
+	name = "STATE_379"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #USA
+		add_core_of = USA
+		
+		buildings = {infrastructure = 4 } 
+	}
+
+	provinces = { 1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 }
+
+	manpower = 91057 # = 12425
+	buildings_max_level_factor = 1.000
+}

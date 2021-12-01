@@ -1,0 +1,26 @@
+state = {
+	id = 343
+	name = "STATE_343"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10041 1 }
+		victory_points = { 9878 5 }
+		victory_points = { 3856 3 }
+		owner = ZZZ #TUR
+		add_core_of = TUR
+		
+		buildings = {infrastructure = 3 industrial_complex = 1 } 
+	}
+
+	provinces = { 856 981 3856 3983 6877 6945 9878 10041 11796 11831 11907 }
+
+	manpower = 1298543 # = 11907
+	buildings_max_level_factor = 1.000
+}

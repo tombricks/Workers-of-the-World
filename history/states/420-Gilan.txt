@@ -1,0 +1,25 @@
+state = {
+	id = 420
+	name = "STATE_420"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 7969 5 }
+		victory_points = { 4901 3 }
+		owner = ZZZ #IRN
+		add_core_of = IRN
+		
+		buildings = {infrastructure = 3 } 
+	}
+
+	provinces = { 4553 4609 4637 4901 7969 10454 10523 }
+
+	manpower = 1314948 # = 10523
+	buildings_max_level_factor = 1.000
+}

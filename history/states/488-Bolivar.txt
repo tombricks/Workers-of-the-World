@@ -1,0 +1,24 @@
+state = {
+	id = 488
+	name = "STATE_488"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10879 1 }
+		owner = ZZZ #VEN
+		add_core_of = VEN
+		
+		buildings = {infrastructure = 1 } 
+	}
+
+	provinces = { 1981 5317 7915 8050 10736 10849 10879 }
+
+	manpower = 245642 # = 10879
+	buildings_max_level_factor = 1.000
+}

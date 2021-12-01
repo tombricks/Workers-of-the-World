@@ -1,0 +1,24 @@
+state = {
+	id = 776
+	name = "STATE_776"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10919 1 }
+		owner = ZZZ #WAF
+		add_core_of = WAF
+		
+		buildings = {infrastructure = 3 10919 = { naval_base = 1 } } 
+	}
+
+	provinces = { 10919 12874 12762 }
+
+	manpower = 1351563 # = 12762
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 500
+	name = "STATE_500"
+	state_category = large_city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10980 10 }
+		owner = ZZZ #BRA
+		add_core_of = BRA
+		
+		buildings = {infrastructure = 6 arms_factory = 2 industrial_complex = 4 dockyard = 2 air_base = 7 10980 = { naval_base = 7 } } 
+		add_extra_state_shared_building_slots = 2
+	}
+
+	provinces = { 5172 8190 10980 12996 }
+
+	manpower = 6665500 # = 12996
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 450
+	name = "STATE_450"
+	state_category = enclave
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 11954 3 }
+		owner = ZZZ #LBA
+		add_core_of = LBA
+		
+		buildings = {infrastructure = 3 air_base = 1 11954 = { naval_base = 1 } } 
+	}
+
+	provinces = { 1127 4120 10123 11954 }
+
+	manpower = 82535 # = 11954
+	buildings_max_level_factor = 1.000
+}

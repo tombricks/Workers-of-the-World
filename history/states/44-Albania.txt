@@ -1,0 +1,25 @@
+state = {
+	id = 44
+	name = "STATE_44"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9914 5 }
+		victory_points = { 11767 1 }
+		owner = ZZZ #ALB
+		add_core_of = ALB
+		
+		buildings = {infrastructure = 3 arms_factory = 1 industrial_complex = 2 air_base = 3 11767 = { naval_base = 4 } } 
+	}
+
+	provinces = { 3448 3884 3896 6900 9780 9875 9914 11762 11767 }
+
+	manpower = 740800 # = 11767
+	buildings_max_level_factor = 1.000
+}

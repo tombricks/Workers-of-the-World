@@ -1,0 +1,8 @@
+ZZZ = {
+	color = rgb { 28 30 32 }
+	color_ui = rgb { 28 30 32 }
+}
+RUS = {
+	color = rgb { 127 39 39 }
+	color_ui = rgb { 127 39 39 }
+}

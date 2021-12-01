@@ -1,0 +1,31 @@
+
+state={
+	id=559
+	name="STATE_559"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			12991 3 
+		}
+		owner = ZZZ #SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		1964 2020 2063 5065 10928 12840 12991 
+	}
+	manpower = 4028895 #=12991
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

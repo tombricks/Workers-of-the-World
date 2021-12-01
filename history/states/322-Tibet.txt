@@ -1,0 +1,23 @@
+state = {
+	id = 322
+	name = "STATE_322"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #CHI
+		add_core_of = CHI
+		
+		buildings = {infrastructure = 1 industrial_complex = 1 } 
+	}
+
+	provinces = { 2010 2093 4994 5011 7926 8068 10755 10918 }
+
+	manpower = 1722000 # = 1722000
+	buildings_max_level_factor = 1.000
+}

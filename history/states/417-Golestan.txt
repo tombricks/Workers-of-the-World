@@ -1,0 +1,33 @@
+
+state={
+	id=417
+	name="STATE_417"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			8040 3 
+		}
+		victory_points = {
+			2065 1 
+		}
+		owner = ZZZ #IRN
+		add_core_of = IRN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1982 2065 5050 8040 8125 10922 
+	}
+	manpower=796396
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

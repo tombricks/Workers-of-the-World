@@ -1,0 +1,15 @@
+bookmarks = {
+	bookmark = {
+		name = "SECOND_COLD_WAR_NAME"
+		desc = "SECOND_COLD_WAR_DESC"
+		date = 1985.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "RUS"
+		default = yes
+		
+		"RUS" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = Marxism_Leninism
+		}
+	}
+}

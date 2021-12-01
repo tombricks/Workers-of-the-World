@@ -1,0 +1,29 @@
+
+state={
+	id=32
+	name="STATE_32"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			3768 1 
+		}
+		owner = ZZZ #OCC
+		add_core_of = OCC
+		add_claim_by = FRA		add_core_of = FRA
+		
+		buildings = {infrastructure = 4 } 
+
+	}
+
+	provinces={
+		762 780 3768 11713 
+	}
+	manpower = 1007500 #=11713
+	buildings_max_level_factor=1.000
+	state_category = town
+}

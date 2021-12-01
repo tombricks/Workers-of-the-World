@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		GER_A_State_Disarmed = { 
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				send_volunteer_size = 0
+			}
+
+			on_remove = {
+				country_lock_all_division_template = no
+			}
+		}
+	}
+}

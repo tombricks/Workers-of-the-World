@@ -1,0 +1,25 @@
+state = {
+	id = 457
+	name = "STATE_457"
+	state_category = wasteland
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 12002 1 }
+		owner = ZZZ #UAR
+		add_core_of = UAR
+		add_core_of = EGY
+		
+		buildings = {infrastructure = 1 } 
+	}
+
+	provinces = { 1080 4068 4910 5069 7156 9957 10126 12002 12889 }
+
+	manpower = 2194 # = 12889
+	buildings_max_level_factor = 1.000
+}

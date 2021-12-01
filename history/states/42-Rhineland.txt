@@ -1,0 +1,40 @@
+
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		steel=1.000
+		oil=1.000
+		aluminium=1.000
+	}
+
+	history={
+		victory_points = {
+			11435 1 
+		}
+		victory_points = {
+			3423 3 
+		}
+		owner = ZZZ #GER
+		add_core_of = GER
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+
+		}
+		buildings = {
+			radar_station = 1
+			synthetic_refinery = 3
+
+		}
+
+	}
+
+	provinces={
+		563 3423 3558 11435 11470 11494 11547 
+	}
+	manpower=3027739
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

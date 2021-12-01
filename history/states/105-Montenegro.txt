@@ -1,0 +1,26 @@
+state = {
+	id = 105
+	name = "STATE_105"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9809 3 }
+		owner = ZZZ #YUG
+		add_core_of = YUG
+		add_core_of = ALB
+		add_claim_by = ALB
+		
+		buildings = {infrastructure = 3 industrial_complex = 1 9809 = { naval_base = 1 } } 
+	}
+
+	provinces = { 937 6913 9809 9821 11858 }
+
+	manpower = 895500 # = 895500
+	buildings_max_level_factor = 1.000
+}

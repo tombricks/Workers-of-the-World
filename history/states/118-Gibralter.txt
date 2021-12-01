@@ -1,0 +1,24 @@
+state = {
+	id = 118
+	name = "STATE_118"
+	state_category = enclave
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 4135 10 }
+		owner = ZZZ #SPA
+		add_core_of = SPA
+		
+		buildings = {infrastructure = 6 air_base = 2 4135 = { naval_base = 5 coastal_bunker = 2 } } 
+	}
+
+	provinces = { 4135 }
+
+	manpower = 21372 # = 4135
+	buildings_max_level_factor = 1.000
+}

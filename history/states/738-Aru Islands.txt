@@ -1,0 +1,23 @@
+state = {
+	id = 738
+	name = "STATE_738"
+	state_category = "small_island"
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #AST
+		add_claim_by = INO
+		
+		buildings = {infrastructure = 1 4579 = { naval_base = 1 } } 
+	}
+
+	provinces = { 4579 }
+
+	manpower = 36146 # = 1
+	buildings_max_level_factor = 1.000
+}

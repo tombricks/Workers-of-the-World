@@ -1,0 +1,24 @@
+state = {
+	id = 442
+	name = "STATE_442"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 12763 3 }
+		owner = ZZZ #PAK
+		add_core_of = PAK
+		
+		buildings = {infrastructure = 3 air_base = 3 } 
+	}
+
+	provinces = { 1978 4558 4998 12717 12763 }
+
+	manpower = 4684400 # = 12763
+	buildings_max_level_factor = 1.000
+}

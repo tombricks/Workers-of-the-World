@@ -1,0 +1,23 @@
+state = {
+	id = 678
+	name = "STATE_678"
+	state_category = wasteland
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #ISI
+		add_core_of = ISI
+		
+		buildings = {infrastructure = 0 } 
+	}
+
+	provinces = { 4932 5081 8030 8118 10870 12740 12768 }
+
+	manpower = 42 # = 12768
+	buildings_max_level_factor = 1.000
+}

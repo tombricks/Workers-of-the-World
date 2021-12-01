@@ -1,0 +1,24 @@
+state = {
+	id = 43
+	name = "STATE_43"
+	state_category = large_city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9660 20 }
+		owner = ZZZ #HUN
+		add_core_of = HUN
+		
+		buildings = {infrastructure = 6 arms_factory = 4 industrial_complex = 4 air_base = 4 } 
+	}
+
+	provinces = { 684 716 3713 3731 6716 6751 9660 9690 11520 }
+
+	manpower = 3750752 # = 11520
+	buildings_max_level_factor = 1.000
+}

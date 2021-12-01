@@ -1,0 +1,24 @@
+state = {
+	id = 526
+	name = "STATE_526"
+	state_category = small_island
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 11932 10 }
+		owner = ZZZ #JPN
+		add_core_of = JPN
+		
+		buildings = {infrastructure = 3 air_base = 3 11932 = { naval_base = 3 } } 
+	}
+
+	provinces = { 1123 7115 10124 11932 }
+
+	manpower = 578000 # = 11932
+	buildings_max_level_factor = 1.000
+}

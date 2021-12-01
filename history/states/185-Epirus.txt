@@ -1,0 +1,26 @@
+state = {
+	id = 185
+	name = "STATE_185"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10203 1 }
+		victory_points = { 3914 3 }
+		victory_points = { 1205 1 }
+		owner = ZZZ #GRE
+		add_core_of = GRE
+		
+		buildings = {infrastructure = 3 industrial_complex = 1 air_base = 3 9805 = { naval_base = 1 } } 
+	}
+
+	provinces = { 841 1106 1205 3914 3980 9805 9837 9916 10203 11786 11895 12001 }
+
+	manpower = 760900 # = 12001
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 85
+	name = "STATE_85"
+	state_category = city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 362 10 }
+		victory_points = { 3295 5 }
+		victory_points = { 279 1 }
+		owner = ZZZ #ZAP
+		add_core_of = ZAP
+		add_core_of = POL
+		
+		buildings = {infrastructure = 6 arms_factory = 2 industrial_complex = 1 dockyard = 1 air_base = 3 362 = { naval_base = 5 } } 
+	}
+
+	provinces = { 243 279 334 362 389 3295 3324 6347 9263 }
+
+	manpower = 1080100 # = 9263
+	buildings_max_level_factor = 1.000
+}

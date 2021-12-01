@@ -1,0 +1,24 @@
+state = {
+	id = 494
+	name = "STATE_494"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #PRU
+		add_core_of = PRU
+		add_core_of = PBC
+		
+		buildings = {infrastructure = 3 } 
+	}
+
+	provinces = { 2212 2226 5166 8160 8191 10940 }
+
+	manpower = 735826 # = 10940
+	buildings_max_level_factor = 1.000
+}

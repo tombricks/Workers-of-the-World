@@ -1,0 +1,29 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	state_category = metropolis
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 6469 10 }
+		victory_points = { 587 5 }
+		victory_points = { 3444 5 }
+		victory_points = { 3547 1 }
+		owner = ZZZ #GER
+		add_core_of = GER
+		set_demilitarized_zone = yes
+		
+		buildings = {infrastructure = 8 arms_factory = 3 industrial_complex = 2 air_base = 3 } 
+		buildings = {air_base = 6 radar_station = 1 } 
+	}
+
+	provinces = { 529 587 3444 3512 3547 6469 6570 9482 9522 }
+
+	manpower = 6144743 # = 9522
+	buildings_max_level_factor = 1.000
+}

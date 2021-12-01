@@ -1,0 +1,24 @@
+state = {
+	id = 294
+	name = "STATE_294"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10760 3 }
+		owner = ZZZ #ISI
+		add_core_of = ISI
+		
+		buildings = {infrastructure = 2 arms_factory = 1 industrial_complex = 1 10760 = { naval_base = 3 } } 
+	}
+
+	provinces = { 1947 2018 2059 2103 4993 5049 8002 8020 10760 }
+
+	manpower = 369000 # = 10760
+	buildings_max_level_factor = 1.000
+}

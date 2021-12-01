@@ -1,0 +1,24 @@
+state = {
+	id = 222
+	name = "STATE_222"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9355 10 }
+		owner = RUS
+		add_core_of = RUS
+		
+		buildings = {infrastructure = 5 industrial_complex = 1 air_base = 4 } 
+	}
+
+	provinces = { 302 328 384 6355 9328 9355 9384 9411 11214 11283 11310 11337 11368 }
+
+	manpower = 1218607 # = 11368
+	buildings_max_level_factor = 1.000
+}

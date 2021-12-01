@@ -1,0 +1,25 @@
+state = {
+	id = 74
+	name = "STATE_74"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 3583 5 }
+		owner = ZZZ #ZAP
+		add_core_of = ZAP
+		add_core_of = CZE
+		
+		buildings = {infrastructure = 7 arms_factory = 1 } 
+	}
+
+	provinces = { 421 3414 3583 6485 }
+
+	manpower = 820000 # = 6485
+	buildings_max_level_factor = 1.000
+}

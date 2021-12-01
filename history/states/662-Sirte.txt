@@ -1,0 +1,23 @@
+state = {
+	id = 662
+	name = "STATE_662"
+	state_category = wasteland
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #LBA
+		add_core_of = LBA
+		
+		buildings = {infrastructure = 1 } 
+	}
+
+	provinces = { 4200 7076 7136 8069 13073 }
+
+	manpower = 13213 # = 13073
+	buildings_max_level_factor = 1.000
+}

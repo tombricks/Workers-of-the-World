@@ -1,0 +1,110 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1st Division \"Schleswig\""
+		location = 9347
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "2nd Division \"Mecklenburg\""
+		location = 321
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "3rd Division \"Berlin\""
+		location = 6521
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "4th Division \"Dresden\""
+		location = 514
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "5th Division \"Stuttgart\""
+		location = 9517
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "6th Division \"Munster\""
+		location = 11388
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "7th Division \"Munich\""
+		location = 692
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	
+	division= {	
+		name = "1st Cavalry Division \"Frankfurt\""
+		location = 6488
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "2nd Cavalry Division \"Hamburg\""
+		location = 9347
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "3rd Cavalry Division \"Weimar\""
+		location = 3561
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "8th Division \"Berlin\""
+		location = 6521
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "9th Division \"Emden\""
+		location = 11360
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+	}
+}

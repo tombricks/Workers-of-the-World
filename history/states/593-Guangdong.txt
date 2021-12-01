@@ -1,0 +1,23 @@
+state = {
+	id = 593
+	name = "STATE_593"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #CHI
+		add_core_of = CHI
+		
+		buildings = {infrastructure = 3 industrial_complex = 1 9938 = { naval_base = 1 coastal_bunker = 1 bunker = 1 } } 
+	}
+
+	provinces = { 1078 1120 1162 1202 4050 4165 4207 7067 7108 7141 7182 9938 9970 9978 9997 10080 12014 12095 }
+
+	manpower = 12700000 # = 12095
+	buildings_max_level_factor = 1.000
+}

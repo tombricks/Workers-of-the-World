@@ -1,0 +1,23 @@
+state = {
+	id = 148
+	name = "STATE_148"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #FIN
+		add_core_of = FIN
+		
+		buildings = {infrastructure = 2 } 
+	}
+
+	provinces = { 30 103 124 162 167 203 2992 3026 3055 3069 3097 3107 3153 3156 3158 3193 6045 6061 6076 6087 6128 6137 6142 6179 9112 9189 9223 11030 11115 11125 11130 11164 11167 11204 }
+
+	manpower = 121737 # = 11204
+	buildings_max_level_factor = 1.000
+}

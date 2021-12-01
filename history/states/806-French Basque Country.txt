@@ -1,0 +1,27 @@
+state = {
+	id = 806
+	name = "STATE_806"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 9710 3 }
+		owner = ZZZ #BAS
+		add_core_of = BAS
+		add_core_of = OCC
+		add_claim_by = FRA
+		add_core_of = FRA
+		
+		buildings = {infrastructure = 6 } 
+	}
+
+	provinces = { 743 9710 11697 }
+
+	manpower = 280723 # = 280723
+	buildings_max_level_factor = 1.000
+}

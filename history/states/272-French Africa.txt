@@ -1,0 +1,24 @@
+state = {
+	id = 272
+	name = "STATE_272"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 4948 5 }
+		owner = ZZZ #MLI
+		add_core_of = MLI
+		
+		buildings = {infrastructure = 3 air_base = 4 4948 = { naval_base = 3 } } 
+	}
+
+	provinces = { 2100 4948 7972 8015 12710 12834 }
+
+	manpower = 1638000 # = 12834
+	buildings_max_level_factor = 1.000
+}

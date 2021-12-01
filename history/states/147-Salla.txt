@@ -1,0 +1,25 @@
+state = {
+	id = 147
+	name = "STATE_147"
+	state_category = enclave
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 197 1 }
+		owner = ZZZ #FIN
+		add_core_of = FIN
+		add_core_of = RUS
+		
+		buildings = {infrastructure = 3 } 
+	}
+
+	provinces = { 197 9158 11085 }
+
+	manpower = 4630 # = 11085
+	buildings_max_level_factor = 1.000
+}

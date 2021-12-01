@@ -1,0 +1,24 @@
+state = {
+	id = 722
+	name = "STATE_722"
+	state_category = enclave
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #FIN
+		add_core_of = FIN
+		add_core_of = RUS
+		
+		buildings = {infrastructure = 3 9140 = { naval_base = 1 } } 
+	}
+
+	provinces = { 6012 6183 9140 11142 }
+
+	manpower = 2371 # = 11142
+	buildings_max_level_factor = 1.000
+}

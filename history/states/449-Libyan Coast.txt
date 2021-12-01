@@ -1,0 +1,23 @@
+state = {
+	id = 449
+	name = "STATE_449"
+	state_category = enclave
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #LBA
+		add_core_of = LBA
+		
+		buildings = {infrastructure = 3 } 
+	}
+
+	provinces = { 1041 1198 4047 4057 10046 10117 12088 }
+
+	manpower = 40431 # = 12088
+	buildings_max_level_factor = 1.000
+}

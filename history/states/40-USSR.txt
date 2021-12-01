@@ -1,0 +1,25 @@
+state = {
+	id = 40
+	name = "STATE_40"
+	state_category = large_town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 1794 1 }
+		owner = RUS
+		add_core_of = RUS
+		
+		buildings = {infrastructure = 2 industrial_complex = 1 } 
+		buildings = {industrial_complex = 2 } 
+	}
+
+	provinces = { 1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 }
+
+	manpower = 2107451 # = 12613
+	buildings_max_level_factor = 1.000
+}

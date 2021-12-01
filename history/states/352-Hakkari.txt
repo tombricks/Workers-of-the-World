@@ -1,0 +1,27 @@
+state = {
+	id = 352
+	name = "STATE_352"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 12476 1 }
+		victory_points = { 7530 1 }
+		victory_points = { 10497 1 }
+		owner = ZZZ #TUR
+		add_core_of = TUR
+		add_core_of = KUR
+		
+		buildings = {infrastructure = 2 } 
+	}
+
+	provinces = { 864 1463 7530 10497 11739 12318 12476 }
+
+	manpower = 262095 # = 12476
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 175
+	name = "STATE_175"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 6832 1 }
+		owner = ZZZ #SPA
+		add_core_of = SPA
+		
+		buildings = {industrial_complex = 1 infrastructure = 6 } 
+	}
+
+	provinces = { 3953 6800 6832 6896 9778 9828 9881 11863 12081 13229 }
+
+	manpower = 526903 # = 526903
+	buildings_max_level_factor = 1.000
+}

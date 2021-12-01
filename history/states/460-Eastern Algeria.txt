@@ -1,0 +1,25 @@
+state = {
+	id = 460
+	name = "STATE_460"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 7081 1 }
+		victory_points = { 12051 3 }
+		owner = ZZZ #LBA
+		add_core_of = LBA
+		
+		buildings = {infrastructure = 4 7081 = { naval_base = 1 } } 
+	}
+
+	provinces = { 1058 1160 4046 7065 7081 7166 9976 10078 11953 12051 13077 }
+
+	manpower = 2343837 # = 13077
+	buildings_max_level_factor = 1.000
+}

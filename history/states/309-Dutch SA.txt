@@ -1,0 +1,24 @@
+state = {
+	id = 309
+	name = "STATE_309"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 10906 1 }
+		owner = ZZZ #BRA
+		add_core_of = BRA
+		
+		buildings = {infrastructure = 3 industrial_complex = 1 12828 = { naval_base = 1 } } 
+	}
+
+	provinces = { 1928 10906 12828 }
+
+	manpower = 152000 # = 12828
+	buildings_max_level_factor = 1.000
+}

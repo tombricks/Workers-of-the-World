@@ -1,0 +1,24 @@
+state = {
+	id = 310
+	name = "STATE_310"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 12885 1 }
+		owner = ZZZ #BRA
+		add_core_of = BRA
+		
+		buildings = {infrastructure = 2 12885 = { naval_base = 1 } } 
+	}
+
+	provinces = { 4934 12885 }
+
+	manpower = 47341 # = 12885
+	buildings_max_level_factor = 1.000
+}

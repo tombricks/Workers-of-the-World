@@ -1,0 +1,24 @@
+state = {
+	id = 636
+	name = "STATE_636"
+	state_category = small_island
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 4286 1 }
+		owner = ZZZ #AST
+		add_core_of = AST
+		
+		buildings = {infrastructure = 3 4286 = { naval_base = 1 } } 
+	}
+
+	provinces = { 4286 7302 12159 }
+
+	manpower = 180000 # = 12159
+	buildings_max_level_factor = 1.000
+}

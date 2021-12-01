@@ -1,0 +1,32 @@
+state = {
+	id = 554
+	name = "STATE_554"
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+	manpower = 4915000
+	
+	state_category = city
+
+	history={
+		owner = ZZZ #UAR
+		victory_points = {
+			4111 5
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = UAR	
+		add_core_of = SYR	
+
+	}
+
+
+	provinces={
+		1074 4111 4486 4550 7184 
+	}
+}

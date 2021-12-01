@@ -1,0 +1,28 @@
+
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = ZZZ #OGA
+		add_core_of = OGA
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12941 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		8164 11014 12941 
+	}
+	manpower=1893222
+	buildings_max_level_factor=1.000
+	state_category=town
+}

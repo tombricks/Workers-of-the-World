@@ -1,0 +1,24 @@
+state = {
+	id = 765
+	name = "STATE_765"
+	state_category = pastoral
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 8051 1 }
+		owner = ZZZ #ISI
+		add_core_of = ISI
+		
+		buildings = {infrastructure = 2 8051 = { naval_base = 2 } } 
+	}
+
+	provinces = { 8051 }
+
+	manpower = 51600 # = 8051
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 654
+	name = "STATE_654"
+	state_category = wasteland
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		
+		buildings = {infrastructure = 1 } 
+	}
+
+	provinces = { 4781 4800 10531 10713 12509 }
+
+	manpower = 153510 # = 12509
+	buildings_max_level_factor = 1.000
+}

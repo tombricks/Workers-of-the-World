@@ -1,0 +1,26 @@
+state = {
+	id = 482
+	name = "STATE_482"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 8097 10 }
+		victory_points = { 10830 10 }
+		owner = ZZZ #MEX
+		add_core_of = MEX
+		add_claim_by = ZAT
+		
+		buildings = {infrastructure = 3 } 
+	}
+
+	provinces = { 2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 }
+
+	manpower = 520751 # = 12897
+	buildings_max_level_factor = 1.000
+}

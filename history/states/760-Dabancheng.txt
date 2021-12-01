@@ -1,0 +1,23 @@
+state = {
+	id = 760
+	name = "STATE_760"
+	state_category = rural
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		owner = ZZZ #CHI
+		add_core_of = CHI
+		
+		buildings = {infrastructure = 3 arms_factory = 1 } 
+	}
+
+	provinces = { 1838 4704 4843 7732 10839 12524 12598 12671 }
+
+	manpower = 700000 # = 1
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 478
+	name = "STATE_478"
+	state_category = town
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 13089 10 }
+		victory_points = { 10172 5 }
+		victory_points = { 12746 1 }
+		owner = ZZZ #MEX
+		add_core_of = MEX
+		add_claim_by = ZAT
+		
+		buildings = {infrastructure = 3 industrial_complex = 1 } 
+	}
+
+	provinces = { 2051 5052 10172 12746 12873 13089 }
+
+	manpower = 2470875 # = 13089
+	buildings_max_level_factor = 1.000
+}

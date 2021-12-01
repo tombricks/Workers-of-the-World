@@ -1,0 +1,25 @@
+state = {
+	id = 307
+	name = "STATE_307"
+	state_category = city
+	
+	resources = {
+		steel = 1
+		oil = 1
+		aluminium = 1
+	}
+
+	history = {
+		victory_points = { 8113 5 }
+		owner = ZZZ #VEN
+		add_core_of = VEN
+		
+		buildings = {infrastructure = 4 arms_factory = 1 industrial_complex = 5 air_base = 2 8113 = { naval_base = 3 } 10912 = { naval_base = 2 } } 
+		add_extra_state_shared_building_slots = 2
+	}
+
+	provinces = { 4942 7968 8024 8080 8113 10767 10823 10912 5056 4892 5000 }
+
+	manpower = 1335010 # = 5000
+	buildings_max_level_factor = 1.000
+}
