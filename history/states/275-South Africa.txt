@@ -1,24 +1,33 @@
-state = {
-	id = 275
-	name = "STATE_275"
+
+state={
+	id=275
+	name="STATE_275" # Transvaal
+	manpower = 3680363
+	
 	state_category = city
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	resources={
+		steel=5 # was: 8
+		chromium=53 # was: 80
 	}
 
-	history = {
-		victory_points = { 10400 10 }
-		owner = ZZZ #SAF
-		add_core_of = SAF
-		
-		buildings = {infrastructure = 5 arms_factory = 1 industrial_complex = 3 air_base = 3 } 
+	history={
+		owner = ZZZ # owner = SAF
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 3
+		}
+		victory_points = {
+			10400 10
+		}
+		# SAF
 	}
 
-	provinces = { 1688 2171 2213 5106 5217 5231 10400 10566 10668 12064 12648 }
+	provinces={
+		1688 2171 2213 5106 5217 5231 10400 10566 10668 12064 12648 
+	}
 
-	manpower = 3680363 # = 12648
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

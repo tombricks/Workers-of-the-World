@@ -1,23 +1,27 @@
-state = {
-	id = 693
-	name = "STATE_693"
-	state_category = tiny_island
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = tiny_island
+
+	history={
+		# BAH
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 2
+			10440 = {
+				naval_base = 1
+			}
+			1513 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		1513 10440 
 	}
 
-	history = {
-		owner = ZZZ #CBN
-		add_core_of = CBN
-		
-		buildings = {infrastructure = 4 10440 = { naval_base = 1 } 1513 = { naval_base = 1 } } 
-	}
-
-	provinces = { 1513 10440 }
-
-	manpower = 15000 # = 10440
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

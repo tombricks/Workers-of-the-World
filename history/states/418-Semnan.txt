@@ -1,24 +1,25 @@
-state = {
-	id = 418
-	name = "STATE_418"
-	state_category = wasteland
+
+state={
+	id=418
+	name="STATE_418"
+	manpower = 332362
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+
+	history={
+		owner = ZZZ # owner = PER
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			8093 1 
+		}
+		# PER
 	}
 
-	history = {
-		victory_points = { 8093 1 }
-		owner = ZZZ #IRN
-		add_core_of = IRN
-		
-		buildings = {infrastructure = 1 } 
+	provinces={
+		8009 8093 10873 11671 12704 12748 12818 
 	}
 
-	provinces = { 8009 8093 10873 11671 12704 12748 12818 }
-
-	manpower = 332362 # = 12818
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

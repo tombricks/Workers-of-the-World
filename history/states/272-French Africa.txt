@@ -1,24 +1,32 @@
-state = {
-	id = 272
-	name = "STATE_272"
-	state_category = pastoral
+
+state={
+	id=272
+	name="STATE_272"
+	manpower = 1638000
+	resources={
+		steel=3 # was: 4
+	}
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = pastoral
+
+	history={
+		owner = ZZZ # owner = FRA
+		# SEN
+		victory_points = {
+			4948 5 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			4948 = {
+				naval_base = 3
+			}
+		}
 	}
 
-	history = {
-		victory_points = { 4948 5 }
-		owner = ZZZ #MLI
-		add_core_of = MLI
-		
-		buildings = {infrastructure = 3 air_base = 4 4948 = { naval_base = 3 } } 
+	provinces={
+		2100 4948 7972 8015 12710 12834 
 	}
 
-	provinces = { 2100 4948 7972 8015 12710 12834 }
-
-	manpower = 1638000 # = 12834
-	buildings_max_level_factor = 1.000
+	local_supplies=1.0 
 }

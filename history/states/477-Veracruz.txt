@@ -1,26 +1,37 @@
-state = {
-	id = 477
-	name = "STATE_477"
+
+state={
+	id=477
+	name="STATE_477"
+	manpower = 1951460
+	
 	state_category = town
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	resources={
+		oil=9
 	}
 
-	history = {
-		victory_points = { 12810 5 }
-		victory_points = { 8089 10 }
-		owner = ZZZ #MEX
-		add_core_of = MEX
-		add_claim_by = ZAT
-		
-		buildings = {infrastructure = 4 dockyard = 1 12810 = { naval_base = 3 } } 
+	history={
+		owner = ZZZ # owner = MEX
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			12810 = {
+				naval_base = 3
+			}
+		}
+		# MEX
+		victory_points = {
+			12810 5
+		}
+		victory_points = {
+			8089 10
+		}
 	}
 
-	provinces = { 8079 8089 10732 12810 }
+	provinces={
+		8079 8089 10732 12810 
+	}
+	
 
-	manpower = 1951460 # = 12810
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

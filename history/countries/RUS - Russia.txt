@@ -2,6 +2,7 @@
 capital = 219
 set_stability = 0.6
 set_war_support = 0.6
+set_cosmetic_tag = RUS_USSR
 
 # Starting tech
 set_technology = {
@@ -79,3 +80,13 @@ set_popularities = {
 	Marxism_Leninism = 100
 }
 
+recruit_character = RUS_Yegor_Ligachyov
+recruit_character = RUS_Grigory_Romanov
+add_ideas = {
+	RUS_Grigory_Romanov 
+}
+
+set_autonomy = {
+	target = FIN
+	autonomy_state = Autonomy_Autonomous_Zone
+}

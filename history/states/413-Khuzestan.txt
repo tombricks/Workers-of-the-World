@@ -2,33 +2,31 @@
 state={
 	id=413
 	name="STATE_413"
+	manpower = 797356
 	resources={
-		steel=1.000
-		oil=1.000
-		aluminium=1.000
+		oil=28 # was: 42
 	}
+	
+	state_category = rural
+	
 
 	history={
+		owner = ZZZ # owner = PER
+		buildings = {
+			infrastructure = 3 #was: 5
+			5005 = {
+				naval_base = 1
+			}
+		}
 		victory_points = {
 			7953 1 
 		}
-		owner = ZZZ #IRN
-		add_core_of = IRN
-		buildings = {
-			infrastructure = 5
-			5005 = {
-				naval_base = 1
-
-			}
-
-		}
-
+		# PER
 	}
 
 	provinces={
-		1922 5005 5089 7953 10774 
+		1922 5005 5089 7953 
 	}
-	manpower=797356
-	buildings_max_level_factor=1.000
-	state_category=rural
+
+	local_supplies=0.0 
 }

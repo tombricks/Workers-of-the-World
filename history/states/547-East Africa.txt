@@ -1,25 +1,32 @@
-state = {
-	id = 547
-	name = "STATE_547"
-	state_category = rural
+
+state={
+	id=547
+	name="STATE_547" #Kenya
+	manpower = 3392000
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	history={
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			5210 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1939 2
+		}
+		victory_points = {
+			5210 1
+		}
+		# KEN
 	}
 
-	history = {
-		victory_points = { 1939 2 }
-		victory_points = { 5210 1 }
-		owner = ZZZ #EAF
-		add_core_of = EAF
-		
-		buildings = {infrastructure = 3 industrial_complex = 1 5210 = { naval_base = 2 } } 
+	provinces={
+		1939 2066 5079 5160 5196 5210 6020 8133 10761 10860 10962 10976 11145 12927 13135 
 	}
 
-	provinces = { 1939 2066 5079 5160 5196 5210 6020 8133 10761 10860 10962 10976 11145 12927 13135 }
-
-	manpower = 3392000 # = 13135
-	buildings_max_level_factor = 1.000
+	local_supplies=6.0 
 }

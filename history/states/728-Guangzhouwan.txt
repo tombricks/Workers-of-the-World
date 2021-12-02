@@ -1,23 +1,25 @@
-state = {
-	id = 728
-	name = "STATE_728"
+state={
+	id=728
+	name="STATE_728"
+	manpower = 200000
+	
 	state_category = enclave
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	history={
+		owner = ZZZ # owner = FRA
+		# CHI
+		# PRC
+		buildings = {
+			infrastructure = 2
+			11981 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		11981 
 	}
 
-	history = {
-		owner = ZZZ #CHI
-		add_core_of = CHI
-		
-		buildings = {infrastructure = 3 11981 = { naval_base = 1 } } 
-	}
-
-	provinces = { 11981 }
-
-	manpower = 200000 # = 11981
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

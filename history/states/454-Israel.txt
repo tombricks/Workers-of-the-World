@@ -1,27 +1,37 @@
-state = {
-	id = 454
-	name = "STATE_454"
-	state_category = rural
+
+state={
+	id=454
+	name="STATE_454" #Palestine
+	manpower = 933142
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	history={
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 2
+			4206 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			1086 1 
+		}
+		victory_points = {
+			4206 1 
+		}
+		victory_points = {
+			1065 1 
+		}
+		# PAL
+		# ISR
 	}
 
-	history = {
-		victory_points = { 1086 1 }
-		victory_points = { 4206 1 }
-		victory_points = { 1065 1 }
-		owner = ZZZ #UAR
-		add_core_of = UAR
-		add_core_of = PAL
-		
-		buildings = {infrastructure = 5 industrial_complex = 1 air_base = 2 4206 = { naval_base = 3 } } 
+	provinces={
+		1015 1065 1086 1201 4088 4206 7107 7176 11970 1
 	}
 
-	provinces = { 1015 1065 1086 1201 4088 4206 7107 7176 11970 1 }
-
-	manpower = 933142 # = 1
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

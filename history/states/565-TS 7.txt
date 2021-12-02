@@ -1,23 +1,25 @@
-state = {
-	id = 565
-	name = "STATE_565"
+
+state={
+	id=565
+	name="STATE_565" # Bodaybo
+	manpower = 195325
 	state_category = rural
-	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	resources={
+		steel=10 # was: 32
+		chromium=5 # was: 12
 	}
 
-	history = {
+	history={
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 1 } 
+		buildings = {
+			infrastructure = 1
+		}
+		# SOV
 	}
 
-	provinces = { 1666 1761 4716 4762 4795 4835 4868 7736 7759 7854 10583 10654 12506 12538 12575 }
+	provinces={
+		1666 1761 4762 4795 4868 7759 7854 10583 10654 12538  
+	}
 
-	manpower = 195325 # = 12575
-	buildings_max_level_factor = 1.000
+	local_supplies=5.0 
 }

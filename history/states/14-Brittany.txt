@@ -2,37 +2,49 @@
 state={
 	id=14
 	name="STATE_14"
-	resources={
-		steel=1.000
-		oil=1.000
-		aluminium=1.000
-	}
+	manpower = 2396600
+	
+	state_category = city
 
 	history={
+		owner = ZZZ # owner = FRA
 		victory_points = {
-			3552 20 
+			3552 20
 		}
 		victory_points = {
-			6536 5 
+			6536 5
 		}
 		victory_points = {
-			9495 1 
+			9495 1
 		}
-		victory_points = {
-			11465 5 
+		buildings = {
+			infrastructure = 3
+			dockyard = 5
+			air_base = 5
+			3552 = {
+				naval_base = 10
+				coastal_bunker = 1
+			}
+			6536 = {
+				naval_base = 4
+				coastal_bunker = 1
+			}
+			9510 = {
+				naval_base = 1
+			}
 		}
-		owner = ZZZ #FRA
-		add_core_of = FRA
-		
-		buildings = {infrastructure = 6 dockyard = 5 air_base = 4 3552 = { naval_base = 10 coastal_bunker = 1 } 6536 = { naval_base = 4 coastal_bunker = 1 } 9510 = { naval_base = 1 } } 
-		buildings = {dockyard = 5 } 
-
+		# FRA
+		# BRI
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+			}
+		}
 	}
 
 	provinces={
-		503 527 542 3552 3758 6536 6548 6572 9495 9510 9525 9867 11465 11508 11616 
+		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
 	}
-	manpower = 2396600 #=11508
-	buildings_max_level_factor=1.000
-	state_category = city
+
+	local_supplies=0.0 
 }

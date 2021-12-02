@@ -1,26 +1,26 @@
-state = {
-	id = 787
-	name = "STATE_787"
-	state_category = rural
+state={
+	id=787
+	name="STATE_787" # Northern Kashmir
+	manpower = 1415800
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	history={
+		victory_points = {
+			1910 1
+		}
+		owner = ZZZ # owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+		# PAK
+		# RAJ
+
 	}
 
-	history = {
-		victory_points = { 1910 1 }
-		owner = ZZZ #PAK
-		add_core_of = PAK
-		add_core_of = CHI
-		add_core_of = IND
-		
-		buildings = {infrastructure = 2 } 
+	provinces={
+		1910 2041 2084 10821 
 	}
 
-	provinces = { 1910 2041 2084 10821 }
-
-	manpower = 1415800 # = 10821
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

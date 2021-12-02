@@ -1,0 +1,29 @@
+﻿l_english:
+### Country Names and Cosmetics
+ RUS: "Russia"
+ RUS_DEF: "Russia"
+ RUS_ADJ: "Russian"
+
+ RUS_USSR: "Union of Soviet Socialist Republics"
+ RUS_USSR_DEF: "the Union of Soviet Socialist Republics"
+ RUS_USSR_ADJ: "Soviet"
+
+### Parties
+ RUS_Hypersocialism_party: "VKP(b)"
+ RUS_Hypersocialism_party_long: "All-Union Communist Party (Bolsheviks)"
+ RUS_Marxism_Leninism_party: "KPSS"
+ RUS_Marxism_Leninism_party_long: "Communist Party of the Soviet Union"
+ RUS_New_Marxism_party: "RKP(b)"
+ RUS_New_Marxism_party_long: "Russian Communist Party (Bolsheviks)"
+ RUS_Reformist_Socialism_party: "RKP"
+ RUS_Reformist_Socialism_party_long: "Russian Communist Party"
+ RUS_Reactionism_party: ""
+ RUS_Reactionism_party_long: ""
+
+### Special
+ RUS_CPSU_Conservative: "§R£RUS_CPSU_Conservative_texticon Conservative Member of the CPSU§!\nConservative members of the Communist Party of the Soviet Union are against proposed reforms though also tend to be less radical than the Stalinite wings of the party. They see the USSR as the strongest world power and the vanguard of international communism, and seek to uphold Marxism-Leninism against all threats, domestic and abroad."
+
+### Characters
+ RUS_Yegor_Ligachyov: "Yegor Ligachyov"
+ RUS_Yegor_Ligachyov_desc: "$RUS_CPSU_Conservative$"
+ RUS_Grigory_Romanov: "Grigory Romanov"

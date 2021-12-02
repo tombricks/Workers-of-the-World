@@ -1,24 +1,25 @@
-state = {
-	id = 744
-	name = "STATE_744"
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 
+	}
+
+	history={
+		owner = ZZZ # owner = CHI
+		# PRC
+		# CHI
+		victory_points = {
+			7418 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower=9000000
+	buildings_max_level_factor=1.000
 	state_category = town
-	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
 
-	history = {
-		victory_points = { 7418 1 }
-		owner = ZZZ #CHI
-		add_core_of = CHI
-		
-		buildings = {infrastructure = 3 } 
-	}
-
-	provinces = { 1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 }
-
-	manpower = 9000000 # = 9000000
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

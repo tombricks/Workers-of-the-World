@@ -1,24 +1,25 @@
-state = {
-	id = 781
-	name = "STATE_781"
-	state_category = pastoral
+
+state={
+	id=781
+	name="STATE_781" # Niger
+	manpower = 543817
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = pastoral
+
+	history={
+		owner = ZZZ # owner = FRA
+		# NGR
+		victory_points = {
+			2056 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
-	history = {
-		victory_points = { 2056 1 }
-		owner = ZZZ #WAF
-		add_core_of = WAF
-		
-		buildings = {infrastructure = 3 } 
+	provinces={
+		1975 2056 12707
 	}
 
-	provinces = { 1975 2056 12707 }
-
-	manpower = 543817 # = 12707
-	buildings_max_level_factor = 1.000
+	local_supplies=1.0 
 }

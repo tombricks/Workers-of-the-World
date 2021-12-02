@@ -1,24 +1,28 @@
-state = {
-	id = 511
-	name = "STATE_511"
-	state_category = rural
+
+state={
+	id=511
+	name="STATE_511" # Mendoza
+	manpower = 1090274
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	history={
+		owner = ZZZ # owner = ARG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		# ARG
+		victory_points = {
+			12942 1 
+		}
+
 	}
 
-	history = {
-		victory_points = { 12942 1 }
-		owner = ZZZ #ARG
-		add_core_of = ARG
-		
-		buildings = {infrastructure = 3 industrial_complex = 1 air_base = 1 } 
+	provinces={
+		2158 2179 2215 5152 5184 5219 7550 8215 10964 10992 11021 11022 12942 12970 
 	}
 
-	provinces = { 2158 2179 2215 5152 5184 5219 7550 8215 10964 10992 11021 11022 12942 12970 }
-
-	manpower = 1090274 # = 12970
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

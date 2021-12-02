@@ -1,23 +1,24 @@
+
 state = {
 	id = 655
 	name = "STATE_655"
-	state_category = pastoral
+	manpower = 94759
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
-
+	state_category = pastoral
 	history = {
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 3 air_base = 1 } 
+		# SOV
+		# FER
+		add_claim_by = JAP
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
 	}
 
-	provinces = { 855 1742 1755 }
+	provinces = {
+		855 1742 1755 
+	}
 
-	manpower = 94759 # = 1755
-	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
 }

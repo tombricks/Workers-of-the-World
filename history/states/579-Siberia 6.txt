@@ -1,23 +1,26 @@
+
 state = {
 	id = 579
-	name = "STATE_579"
-	state_category = wasteland
+	name = "STATE_579" # Salekhard
+	manpower = 45484
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
+	state_category = pastoral
 
 	history = {
+		victory_points = {
+			1684 1
+		}
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 1 } 
+		buildings = {
+			infrastructure = 1
+		}
+		# SOV
+		# YAM
 	}
 
-	provinces = { 1664 1684 3169 4669 7689 7738 8461 9142 }
+	provinces = {
+		1664 1684 3169 4669 7689 7738 8461 9142 13076
+	}
 
-	manpower = 45484 # = 9142
-	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
 }

@@ -1,0 +1,121 @@
+scripted_map_modes = {
+	opinion_map_mode = {
+		opinion_map_mode = {
+			top = {
+				type = country
+	
+				color = {
+					if = {
+						limit = { tag = FROM }
+						
+						set_temp_variable = { blue = 1.0 }
+						set_temp_variable = { green = 0.0 }
+						set_temp_variable = { red = 0.0 }
+						
+						else_if = {
+							limit = {
+								check_variable = { FROM.opinion@ROOT > 0 }
+							}
+							set_temp_variable = { maxi = FROM.opinion@ROOT }
+							divide_temp_variable = { maxi = 100 }
+							set_temp_variable = { green = maxi }
+							set_temp_variable = { red = 0.0 }
+							set_temp_variable = { blue = 0.0 }
+						}
+						else = {
+							set_temp_variable = { maxi = FROM.opinion@ROOT }
+							divide_temp_variable = { maxi = 100 }
+							multiply_temp_variable = { maxi = -1 }
+							set_temp_variable = { red = maxi }
+							set_temp_variable = { green = 0.0 }
+							set_temp_variable = { blue = 0.0 }
+						}
+					}
+	
+					set_temp_variable = { alpha = 1.0 }
+	
+					always = yes
+				}
+			}
+		}
+	}
+	nation_map_mode = {
+		top = {
+			type = state
+
+			color = {
+				set_temp_variable = { red = 1.0 }
+				set_temp_variable = { blue = 1.0 }
+				set_temp_variable = { green = 1.0 }
+				set_temp_variable = { alpha = 1.0 }
+
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								FROM = {
+									is_owned_by = ROOT
+								}
+							}
+							AND = {
+								any_country = {
+									owns_state = FROM
+									is_subject_of = ROOT
+									has_autonomy_state = Autonomy_Autonomous_Zone
+								}
+							}
+						}
+					}
+					set_temp_variable = { blue = 0.0 }
+					set_temp_variable = { green = 0.0 }
+
+					else_if = {
+						limit = {
+							OR = {
+								AND = {
+									FROM = {
+										is_core_of = ROOT
+									}
+								}
+								AND = {
+									any_country = {
+										FROM = { is_core_of = PREV }
+										is_subject_of = ROOT
+										has_autonomy_state = Autonomy_Autonomous_Zone
+									}
+								}
+							}
+						}
+						set_temp_variable = { red = 0.8 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { green = 0.0 }
+					}
+
+					else_if = {
+						limit = {
+							OR = {
+								AND = {
+									FROM = {
+										is_claimed_by = ROOT
+									}
+								}
+								AND = {
+									any_country = {
+										FROM = { is_claimed_by = PREV }
+										is_subject_of = ROOT
+										has_autonomy_state = Autonomy_Autonomous_Zone
+									}
+								}
+							}
+						}
+						set_temp_variable = { red = 0.6 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { green = 0.0 }
+					}
+				}
+
+				always = yes
+			}
+		}
+	}
+}

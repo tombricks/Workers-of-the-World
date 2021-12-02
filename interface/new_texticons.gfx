@@ -1,0 +1,7 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_RUS_CPSU_Conservative_texticon"
+		texturefile = "gfx/texticons/RUS_CPSU_Conservative.dds"
+		legacy_lazy_load = no
+	}
+}

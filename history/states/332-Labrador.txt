@@ -1,23 +1,27 @@
-state = {
-	id = 332
-	name = "STATE_332"
-	state_category = wasteland
+state={
+	id=332
+	name="STATE_332"
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+
+	history={
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 1
+
+			12503 = {
+				naval_base = 1
+			}
+		}
+		# CAN
+
 	}
 
-	history = {
-		owner = ZZZ #USA
-		add_core_of = USA
-		
-		buildings = {infrastructure = 1 12503 = { naval_base = 1 } } 
+	provinces={
+		1426 1785 4720 4787 12503 13165 13180 
 	}
+	manpower=22179
+	buildings_max_level_factor=1.000
 
-	provinces = { 1426 1785 4720 4787 12503 13165 13180 }
-
-	manpower = 22179 # = 22179
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

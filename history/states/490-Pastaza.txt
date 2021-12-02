@@ -1,25 +1,24 @@
-state = {
-	id = 490
-	name = "STATE_490"
-	state_category = pastoral
+
+state={
+	id=490
+	name="STATE_490"
+	manpower = 70020
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = pastoral
+
+	history={
+		owner = ZZZ # owner = PRU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		# PRU
 	}
 
-	history = {
-		owner = ZZZ #PRU
-		add_core_of = PRU
-		add_core_of = PBC
-		add_claim_by = COL
-		
-		buildings = {infrastructure = 3 industrial_complex = 1 air_base = 1 } 
+	provinces={
+		8149 10942 
 	}
 
-	provinces = { 8149 10942 }
-
-	manpower = 70020 # = 10942
-	buildings_max_level_factor = 1.000
+	local_supplies=6.0 
 }

@@ -1,24 +1,26 @@
-state = {
-	id = 769
-	name = "STATE_769"
-	state_category = pastoral
+state={
+	id=769
+	name="STATE_769" # Burundi
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = pastoral
+
+	history={
+		owner = ZZZ # owner = BEL
+		# BRD
+		victory_points = {
+			2220 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
 	}
 
-	history = {
-		victory_points = { 2220 1 }
-		owner = ZZZ #EAF
-		add_core_of = EAF
-		
-		buildings = {infrastructure = 2 } 
+	provinces={
+		2220
 	}
+	manpower=2145731
+	buildings_max_level_factor=1.000
 
-	provinces = { 2220 }
-
-	manpower = 2145731 # = 2145731
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

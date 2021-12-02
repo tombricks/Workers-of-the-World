@@ -1,22 +1,23 @@
-state = {
-	id = 710
-	name = "STATE_710"
+state={
+	id=710
+	name="STATE_710"
+	manpower=2147	
 	state_category = tiny_island
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	history=
+	{
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 2
+			13019 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		13019 
 	}
 
-	history = {
-		owner = ZZZ #ZZZ
-		
-		buildings = {infrastructure = 3 13019 = { naval_base = 1 } } 
-	}
-
-	provinces = { 13019 }
-
-	manpower = 2147 # = 13019
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

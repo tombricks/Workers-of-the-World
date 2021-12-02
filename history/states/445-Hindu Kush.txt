@@ -1,24 +1,26 @@
-state = {
-	id = 445
-	name = "STATE_445"
-	state_category = wasteland
+
+state={
+	id=445
+	name="STATE_445" # Quetta
+	manpower = 405100
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+
+	history={
+		victory_points = {
+			5105 1
+		}
+		owner = ZZZ # owner = RAJ
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+		}
+		# PAK
 	}
 
-	history = {
-		victory_points = { 5105 1 }
-		owner = ZZZ #PAK
-		add_core_of = PAK
-		
-		buildings = {infrastructure = 3 air_base = 4 } 
+	provinces={
+		1107 4990 5105 7847 7903 7975 8044 8098 10813 
 	}
 
-	provinces = { 1107 4990 5105 7847 7903 7975 8044 8098 10813 }
-
-	manpower = 405100 # = 10813
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

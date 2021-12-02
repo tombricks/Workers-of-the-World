@@ -1,24 +1,25 @@
-state = {
-	id = 552
-	name = "STATE_552"
-	state_category = wasteland
+
+state={
+	id=552
+	name="STATE_552"
+	manpower = 18539
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 0
+		}
+
+		# EGY
+
 	}
 
-	history = {
-		owner = ZZZ #UAR
-		add_core_of = UAR
-		add_core_of = EGY
-		
-		buildings = {infrastructure = 0 } 
+	provinces={
+		1143 2064 7216 10127 10869 10907 12099 12733 12764 12816 
 	}
 
-	provinces = { 1143 2064 7216 10127 10869 10907 12099 12733 12764 12816 }
-
-	manpower = 18539 # = 12816
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

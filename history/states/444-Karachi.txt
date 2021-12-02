@@ -1,24 +1,25 @@
-state = {
-	id = 444
-	name = "STATE_444"
-	state_category = wasteland
+
+state={
+	id=444
+	name="STATE_444" # Baluchistan
+	manpower = 463500
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+
+	history={
+		victory_points = {
+			8066 1
+		}
+		owner = ZZZ # owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+		# PAK
 	}
 
-	history = {
-		victory_points = { 8066 1 }
-		owner = ZZZ #PAK
-		add_core_of = PAK
-		
-		buildings = {infrastructure = 2 } 
+	provinces={
+		1179 5043 5075 7917 8013 8066 12761 12774 
 	}
 
-	provinces = { 1179 5043 5075 7917 8013 8066 12761 12774 }
-
-	manpower = 463500 # = 12774
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

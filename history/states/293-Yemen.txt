@@ -1,25 +1,33 @@
-state = {
-	id = 293
-	name = "STATE_293"
+
+state={
+	id=293
+	name="STATE_293"
+	manpower = 2489500
+	
 	state_category = rural
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	resources={
+		oil=1 # was: 1
+	}
+	history={
+		owner = ZZZ # owner = YEM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			10840 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			10840 3 
+		}
+		# YEM
 	}
 
-	history = {
-		victory_points = { 10840 3 }
-		owner = ZZZ #UAR
-		add_core_of = UAR
-		add_core_of = YEM
-		
-		buildings = {infrastructure = 3 arms_factory = 1 industrial_complex = 1 10840 = { naval_base = 1 } } 
+	provinces={
+		1920 1973 4924 10752 10840 
 	}
 
-	provinces = { 1920 1973 4924 10752 10840 }
-
-	manpower = 2489500 # = 10840
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

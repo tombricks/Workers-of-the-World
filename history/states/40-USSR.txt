@@ -1,25 +1,32 @@
-state = {
-	id = 40
-	name = "STATE_40"
-	state_category = large_town
+
+state={
+	id=40
+	name="STATE_40" # Barnaul
+	manpower = 2107451
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
+	state_category = large_town
 
-	history = {
-		victory_points = { 1794 1 }
+	history={
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 2 industrial_complex = 1 } 
-		buildings = {industrial_complex = 2 } 
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		# SOV
+		# ALT #Could be a claim too
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+		victory_points = {
+			1794 1
+		}
 	}
 
-	provinces = { 1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 }
+	provinces={
+		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
+	}
 
-	manpower = 2107451 # = 12613
-	buildings_max_level_factor = 1.000
+	local_supplies=5.0 
 }

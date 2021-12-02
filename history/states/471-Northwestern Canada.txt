@@ -1,23 +1,25 @@
-state = {
-	id = 471
-	name = "STATE_471"
-	state_category = wasteland
+
+state={
+	id=471
+	name="STATE_471" # Northwestern Canada
+	manpower = 27681
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+
+	history={
+		owner = ZZZ # owner = CAN
+		buildings = {
+			infrastructure = 1
+			10548 = {
+				naval_base = 1
+			}
+		}
+		# CAN
 	}
 
-	history = {
-		owner = ZZZ #USA
-		add_core_of = USA
-		
-		buildings = {infrastructure = 1 10548 = { naval_base = 1 } } 
+	provinces={
+		917 1411 1799 1872 3606 4678 7869 7891 10548 12508 12571 5403
 	}
 
-	provinces = { 917 1411 1799 1872 3606 4678 7869 7891 10548 12508 12571 5403 }
-
-	manpower = 27681 # = 5403
-	buildings_max_level_factor = 1.000
+	local_supplies=3.0 
 }

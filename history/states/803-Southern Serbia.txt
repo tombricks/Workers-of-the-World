@@ -1,24 +1,29 @@
-state = {
-	id = 803
-	name = "STATE_803"
-	state_category = pastoral
-	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+
+state={
+	id=803
+	name="STATE_803"
+
+	history={
+		victory_points = {
+			11857 1 
+		}
+		owner = ZZZ # owner = YUG
+		buildings = {
+			infrastructure = 2
+
+		}
+		# YUG
+		# SER
+		add_claim_by = BUL
+
 	}
 
-	history = {
-		victory_points = { 11857 1 }
-		owner = ZZZ #YUG
-		add_core_of = YUG
-		
-		buildings = {infrastructure = 4 } 
+	provinces={
+		11832 11857 11868 
 	}
+	manpower=210000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 
-	provinces = { 11832 11857 11868 }
-
-	manpower = 210000 # = 210000
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

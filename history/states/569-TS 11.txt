@@ -1,24 +1,29 @@
-state = {
-	id = 569
-	name = "STATE_569"
-	state_category = town
+
+state={
+	id=569
+	name="STATE_569" # Kemerovo
+	manpower = 1567322
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
+	state_category = town
 
-	history = {
-		victory_points = { 7757 1 }
+	history={
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 3 industrial_complex = 1 } 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		# SOV
+		victory_points = {
+			7757 1
+		}
+		victory_points = {
+			7822 1
+		}
 	}
 
-	provinces = { 1369 1685 1702 1816 4665 4789 4793 7757 7822 7886 10580 10649 12631 }
+	provinces={
+		1369 1685 1702 1816 4665 4789 4793 7757 7822 7886 10580 10649 12631 
+	}
 
-	manpower = 1567322 # = 12631
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

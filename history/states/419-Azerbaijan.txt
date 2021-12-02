@@ -2,31 +2,31 @@
 state={
 	id=419
 	name="STATE_419"
-	resources={
-		steel=1.000
-		oil=1.000
-		aluminium=1.000
-	}
-
+	manpower = 1431714
+	
+	state_category = rural
 	history={
+		owner = ZZZ # owner = PER
+		buildings = {
+			infrastructure = 2
+		}
 		victory_points = {
 			1896 3 
 		}
-		owner = ZZZ #IRN
-		add_core_of = IRN
-		add_core_of = KUR
-		add_core_of = AZR
-		buildings = {
-			infrastructure = 3
-
+		victory_points = {
+			7604 1 
 		}
-
+		victory_points = {
+			1822 1 
+		}
+		# PER
+		# KUR
+		# AZR
 	}
 
 	provinces={
-		1896 2071 4755 4825 12793 12861 13120 
+		1636 1822 1896 2071 4755 4825 7604 12793 12861 13120 
 	}
-	manpower=1431714
-	buildings_max_level_factor=1.000
-	state_category=rural
+
+	local_supplies=4.0 
 }

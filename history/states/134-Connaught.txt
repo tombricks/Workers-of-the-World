@@ -1,24 +1,29 @@
-state = {
-	id = 134
-	name = "STATE_134"
-	state_category = town
+
+state=
+{
+	id=134
+	name="STATE_134"
+	manpower = 667100
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = town
+
+	history= {
+		owner = ZZZ # owner = IRE
+		victory_points = {
+			9303 3 #Galway
+		}
+		victory_points = {
+			11371 1 #Sligo
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+		}
+		# IRE
 	}
 
-	history = {
-		owner = ZZZ #ENG
-		add_core_of = ENG
-		add_core_of = IRE
-		
-		buildings = {infrastructure = 6 } 
-	}
+	provinces=
+	{
+337 3396 9255 9303 9321 9369 11238 11287 11371 	}
 
-	provinces = { 337 3396 9255 9303 9321 9369 11238 11287 11371 }
-
-	manpower = 667100 # = 11371
-	buildings_max_level_factor = 1.000
+	local_supplies=13.0 
 }

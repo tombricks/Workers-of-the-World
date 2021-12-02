@@ -1,23 +1,26 @@
-state = {
-	id = 163
-	name = "STATE_163"
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 18000
+	
 	state_category = enclave
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	history={
+		owner = ZZZ # owner = ITA
+		buildings = {
+			infrastructure = 3 #was: 5
+			3943 = {
+				naval_base = 1
+			}
+		}
+		# YUG
+		# CRO
+		start_resistance = CRO #Yugoslavia shouldn't resist occupation
+	} 
+	provinces={	
+		3943 
 	}
 
-	history = {
-		owner = ZZZ #YUG
-		add_core_of = YUG
-		
-		buildings = {infrastructure = 5 3943 = { naval_base = 1 } } 
-	}
-
-	provinces = { 3943 }
-
-	manpower = 18000 # = 3943
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

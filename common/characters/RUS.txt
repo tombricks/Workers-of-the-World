@@ -1,0 +1,47 @@
+characters = {
+	RUS_Yegor_Ligachyov = {
+		name = RUS_Yegor_Ligachyov
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RUS_Yegor_Ligachyov"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_General_Secretary }
+			desc = RUS_Yegor_Ligachyov_desc
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	RUS_Grigory_Romanov = {
+		name = RUS_Grigory_Romanov
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_Second_Secretary }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = RUS_Grigory_Romanov
+			cost = 150
+			removal_cost = -1
+			allowed = {
+				original_tag = RUS
+			}
+			on_add = {
+				log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Grigory_Romanov"
+			}
+			on_remove = {
+				log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Grigory_Romanov"
+			}
+			traits = { TITLE_Second_Secretary }
+		}
+	}
+}

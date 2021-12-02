@@ -1,3 +1,6 @@
 leader_traits = {
 	temp_trait = { random = no }
+	
+	TITLE_General_Secretary = { random = no }
+	TITLE_Second_Secretary = { random = no }
 }

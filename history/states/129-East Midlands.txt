@@ -1,24 +1,41 @@
-state = {
-	id = 129
-	name = "STATE_129"
+
+state={
+	id=129
+	name="STATE_129"
+	manpower = 2212021
+	
 	state_category = city
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	resources={
+		steel=11 # was: 20
 	}
 
-	history = {
-		owner = ZZZ #ENG
-		add_core_of = ENG
-		
-		buildings = {infrastructure = 8 arms_factory = 2 industrial_complex = 1 air_base = 5 } 
-		buildings = {arms_factory = 3 industrial_complex = 2 } 
+	history={
+		owner = ZZZ # owner = ENG
+		victory_points = {
+			6237 10 #Nottingham
+		}
+		victory_points = {
+			11279 3 #Leicester
+		}
+		buildings = {
+			infrastructure = 4 #was: 8
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+		}
+		# ENG
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+				industrial_complex = 2
+			}
+		}
 	}
 
-	provinces = { 364 3353 6237 9250 9268 9322 11279 }
+	provinces={
+		364 3353 6237 9250 9268 9322 11279 
+	}
 
-	manpower = 2212021 # = 11279
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

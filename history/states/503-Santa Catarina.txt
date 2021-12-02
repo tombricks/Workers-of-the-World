@@ -1,24 +1,23 @@
-state = {
-	id = 503
-	name = "STATE_503"
-	state_category = rural
+
+state={
+	id=503
+	name="STATE_503"
+	manpower = 1922700
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	history={
+		owner = ZZZ # owner = BRA
+		buildings = {
+			infrastructure = 3 #was: 5
+			air_base = 1
+		}
+		# BRA
 	}
 
-	history = {
-		owner = ZZZ #RGS
-		add_core_of = RGS
-		add_claim_by = BRA
-		
-		buildings = {infrastructure = 5 air_base = 1 } 
+	provinces={
+		1529 2109 4533 4548 4587 5156 5178 8181 8239 10405 12466 
 	}
 
-	provinces = { 1529 2109 4533 4548 4587 5156 5178 8181 8239 10405 12466 }
-
-	manpower = 1922700 # = 12466
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

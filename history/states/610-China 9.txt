@@ -1,23 +1,25 @@
-state = {
-	id = 610
-	name = "STATE_610"
-	state_category = pastoral
+
+state={
+	id=610
+	name="STATE_610" # Jehol
+	manpower = 1975377
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = pastoral
+
+	history={
+		owner = ZZZ # owner = MAN
+		# CHI
+		# MAN
+		# PRC
+		buildings = {
+			infrastructure = 2
+		}
+
 	}
 
-	history = {
-		owner = ZZZ #CHI
-		add_core_of = CHI
-		
-		buildings = {infrastructure = 4 } 
+	provinces={
+		814 881 934 972 3814 3828 3881 3934 3955 4514 6837 6852 6898 6937 6988 7575 7633 9768 9873 9905 9927 10331 10426 10499 11801 11855 11886 
 	}
 
-	provinces = { 814 881 934 972 3814 3828 3881 3934 3955 4514 6837 6852 6898 6937 6988 7575 7633 9768 9873 9905 9927 10331 10426 10499 11801 11855 11886 }
-
-	manpower = 1975377 # = 11886
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

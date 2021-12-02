@@ -1,25 +1,39 @@
-state = {
-	id = 126
-	name = "STATE_126"
-	state_category = megalopolis
+state={
+	id=126
+	name="STATE_126"
+	manpower=9824296
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = megalopolis
+
+	history={
+		owner = ZZZ # owner = ENG
+		victory_points = {
+			6103 50 
+		}
+		buildings = {
+			infrastructure = 5 #was: 9
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 1
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+			11374 = {
+				naval_base = 10
+			}
+		}
+		# ENG
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 4
+				industrial_complex = 4
+			}
+		}
 	}
 
-	history = {
-		victory_points = { 6103 50 }
-		owner = ZZZ #ENG
-		add_core_of = ENG
-		
-		buildings = {infrastructure = 9 arms_factory = 3 industrial_complex = 3 dockyard = 1 anti_air_building = 5 radar_station = 1 air_base = 10 11374 = { naval_base = 10 } } 
-		buildings = {arms_factory = 4 industrial_complex = 4 } 
+	provinces={
+		6103 9239 11333 11374 
 	}
 
-	provinces = { 6103 9239 11333 11374 }
-
-	manpower = 9824296 # = 11374
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

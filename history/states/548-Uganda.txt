@@ -1,24 +1,28 @@
-state = {
-	id = 548
-	name = "STATE_548"
+state={
+	id=548
+	name="STATE_548"
+
 	state_category = rural
-	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	resources={
+		rubber=3 # was: 4
+	}
+	history={
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		# UGA
+		victory_points = {
+			12989 1
+		}
 	}
 
-	history = {
-		victory_points = { 12989 1 }
-		owner = ZZZ #EAF
-		add_core_of = EAF
-		
-		buildings = {infrastructure = 3 } 
+	provinces={
+		3854 7088 7133 8223 12929 12989 13177 
 	}
+	manpower=3515625
+	buildings_max_level_factor=1.000
 
-	provinces = { 3854 7088 7133 8223 12929 12989 13177 }
-
-	manpower = 3515625 # = 3515625
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

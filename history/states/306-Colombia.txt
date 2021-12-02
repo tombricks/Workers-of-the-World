@@ -1,25 +1,29 @@
-state = {
-	id = 306
-	name = "STATE_306"
+
+state={
+	id=306
+	name="STATE_306" # Cundinamarca
+	manpower = 4953049
+	
 	state_category = city
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	history={
+		owner = ZZZ # owner = COL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
+		}
+		# COL
+		victory_points = {
+			10747 10
+		}
+
 	}
 
-	history = {
-		victory_points = { 10747 10 }
-		owner = ZZZ #COL
-		add_core_of = COL
-		
-		buildings = {infrastructure = 3 arms_factory = 1 industrial_complex = 5 air_base = 2 } 
-		add_extra_state_shared_building_slots = 2
+	provinces={
+		2079 7936 7991 7993 10747 10790 10846 
 	}
 
-	provinces = { 2079 7936 7991 7993 10747 10790 10846 }
-
-	manpower = 4953049 # = 10846
-	buildings_max_level_factor = 1.000
+	local_supplies=4.0 
 }

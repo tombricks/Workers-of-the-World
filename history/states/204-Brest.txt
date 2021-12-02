@@ -1,25 +1,29 @@
-state = {
-	id = 204
-	name = "STATE_204"
-	state_category = rural
+
+state={
+	id=204
+	name="STATE_204" # Bobruysk
+	manpower = 1041084
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	history={
+		victory_points = {
+			3350 3
+		}
+		victory_points = {
+			11313 1
+		}
+		owner = ZZZ
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		# SOV
+		# BLR
 	}
 
-	history = {
-		victory_points = { 3350 3 }
-		victory_points = { 11313 1 }
-		owner = ZZZ #BLR
-		add_core_of = BLR
-		
-		buildings = {infrastructure = 5 } 
+	provinces={
+		304 331 360 386 3350 3759 6373 11313 
 	}
 
-	provinces = { 304 331 360 386 3350 3759 6373 11313 }
-
-	manpower = 1041084 # = 11313
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

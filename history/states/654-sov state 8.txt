@@ -1,23 +1,26 @@
-state = {
-	id = 654
-	name = "STATE_654"
-	state_category = wasteland
+
+state={
+	id=654
+	name="STATE_654" # Gorno-Altaysk
+	manpower = 153510
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
+	state_category = wasteland
 
-	history = {
+	history={
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 1 } 
+		buildings = {
+			infrastructure = 1
+		}
+		# SOV
+		# ALT
+		victory_points = {
+			4800 1 #Oyrot-Tura/Gorno-Altaysk
+		}
 	}
 
-	provinces = { 4781 4800 10531 10713 12509 }
+	provinces={
+		4781 4800 10531 10713 12509 
+	}
 
-	manpower = 153510 # = 12509
-	buildings_max_level_factor = 1.000
+	local_supplies=2.0 
 }

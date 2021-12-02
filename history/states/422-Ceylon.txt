@@ -1,23 +1,39 @@
-state = {
-	id = 422
-	name = "STATE_422"
-	state_category = rural
+state=
+{
+	id=422
+	name="STATE_422"
+	manpower = 5500000
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	resources={
+		rubber=60 # was: 116
 	}
 
-	history = {
-		victory_points = { 10201 3 }
-		owner = ZZZ #ZZZ
-		
-		buildings = {infrastructure = 3 industrial_complex = 1 air_base = 3 10201 = { naval_base = 5 } 7260 = { naval_base = 3 coastal_bunker = 3 } } 
+	history={
+		# SRL
+		owner = ZZZ # owner = ENG
+		victory_points = {
+			10201 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			10201 = {
+				naval_base = 5
+			}
+			7260 = {
+				naval_base = 3
+				coastal_bunker = 3
+			}
+		}
+
+	}
+	
+	provinces={
+		1213 4219 7260 7344 10201 10229 10287 12258 
 	}
 
-	provinces = { 1213 4219 7260 7344 10201 10229 10287 12258 }
-
-	manpower = 5500000 # = 12258
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

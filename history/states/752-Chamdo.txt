@@ -1,25 +1,33 @@
-state = {
-	id = 752
-	name = "STATE_752"
+state={
+	id=752
+	name="STATE_752"
+	provinces={
+		1918 7988 8104 12724 12837 4999
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
 	state_category = pastoral
-	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	history={
+		owner = ZZZ # owner = CHI
+		# CHI
+		# PRC
+		victory_points = {
+			4999 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 1
+
+			}
+
+		}
+
 	}
 
-	history = {
-		victory_points = { 4999 1 }
-		owner = ZZZ #CHI
-		add_core_of = CHI
-		
-		buildings = {infrastructure = 1 } 
-		buildings = {industrial_complex = 1 infrastructure = 2 } 
-	}
-
-	provinces = { 1918 7988 8104 12724 12837 4999 }
-
-	manpower = 300000 # = 1
-	buildings_max_level_factor = 1.000
+	local_supplies=1.0 
 }

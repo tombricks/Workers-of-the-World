@@ -1,23 +1,29 @@
+
 state = {
 	id = 581
 	name = "STATE_581"
-	state_category = wasteland
+	manpower = 48831
+	
+	state_category = pastoral
 	
 	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+		chromium = 40 # was: 44
+		aluminium = 27 # was: 30
 	}
 
 	history = {
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 1 } 
+		buildings = {
+			infrastructure = 1
+
+		}
+		# SOV
+		# KOM
 	}
 
-	provinces = { 4874 7824 10216 10551 10677 11098 12393 12502 12659 13076 }
+	provinces = {
+		10551 10677 11098 12393 12502 
+	}
 
-	manpower = 48831 # = 13076
-	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
 }

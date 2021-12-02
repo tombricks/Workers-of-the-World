@@ -1,2 +1,3 @@
 ZZZ	= "countries/Western_European.txt"
 RUS = "countries/Eastern_European.txt"
+FIN = "countries/Eastern_European.txt"

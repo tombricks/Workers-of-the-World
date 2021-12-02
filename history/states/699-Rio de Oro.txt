@@ -1,24 +1,27 @@
-state = {
-	id = 699
-	name = "STATE_699"
-	state_category = wasteland
+state={
+	id=699
+	name="STATE_699"
+	manpower = 21056
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+
+	history={
+		owner = ZZZ # owner = SPR
+		# WES
+		buildings = {
+			infrastructure = 1
+			8038 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			8038 1
+		}
+	}
+	
+	provinces={
+		4920 5012 7979 8038 8111 10875
 	}
 
-	history = {
-		victory_points = { 8038 1 }
-		owner = ZZZ #MOR
-		add_core_of = MOR
-		
-		buildings = {infrastructure = 1 8038 = { naval_base = 1 } } 
-	}
-
-	provinces = { 4920 5012 7979 8038 8111 10875 }
-
-	manpower = 21056 # = 10875
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

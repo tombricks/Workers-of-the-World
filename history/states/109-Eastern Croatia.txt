@@ -1,24 +1,27 @@
-state = {
-	id = 109
-	name = "STATE_109"
-	state_category = large_town
+
+state={
+	id=109
+	name="STATE_109" # Croatia
+	manpower = 2224400
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = large_town
+
+	history={
+		owner = ZZZ # owner = YUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		victory_points = {
+			11581 3 
+		}
+		# YUG
+		# CRO
 	}
 
-	history = {
-		victory_points = { 11581 3 }
-		owner = ZZZ #YUG
-		add_core_of = YUG
-		
-		buildings = {infrastructure = 6 industrial_complex = 3 } 
+	provinces={
+		624 3592 3596 3627 6647 9595 9611 11577 11580 11581 11594
 	}
 
-	provinces = { 624 3592 3596 3627 6647 9595 9611 11577 11580 11581 11594 }
-
-	manpower = 2224400 # = 11594
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

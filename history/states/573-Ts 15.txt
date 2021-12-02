@@ -1,24 +1,29 @@
-state = {
-	id = 573
-	name = "STATE_573"
-	state_category = pastoral
+
+state={
+	id=573
+	name="STATE_573" # Zlatoust
+	manpower = 556677
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = pastoral
+	resources={
+		chromium=23 # was: 32
 	}
 
-	history = {
-		victory_points = { 10329 1 }
+	history={
+		victory_points = {
+			10329 1
+		}
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 4 } 
+		buildings = {
+			infrastructure = 2
+
+		}
+		# SOV
 	}
 
-	provinces = { 237 278 361 3280 4758 7320 10136 10142 10329 11223 11307 12117 }
+	provinces={
+		237 278 361 3280 4758 7320 10136 10329 11223 11307 
+	}
 
-	manpower = 556677 # = 12117
-	buildings_max_level_factor = 1.000
+	local_supplies=7.0 
 }

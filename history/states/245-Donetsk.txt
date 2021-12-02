@@ -1,24 +1,25 @@
-state = {
-	id = 245
-	name = "STATE_245"
-	state_category = rural
+
+state={
+	id=245
+	name="STATE_245" # Millerovo
+	manpower = 761769
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
+	state_category = rural
 
-	history = {
-		victory_points = { 11476 1 }
+	history={
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 5 } 
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		# SOV
+		victory_points = {
+			11476 1
+		}
 	}
 
-	provinces = { 449 484 500 509 533 3478 3489 3505 3519 3540 6544 6566 9488 9516 9540 9565 11459 11476 11501 }
+	provinces={
+		449 484 500 509 533 3478 3489 3505 3519 3540 6544 6566 9488 9516 9540 9565 11459 11476 11501 
+	}
 
-	manpower = 761769 # = 11501
-	buildings_max_level_factor = 1.000
+	local_supplies=8.0 
 }

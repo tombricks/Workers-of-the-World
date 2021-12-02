@@ -1,25 +1,33 @@
-state = {
-	id = 217
-	name = "STATE_217"
-	state_category = city
+
+state={
+	id=217
+	name="STATE_217"
+	manpower = 1135070
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
+	state_category = city
 
-	history = {
-		victory_points = { 3529 30.0 }
+	history={
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 7 arms_factory = 1 industrial_complex = 1 air_base = 1 } 
-		buildings = {arms_factory = 2 } 
+		victory_points = {
+			3529 30.0
+		}
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		# SOV
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
 	}
 
-	provinces = { 498 520 3503 3517 3529 3555 6479 6503 6527 6541 6575 9442 9459 9474 9504 9530 11395 11447 11474 11484 }
+	provinces={
+		498 520 3503 3529 3555 6503 6527 6541 9459 9474 9504 9530 11447 11474 11484 
+	}
 
-	manpower = 1135070 # = 11484
-	buildings_max_level_factor = 1.000
+	local_supplies=7.0 
 }

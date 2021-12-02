@@ -1,31 +1,36 @@
-
 state={
 	id=676
 	name="STATE_676"
+	manpower = 1182741
+	
+	state_category = town
+	
 	resources={
-		steel=1.000
-		oil=1.000
-		aluminium=1.000
+		oil=8 # was: 10
 	}
+
 
 	history={
-		owner = ZZZ #UAR
+		owner = ZZZ # owner = IRQ
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 2
 		}
 		victory_points = {
-			6826 1 
+			10106 5 
 		}
-		add_core_of = UAR
-		add_core_of = IRQ
-		add_core_of = KUR
+		victory_points = {
+			3916 3 
+		}
+		victory_points = {
+			6826 1
+		}
+		# IRQ
+		# KUR
+	}
+	
+	provinces={
+		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372 
 	}
 
-	provinces={
-		1600 6826 8123 10793 
-	}
-	manpower=1182741
-	buildings_max_level_factor=1.000
-	state_category=town
+	local_supplies=0.0 
 }

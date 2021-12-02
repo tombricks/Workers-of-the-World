@@ -1,27 +1,38 @@
-state = {
-	id = 212
-	name = "STATE_212"
-	state_category = large_town
+
+state={
+	id=212
+	name="STATE_212"
+	manpower = 1814936
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = large_town
+
+	resources={
+		chromium = 1
 	}
 
-	history = {
-		victory_points = { 6923 10 }
-		victory_points = { 6814 3 }
-		victory_points = { 9862 1 }
-		owner = ZZZ #YUG
-		add_core_of = YUG
-		add_core_of = BUL
-		
-		buildings = {infrastructure = 4 arms_factory = 3 industrial_complex = 2 air_base = 2 } 
+	history={
+		owner = ZZZ # owner = BUL
+		victory_points = { #Plovdiv
+			6923 10
+		}
+		victory_points = { #Stara Zagora
+			6814 3
+		}
+		victory_points = { #Haskovo
+			9862 1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex =2
+			air_base = 2
+		}
+		# BUL
 	}
 
-	provinces = { 878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 }
+	provinces={
+		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 
+	}
 
-	manpower = 1814936 # = 11813
-	buildings_max_level_factor = 1.000
+	local_supplies=5.0 
 }

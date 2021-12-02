@@ -1,26 +1,32 @@
-state = {
-	id = 453
-	name = "STATE_453"
+
+state={
+	id=453
+	name="STATE_453"
+	manpower = 15359
+	
 	state_category = wasteland
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
-
+	
 	history = {
-		victory_points = { 4161 3 }
-		victory_points = { 10099 1 }
-		owner = ZZZ #UAR
-		add_core_of = UAR
-		add_core_of = EGY
-		
-		buildings = {infrastructure = 2 } 
+		owner = ZZZ # owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			4161 3
+		}
+		victory_points = {
+			10099 1
+		}
+
+		# EGY
+
 	}
 
-	provinces = { 1112 1155 4161 9947 10002 10099 11922 11979 12073 }
+	provinces={
+		1112 1155 4161 9947 10002 10099 11922 11979 12073 
+	}
 
-	manpower = 15359 # = 12073
-	buildings_max_level_factor = 1.000
+	local_supplies=7.0 
 }

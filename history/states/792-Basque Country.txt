@@ -1,24 +1,35 @@
-state = {
-	id = 792
-	name = "STATE_792"
-	state_category = town
-	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+state={
+	id=792
+	name="STATE_792"
+	resources={
+		steel=8.000
 	}
 
-	history = {
-		victory_points = { 740 10 }
-		owner = ZZZ #BAS
-		add_core_of = BAS
-		
-		buildings = {infrastructure = 6 industrial_complex = 1 arms_factory = 1 740 = { naval_base = 1 } air_base = 1 } 
+	history={
+		owner = ZZZ # owner = SPR
+		victory_points = {
+			740 10
+		}
+		# NAV
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+			arms_factory = 1
+			740 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		# SPR
+
 	}
 
-	provinces = { 740 3735 6756 13233 }
+	provinces={
+		740 3735 6756 13233 
+	}
+	manpower=928094
+	buildings_max_level_factor=1.000
+	state_category=town
 
-	manpower = 928094 # = 928094
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

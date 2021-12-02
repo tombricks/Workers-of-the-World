@@ -1,25 +1,28 @@
-state = {
-	id = 415
-	name = "STATE_415"
-	state_category = rural
+
+state={
+	id=415
+	name="STATE_415" # Herat
+	manpower = 1632860
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = rural
+
+	history={
+		owner = ZZZ # owner = AFG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4893 1 
+		}
+		victory_points = {
+			5064 1 
+		}
+		# AFG
 	}
 
-	history = {
-		victory_points = { 4893 1 }
-		victory_points = { 5064 1 }
-		owner = ZZZ #AFG
-		add_core_of = AFG
-		
-		buildings = {infrastructure = 2 } 
+	provinces={
+		1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 8053 8090 10789 12788 12871 
 	}
 
-	provinces = { 1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 8053 8090 10789 12788 12871 }
-
-	manpower = 1632860 # = 12871
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

@@ -1,26 +1,30 @@
-state = {
-	id = 269
-	name = "STATE_269"
+state=
+{
+	id=269
+	name="STATE_269"
+	manpower = 344700
+	
 	state_category = enclave
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	history= {
+		victory_points = { 
+			10833 1
+		}
+		victory_points = { 
+			5068 1
+		}
+		owner = ZZZ # owner = ENG
+		# SOM
+		buildings = {
+			infrastructure = 2
+			10833 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1905 5068 8094 10777 10833 10921 12759 12814
 	}
 
-	history = {
-		victory_points = { 10833 1 }
-		victory_points = { 5068 1 }
-		owner = ZZZ #SML
-		add_core_of = SML
-		add_core_of = SOM
-		
-		buildings = {infrastructure = 3 10833 = { naval_base = 1 } } 
-	}
-
-	provinces = { 1905 5068 8094 10777 10833 10921 12759 12814 }
-
-	manpower = 2447000 # = 12814
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

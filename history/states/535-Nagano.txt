@@ -1,24 +1,37 @@
-state = {
-	id = 535
-	name = "STATE_535"
+
+state={
+	id=535
+	name="STATE_535" # Koshinetsu
+	manpower = 3871000
 	state_category = large_city
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	resources={
+		steel=27 # was: 35
+		tungsten=8 # was: 10
 	}
 
-	history = {
-		victory_points = { 10032 15 }
-		owner = ZZZ #JPN
-		add_core_of = JPN
+	history={
+		owner = ZZZ # owner = JAP
+		# JAP
+		buildings = {
 		
-		buildings = {arms_factory = 1 industrial_complex = 2 infrastructure = 3 dockyard = 1 fuel_silo = 1 } 
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 2
+			dockyard = 1
+			fuel_silo = 1
+
+		}
+		
+		victory_points = {
+			10032 15
+		}
+
 	}
 
-	provinces = { 998 7102 7217 10015 10032 }
+	provinces={
+		998 7102 7217 10015 10032 
+	}
 
-	manpower = 3871000 # = 10032
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

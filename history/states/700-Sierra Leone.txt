@@ -1,24 +1,29 @@
-state = {
-	id = 700
-	name = "STATE_700"
+state={
+	id=700
+	name="STATE_700"
+	manpower = 1768500
+	
 	state_category = pastoral
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	history=
+	{
+		owner = ZZZ # owner = ENG
+		# SIE
+		victory_points = {
+			2038 1 
+		}
+		buildings = {
+			infrastructure = 2
+			2038 = {
+				naval_base = 3
+			}
+		}
+
+	}
+	
+	provinces={
+		2038 2094 
 	}
 
-	history = {
-		victory_points = { 2038 1 }
-		owner = ZZZ #MLI
-		add_core_of = MLI
-		
-		buildings = {infrastructure = 3 2038 = { naval_base = 3 } } 
-	}
-
-	provinces = { 2038 2094 }
-
-	manpower = 1768500 # = 2094
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

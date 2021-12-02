@@ -1,24 +1,30 @@
-state = {
-	id = 8
-	name = "STATE_8"
+state=
+{
+	id=8
+	name="STATE_8"
+	
 	state_category = town
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
 	}
 
-	history = {
+	history=
+	{
+		owner = ZZZ # owner = LUX
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
 		victory_points = { 6583 5 }
-		owner = ZZZ #LUX
-		add_core_of = LUX
-		
-		buildings = {infrastructure = 6 arms_factory = 1 industrial_complex = 3 } 
+		# LUX
 	}
 
-	provinces = { 6583 }
+	provinces=
+	{
+6583 	}
 
-	manpower = 294748 # = 6583
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

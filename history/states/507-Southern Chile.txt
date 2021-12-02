@@ -1,23 +1,22 @@
-state = {
-	id = 507
-	name = "STATE_507"
-	state_category = pastoral
+
+state={
+	id=507
+	name="STATE_507" # Magallanes
+	manpower = 68693
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = pastoral
+
+	history={
+		owner = ZZZ # owner = CHL
+		buildings = {
+			infrastructure = 1
+		}
+		# CHL
 	}
 
-	history = {
-		owner = ZZZ #ARG
-		add_core_of = ARG
-		
-		buildings = {infrastructure = 1 } 
+	provinces={
+		2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 
 	}
 
-	provinces = { 2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 }
-
-	manpower = 68693 # = 10961
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

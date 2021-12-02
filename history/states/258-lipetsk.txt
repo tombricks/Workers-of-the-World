@@ -1,24 +1,25 @@
-state = {
-	id = 258
-	name = "STATE_258"
-	state_category = town
+
+state={
+	id=258
+	name="STATE_258"
+	manpower = 1282096
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
-	}
+	state_category = town
 
-	history = {
-		victory_points = { 6398 1 }
+	history={
 		owner = RUS
-		add_core_of = RUS
-		
-		buildings = {infrastructure = 5 } 
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		# SOV
+		victory_points = {
+			6398 1
+		}
 	}
 
-	provinces = { 356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 }
+	provinces={
+		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 
+	}
 
-	manpower = 1282096 # = 9394
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

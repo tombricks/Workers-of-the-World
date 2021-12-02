@@ -1,23 +1,23 @@
-state = {
-	id = 786
-	name = "STATE_786"
-	state_category = wasteland
+state={
+	id=786
+	name="STATE_786" # Mauritanian Desert
+	manpower = 124200
 	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = ZZZ # owner = FRA
+		# MRT
+		buildings = {
+			infrastructure = 0
+		}
+
 	}
 
-	history = {
-		owner = ZZZ #MLI
-		add_core_of = MLI
-		
-		buildings = {infrastructure = 0 } 
+	provinces={
+		1897 1962 7943 8035 10771 10779 10838
 	}
 
-	provinces = { 1897 1962 7943 8035 10771 10779 10838 }
-
-	manpower = 124200 # = 10838
-	buildings_max_level_factor = 1.000
+	local_supplies=0.0 
 }

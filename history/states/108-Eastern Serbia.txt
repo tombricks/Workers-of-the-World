@@ -1,24 +1,31 @@
-state = {
-	id = 108
-	name = "STATE_108"
-	state_category = town
-	
-	resources = {
-		steel = 1
-		oil = 1
-		aluminium = 1
+
+state={
+	id=108
+	name="STATE_108"
+	resources={
+		steel=3.000
 	}
 
-	history = {
-		victory_points = { 9602 3 }
-		owner = ZZZ #YUG
-		add_core_of = YUG
-		
-		buildings = {infrastructure = 4 } 
+	history={
+		victory_points = {
+			9602 3 
+		}
+		owner = ZZZ # owner = YUG
+		buildings = {
+			infrastructure = 2
+
+		}
+		# YUG
+		# SER
+
 	}
 
-	provinces = { 630 3922 3939 6953 6970 6998 9602 9756 9906 11887 }
+	provinces={
+		630 3922 3939 6953 6970 6998 9602 9756 9906 11887 
+	}
+	manpower=707000
+	buildings_max_level_factor=1.000
+	state_category=town
 
-	manpower = 707000 # = 707000
-	buildings_max_level_factor = 1.000
+	local_supplies=5.0 
 }
