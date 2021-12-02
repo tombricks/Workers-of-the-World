@@ -1,8 +1,7 @@
-# RUS - Russia.txt
-capital = 219
+capital = 202
 set_stability = 0.6
 set_war_support = 0.6
-set_cosmetic_tag = RUS_USSR
+set_cosmetic_tag = UKR_SSR
 
 # Starting tech
 set_technology = {
@@ -78,19 +77,4 @@ set_politics = {
 
 set_popularities = {
 	Marxism_Leninism = 100
-}
-
-recruit_character = RUS_Yegor_Ligachyov
-recruit_character = RUS_Grigory_Romanov
-add_ideas = {
-	RUS_Grigory_Romanov 
-}
-
-set_autonomy = {
-	target = FIN
-	autonomy_state = Autonomy_Autonomous_Zone
-}
-set_autonomy = {
-	target = UKR
-	autonomy_state = Autonomy_Autonomous_Zone
 }
