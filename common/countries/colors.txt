@@ -14,3 +14,19 @@ UKR = {
 	color = rgb { 49 79 173 }
 	color_ui = rgb { 49 79 173 }
 }
+EST = {
+	color = rgb { 90 94 140 }
+	color_ui = rgb { 90 94 140 }
+}
+LAT = {
+	color = rgb { 109 58 70 }
+	color_ui = rgb { 109 58 70 }
+}
+LIT = {
+	color = rgb { 189 122 5 }
+	color_ui = rgb { 189 122 5 }
+}
+BLR = {
+	color = rgb { 93 69 168 }
+	color_ui = rgb { 93 69 168 }
+}

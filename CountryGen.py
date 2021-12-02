@@ -2,7 +2,10 @@
 ### [TAG, country name (generic), adjective, ideology, capital, rrr ggg bbb, common/countries file]
 
 countries = [
-	["UKR", "Ukraine", "Ukrainian", "Marxism_Leninism", "202", "49 79 173", "Eastern_European", ["DoSSR"]]
+	["EST", "Estonia", "Estonian", "Marxism_Leninism", "812", "90 94 140", "Eastern_European", ["DoSSR"]],
+	["LAT", "Latvia", "Latvian", "Marxism_Leninism", "808", "109 58 70", "Eastern_European", ["DoSSR"]],
+	["LIT", "Lithuania", "Lithuanian", "Marxism_Leninism", "11", "189 122 5", "Eastern_European", ["DoSSR"]],
+	["BLR", "Belarus", "Byelorussian", "Marxism_Leninism", "206", "93 69 168", "Eastern_European", ["DoSSR"]]
 ]
 
 from shutil import copyfile
@@ -15,6 +18,7 @@ for country in countries:
 	FileTags.write(F"\n{country[0]} = \"countries/{country[6]}.txt\" ")
 	FileLoc   = open("localisation/english/Country_"+country[0]+"_l_english.yml", "w", encoding="utf8")
 
+	FileLoc.write('\ufeff')
 	FileLoc.write(F"""l_english:
  {country[0]}: "{country[1]}"
  {country[0]}_DEF: "{country[1]}"
@@ -32,13 +36,16 @@ for country in countries:
 	color_ui = rgb {{ {country[5]} }}
 }}""")
 
+	dossrcos = ""
+	if "DoSSR" in country[7]:
+		dossrcos = F"set_cosmetic_tag = {country[0]}_SSR\n"
+
 	path = F"history/countries/{country[0]} - {country[1]}.txt"
-	with open(path, "w", encoding="utf8") as FileHistory:import codecs
-		FileHistory.write(codecs.BOM_UTF16_LE)
+	with open(path, "w", encoding="utf8") as FileHistory:
 		FileHistory.write(F"""capital = {country[4]}
 set_stability = 0.6
 set_war_support = 0.6
-
+{dossrcos}
 # Starting tech
 set_technology = {{
 	infantry_weapons = 1

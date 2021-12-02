@@ -12,7 +12,8 @@ state={
 		victory_points = {
 			3296 1 #Ventspils
 		}
-		owner = ZZZ # owner = LAT
+		owner = LAT
+		add_core_of = LAT
 		buildings = {
 			infrastructure = 3 #was: 5
 			9262 = {
