@@ -2,6 +2,9 @@ defined_text = {
 	name = get_leader_title
 	text = { trigger = { has_country_leader_with_trait = TITLE_General_Secretary } localization_key = TITLE_General_Secretary }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Second_Secretary } localization_key = TITLE_Second_Secretary }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Chairman } localization_key = TITLE_Chairman } # Chairman
+	text = { trigger = { has_country_leader_with_trait = TITLE_Acting_General_Secretary } localization_key = TITLE_Acting_General_Secretary } # Acting General Secretary
+	text = { trigger = { has_country_leader_with_trait = TITLE_President } localization_key = TITLE_President } # President
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { localization_key = TITLE_Default }
 }

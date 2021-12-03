@@ -17,6 +17,9 @@
  
  TITLE_General_Secretary: "General Secretary"
  TITLE_Second_Secretary: "Second Secretary"
+ TITLE_Chairman: "Chairman"
+ TITLE_Acting_General_Secretary: "Acting General Secretary"
+ TITLE_President: "President"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"

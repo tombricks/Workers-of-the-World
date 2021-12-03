@@ -1,6 +1,9 @@
 leader_traits = {
 	TITLE_General_Secretary = { random = no }
 	TITLE_Second_Secretary = { random = no }
+	TITLE_Chairman = { random = no } # Chairman
+	TITLE_Acting_General_Secretary = { random = no } # Acting General Secretary
+	TITLE_President = { random = no } # President
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }
