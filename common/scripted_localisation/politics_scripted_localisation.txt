@@ -11,6 +11,8 @@ defined_text = {
 defined_text = {
 	name = get_subideology
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Iosif_Stalin_Thought } localization_key = IDEOLOGY_Iosif_Stalin_Thought } # Iosif Stalin Thought
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Maoism } localization_key = IDEOLOGY_Marxism_Leninism_Maoism } # Marxism-Leninism-Maoism
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { localization_key = bvlapdapldwp }
 }
@@ -18,6 +20,8 @@ defined_text = {
 defined_text = {
 	name = get_subideology_adj
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism_ADJ }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Iosif_Stalin_Thought } localization_key = IDEOLOGY_Iosif_Stalin_Thought_ADJ } # Iosif Stalin Thought
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Maoism } localization_key = IDEOLOGY_Marxism_Leninism_Maoism_ADJ } # Marxist-Leninist-Maoist
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { localization_key = bvlapdapldwp }
 }

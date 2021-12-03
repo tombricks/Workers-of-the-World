@@ -7,5 +7,7 @@ leader_traits = {
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }
+	IDEOLOGY_Iosif_Stalin_Thought = { random = no } # Iosif Stalin Thought
+	IDEOLOGY_Marxism_Leninism_Maoism = { random = no } # Marxism-Leninism-Maoism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 }

@@ -24,4 +24,8 @@
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
  IDEOLOGY_Marxism_Leninism_ADJ: "Marxist-Leninist"
+ IDEOLOGY_Iosif_Stalin_Thought: "Iosif Stalin Thought"
+ IDEOLOGY_Iosif_Stalin_Thought_ADJ: "Iosif Stalin Thought"
+ IDEOLOGY_Marxism_Leninism_Maoism: "Marxism-Leninism-Maoism"
+ IDEOLOGY_Marxism_Leninism_Maoism_ADJ: "Marxist-Leninist-Maoist"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
