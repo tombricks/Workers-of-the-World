@@ -1,0 +1,20 @@
+defined_text = {
+	name = get_leader_title
+	text = { trigger = { has_country_leader_with_trait = TITLE_General_Secretary } localization_key = TITLE_General_Secretary }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Second_Secretary } localization_key = TITLE_Second_Secretary }
+	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
+	text = { localization_key = TITLE_Default }
+}
+defined_text = {
+	name = get_subideology
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism }
+	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
+	text = { localization_key = bvlapdapldwp }
+}
+
+defined_text = {
+	name = get_subideology_adj
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism_ADJ }
+	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
+	text = { localization_key = bvlapdapldwp }
+}

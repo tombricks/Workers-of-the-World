@@ -14,8 +14,11 @@
  Reactionism: "Reactionary"
  Reactionism_desc: "Reactionary Regime"
  Reactionism_noun: "Reactionism"
- Arab_Socialism_subtype: "Arab Socialism"
- Arab_Socialism_subtype_desc: "Arab Socialism"
  
  TITLE_General_Secretary: "General Secretary"
  TITLE_Second_Secretary: "Second Secretary"
+ # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
+ 
+ IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
+ IDEOLOGY_Marxism_Leninism_ADJ: "Marxist-Leninist"
+ # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
