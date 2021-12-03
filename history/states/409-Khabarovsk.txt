@@ -11,6 +11,7 @@ state = {
 
 	history = {
 		owner = RUS
+		add_core_of = RUS
 		victory_points = {
 			12189 1
 		}
@@ -22,7 +23,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		# SOV
+		
 		# FER
 		# VLA
 	}

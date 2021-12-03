@@ -1,0 +1,9 @@
+﻿l_english:
+### Country Names and Cosmetics
+ ARM: "Armenia"
+ ARM_DEF: "Armenia"
+ ARM_ADJ: "Armenian" 
+ 
+ ARM_SSR: "Armenian Soviet Socialist Republic"
+ ARM_SSR_DEF: "the Armenian Soviet Socialist Republic"
+ ARM_SSR_ADJ: "Armenian" 

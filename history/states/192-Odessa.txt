@@ -21,7 +21,7 @@ state = {
 				coastal_bunker = 1
 			}
 		}
-		# SOV
+		
 		# UKR
 		1939.1.1 = {
 			buildings = {

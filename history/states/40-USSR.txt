@@ -8,11 +8,12 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		# SOV
+		
 		# ALT #Could be a claim too
 		1939.1.1 = {
 			buildings = {

@@ -15,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		# SOV
+		
 		# UKR
 	}
 

@@ -30,3 +30,39 @@ BLR = {
 	color = rgb { 93 69 168 }
 	color_ui = rgb { 93 69 168 }
 }
+GEO = {
+	color = rgb { 191 153 149 }
+	color_ui = rgb { 191 153 149 }
+}
+ARM = {
+	color = rgb { 157 32 24 }
+	color_ui = rgb { 157 32 24 }
+}
+AZR = {
+	color = rgb { 206 181 97 }
+	color_ui = rgb { 206 181 97 }
+}
+KAZ = {
+	color = rgb { 79 157 158 }
+	color_ui = rgb { 79 157 158 }
+}
+KYR = {
+	color = rgb { 153 122 141 }
+	color_ui = rgb { 153 122 141 }
+}
+MOL = {
+	color = rgb { 109 51 13 }
+	color_ui = rgb { 109 51 13 }
+}
+TAJ = {
+	color = rgb { 75 115 167 }
+	color_ui = rgb { 75 115 167 }
+}
+TKM = {
+	color = rgb { 75 84 40 }
+	color_ui = rgb { 75 84 40 }
+}
+UZB = {
+	color = rgb { 53 99 99 }
+	color_ui = rgb { 53 99 99 }
+}

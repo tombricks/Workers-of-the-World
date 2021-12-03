@@ -2,10 +2,12 @@
 ### [TAG, country name (generic), adjective, ideology, capital, rrr ggg bbb, common/countries file]
 
 countries = [
-	["EST", "Estonia", "Estonian", "Marxism_Leninism", "812", "90 94 140", "Eastern_European", ["DoSSR"]],
-	["LAT", "Latvia", "Latvian", "Marxism_Leninism", "808", "109 58 70", "Eastern_European", ["DoSSR"]],
-	["LIT", "Lithuania", "Lithuanian", "Marxism_Leninism", "11", "189 122 5", "Eastern_European", ["DoSSR"]],
-	["BLR", "Belarus", "Byelorussian", "Marxism_Leninism", "206", "93 69 168", "Eastern_European", ["DoSSR"]]
+	["KAZ", "Kazakhstan", "Kazakh", "Marxism_Leninism", "583", "79 157 158", "Asian", ["DoSSR"]],
+	["KYR", "Kyrgyzstan", "Kyrgrz", "Marxism_Leninism", "732", "153 122 141", "Asian", ["DoSSR"]],
+	["MOL", "Moldova", "Moldavian", "Marxism_Leninism", "78", "109 51 13", "Eastern_European", ["DoSSR"]],
+	["TAJ", "Tajikistan", "Tajik", "Marxism_Leninism", "742", "75 115 167", "Asian", ["DoSSR"]],
+	["TKM", "Turkmenistan", "Turkmen", "Marxism_Leninism", "584", "75 84 40", "Asian", ["DoSSR"]],
+	["UZB", "Uzbekistan", "Uzbek", "Marxism_Leninism", "405", "53 99 99", "Asian", ["DoSSR"]]
 ]
 
 from shutil import copyfile
@@ -20,11 +22,13 @@ for country in countries:
 
 	FileLoc.write('\ufeff')
 	FileLoc.write(F"""l_english:
+### Country Names and Cosmetics
  {country[0]}: "{country[1]}"
  {country[0]}_DEF: "{country[1]}"
  {country[0]}_ADJ: "{country[2]}" """)
 	if "DoSSR" in country[7]:
-		FileLoc.write(F"""l_english:
+		FileLoc.write(F"""
+ 
  {country[0]}_SSR: "{country[2]} Soviet Socialist Republic"
  {country[0]}_SSR_DEF: "the {country[2]} Soviet Socialist Republic"
  {country[0]}_SSR_ADJ: "{country[2]}" """)

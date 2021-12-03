@@ -205,10 +205,26 @@ d_create_army = {
 	set_temp_variable = { i = 0 }
 	while_loop_effect = {
 		limit = { check_variable = { i < num_of_divs } }
-		random_owned_state = {
-			create_unit = {
-				division = "name = \"Infantry Unit\" division_template = \"Infantry Unit\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-				owner = PREV
+		if = {
+			limit = {
+				has_autonomy_state = Autonomy_Autonomous_Zone
+				is_subject_of = RUS
+			}
+			RUS = {
+				random_owned_state = {
+					create_unit = {
+						division = "name = \"Infantry Unit\" division_template = \"Infantry Unit\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+						owner = PREV
+					}
+				}
+			}
+			else = {
+				random_owned_state = {
+					create_unit = {
+						division = "name = \"Infantry Unit\" division_template = \"Infantry Unit\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+						owner = PREV
+					}
+				}
 			}
 		}
 		add_to_temp_variable = { i = 1 }

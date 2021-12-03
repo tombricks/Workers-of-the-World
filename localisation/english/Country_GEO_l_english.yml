@@ -1,0 +1,9 @@
+﻿l_english:
+### Country Names and Cosmetics
+ GEO: "Georgia"
+ GEO_DEF: "Georgia"
+ GEO_ADJ: "Georgian" 
+ 
+ GEO_SSR: "Georgian Soviet Socialist Republic"
+ GEO_SSR_DEF: "the Georgian Soviet Socialist Republic"
+ GEO_SSR_ADJ: "Georgian" 

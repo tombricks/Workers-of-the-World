@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			6232 1
 		}
-		# SOV
+		
 		# BLR
 	}
 

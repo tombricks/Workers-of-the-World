@@ -8,10 +8,11 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 1
 		}
-		# SOV
+		
 		# ALT
 		victory_points = {
 			4800 1 #Oyrot-Tura/Gorno-Altaysk

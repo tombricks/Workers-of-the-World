@@ -3,7 +3,8 @@ state = {
 	name = "STATE_231"
 
 	history = {
-		owner = ZZZ
+		owner = GEO
+		add_core_of = GEO
 		victory_points = {
 			1599 5 
 		}
@@ -21,7 +22,7 @@ state = {
 			}
 
 		}
-		# SOV
+		
 		# GEO
 		1939.1.1 = {
 			buildings = {

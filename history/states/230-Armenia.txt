@@ -3,7 +3,8 @@ state={
 	name="STATE_230"
 
 	history={
-		owner = ZZZ
+		owner = ARM
+		add_core_of = ARM
 		victory_points = {
 			12320 3
 		}
@@ -16,7 +17,7 @@ state={
 			air_base = 2
 
 		}
-		# SOV
+		
 		# ARM
 		1939.1.1 = {
 			buildings = {

@@ -5,6 +5,7 @@ state = {
 
 	history = {
 		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 1
 			12207 = {
@@ -13,7 +14,7 @@ state = {
 			}
 
 		}
-		# SOV
+		
 		# FER
 	}
 

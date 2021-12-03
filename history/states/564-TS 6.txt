@@ -13,6 +13,7 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
 		victory_points = {
 			7835 2 
 		}
@@ -23,7 +24,7 @@ state={
 			infrastructure = 2
 
 		}
-		# SOV
+		
 		# BYA
 	}
 

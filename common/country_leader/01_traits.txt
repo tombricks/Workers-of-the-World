@@ -1,6 +1,8 @@
 leader_traits = {
-	temp_trait = { random = no }
-	
 	TITLE_General_Secretary = { random = no }
 	TITLE_Second_Secretary = { random = no }
+	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
+
+	IDEOLOGY_Marxism_Leninism = { random = no }
+	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 }

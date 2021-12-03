@@ -14,11 +14,12 @@ state={
 			10329 1
 		}
 		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 2
 
 		}
-		# SOV
+		
 	}
 
 	provinces={

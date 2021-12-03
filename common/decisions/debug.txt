@@ -1,2 +1,28 @@
 debug_decisions = {
+	debug_Dissolve_the_USSR = {
+		allowed = { 
+			always = yes
+		}
+
+		complete_effect = {
+			RUS = {
+				drop_cosmetic_tag = yes
+				every_country = {
+					limit = {
+						is_subject_of = RUS
+						has_autonomy_state = Autonomy_Autonomous_Zone
+					}
+					RUS = {
+						set_autonomy = {
+							target = PREV
+							autonomy_state = autonomy_free
+						}
+					}
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+		
+		fire_only_once = yes
+	}
 }

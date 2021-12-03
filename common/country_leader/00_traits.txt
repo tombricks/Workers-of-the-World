@@ -3,6 +3,7 @@
 @tier3 = 10
 
 leader_traits = {
+	temp_trait = { random = no }
 	council_of_theorists = {
 		sprite = 14
 		experience_gain_army = 0.03

@@ -9,7 +9,8 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = RUS # owner = JAP
+		owner = RUS
+		add_core_of = RUS # owner = JAP
 		# JAP
 		
 		buildings = {

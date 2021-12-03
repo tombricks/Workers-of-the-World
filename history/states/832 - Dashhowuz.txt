@@ -4,7 +4,8 @@ state = {
 
 	history = {
 	
-		owner = ZZZ
+		owner = TKM
+		add_core_of = TKM
 		
 		victory_points = {
 			1493 1
@@ -16,7 +17,7 @@ state = {
 
 		}
 		
-		# SOV
+		
 		# TMS
 		# KHI
 

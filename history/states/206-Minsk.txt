@@ -20,7 +20,7 @@ state={
 			industrial_complex = 2
 			air_base = 8
 		}
-		# SOV
+		
 		# BLR
 		1939.1.1 = {
 			buildings = {

@@ -9,7 +9,7 @@ state=
 	history = {	
 		owner = FIN
 		add_core_of = FIN
-		add_core_of = RUS
+		
 		buildings = {
 			infrastructure = 2
 		}

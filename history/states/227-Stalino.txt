@@ -15,7 +15,7 @@ state={
 		victory_points = {
 			6474 10
 		}
-		# SOV
+		
 		# UKR
 	}
 
