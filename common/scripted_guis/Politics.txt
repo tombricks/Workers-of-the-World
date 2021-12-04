@@ -1,0 +1,33 @@
+scripted_gui = {
+	Politics_Scripted_GUI = {
+		context_type = player_context
+		window_name = "Politics_Scripted_GUI_window"
+		parent_window_token = politics_tab
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			ideology_icon = {
+				image = "[get_subideology_icon]"
+			}
+		}
+	}
+	#Diplomatic_Scripted_GUI = {
+	#	context_type = selected_country_context
+	#	window_name = "Diplomatic_Scripted_GUI_window"
+	#	parent_window_token = selected_country_view_diplomacy
+	#
+	#	visible = {
+	#		always = yes
+	#	}
+	#
+	#	properties = {
+	#		ideology_icon = {
+	#			image = "[GetIdeologyIcon]"
+	#		}
+	#	}
+	#
+	#}
+}

@@ -6,9 +6,8 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = ZZZ # owner = FRA
-		# CHI
-		# PRC
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			11981 = {

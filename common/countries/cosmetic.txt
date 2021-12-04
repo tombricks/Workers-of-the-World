@@ -1,0 +1,8 @@
+RUS_Stalinist = {
+	color = rgb { 102 6 6 }
+	color_ui = rgb { 102 6 6 }
+}
+RUS_RSR = {
+	color = rgb { 80 124 159 }
+	color_ui = rgb { 80 124 159 }
+}

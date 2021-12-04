@@ -82,8 +82,18 @@ set_popularities = {
 
 recruit_character = RUS_Yegor_Ligachyov
 recruit_character = RUS_Grigory_Romanov
+recruit_character = RUS_Viktor_Grishin
+recruit_character = RUS_Yevgeny_Stalin
+recruit_character = RUS_Viktor_Anpilov
+recruit_character = RUS_Nina_Andreyeva
+
+RUS_Viktor_Grishin = { set_character_flag = RUS_Stalinist }
+RUS_Yevgeny_Stalin = { set_character_flag = RUS_Stalinist }
+RUS_Viktor_Anpilov = { set_character_flag = RUS_Stalinist }
+RUS_Nina_Andreyeva = { set_character_flag = RUS_Stalinist }
 add_ideas = {
 	RUS_Grigory_Romanov 
+	RUS_Viktor_Grishin
 }
 
 create_faction = RUS_UN_FACTION

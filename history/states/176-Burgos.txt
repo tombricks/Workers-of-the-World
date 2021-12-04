@@ -3,7 +3,8 @@ state={
 	name="STATE_176"
 
 	history={
-		owner = ZZZ # owner = SPR
+		owner = SPR
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1

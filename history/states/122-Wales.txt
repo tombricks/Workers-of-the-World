@@ -12,7 +12,8 @@ state= {
 
 	history=
 	{
-		owner = ZZZ # owner = ENG
+		owner = ENG
+		add_core_of = ENG
 		victory_points = {
 			407 3 #Swansea
 		}

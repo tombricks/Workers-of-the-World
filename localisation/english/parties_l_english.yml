@@ -1,7 +1,7 @@
 ﻿l_english:
  Hypersocialism: "Hypersocialist"
  Hypersocialism_desc: "Hypersocialist Regime"
- Hypersocialism_noun: "Hyper Socialism"
+ Hypersocialism_noun: "Hypersocialism"
  Marxism_Leninism: "Marxist-Leninist"
  Marxism_Leninism_desc: "Marxist-Leninist Regime"
  Marxism_Leninism_noun: "Marxism-Leninism"
@@ -20,6 +20,7 @@
  TITLE_Chairman: "Chairman"
  TITLE_Acting_General_Secretary: "Acting General Secretary"
  TITLE_President: "President"
+ TITLE_Stalin_Head: "Head of the Union, Chairman of the Presidium and Supreme Commander-in-Chief of the Armed Forces"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
@@ -28,4 +29,14 @@
  IDEOLOGY_Iosif_Stalin_Thought_ADJ: "Iosif Stalin Thought"
  IDEOLOGY_Marxism_Leninism_Maoism: "Marxism-Leninism-Maoism"
  IDEOLOGY_Marxism_Leninism_Maoism_ADJ: "Marxist-Leninist-Maoist"
+ IDEOLOGY_Military_Junta: "Military Junta"
+ IDEOLOGY_Military_Junta_ADJ: "Military Junta"
+ IDEOLOGY_Libertarian_Socialism: "Libertarian Socialism"
+ IDEOLOGY_Libertarian_Socialism_ADJ: "Libertarian Socialist"
+ IDEOLOGY_Marxism_Leninism_Hoxhaism: "Marxism-Leninism-Hoxhaism"
+ IDEOLOGY_Marxism_Leninism_Hoxhaism_ADJ: "Marxist-Leninist-Hoxhaist"
+ IDEOLOGY_Islamic_Marxism: "Islamic Marxism"
+ IDEOLOGY_Islamic_Marxism_ADJ: "Islamic Marxist"
+ IDEOLOGY_National_Bolshevism: "National Bolshevism"
+ IDEOLOGY_National_Bolshevism_ADJ: "National Bolshevik"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!

@@ -2,12 +2,9 @@
 ### [TAG, country name (generic), adjective, ideology, capital, rrr ggg bbb, common/countries file]
 
 countries = [
-	["KAZ", "Kazakhstan", "Kazakh", "Marxism_Leninism", "583", "79 157 158", "Asian", ["DoSSR"]],
-	["KYR", "Kyrgyzstan", "Kyrgrz", "Marxism_Leninism", "732", "153 122 141", "Asian", ["DoSSR"]],
-	["MOL", "Moldova", "Moldavian", "Marxism_Leninism", "78", "109 51 13", "Eastern_European", ["DoSSR"]],
-	["TAJ", "Tajikistan", "Tajik", "Marxism_Leninism", "742", "75 115 167", "Asian", ["DoSSR"]],
-	["TKM", "Turkmenistan", "Turkmen", "Marxism_Leninism", "584", "75 84 40", "Asian", ["DoSSR"]],
-	["UZB", "Uzbekistan", "Uzbek", "Marxism_Leninism", "405", "53 99 99", "Asian", ["DoSSR"]]
+	["BEL", "Belgium", "Belgian", "Marxism_Leninism", "6", "193 171 8", "Western_European", [], "Belgian Republic", "the Belgian Republic"],
+	["HOL", "Netherlands", "Dutch", "Marxism_Leninism", "7", "203 138 74", "Western_European", [], "Dutch Federal Socialist Republic", "the Dutch Federal Socialist Republic"],
+	["LUX", "Luxembourg", "Luxembourg", "Hypersocialism", "8", "101 156 184", "Western_European", [], "Luxembourg Soviet Republic", "the Luxembourg Soviet Republic"]
 ]
 
 from shutil import copyfile
@@ -25,7 +22,20 @@ for country in countries:
 ### Country Names and Cosmetics
  {country[0]}: "{country[1]}"
  {country[0]}_DEF: "{country[1]}"
- {country[0]}_ADJ: "{country[2]}" """)
+ {country[0]}_ADJ: "{country[2]}" 
+ 
+ {country[0]}_Hypersocialism: "{country[8]}"
+ {country[0]}_Hypersocialism_DEF: "{country[9]}"
+ {country[0]}_Hypersocialism_ADJ: "{country[2]}" 
+ {country[0]}_Marxism_Leninism: "{country[8]}"
+ {country[0]}_Marxism_Leninism_DEF: "{country[9]}"
+ {country[0]}_Marxism_Leninism_ADJ: "{country[2]}" 
+ {country[0]}_New_Marxism: "{country[8]}"
+ {country[0]}_New_Marxism_DEF: "{country[9]}"
+ {country[0]}_New_Marxism_ADJ: "{country[2]}" 
+ {country[0]}_Reformist_Socialism: "{country[8]}"
+ {country[0]}_Reformist_Socialism_DEF: "{country[9]}"
+ {country[0]}_Reformist_Socialism_ADJ: "{country[2]}" """)
 	if "DoSSR" in country[7]:
 		FileLoc.write(F"""
  

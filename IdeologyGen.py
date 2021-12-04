@@ -1,6 +1,5 @@
 ideologies = [
-	["Iosif_Stalin_Thought", "Iosif Stalin Thought", "Iosif Stalin Thought"],
-	["Marxism_Leninism_Maoism", "Marxism-Leninism-Maoism", "Marxist-Leninist-Maoist"]
+	#["Military_Junta", "Military Junta", "Military Junta"]
 ]
 
 # TRAITS

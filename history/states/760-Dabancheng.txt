@@ -8,10 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		owner = ZZZ # owner = SIK
-		# SIK
-		# CHI
-		# PRC
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

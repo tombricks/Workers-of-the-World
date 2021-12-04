@@ -311,3 +311,25 @@ d_list_characters = {
 		log = "[THIS.GetName]"
 	}
 }
+d_demote_country_leader = {
+	retire_country_leader = yes
+}
+d_world_ussr = {
+	every_country = {
+		limit = {
+			NOT = {
+				tag = RUS
+			}
+			NOT = {
+				tag = ZZZ
+			}
+		}
+		RUS = {
+			set_autonomy = {
+				target = PREV
+				autonomy_state = Autonomy_Autonomous_Zone
+			}
+		}
+		set_cosmetic_tag = COUNTRY_SOVIET_SOCIALIST_REPUBLIC
+	}
+}

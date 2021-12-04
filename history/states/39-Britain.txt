@@ -14,7 +14,8 @@ state={
 		victory_points = {
 			11598 1
 		}
-		owner = ZZZ # owner = ITA
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

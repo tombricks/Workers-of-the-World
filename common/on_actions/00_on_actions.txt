@@ -36,4 +36,30 @@ on_actions = {
 			}
 		}
 	}
+
+	
+	on_puppet = { # Yes
+		effect = {
+			log = "Puppeted: [ROOT.GetNameWithFlag] ([ROOT.GetTag])"
+			if = {
+				limit = {
+					is_subject_of = RUS
+					has_autonomy_state = Autonomy_Autonomous_Zone
+				}
+				set_cosmetic_tag = COUNTRY_Soviet_Socialist_Republic
+			}
+		}
+	}
+	on_release_as_puppet = { # Yes
+		effect = {
+			log = "Released as Puppet: [ROOT.GetNameWithFlag] ([ROOT.GetTag])"
+			if = {
+				limit = {
+					is_subject_of = RUS
+					has_autonomy_state = Autonomy_Autonomous_Zone
+				}
+				set_cosmetic_tag = COUNTRY_Soviet_Socialist_Republic
+			}
+		}
+	}
 }

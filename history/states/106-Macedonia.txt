@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = ZZZ # owner = YUG
+		owner = YUG
+		add_core_of = YUG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -17,9 +18,6 @@ state={
 		victory_points = {
 			3882 5
 		}
-		# YUG
-		# MAC
-		add_claim_by = BUL
 	}
 
 	provinces={

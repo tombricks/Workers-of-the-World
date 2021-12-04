@@ -39,7 +39,7 @@ scripted_map_modes = {
 	}
 	
 	nation_map_mode = {
-		top = {
+		bottom = {
 			type = state
 
 			color = {

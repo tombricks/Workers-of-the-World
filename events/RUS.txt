@@ -1,0 +1,210 @@
+﻿add_namespace = RUS_Stalin_Putsch
+
+country_event = {
+	id = RUS_Stalin_Putsch.1
+	title = RUS_Stalin_Putsch.1.TITLE
+	desc = RUS_Stalin_Putsch.1.DESC
+	picture = GFX_Country_Romanov_Gone
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event RUS_Stalin_Putsch.1" }
+	
+	option = {
+		name = RUS_Stalin_Putsch.1.A
+
+		hidden_effect = {
+			retire_character = RUS_Yegor_Ligachyov # Rip Bozo packwatch rest in piss wont be missed
+			dismantle_faction = yes
+			every_country = {
+				limit = {
+					is_subject_of = PREV
+				}
+				PREV = {
+					set_autonomy = {
+						target = PREV
+						autonomy_state = autonomy_free
+					}
+				}
+				add_to_array = { global.original_SSRs = THIS }
+				set_country_flag = original_ssr
+			}
+
+			RUS_Grigory_Romanov = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = Marxism_Leninism_ideology
+						traits = { TITLE_Acting_General_Secretary IDEOLOGY_Marxism_Leninism }
+						desc = RUS_Grigory_Romanov_leader_desc
+					}
+					promote_leader = yes
+				}
+			}
+
+			set_capital = {
+				state = 572
+				remember_old_capital = yes
+			}
+
+			start_civil_war = {
+				ideology = Marxism_Leninism
+				size = 0.5
+				keep_political_leader = yes
+				keep_political_party_members = yes
+				states = { 233 827 828 821 232 235 234 218 238 237 236 217 245 829 401 251 249 399 400 833 256 250 239 255 252 265 351 248 253 260 240 220 257 258 222 224 223 254 219 205 243 242 246 247 264 244 195 263 208 209 210 }
+				set_capital = {
+					state = 219
+					remember_old_capital = no
+				}
+
+				save_global_event_target_as = RUS_Stalinist
+			}
+			every_character = {
+				limit = { has_character_flag = RUS_Stalinist }
+				PREV = {
+					retire_character = PREV
+					set_nationality = {
+						target_country = RST
+						character = PREV
+					}
+				}
+			}
+			RST = {
+				RUS_Viktor_Grishin = {
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Marxism_Leninism_ideology
+							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Viktor_Grishin_desc
+						}
+						promote_leader = yes
+					}
+				}
+				set_cosmetic_tag = RUS_Stalinist
+				set_country_flag = RUS_stalinist_characters
+				remove_ideas = RUS_Viktor_Grishin
+
+				RUS_Yevgeny_Stalin = {
+					add_advisor_role = {
+						advisor = {
+							slot = political_advisor
+							idea_token = RUS_Yevgeny_Stalin
+							allowed = {
+								original_tag = RUS
+							}
+							available = {
+								has_country_flag = RUS_stalinist_characters
+							}
+							on_add = {
+								log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Yevgeny_Stalin"
+							}
+							on_remove = {
+								log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Yevgeny_Stalin"
+							}
+							traits = { TITLE_Stalin_Head }
+						}
+						activate = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Marxism_Leninism_ideology
+							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Yevgeny_Stalin_desc
+						}
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Hypersocialism_ideology
+							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Yevgeny_Stalin_desc
+						}
+					}
+				}
+				RUS_Viktor_Anpilov = {
+					add_advisor_role = {
+						advisor = {
+							slot = political_advisor
+							idea_token = RUS_Viktor_Anpilov
+							allowed = {
+								original_tag = RUS
+							}
+							available = {
+								has_country_flag = RUS_stalinist_characters
+							}
+							on_add = {
+								log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Viktor_Anpilov"
+							}
+							on_remove = {
+								log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Viktor_Anpilov"
+							}
+							traits = { TITLE_General_Secretary }
+						}
+						activate = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Marxism_Leninism_ideology
+							traits = { TITLE_General_Secretary IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Viktor_Anpilov_desc
+						}
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Hypersocialism_ideology
+							traits = { TITLE_General_Secretary IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Viktor_Anpilov_desc
+						}
+					}
+				}
+				RUS_Nina_Andreyeva = {
+					add_advisor_role = {
+						advisor = {
+							slot = political_advisor
+							idea_token = RUS_Nina_Andreyeva
+							allowed = {
+								original_tag = RUS
+							}
+							available = {
+								has_country_flag = RUS_stalinist_characters
+							}
+							on_add = {
+								log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Nina_Andreyeva"
+							}
+							on_remove = {
+								log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Nina_Andreyeva"
+							}
+							traits = { TITLE_Second_Secretary }
+						}
+						activate = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Marxism_Leninism_ideology
+							traits = { TITLE_Second_Secretary IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Nina_Andreyeva_desc
+						}
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Hypersocialism_ideology
+							traits = { TITLE_Second_Secretary IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Nina_Andreyeva_desc
+						}
+					}
+				}
+
+				add_ideas = RUS_Yevgeny_Stalin
+				add_ideas = RUS_Viktor_Anpilov
+				add_ideas = RUS_Nina_Andreyeva
+
+				set_party_name = {
+					ideology = Marxism_Leninism
+					name = RUS_Hypersocialism_party
+					long_name = RUS_Hypersocialism_party_long
+				}
+			}
+
+			drop_cosmetic_tag = yes
+			set_cosmetic_tag = RUS_RSR
+		}
+	}
+}

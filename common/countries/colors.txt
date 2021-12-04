@@ -66,3 +66,91 @@ UZB = {
 	color = rgb { 53 99 99 }
 	color_ui = rgb { 53 99 99 }
 }
+POL = {
+	color = rgb { 135 71 71 }
+	color_ui = rgb { 135 71 71 }
+}
+GER = {
+	color = rgb { 178 22 22 }
+	color_ui = rgb { 178 22 22 }
+}
+CZE = {
+	color = rgb { 33 68 120 }
+	color_ui = rgb { 33 68 120 }
+}
+FRA = {
+	color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+PRC = {
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 245 12 55 }
+}
+MON = {
+	color = rgb { 121 93 150 }
+	color_ui = rgb { 121 93 150 }
+}
+AUS = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 194 198 215 }
+}
+YUG = {
+	color = rgb { 80 69 111 }
+	color_ui = rgb { 80 69 111 }
+}
+HUN = {
+	color = rgb { 64 118 118 }
+	color_ui = rgb { 64 118 118 }
+}
+ROM = {
+	color = rgb { 216 172 0 }
+	color_ui = rgb { 216 172 0 }
+}
+BUL = {
+	color = rgb { 0 130 132 }
+	color_ui = rgb { 0 130 132 }
+}
+ALB = {
+	color = rgb { 74 11 19 }
+	color_ui = rgb { 74 11 19 }
+}
+GRE = {
+	color = rgb { 133 46 50 }
+	color_ui = rgb { 133 46 50 }
+}
+SWI = {
+	color = rgb { 38 34 25 }
+	color_ui = rgb { 38 34 25 }
+}
+SPR = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 242 205 94 }
+}
+POR = {
+	color = rgb { 0 124 69 }
+	color_ui = rgb { 0 124 69 }
+}
+ENG = {
+	color = rgb { 220 20 60 }
+	color_ui = rgb { 220 20 60 }
+}
+IRE = {
+	color = rgb { 80 200 124 }
+	color_ui = rgb { 80 200 124 }
+}
+ITA = {
+	color = rgb { 68 154 37 }
+	color_ui = rgb { 68 154 37 }
+}
+BEL = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 193 171 8 }
+}
+HOL = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 203 138 74 }
+}
+LUX = {
+	color = rgb { 101 156 184 }
+	color_ui = rgb { 101 156 184 }
+}

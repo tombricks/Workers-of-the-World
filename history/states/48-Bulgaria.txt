@@ -11,7 +11,8 @@ state={
 	state_category = city
 
 	history={
-		owner = ZZZ # owner = BUL
+		owner = BUL
+		add_core_of = BUL
 		victory_points = { #Sofia
 			949 15 
 		}

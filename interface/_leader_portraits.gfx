@@ -3,4 +3,17 @@ spriteTypes = {
 		name = "GFX_Portrait_RUS_Yegor_Ligachyov"
 		texturefile = "gfx/leaders/RUS/Yegor Ligachev.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_minister_Yegor_Ligachev"
+		texturefile = "gfx/interface/ideas/ministers/Yegor Ligachev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Viktor_Grishin"
+		texturefile = "gfx/leaders/RUS/Viktor Grishin.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_minister_Viktor_Grishin"
+		texturefile = "gfx/interface/ideas/ministers/Viktor Grishin.dds"
+	}
 }

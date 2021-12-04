@@ -21,7 +21,8 @@ state={
 		victory_points = {
 			1205 1
 		}
-		owner = ZZZ # owner = GRE
+		owner = GRE
+		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

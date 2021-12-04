@@ -7,9 +7,8 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = ZZZ # owner = CHI
-		# CHI
-		# PRC
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1

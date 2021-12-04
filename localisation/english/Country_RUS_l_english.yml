@@ -7,6 +7,14 @@
  RUS_USSR: "Union of Soviet Socialist Republics"
  RUS_USSR_DEF: "the Union of Soviet Socialist Republics"
  RUS_USSR_ADJ: "Soviet"
+ 
+ RUS_RSR: "Provisional Government of the Russian Soviet Republic"
+ RUS_RSR_DEF: "the Provisional Government of the Russian Soviet Republic"
+ RUS_RSR_ADJ: "Russian"
+ 
+ RUS_Stalinist: "Russian Socialist Federative Soviet Republic"
+ RUS_Stalinist_DEF: "the Russian Socialist Federative Soviet Republic"
+ RUS_Stalinist_ADJ: "Russian"
 
 ### Parties
  RUS_Hypersocialism_party: "VKP(b)"
@@ -21,10 +29,27 @@
  RUS_Reactionism_party_long: ""
 
 ### Special
- RUS_CPSU_Conservative: "§R£RUS_CPSU_Conservative_texticon Conservative Member of the CPSU§!\nConservative members of the Communist Party of the Soviet Union are against proposed reforms though also tend to be less radical than the Stalinite wings of the party. They see the USSR as the strongest world power and the vanguard of international communism, and seek to uphold Marxism-Leninism against all threats, domestic and abroad."
  RUS_UN_FACTION: "United Nations"
+ RUS_stalinist_characters: "Can use §RStalinist§! Characters"
 
 ### Characters
+ RUS_CPSU_Conservative: "§R£RUS_CPSU_Conservative_texticon Conservative Member of the CPSU§!\nConservative members of the Communist Party of the Soviet Union are against proposed reforms though also tend to be less radical than the Stalinite wings of the party. They see the USSR as the strongest world power and the vanguard of international communism, and seek to uphold Marxism-Leninism against all threats, domestic and abroad."
+
  RUS_Yegor_Ligachyov: "Yegor Ligachyov"
  RUS_Yegor_Ligachyov_desc: "$RUS_CPSU_Conservative$"
+
  RUS_Grigory_Romanov: "Grigory Romanov"
+ RUS_Grigory_Romanov_desc: ""
+ RUS_Grigory_Romanov_leader_desc: ""
+
+ RUS_Viktor_Grishin: "Viktor Grishin"
+ RUS_Viktor_Grishin_desc: ""
+ 
+ RUS_Yevgeny_Stalin: "Yevgeny Stalin" # LETS FUCKING GOOOOOO
+ RUS_Yevgeny_Stalin_desc: ""
+ 
+ RUS_Viktor_Anpilov: "Viktor Anpilov"
+ RUS_Viktor_Anpilov_desc: ""
+ 
+ RUS_Nina_Andreyeva: "Nina Andreyeva"
+ RUS_Nina_Andreyeva_desc: ""

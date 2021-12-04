@@ -1,13 +1,4 @@
-RSR = {
-	global_event_target = RUS_RSR
+RST = {
+	global_event_target = RUS_Stalinist
 	fallback = RUS
-}
-FDJ = {
-	global_event_target = GER_FDJ
-	fallback = GER
-}
-SFL = {
-	check_variable = { FROM.Sphere_Leader = THIS }
-	targets = { RUS CHI USA }
-	fallback = FROM
 }
