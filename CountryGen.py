@@ -2,9 +2,49 @@
 ### [TAG, country name (generic), adjective, ideology, capital, rrr ggg bbb, common/countries file]
 
 countries = [
-	["BEL", "Belgium", "Belgian", "Marxism_Leninism", "6", "193 171 8", "Western_European", [], "Belgian Republic", "the Belgian Republic"],
-	["HOL", "Netherlands", "Dutch", "Marxism_Leninism", "7", "203 138 74", "Western_European", [], "Dutch Federal Socialist Republic", "the Dutch Federal Socialist Republic"],
-	["LUX", "Luxembourg", "Luxembourg", "Hypersocialism", "8", "101 156 184", "Western_European", [], "Luxembourg Soviet Republic", "the Luxembourg Soviet Republic"]
+	["DEN",
+	"Denmark",
+	"Danish",
+	"Marxism_Leninism",
+	"37",
+	"120 81 54",
+	"Western_European",
+	[],
+	"Socialist Republic of Denmark",
+	"the Socialist Republic of Denmark"],
+	
+	["SWE",
+	"Sweden",
+	"Swedish",
+	"Marxism_Leninism",
+	"141",
+	"43 104 162",
+	"Western_European",
+	[],
+	"Swedish Democratic Republic",
+	"the Swedish Democratic Republic"],
+	
+	["NOR",
+	"Norway",
+	"Norwegian",
+	"Marxism_Leninism",
+	"110",
+	"77 87 52",
+	"Western_European",
+	[],
+	"Norwegian Democratic Republic",
+	"the Norwegian Democratic Republic"],
+	
+	["MLT",
+	"Malta",
+	"Maltese",
+	"Marxism_Leninism",
+	"116",
+	"140 68 115",
+	"Western_European",
+	[],
+	"People's Republic of Malta",
+	"the People's Republic of Malta"]
 ]
 
 from shutil import copyfile

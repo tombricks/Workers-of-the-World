@@ -1,0 +1,30 @@
+characters={
+	ALB_Enver_Hoxha = {
+		name = ALB_Enver_Hoxha
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ALB_Enver_Hoxha"
+			}
+			army = {
+				small = "GFX_idea_minister_Enver_Hoxha"
+			}
+		}
+		
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_First_Secretary IDEOLOGY_Proletarianism }
+			desc = ALB_Enver_Hoxha_desc
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_First_Secretary IDEOLOGY_Proletarianism }
+			desc = ALB_Enver_Hoxha_desc
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}

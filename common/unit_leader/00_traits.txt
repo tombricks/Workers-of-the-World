@@ -107,7 +107,6 @@ leader_traits = {
 	
 				modifier = {
 					is_army_leader = yes
-					FROM = { has_idea = best_of_the_best_spirit }
 					factor = 0
 				}
 			}
@@ -127,16 +126,13 @@ leader_traits = {
 				
 				modifier = {
 					is_army_leader = yes
-					FROM = { has_idea = best_of_the_best_spirit }
 					factor = 0
 				}
 				modifier = {
 					is_navy_leader = yes
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -319,7 +315,6 @@ leader_traits = {
 				factor = 1
 				
 				modifier = {
-					FROM = { has_idea = mobile_warfare_academy_spirit }
 					factor = 1.5 
 				}
 	
@@ -339,7 +334,6 @@ leader_traits = {
 				factor = 1
 				
 				modifier = {
-					FROM = { has_idea = superior_firepower_academy_spirit }
 					factor = 2
 				}
 	
@@ -903,7 +897,6 @@ leader_traits = {
 				factor = 100
 				#modifier = {
 				#	factor = 0
-				#	FROM = { NOT = { has_idea = theatre_training_spirit } }
 				#}
 			}
 			
@@ -2184,11 +2177,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2207,11 +2198,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2232,11 +2221,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2255,11 +2242,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2277,11 +2262,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2300,11 +2283,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2323,11 +2304,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2345,11 +2324,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2368,11 +2345,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2393,11 +2368,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2415,11 +2388,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2438,11 +2409,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}
@@ -2461,11 +2430,9 @@ leader_traits = {
 			new_commander_weight = {
 				factor = 1  
 				modifier = {
-					FROM = { has_idea = best_of_the_best_naval_academy_spirit }
 					factor = 0
 				}
 				modifier = {
-					FROM = { has_idea = naval_academy_scholarships_spirit }
 					factor = 0
 				}
 			}

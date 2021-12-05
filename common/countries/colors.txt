@@ -154,3 +154,19 @@ LUX = {
 	color = rgb { 101 156 184 }
 	color_ui = rgb { 101 156 184 }
 }
+DEN = {
+	color = rgb { 120 81 54 }
+	color_ui = rgb { 120 81 54 }
+}
+SWE = {
+	color = rgb { 43 104 162 }
+	color_ui = rgb { 43 104 162 }
+}
+NOR = {
+	color = rgb { 77 87 52 }
+	color_ui = rgb { 77 87 52 }
+}
+MLT = {
+	color = rgb { 140 68 115 }
+	color_ui = rgb { 140 68 115 }
+}

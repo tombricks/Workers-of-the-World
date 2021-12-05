@@ -1,5 +1,5 @@
 ideologies = [
-	#["Military_Junta", "Military Junta", "Military Junta"]
+	["Proletarianism", "Proletarianism", "Proletarianist"]
 ]
 
 # TRAITS

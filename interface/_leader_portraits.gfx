@@ -16,4 +16,49 @@ spriteTypes = {
 		name = "GFX_idea_minister_Viktor_Grishin"
 		texturefile = "gfx/interface/ideas/ministers/Viktor Grishin.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Grigory_Romanov"
+		texturefile = "gfx/leaders/RUS/Grigory Romanov.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_minister_Grigory_Romanov"
+		texturefile = "gfx/interface/ideas/ministers/Grigory Romanov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Yevgeny_Stalin"
+		texturefile = "gfx/leaders/RUS/Yevgeny Stalin.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_minister_Yevgeny_Stalin"
+		texturefile = "gfx/interface/ideas/ministers/Yevgeny Stalin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Nina_Andreyeva"
+		texturefile = "gfx/leaders/RUS/Nina Andreyeva.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_minister_Nina_Andreyeva"
+		texturefile = "gfx/interface/ideas/ministers/Nina Andreyeva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Viktor_Anpilov"
+		texturefile = "gfx/leaders/RUS/Viktor Anpilov.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_minister_Viktor_Anpilov"
+		texturefile = "gfx/interface/ideas/ministers/Viktor Anpilov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_ALB_Enver_Hoxha"
+		texturefile = "gfx/leaders/ALB/Enver Hoxha.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_minister_Enver_Hoxha"
+		texturefile = "gfx/interface/ideas/ministers/Enver Hoxha.dds"
+	}
 }

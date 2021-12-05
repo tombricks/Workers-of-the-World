@@ -24,8 +24,11 @@ characters = {
 		name = RUS_Grigory_Romanov
 
 		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RUS_Grigory_Romanov"
+			}
 			army = {
-				small = "GFX_idea_minister_Yegor_Ligachev"
+				small = "GFX_idea_minister_Grigory_Romanov"
 			}
 		}
 
@@ -47,7 +50,7 @@ characters = {
 
 	RUS_Viktor_Grishin = {
 		name = RUS_Viktor_Grishin
-		
+
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_RUS_Viktor_Grishin"
@@ -87,30 +90,39 @@ characters = {
 
 	RUS_Yevgeny_Stalin = {
 		name = RUS_Yevgeny_Stalin
-		
+
 		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RUS_Yevgeny_Stalin"
+			}
 			army = {
-				small = "GFX_idea_minister_Yegor_Ligachev"
+				small = "GFX_idea_minister_Yevgeny_Stalin"
 			}
 		}
 	}
 
 	RUS_Viktor_Anpilov = {
 		name = RUS_Viktor_Anpilov
-		
+
 		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RUS_Viktor_Anpilov"
+			}
 			army = {
-				small = "GFX_idea_minister_Yegor_Ligachev"
+				small = "GFX_idea_minister_Viktor_Anpilov"
 			}
 		}
 	}
 	
 	RUS_Nina_Andreyeva = {
 		name = RUS_Nina_Andreyeva
-		
+
 		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RUS_Nina_Andreyeva"
+			}
 			army = {
-				small = "GFX_idea_minister_Yegor_Ligachev"
+				small = "GFX_idea_minister_Nina_Andreyeva"
 			}
 		}
 	}

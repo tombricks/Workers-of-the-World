@@ -1,5 +1,5 @@
 titles = [
-	["Stalin_Head", "Head of the Union, Chairman of the Presidium and Supreme Commander-in-Chief of the Armed Forces"]
+	["First_Secretary", "First Secretary"]
 ]
 
 # TRAITS

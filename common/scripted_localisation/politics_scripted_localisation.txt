@@ -6,6 +6,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Acting_General_Secretary } localization_key = TITLE_Acting_General_Secretary } # Acting General Secretary
 	text = { trigger = { has_country_leader_with_trait = TITLE_President } localization_key = TITLE_President } # President
 	text = { trigger = { has_country_leader_with_trait = TITLE_Stalin_Head } localization_key = TITLE_Stalin_Head } # Head of the Union, Chairman of the Presidium and Supreme Commander-in-Chief of the Armed Forces
+	text = { trigger = { has_country_leader_with_trait = TITLE_First_Secretary } localization_key = TITLE_First_Secretary } # First Secretary
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { localization_key = TITLE_Default }
 }
@@ -19,6 +20,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } localization_key = IDEOLOGY_Marxism_Leninism_Hoxhaism } # Marxism-Leninism-Hoxhaism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = IDEOLOGY_Islamic_Marxism } # Islamic Marxism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = IDEOLOGY_National_Bolshevism } # National Bolshevism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = IDEOLOGY_Proletarianism } # Proletarianism
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism_noun }
@@ -37,6 +39,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } localization_key = IDEOLOGY_Marxism_Leninism_Hoxhaism_ADJ } # Marxist-Leninist-Hoxhaist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = IDEOLOGY_Islamic_Marxism_ADJ } # Islamic Marxist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = IDEOLOGY_National_Bolshevism_ADJ } # National Bolshevik
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = IDEOLOGY_Proletarianism_ADJ } # Proletarianist
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism }
@@ -47,10 +50,39 @@ defined_text = {
 
 defined_text = {
 	name = get_subideology_icon
-	text = { trigger = { has_government = Hypersocialism } localization_key = GFX_ideology_Hypersocialism_group }
-	text = { trigger = { has_government = Marxism_Leninism } localization_key = GFX_ideology_Marxism_Leninism_group }
-	text = { trigger = { has_government = Reformist_Socialism } localization_key = GFX_ideology_Reformist_Socialism_group }
-	text = { trigger = { has_government = New_Marxism } localization_key = GFX_ideology_New_Marxism_group }
-	text = { trigger = { has_government = Reactionism } localization_key = GFX_ideology_Reactionism_group }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism } localization_key = GFX_ideology_Marxism_Leninism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Iosif_Stalin_Thought } localization_key = GFX_ideology_Stalinism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Maoism } localization_key = GFX_ideology_New_Marxism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Military_Junta } localization_key = GFX_ideology_Military_Junta }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Libertarian_Socialism } localization_key = GFX_ideology_Reformist_Socialism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } localization_key = GFX_ideology_Proletarianism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = GFX_ideology_Islamic_Marxism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = GFX_ideology_National_Bolshevism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = GFX_ideology_Proletarianism }
+
+	text = { trigger = { has_government = Hypersocialism } localization_key = GFX_ideology_Hypersocialism }
+	text = { trigger = { has_government = Marxism_Leninism } localization_key = GFX_ideology_Marxism_Leninism }
+	text = { trigger = { has_government = Reformist_Socialism } localization_key = GFX_ideology_Reformist_Socialism }
+	text = { trigger = { has_government = New_Marxism } localization_key = GFX_ideology_New_Marxism }
 	text = { localization_key = GFX_ideology_unknown }
+}
+
+defined_text = {
+	name = get_ideology
+	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
+	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism_noun }
+	text = { trigger = { has_government = New_Marxism } localization_key = New_Marxism_noun }
+	text = { trigger = { has_government = Reformist_Socialism } localization_key = Reformist_Socialism_noun }
+	text = { trigger = { has_government = Reactionism } localization_key = Reactionism_noun }
+	text = { localization_key = "" }
+}
+
+defined_text = {
+	name = get_ideology_adj
+	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
+	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism }
+	text = { trigger = { has_government = New_Marxism } localization_key = New_Marxism }
+	text = { trigger = { has_government = Reformist_Socialism } localization_key = Reformist_Socialism }
+	text = { trigger = { has_government = Reactionism } localization_key = Reactionism }
+	text = { localization_key = "" }
 }

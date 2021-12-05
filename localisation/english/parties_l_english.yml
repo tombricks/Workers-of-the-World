@@ -21,6 +21,7 @@
  TITLE_Acting_General_Secretary: "Acting General Secretary"
  TITLE_President: "President"
  TITLE_Stalin_Head: "Head of the Union, Chairman of the Presidium and Supreme Commander-in-Chief of the Armed Forces"
+ TITLE_First_Secretary: "First Secretary"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
@@ -39,4 +40,6 @@
  IDEOLOGY_Islamic_Marxism_ADJ: "Islamic Marxist"
  IDEOLOGY_National_Bolshevism: "National Bolshevism"
  IDEOLOGY_National_Bolshevism_ADJ: "National Bolshevik"
+ IDEOLOGY_Proletarianism: "Proletarianism"
+ IDEOLOGY_Proletarianism_ADJ: "Proletarianist"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!

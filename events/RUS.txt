@@ -17,9 +17,9 @@ country_event = {
 			dismantle_faction = yes
 			every_country = {
 				limit = {
-					is_subject_of = PREV
+					is_subject_of = ROOT
 				}
-				PREV = {
+				ROOT = {
 					set_autonomy = {
 						target = PREV
 						autonomy_state = autonomy_free
@@ -46,10 +46,8 @@ country_event = {
 			}
 
 			start_civil_war = {
-				ideology = Marxism_Leninism
+				ideology = Hypersocialism
 				size = 0.5
-				keep_political_leader = yes
-				keep_political_party_members = yes
 				states = { 233 827 828 821 232 235 234 218 238 237 236 217 245 829 401 251 249 399 400 833 256 250 239 255 252 265 351 248 253 260 240 220 257 258 222 224 223 254 219 205 243 242 246 247 264 244 195 263 208 209 210 }
 				set_capital = {
 					state = 219
@@ -69,12 +67,27 @@ country_event = {
 				}
 			}
 			RST = {
+				set_politics = {
+					ruling_party = Marxism_Leninism
+				}
+				set_popularities = {
+					Marxism_Leninism = 50
+					Hypersocialism = 50
+				}
 				RUS_Viktor_Grishin = {
 					add_country_leader_role = {
 						country_leader = {
 							ideology = Marxism_Leninism_ideology
 							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Viktor_Grishin_desc
+							desc = RUS_Viktor_Grishin_leader_desc
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = Hypersocialism_ideology
+							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
+							desc = RUS_Viktor_Grishin_leader_desc
 						}
 						promote_leader = yes
 					}
@@ -201,6 +214,8 @@ country_event = {
 					name = RUS_Hypersocialism_party
 					long_name = RUS_Hypersocialism_party_long
 				}
+
+				change_tag_from = RUS
 			}
 
 			drop_cosmetic_tag = yes

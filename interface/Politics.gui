@@ -40,7 +40,7 @@ guiTypes = {
 			name = "subideology"
 			position = { x = 263 y = 145 }
 			font = "hoi_16mbs"
-			text = "[GetIdeologyADJ] ([GetFullIdeologyADJ])"
+			text = "[get_subideology_adj] ([get_ideology_adj])"
 			maxWidth = 245
 			maxHeight = 20
 		}		
@@ -50,71 +50,6 @@ guiTypes = {
 			spriteType = "GFX_ideology_unknown"
 			position = { x = 158 y = 0 }
 			Orientation = "UPPER_LEFT"
-		}
-	}
-
-	containerWindowType = {
-		name = "Diplomatic_Sphere_Scripted_GUI_window"
-		position = { x = 0 y = 8}
-		
-		containerWindowType = {
-			name = "sphere_info"
-			position = { x = 17 y = 355 }
-			size = { width = 530 height = 70 }
-			
-			iconType = {
-				name = "diplo_nat_spirits_bg"
-				spriteType = "GFX_diplo_nat_spirits_bg"
-				position = { x = -2 y = -14 }
-			}
-			
-			
-			instantTextBoxType = {
-				name = "spirit_title"
-				position = { x = 0 y = 0 }
-				font = "hoi_18mbs"
-				borderSize = {x = 0 y = 0}
-				text = "[?Sphere_Leader.GetAdjective] Sphere"
-				maxWidth = 240
-				maxHeight = 30	
-			}
-			containerWindowType = {
-				name = "list_container"
-				position = { x = -4 y = 18 }
-				margin = { left = 1 top = 8 bottom = 8 right = 11 }
-				size = { width = 100%% height = 64 }
-				horizontalScrollbar = "bottom_horizontal_slider"
-
-				background = {
-					name = "Background"
-					quadTextureSprite = "GFX_tiled_window_transparent"
-				}
-
-				gridboxtype = {
-					name = "spheres_list"
-					position = { x = 0 y = 0 }
-					size = { width = 480 height = 26 }
-					slotsize = { width = 48 height = 26 }
-					format = "UPPER_LEFT"
-				}
-			}
-		}
-	}
-
-	containerWindowType = {
-		name = "Spheres_Diplo_List_Entry"
-		size = { width = 41 height = 26 }
-
-		buttonType = {
-			name = "Entry_Flag"
-			spriteType = "GFX_flag_small2"
-			position = { x = 0 y = 0 }
-		}
-		iconType = {
-			name = "diplo_countrylist_flag_frame"
-			spriteType = "GFX_diplo_countrylist_flag_frame"
-			position = { x = -4 y = -4 }			
-			alwaystransparent = yes
 		}
 	}
 }

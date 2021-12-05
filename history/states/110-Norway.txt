@@ -15,7 +15,8 @@ state={
 			6115 15 
 		}
 		
-		owner = ZZZ # owner = NOR
+		owner = NOR
+		add_core_of = NOR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
