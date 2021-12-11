@@ -170,3 +170,83 @@ MLT = {
 	color = rgb { 140 68 115 }
 	color_ui = rgb { 140 68 115 }
 }
+IRN = {
+	color = rgb { 85 123 59 }
+	color_ui = rgb { 85 123 59 }
+}
+UAR = {
+	color = rgb { 163 132 81 }
+	color_ui = rgb { 163 132 81 }
+}
+PAL = {
+	color = rgb { 178 78 106 }
+	color_ui = rgb { 178 78 106 }
+}
+ISI = {
+	color = rgb { 15 56 33 }
+	color_ui = rgb { 15 56 33 }
+}
+TUR = {
+	color = rgb { 199 74 71 }
+	color_ui = rgb { 199 74 71 }
+}
+AFG = {
+	color = rgb { 86 134 45 }
+	color_ui = rgb { 86 134 45 }
+}
+IND = {
+	color = rgb { 151 58 31 }
+	color_ui = rgb { 151 58 31 }
+}
+PAK = {
+	color = rgb { 50 112 61 }
+	color_ui = rgb { 50 112 61 }
+}
+BNG = {
+	color = rgb { 237 70 228 }
+	color_ui = rgb { 237 70 228 }
+}
+NEP = {
+	color = rgb { 84 123 109 }
+	color_ui = rgb { 84 123 109 }
+}
+BHU = {
+	color = rgb { 255 0 255 }
+	color_ui = rgb { 255 0 255 }
+}
+BRM = {
+	color = rgb { 65 75 159 }
+	color_ui = rgb { 65 75 159 }
+}
+LAO = {
+	color = rgb { 120 25 18 }
+	color_ui = rgb { 120 25 18 }
+}
+VIE = {
+	color = rgb { 218 78 76 }
+	color_ui = rgb { 218 78 76 }
+}
+CAM = {
+	color = rgb { 216 45 188 }
+	color_ui = rgb { 216 45 188 }
+}
+LAO = {
+	color = rgb { 120 25 18 }
+	color_ui = rgb { 120 25 18 }
+}
+VIE = {
+	color = rgb { 218 78 76 }
+	color_ui = rgb { 218 78 76 }
+}
+CAM = {
+	color = rgb { 216 45 188 }
+	color_ui = rgb { 216 45 188 }
+}
+THA = {
+	color = rgb { 80 35 89 }
+	color_ui = rgb { 80 35 89 }
+}
+JOR = {
+	color = rgb { 121 84 69 }
+	color_ui = rgb { 121 84 69 }
+}

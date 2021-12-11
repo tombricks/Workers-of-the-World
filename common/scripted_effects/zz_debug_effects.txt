@@ -191,10 +191,6 @@ d_create_army = {
 				infantry = { x = 0 y = 2 }
 			}
 		}
-		set_division_template_lock = {
-			division_template = "Infantry Unit"
-			is_locked = yes
-		}
 	}
 	
 	set_temp_variable = { num_of_divs = max_available_manpower_k }
@@ -332,4 +328,16 @@ d_world_ussr = {
 		}
 		set_cosmetic_tag = COUNTRY_SOVIET_SOCIALIST_REPUBLIC
 	}
+}
+d_insane_attack = {
+	every_unit_leader = {
+		add_temporary_buff_to_units = {
+			combat_offense = 50
+			combat_breakthrough = 50
+			days = 1400
+		}
+	}
+}
+d_election = {
+	hold_election = ROOT
 }

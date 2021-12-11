@@ -21,6 +21,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = IDEOLOGY_Islamic_Marxism } # Islamic Marxism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = IDEOLOGY_National_Bolshevism } # National Bolshevism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = IDEOLOGY_Proletarianism } # Proletarianism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } localization_key = IDEOLOGY_Neo_Baathism } # Neo-Ba'athism
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism_noun }
@@ -40,6 +41,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = IDEOLOGY_Islamic_Marxism_ADJ } # Islamic Marxist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = IDEOLOGY_National_Bolshevism_ADJ } # National Bolshevik
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = IDEOLOGY_Proletarianism_ADJ } # Proletarianist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } localization_key = IDEOLOGY_Neo_Baathism_ADJ } # Neo-Ba'athist
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism }
@@ -59,6 +61,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = GFX_ideology_Islamic_Marxism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = GFX_ideology_National_Bolshevism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = GFX_ideology_Proletarianism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } localization_key = GFX_ideology_Arab_Socialism }
 
 	text = { trigger = { has_government = Hypersocialism } localization_key = GFX_ideology_Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = GFX_ideology_Marxism_Leninism }
@@ -86,3 +89,8 @@ defined_text = {
 	text = { trigger = { has_government = Reactionism } localization_key = Reactionism }
 	text = { localization_key = "" }
 }
+
+#defined_text = {
+#	name = get_election_text
+#	text = { localization_key =  } 
+#}

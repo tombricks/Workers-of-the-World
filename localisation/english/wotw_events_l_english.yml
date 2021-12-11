@@ -1,0 +1,12 @@
+﻿l_english:
+ Puppet_Event.1.TITLE: "Establish a Government in [event_target:new_puppet.GetNonIdeologyNameDef]"
+ Puppet_Event.1.DESC: "eeeeeeeeeeeeee"
+ Puppet_Event.1.A: "Establish an Autonomous Zone"
+ Puppet_Event.1.B: "Establish a Military Administration"
+ Puppet_Event.1.C: "Establish a Satellite State"
+
+ Puppet_Event.2.TITLE: "[event_target:miladmin.GetNameDefCap]"
+ Puppet_Event.2.DESC: "eeeeeeeeeeeeee"
+ Puppet_Event.2.A: "Establish an Autonomous Zone"
+ Puppet_Event.2.B: "Establish a Satellite State"
+ Puppet_Event.2.C: "Leave as be"

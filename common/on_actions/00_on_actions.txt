@@ -34,6 +34,9 @@ on_actions = {
 					}
 				}
 			}
+
+			RUS = { add_to_array = { global.Cold_War_Factions = THIS } }
+			PRC = { add_to_array = { global.Cold_War_Factions = THIS } }
 		}
 	}
 
@@ -41,25 +44,57 @@ on_actions = {
 	on_puppet = { # Yes
 		effect = {
 			log = "Puppeted: [ROOT.GetNameWithFlag] ([ROOT.GetTag])"
-			if = {
-				limit = {
-					is_subject_of = RUS
-					has_autonomy_state = Autonomy_Autonomous_Zone
-				}
-				set_cosmetic_tag = COUNTRY_Soviet_Socialist_Republic
-			}
+			puppet_command = yes
 		}
 	}
 	on_release_as_puppet = { # Yes
 		effect = {
 			log = "Released as Puppet: [ROOT.GetNameWithFlag] ([ROOT.GetTag])"
-			if = {
-				limit = {
-					is_subject_of = RUS
-					has_autonomy_state = Autonomy_Autonomous_Zone
-				}
-				set_cosmetic_tag = COUNTRY_Soviet_Socialist_Republic
+			puppet_command = yes
+		}
+	}
+	on_annex = { # Yes
+		effect = {
+			log = "Annexed: [FROM.GetNameWithFlag] ([FROM.GetTag])"
+			FROM = {
+				drop_cosmetic_tag = yes
 			}
+		}
+	}
+	on_liberate = {
+		effect = {
+			log = "Liberated: [ROOT.GetNameWithFlag] ([ROOT.GetTag])"
+			Random_Cosmetic = yes
+		}
+	}
+	on_release_as_free = { # No
+		effect = {
+			log = "Released as free: [ROOT.GetNameWithFlag] ([ROOT.GetTag])"
+			Random_Cosmetic = yes
+		}
+	}
+	on_capitulation = { # Yes
+		effect = {
+			log = "Capitulation: [FROM.GetNameWithFlag] defeats [ROOT.GetNameWithFlag]"
+		}
+	}
+	on_declare_war = {
+		effect = {
+			log = "Declaration: [ROOT.GetNameWithFlag] ([ROOT.GetTag]) declares on [FROM.GetNameWithFlag] ([FROM.GetTag])"
+			
+			ROOT = {
+				if = {
+					limit = {
+						civilwar_target = FROM
+					}
+					log = "^^ Civil War"
+				}
+			}
+		}	
+	}
+	on_new_term_election = {
+		random_events = {
+			100 = ALB_Congress.1
 		}
 	}
 }

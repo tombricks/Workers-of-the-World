@@ -2,3 +2,13 @@
 is_enemy_ideology = {
 	always = yes
 }
+
+new_marxist_or_hypersoc_without_alb = {
+	OR = {
+		has_government = New_Marxism
+		AND = {
+			has_government = Hypersocialism
+			NOT = { has_global_flag = ALB_International }
+		}
+	}
+}

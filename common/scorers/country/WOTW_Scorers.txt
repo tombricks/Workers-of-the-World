@@ -1,0 +1,8 @@
+Cold_War_Factions_scorer = {
+	targets = {
+		target_array = globa.Cold_War_Factions
+		score = {
+			base = 1
+		}
+	}
+}

@@ -8,7 +8,8 @@ state={
 	
 	
 	history = {
-		owner = ZZZ # owner = ENG
+		owner = UAR
+		add_core_of = UAR
 		buildings = {
 			infrastructure = 1
 		}

@@ -17,5 +17,6 @@ leader_traits = {
 	IDEOLOGY_Islamic_Marxism = { random = no } # Islamic Marxism
 	IDEOLOGY_National_Bolshevism = { random = no } # National Bolshevism
 	IDEOLOGY_Proletarianism = { random = no } # Proletarianism
+	IDEOLOGY_Neo_Baathism = { random = no } # Neo-Ba'athism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 }

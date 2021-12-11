@@ -10,7 +10,8 @@ state=
 		victory_points = {
 			11999 1
 		}
-		owner = ZZZ # owner = ENG
+		owner = UAR
+		add_core_of = UAR
 		buildings = {
 			infrastructure = 2
 		}

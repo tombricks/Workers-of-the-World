@@ -1,0 +1,20 @@
+﻿add_namespace = ALB_Congress
+
+country_event = {
+	id = ALB_Congress.1
+	title = ALB_Congress.1.TITLE
+	desc = ALB_Congress.1.DESC
+	picture = GFX_Country_Romanov_Gone
+	
+	is_triggered_only = yes
+	trigger = {
+		original_tag = ALB
+		date > 1981.1.1
+		date < 1982.1.1
+	}
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event ALB_Congress.1" }
+	
+	option = {
+		name = ALB_Congress.1.A
+	}
+}

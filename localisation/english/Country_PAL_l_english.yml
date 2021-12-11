@@ -1,0 +1,18 @@
+﻿l_english:
+### Country Names and Cosmetics
+ PAL: "Palestine"
+ PAL_DEF: "Palestine"
+ PAL_ADJ: "Palestinian" 
+ 
+ PAL_Hypersocialism: "State of Palestine"
+ PAL_Hypersocialism_DEF: "the State of Palestine"
+ PAL_Hypersocialism_ADJ: "Palestinian" 
+ PAL_Marxism_Leninism: "State of Palestine"
+ PAL_Marxism_Leninism_DEF: "the State of Palestine"
+ PAL_Marxism_Leninism_ADJ: "Palestinian" 
+ PAL_New_Marxism: "State of Palestine"
+ PAL_New_Marxism_DEF: "the State of Palestine"
+ PAL_New_Marxism_ADJ: "Palestinian" 
+ PAL_Reformist_Socialism: "State of Palestine"
+ PAL_Reformist_Socialism_DEF: "the State of Palestine"
+ PAL_Reformist_Socialism_ADJ: "Palestinian" 

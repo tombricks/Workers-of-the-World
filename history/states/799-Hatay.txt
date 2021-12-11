@@ -9,9 +9,8 @@ state={
 	state_category = enclave
 
 	history= {
-		owner = ZZZ # owner = FRA
-		# TUR
-		# SYR
+		owner = TUR
+		add_core_of = TUR
 		victory_points = {
 			12029 1
 		}

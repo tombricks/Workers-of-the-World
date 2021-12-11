@@ -52,4 +52,43 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 	}
+
+	containerWindowType = {
+		name = "Ideology_Icons_Scripted_Map_Icons_window"
+		position = { x = 0 y = 0 }
+		size = { width = 1 height = 1 }
+			
+		iconType ={
+			name = "ideology_icon"
+			spriteType = "GFX_ideology_unknown"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "Flag_Scripted_Map_Icons_window"
+		position = { x = 0 y = 0 }
+		size = { width = 1 height = 1 }
+			
+		iconType ={
+			name = "flag_icon"
+			spriteType = "GFX_shield_medium"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+			
+		iconType ={
+			name = "flag_frame"
+			spriteType = "GFX_large_flag_frame"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+	}
 }

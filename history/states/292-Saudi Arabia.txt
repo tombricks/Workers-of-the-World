@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = ZZZ # owner = SAU
+		owner = ISI
+		add_core_of = ISI
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

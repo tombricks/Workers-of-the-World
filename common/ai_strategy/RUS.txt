@@ -1,0 +1,119 @@
+RUS_PRC_Cold_War = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		country_exists = PRC
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = PRC
+		value = 150
+	}
+
+	ai_strategy = {
+		type = contain
+		id = PRC
+		value = 150
+	}
+
+	ai_strategy = {
+		type = antagonize
+		id = PRC
+		value = 150
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		target = europe
+		value = 300
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		target = asia
+		value = 100
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		target = africa
+		value = 100
+	}
+}
+
+Marxist_Leninists_join_RUS = {
+	allowed = {
+		always = yes
+	}
+
+	enable = {
+		has_government = Marxism_Leninism
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = RUS
+		value = 250
+	}
+}
+
+RUS_Send_Volunteers_to_Civil_War = {
+	reversed = yes
+
+	enable = {
+		OR = {
+			has_government = Marxism_Leninism
+			AND = {
+				any_country = {
+					civilwar_target = PREV
+					new_marxist_or_hypersoc_without_alb = yes
+				}
+				NOT = {
+					any_country = {
+						civilwar_target = PREV
+						has_government = Marxism_Leninism
+					}
+				}
+			}
+		}
+		has_civil_war = yes
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = RUS
+		value = 150
+	}
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = RUS
+		value = 50
+	}
+}
+RUS_Send_Volunteers_to_War = {
+	reversed = yes
+
+	enable = {
+		has_government = Marxism_Leninism
+		has_war = yes
+		OR = {
+			has_defensive_war = yes
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = RUS
+		value = 150
+	}
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = RUS
+		value = 50
+	}
+}

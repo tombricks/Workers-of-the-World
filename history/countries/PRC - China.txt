@@ -77,3 +77,5 @@ set_politics = {
 set_popularities = {
 	New_Marxism = 100
 }
+
+create_faction = CHI_Internationale

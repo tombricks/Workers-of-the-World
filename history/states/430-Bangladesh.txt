@@ -4,7 +4,8 @@ state={
 
 	history={
 		# BAN
-		owner = ZZZ # owner = RAJ
+		owner = BNG
+		add_core_of = BNG
 		victory_points = {
 			11929 1 
 		}

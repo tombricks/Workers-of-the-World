@@ -1,0 +1,57 @@
+puppet_command = {
+	save_event_target_as = new_puppet
+	puppet_military = yes
+	OVERLORD = {
+		set_autonomy = {
+			target = event_target:new_puppet
+			autonomy_state = Autonomy_Autonomous_Zone
+		}
+		country_event = Puppet_Event.1
+	}
+}
+puppet_autonomous = {
+	if = {
+		limit = {
+			is_subject_of = RUS
+		}
+		set_cosmetic_tag = COUNTRY_Soviet_Socialist_Republic
+	}
+}
+puppet_military = {
+	set_cosmetic_tag = COUNTRY_Military_Administration
+}
+puppet_satellite = {
+	random_cosmetic = yes
+}
+random_cosmetic = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+		if = {
+			limit = {
+				is_subject = yes
+			}
+			random_list = {
+				10 = { set_cosmetic_tag = COUNTRY_Democratic_Peoples_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Democratic_Peoples_Republic_2 }
+				10 = { set_cosmetic_tag = COUNTRY_Democratic_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Democratic_Republic_2 }
+				10 = { set_cosmetic_tag = COUNTRY_Peoples_Democratic_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Peoples_Democratic_Republic_2 }
+				10 = { set_cosmetic_tag = COUNTRY_Peoples_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Peoples_Republic_2 }
+				10 = { set_cosmetic_tag = COUNTRY_Peoples_Socialist_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Peoples_Socialist_Republic_2 }
+				10 = { set_cosmetic_tag = COUNTRY_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Republic_2 }
+				10 = { set_cosmetic_tag = COUNTRY_Socialist_Peoples_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Socialist_Peoples_Republic_2 }
+				10 = { set_cosmetic_tag = COUNTRY_Socialist_Republic }
+				10 = { set_cosmetic_tag = COUNTRY_Socialist_Republic_2 }
+			}
+			else = {
+				add_to_variable = { global.random_cosmetic_pain = 1 }
+				log = "#[?global.random_cosmetic_pain]. RANDOM_COSMETIC FAILLURE DUE TO PARADOX'S BAD DESIGN"
+			}
+		}
+	}
+}

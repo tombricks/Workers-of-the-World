@@ -1,0 +1,19 @@
+puppet_decisions = {
+	convert_military_administration = {
+		target_trigger = {
+			FROM = {
+				has_cosmetic_tag = COUNTRY_Military_Administration
+				is_subject_of = ROOT
+			}
+		}
+		target_array = subjects
+
+		cost = 50
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision Puppet_Event.2"
+			FROM = { save_event_target_as = miladmin }
+			country_event = Puppet_Event.2
+		}
+	}
+}

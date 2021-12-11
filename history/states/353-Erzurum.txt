@@ -4,7 +4,8 @@ state={
 	name="STATE_353"
 
 	history={
-		owner = ZZZ # owner = TUR
+		owner = TUR
+		add_core_of = TUR
 		victory_points = {
 			11853 3
 		}
@@ -20,19 +21,6 @@ state={
 		buildings = {
 			infrastructure = 1
 
-		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			# KUR
-		}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			# TUR
-			# KUR
 		}
 	}
 
