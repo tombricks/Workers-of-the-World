@@ -1,6 +1,6 @@
-PRC_RUS_Cold_War = {
+CHI_RUS_Cold_War = {
 	allowed = {
-		original_tag = PRC
+		original_tag = CHI
 	}
 	enable = {
 		country_exists = RUS
@@ -45,7 +45,7 @@ PRC_RUS_Cold_War = {
 	}
 }
 
-New_Marxists_join_PRC = {
+New_Marxists_join_CHI = {
 	allowed = {
 		always = yes
 	}
@@ -57,12 +57,12 @@ New_Marxists_join_PRC = {
 
 	ai_strategy = {
 		type = befriend
-		id = PRC
+		id = CHI
 		value = 250
 	}
 }
 
-PRC_Send_Volunteers_to_Civil_War = {
+CHI_Send_Volunteers_to_Civil_War = {
 	reversed = yes
 
 	enable = {
@@ -72,7 +72,7 @@ PRC_Send_Volunteers_to_Civil_War = {
 
 	ai_strategy = {
 		type = send_volunteers_desire
-		id = PRC
+		id = CHI
 		value = 150
 	}
 }

@@ -79,3 +79,11 @@ set_popularities = {
 }
 
 create_faction = CHI_Internationale
+add_to_array = { global.CHI_cold_war_factions = THIS }
+add_to_faction = CHI
+add_to_faction = PAK
+add_to_faction = THA
+add_to_faction = BRM
+add_to_faction = BHU
+add_to_faction = FRA
+add_to_faction = ALB

@@ -1,28 +1,28 @@
-RUS_PRC_Cold_War = {
+RUS_CHI_Cold_War = {
 	allowed = {
 		original_tag = RUS
 	}
 	enable = {
-		country_exists = PRC
+		country_exists = CHI
 	}
 
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = prepare_for_war
-		id = PRC
+		id = CHI
 		value = 150
 	}
 
 	ai_strategy = {
 		type = contain
-		id = PRC
+		id = CHI
 		value = 150
 	}
 
 	ai_strategy = {
 		type = antagonize
-		id = PRC
+		id = CHI
 		value = 150
 	}
 

@@ -81,3 +81,4 @@ set_popularities = {
 create_faction = UAR_League
 add_to_faction = UAR
 add_to_faction = PAL
+add_to_faction = JOR

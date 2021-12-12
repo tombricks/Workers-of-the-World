@@ -55,3 +55,96 @@ random_cosmetic = {
 		}
 	}
 }
+
+do_cold_war_sphere_arrays = {
+	clear_array = global.RUS_cold_war_sphere_array
+	every_country = {
+		limit = {
+			NOT = { tag = RUS }
+			is_major = no
+			RUS_cold_war_sphere = yes
+		}
+		add_to_array = { global.RUS_cold_war_sphere_array = THIS }
+	}
+	every_country = {
+		limit = {
+			NOT = { tag = RUS }
+			is_major = yes
+			RUS_cold_war_sphere = yes
+		}
+		add_to_array = {
+			array = global.RUS_cold_war_sphere_array
+			value = THIS
+			index = 0
+		}
+	}
+	add_to_array = {
+		array = global.RUS_cold_war_sphere_array
+		value = RUS
+		index = 0
+	}
+
+
+
+	clear_array = global.CHI_cold_war_sphere_array
+	every_country = {
+		limit = {
+			NOT = { tag = CHI }
+			is_major = no
+			CHI_cold_war_sphere = yes
+		}
+		add_to_array = { global.CHI_cold_war_sphere_array = THIS }
+	}
+	every_country = {
+		limit = {
+			NOT = { tag = CHI }
+			is_major = yes
+			CHI_cold_war_sphere = yes
+		}
+		add_to_array = {
+			array = global.CHI_cold_war_sphere_array
+			value = THIS
+			index = 0
+		}
+	}
+	add_to_array = {
+		array = global.CHI_cold_war_sphere_array
+		value = CHI
+		index = 0
+	}
+}
+
+d_call_to_arms = {
+	for_each_scope_loop = {
+		array = global.RUS_cold_war_factions
+		every_other_country = {
+			limit = {
+				is_in_faction_with = PREV
+			}
+			RUS = {
+				add_to_faction = PREV
+			}
+		}
+		RUS = {
+			add_to_faction = PREV
+		}
+	}
+	clear_array = global.RUS_cold_war_factions
+
+	
+	for_each_scope_loop = {
+		array = global.CHI_cold_war_factions
+		every_other_country = {
+			limit = {
+				is_in_faction_with = PREV
+			}
+			CHI = {
+				add_to_faction = PREV
+			}
+		}
+		CHI = {
+			add_to_faction = PREV
+		}
+	}
+	clear_array = global.CHI_cold_war_factions
+}

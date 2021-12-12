@@ -341,3 +341,22 @@ d_insane_attack = {
 d_election = {
 	hold_election = ROOT
 }
+
+d_every_RUS_cold_war_sphere = {
+	every_country = {
+		if = {
+			limit = {
+				RUS_cold_war_sphere = yes
+			}
+			log = "[THIS.GetName]: Yes to RUS_cold_war_sphere"
+
+			else = {
+				log = "[THIS.GetName]: No to RUS_cold_war_sphere"
+			}
+		}
+	}
+}
+
+d_log_surrenders = {
+	log = "[THIS.GetName]: Surrender at [?THIS.surrender_progress]"
+}

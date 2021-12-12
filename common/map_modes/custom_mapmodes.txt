@@ -117,4 +117,66 @@ scripted_map_modes = {
 			}
 		}
 	}
+
+	cold_war_map_mode = {
+		top = {
+			type = country
+
+			color = {
+				set_temp_variable = { red = 0.6 }
+				set_temp_variable = { green = 0.6 }
+				set_temp_variable = { blue = 0.6 }
+				set_temp_variable = { alpha = 0.9 }
+
+				if = {
+					limit = {
+						FROM = { RUS_cold_war_sphere = yes }
+					}
+					set_temp_variable = { red = 1.0 }
+					set_temp_variable = { green = 0.0 }
+					set_temp_variable = { blue = 0.0 }
+
+					else_if = {
+						limit = {
+							FROM = { CHI_cold_war_sphere = yes }
+						}
+						set_temp_variable = { red = 1.0 }
+						set_temp_variable = { green = 1.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+
+					else_if = {
+						limit = {
+							FROM = { has_government = Reactionism }
+						}
+						set_temp_variable = { red = 0.1 }
+						set_temp_variable = { green = 0.1 }
+						set_temp_variable = { blue = 0.1 }
+					}
+				}
+
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								RUS_cold_war_sphere = yes
+								FROM = { RUS_cold_war_sphere = yes }
+							}
+							AND = {
+								CHI_cold_war_sphere = yes
+								FROM = { CHI_cold_war_sphere = yes }
+							}
+							AND = {
+								has_government = Reactionism
+								FROM = { has_government = Reactionism }
+							}
+						}
+					}
+					set_temp_variable = { highlighted = 1.0 }
+				}
+
+				always = yes
+			}
+		}
+	}
 }

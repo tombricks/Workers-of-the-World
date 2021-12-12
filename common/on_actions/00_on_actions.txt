@@ -36,7 +36,9 @@ on_actions = {
 			}
 
 			RUS = { add_to_array = { global.Cold_War_Factions = THIS } }
-			PRC = { add_to_array = { global.Cold_War_Factions = THIS } }
+			CHI = { add_to_array = { global.Cold_War_Factions = THIS } }
+
+			ZZZ = { do_cold_war_sphere_arrays = yes }
 		}
 	}
 
@@ -95,6 +97,12 @@ on_actions = {
 	on_new_term_election = {
 		random_events = {
 			100 = ALB_Congress.1
+		}
+	}
+
+	on_weekly = {
+		effect = {
+			ZZZ = { do_cold_war_sphere_arrays = yes }
 		}
 	}
 }

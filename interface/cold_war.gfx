@@ -1,0 +1,12 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_surrender_progressbar_cw"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/surrender_progress.dds"
+		textureFile2 = "gfx/interface/surrender_progress_bg.dds"
+		size = { x = 142 y = 6 }
+		effectFile = "gfx/FX/progress_startend.lua"
+		steps = 100
+	}
+}

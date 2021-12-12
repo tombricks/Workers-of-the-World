@@ -97,6 +97,7 @@ add_ideas = {
 }
 
 create_faction = RUS_UN_FACTION
+add_to_array = { global.RUS_cold_war_factions = THIS }
 set_autonomy = {
 	target = FIN
 	autonomy_state = Autonomy_Autonomous_Zone
@@ -172,3 +173,6 @@ add_to_faction = LUX
 add_to_faction = BEL
 add_to_faction = HOL
 add_to_faction = DEN
+add_to_faction = TUR
+add_to_faction = IRN
+add_to_faction = AFG

@@ -1,0 +1,220 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Cold_War_Scripted_GUI_window"
+		size = { width = 1167 height = 85%%}
+		position = { x=-583 y=-297 }
+		Orientation = center
+		moveable = yes
+		clipping = no
+		
+		Background = {
+			name = "waroverview_bg"
+			quadTextureSprite = "GFX_tiled_waroverview_bg"
+		}
+		
+		instantTextboxType = {
+			name = "header_desc"
+			position = { x = -177 y = 23 }
+			font = "hoi_24header"
+			text = "The Cold War"
+			Orientation = center_up
+			format = center			
+			maxWidth = 350
+			maxHeight = 30
+		}
+
+		buttonType ={
+			name ="RUS_capitulation"
+			quadTextureSprite = "GFX_surrender_icon"
+			position = { x = 180 y = 158 }
+			pdx_tooltip = "WAR_OVERVIEW_CAPITULATION_PROGRESS"
+		}
+		
+		buttonType ={
+			name ="RUS_warscore"
+			quadTextureSprite = "GFX_tactics_icon"
+			position = { x = 304 y = 156 }
+			pdx_tooltip = "WARSCORE_TITLE"
+			scale = 0.7
+		}
+
+		buttonType ={
+			name ="RUS_divisions"
+			quadTextureSprite = "GFX_division_icon"
+			position = { x= 362 y = 159 }
+			pdx_tooltip = "DIVISIONS"
+		}
+
+		buttonType ={
+			name ="RUS_ic"
+			quadTextureSprite = "GFX_industrial_capacity_icon"
+			position = { x= 440 y = 159 }
+			pdx_tooltip = "INDUSTRY"
+		}
+
+		buttonType ={
+			name ="RUS_casualty"
+			quadTextureSprite = "GFX_casuality_icon"
+			position = { x= 504 y = 159 }
+			pdx_tooltip = "CASUALTY"
+		}
+		
+		containerWindowType = {
+			name = "RUS_cold_war_window"
+			size = { width = 555 height = 96%%}
+			position = { x=25 y=192 }
+			margin = { top = 5 bottom = 5 }
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 42
+			smooth_scrolling = yes
+
+			background =
+			{
+				name ="RUS_window"
+				spriteType = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "RUS_cold_war_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 556 height = 42 }
+				max_slots_horizontal = 1
+				#format = "UPPER_LEFT"
+			}
+		}
+		
+		containerWindowType = {
+			name = "CHI_cold_war_window"
+			size = { width = 555 height = 96%%}
+			position = { x=593 y=192 }
+			margin = { top = 5 bottom = 5 }
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 42
+			smooth_scrolling = yes
+
+			background =
+			{
+				name ="CHI_window"
+				spriteType = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "CHI_cold_war_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 556 height = 42 }
+				max_slots_horizontal = 1
+				#format = "UPPER_LEFT"
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "cold_war_country_entry"
+		position = { x = 0 y = -4 }
+		size = { width = 530 height = 41 }
+		
+		Background = {
+			name = "Background"
+			quadTextureSprite = "GFX_war_participant_entry"
+		}
+		
+		buttonType = {
+			name = "country_flag"
+			quadTextureSprite = "GFX_flag_small2"
+			position = { x= 9 y = 7 }
+		}
+
+		iconType = { 
+			name = "country_flag_frame"
+			position = {x= 4 y = 3}
+			spriteType = "GFX_small_flag_frame_thin2"
+			alwaystransparent = yes
+		}		
+		
+		iconType = { 
+			name = "major_country_overlay"
+			position = {x= 8 y = 6}
+			spriteType = "GFX_major_country_flag_overlay"
+			alwaystransparent = yes
+		}
+
+		iconType = { 
+			name = "surrender_flag"
+			position = {x= 32 y = 17}
+			spriteType = "GFX_surrender_tiny_flag"
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "country_name"
+			position = { x = 56 y = 4 }
+			text = "[THIS.GetName]"
+			font = "hoi_18mbs"
+			maxWidth = 180
+			maxHeight = 30
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name = "surrender"
+			spriteType = "GFX_surrender_progressbar_cw"
+			position = { x=55 y=26 }		
+		}
+
+		iconType = {
+			name = "surrender_progress_frame"
+			spriteType = "GFX_surrender_progress_frame"
+			position = { x=54 y=26 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="at_war"
+			quadTextureSprite = "GFX_global_alert_icons_no_backgrounds"
+			position = { x= 224 y = 4 }
+			scale = 0.9
+		}
+		
+		instantTextboxType = {
+			name = "subject"
+			position = { x = 269 y = 11 }
+			font = "hoi_16mbs"
+			text = "[get_subject_or_free]"
+			maxWidth = 50
+			maxHeight = 30
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "divisions"
+			position = { x = 317 y = 11 }
+			font = "hoi_18mbs"
+			text = "[?num_divisions]"
+			maxWidth = 80
+			maxHeight = 30
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "ic"
+			position = { x = 393 y = 11 }
+			font = "hoi_18mbs"
+			text = "[?num_of_factories]"
+			maxWidth = 80
+			maxHeight = 30
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "casualties"
+			position = { x = 466 y = 11 }
+			font = "hoi_18mbs"
+			text = "[?casualties]"
+			maxWidth = 60
+			maxHeight = 30
+			format = center
+		}
+	}
+}

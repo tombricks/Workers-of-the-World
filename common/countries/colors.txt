@@ -82,7 +82,7 @@ FRA = {
 	color = rgb { 64 72 169 }
 	color_ui = rgb { 64 72 169 }
 }
-PRC = {
+CHI = {
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 245 12 55 }
 }

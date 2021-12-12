@@ -90,7 +90,8 @@ defined_text = {
 	text = { localization_key = "" }
 }
 
-#defined_text = {
-#	name = get_election_text
-#	text = { localization_key =  } 
-#}
+defined_text = {
+	name = get_subject_or_free
+	text = { trigger = { is_subject = yes } localization_key = "Subject" } 
+	text = { localization_key = "Free" }
+}

@@ -12,3 +12,31 @@ new_marxist_or_hypersoc_without_alb = {
 		}
 	}
 }
+
+RUS_cold_war_sphere = {
+	OR = {
+		is_in_faction_with = RUS
+		AND = {
+			NOT = { is_in_faction_with = RUS }
+			is_in_faction = yes
+			faction_leader = {
+				is_in_array = { global.RUS_cold_war_factions = THIS }
+			}
+		}
+		has_country_flag = RUS_cold_war_aligned
+	}
+}
+
+CHI_cold_war_sphere = {
+	OR = {
+		is_in_faction_with = CHI
+		AND = {
+			NOT = { is_in_faction_with = CHI }
+			is_in_faction = yes
+			faction_leader = {
+				is_in_array = { global.CHI_cold_war_factions = THIS }
+			}
+		}
+		has_country_flag = CHI_cold_war_aligned
+	}
+}

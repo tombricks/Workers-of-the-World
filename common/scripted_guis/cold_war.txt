@@ -1,0 +1,54 @@
+scripted_gui = {
+	Cold_War_Scripted_GUI = {
+		context_type = player_context
+		window_name = "Cold_War_Scripted_GUI_window"
+
+		visible = {
+			has_country_flag = show_cold_war_window
+		}
+
+		dynamic_lists = {
+			RUS_cold_war_grid = {
+				array = global.RUS_cold_war_sphere_array
+				entry_container = "cold_war_country_entry"
+				change_scope = yes
+			}
+			CHI_cold_war_grid = {
+				array = global.CHI_cold_war_sphere_array
+				entry_container = "cold_war_country_entry"
+				change_scope = yes
+			}
+		}
+
+		triggers = {
+			major_country_overlay_visible = {
+				is_major = yes
+			}
+			at_war_visible = {
+				has_war = yes
+			}
+			surrender_flag_visible = {
+				has_capitulated = yes
+			}
+			surrender_visible = {
+				set_temp_variable = { surrender_prog = surrender_progress }
+				multiply_temp_variable = { surrender_prog = 100 }
+				subtract_from_temp_variable = { surrender_prog = 100 }
+				multiply_temp_variable = { surrender_prog = -1 }
+				always = yes
+			}
+		}
+
+		properties = {
+			country_flag = {
+				image = "[THIS.GetFlag]"
+			}
+			at_war = {
+				frame = 3
+			}
+			surrender = {
+				frame = surrender_prog
+			}
+		}
+	}
+}
