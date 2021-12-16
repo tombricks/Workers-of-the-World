@@ -2,16 +2,16 @@
 ### [TAG, country name (generic), adjective, ideology, capital, rrr ggg bbb, common/countries file]
 
 countries = [
-	["JOR",
-	"Jordan",
-	"Jordanian",
-	"Reformist_Socialism",
-	"455",
-	"121 84 69",
-	"Middle_Eastern",
+	["CYP",
+	"Cyprus",
+	"Cypriot",
+	"Marxism_Leninism",
+	"183",
+	"129 67 197",
+	"Western_European",
 	[],
-	"Socialist Jordanian State",
-	"the Socialist Jordanian State"]
+	"Socialist Republic of Cyprus",
+	"the Socialist Republic of Cyprus"]
 ]
 
 from shutil import copyfile

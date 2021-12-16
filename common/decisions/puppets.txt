@@ -11,9 +11,9 @@ puppet_decisions = {
 		cost = 50
 		
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision Puppet_Event.2"
-			FROM = { save_event_target_as = miladmin }
-			country_event = Puppet_Event.2
+			log = "[GetDateText]: [Root.GetName]: Decision convert_military_administration"
+			FROM = { save_event_target_as = new_puppet }
+			country_event = Puppet_Event.1
 		}
 	}
 }

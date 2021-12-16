@@ -77,3 +77,5 @@ set_politics = {
 set_popularities = {
 	Reformist_Socialism = 100
 }
+
+recruit_character = ENG_Tony_Benn

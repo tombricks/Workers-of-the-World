@@ -16,3 +16,13 @@
  FRA_Reformist_Socialism: "French Republic"
  FRA_Reformist_Socialism_DEF: "the French Republic"
  FRA_Reformist_Socialism_ADJ: "French" 
+
+### Characters
+ FRA_Roland_Castro: "Ronald Castro"
+ FRA_Roland_Castro_desc: ""
+
+### Events
+ FRA_Germany.1.TITLE: "Germany at War"
+ FRA_Germany.1.DESC: "With their declaration of war upon [event_target:german_target.GetNameDef], the German government has shown it's willingness to violate international rules and to use force, as forbade by the post-war treaties."
+ FRA_Germany.1.A: "Germany must be put into our own hands!"
+ FRA_Germany.1.B: "A diplomatic objection should be issued"

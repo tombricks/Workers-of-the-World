@@ -22,6 +22,7 @@
  TITLE_President: "President"
  TITLE_Stalin_Head: "Head of the Union, Chairman of the Presidium and Supreme Commander-in-Chief of the Armed Forces"
  TITLE_First_Secretary: "First Secretary"
+ TITLE_Premier: "Premier"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
@@ -44,4 +45,10 @@
  IDEOLOGY_Proletarianism_ADJ: "Proletarianist"
  IDEOLOGY_Neo_Baathism: "Neo-Ba'athism"
  IDEOLOGY_Neo_Baathism_ADJ: "Neo-Ba'athist"
+ IDEOLOGY_Arab_Socialism: "Arab Socialism"
+ IDEOLOGY_Arab_Socialism_ADJ: "Arab Socialist"
+ IDEOLOGY_Libertarian_Marxism: "Libertarian Marxism"
+ IDEOLOGY_Libertarian_Marxism_ADJ: "Libertarian Marxist"
+ IDEOLOGY_Democratic_Socialism: "Democratic Socialism"
+ IDEOLOGY_Democratic_Socialism_ADJ: "Democratic Socialist"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!

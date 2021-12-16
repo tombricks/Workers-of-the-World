@@ -2,7 +2,7 @@ autonomy_state = {
 	id = autonomy_satellite
 	
 	min_freedom_level = 0.8
-	default = yes
+	default = no
 	
 	manpower_influence = 0.9
 

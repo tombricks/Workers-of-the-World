@@ -1,0 +1,22 @@
+characters={
+	FRA_Roland_Castro = {
+		name = FRA_Roland_Castro
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Libertarian_Marxism }
+			desc = FRA_Roland_Castro_desc
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}

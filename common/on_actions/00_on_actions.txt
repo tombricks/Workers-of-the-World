@@ -91,6 +91,20 @@ on_actions = {
 					}
 					log = "^^ Civil War"
 				}
+				add_to_array = { global.civil_wars = this }
+			}
+
+			if = {
+				limit = {
+					ROOT = {
+						tag = GER
+					}
+				}
+				# KRAUTS KRAUTS KRAUTS KRAUTS KRAUTS KRAUTS KRAUTS
+				FROM = { save_event_target_as = german_target }
+				FRA = {
+					country_event = { id = FRA_Germany.1 hours = 12 }
+				}
 			}
 		}	
 	}

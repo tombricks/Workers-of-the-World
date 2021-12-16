@@ -1,8 +1,16 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_Portrait_RUS_Yegor_Ligachyov"
-		texturefile = "gfx/leaders/RUS/Yegor Ligachev.dds"									#no clue what this does
+		name = "GFX_Portrait_Generic_Leader"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minister_Generic_Leader"
+		texturefile = "gfx/interface/ideas/ministers/unknown.dds"
+	}
 
+	spriteType = {
+		name = "GFX_Portrait_RUS_Yegor_Ligachyov"
+		texturefile = "gfx/leaders/RUS/Yegor Ligachev.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_minister_Yegor_Ligachev"

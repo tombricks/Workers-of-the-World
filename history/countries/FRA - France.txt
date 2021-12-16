@@ -77,3 +77,5 @@ set_politics = {
 set_popularities = {
 	New_Marxism = 100
 }
+
+recruit_character = FRA_Roland_Castro

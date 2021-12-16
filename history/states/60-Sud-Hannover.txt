@@ -14,6 +14,7 @@ state={
 	history={
 		owner = GER
 		add_core_of = GER
+		add_core_of = THU
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }
 		buildings = {

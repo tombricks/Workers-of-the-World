@@ -9,6 +9,7 @@ state={
 	history={
 		owner = GER
 		add_core_of = GER
+		add_core_of = HSS
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

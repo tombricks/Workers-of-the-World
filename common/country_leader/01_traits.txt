@@ -6,6 +6,7 @@ leader_traits = {
 	TITLE_President = { random = no } # President
 	TITLE_Stalin_Head = { random = no } # Head of the Union, Chairman of the Presidium and Supreme Commander-in-Chief of the Armed Forces
 	TITLE_First_Secretary = { random = no } # First Secretary
+	TITLE_Premier = { random = no } # Premier
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }
@@ -18,5 +19,8 @@ leader_traits = {
 	IDEOLOGY_National_Bolshevism = { random = no } # National Bolshevism
 	IDEOLOGY_Proletarianism = { random = no } # Proletarianism
 	IDEOLOGY_Neo_Baathism = { random = no } # Neo-Ba'athism
+	IDEOLOGY_Arab_Socialism = { random = no } # Arab Socialism
+	IDEOLOGY_Libertarian_Marxism = { random = no } # Libertarian Marxism
+	IDEOLOGY_Democratic_Socialism = { random = no } # Democratic Socialism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 }

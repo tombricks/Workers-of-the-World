@@ -4,7 +4,7 @@ puppet_command = {
 	OVERLORD = {
 		set_autonomy = {
 			target = event_target:new_puppet
-			autonomy_state = Autonomy_Autonomous_Zone
+			autonomy_state = autonomy_temporary
 		}
 		country_event = Puppet_Event.1
 	}

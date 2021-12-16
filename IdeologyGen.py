@@ -1,5 +1,5 @@
 ideologies = [
-	["Neo_Baathism", "Neo-Ba'athism", "Neo-Ba'athist"]
+	["Democratic_Socialism", "Democratic Socialism", "Democratic Socialist"]
 ]
 
 # TRAITS

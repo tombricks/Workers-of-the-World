@@ -250,3 +250,59 @@ JOR = {
 	color = rgb { 121 84 69 }
 	color_ui = rgb { 121 84 69 }
 }
+BRT = {
+	color = rgb { 167 212 82 }
+	color_ui = rgb { 167 212 82 }
+}
+OCC = {
+	color = rgb { 73 114 76 }
+	color_ui = rgb { 73 114 76 }
+}
+NRM = {
+	color = rgb { 90 45 102 }
+	color_ui = rgb { 90 45 102 }
+}
+RHI = {
+	color = rgb { 57 151 142 }
+	color_ui = rgb { 57 151 142 }
+}
+BDN = {
+	color = rgb { 0 144 91 }
+	color_ui = rgb { 0 144 91 }
+}
+BVR = {
+	color = rgb { 53 194 255 }
+	color_ui = rgb { 53 194 255 }
+}
+HSS = {
+	color = rgb { 171 146 115 }
+	color_ui = rgb { 171 146 115 }
+}
+HNV = {
+	color = rgb { 171 146 115 }
+	color_ui = rgb { 171 146 115 }
+}
+SHL = {
+	color = rgb { 140 191 182 }
+	color_ui = rgb { 140 191 182 }
+}
+THU = {
+	color = rgb { 237 184 87 }
+	color_ui = rgb { 237 184 87 }
+}
+SXN = {
+	color = rgb { 118 104 149 }
+	color_ui = rgb { 118 104 149 }
+}
+BRN = {
+	color = rgb { 94 123 142 }
+	color_ui = rgb { 94 123 142 }
+}
+MKB = {
+	color = rgb { 147 145 106 }
+	color_ui = rgb { 147 145 106 }
+}
+CYP = {
+	color = rgb { 129 67 197 }
+	color_ui = rgb { 129 67 197 }
+}
