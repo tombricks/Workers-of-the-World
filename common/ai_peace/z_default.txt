@@ -34,7 +34,7 @@ communist_peace = {
 							if = {
 								limit = {
 									is_subject_of = ROOT
-									has_autonomy_state = Autonomy_Autonomous_Zone
+									has_autonomy_state = autonomy_autonomous_zone
 								}
 								is_owner_neighbor_of = FROM
 							}

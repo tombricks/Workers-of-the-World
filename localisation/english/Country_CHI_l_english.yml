@@ -13,9 +13,9 @@
  CHI_New_Marxism: "People's Republic of China"
  CHI_New_Marxism_DEF: "the People's Republic of China"
  CHI_New_Marxism_ADJ: "Chinese" 
- CHI_Reformist_Socialism: "People's Republic of China"
- CHI_Reformist_Socialism_DEF: "the People's Republic of China"
- CHI_Reformist_Socialism_ADJ: "Chinese" 
+ CHI_Socialism: "People's Republic of China"
+ CHI_Socialism_DEF: "the People's Republic of China"
+ CHI_Socialism_ADJ: "Chinese" 
 
 ### Other
  CHI_Internationale: "New Internationale"

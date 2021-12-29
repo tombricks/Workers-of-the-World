@@ -306,3 +306,11 @@ CYP = {
 	color = rgb { 129 67 197 }
 	color_ui = rgb { 129 67 197 }
 }
+YEM = {
+	color = rgb { 204 90 62 }
+	color_ui = rgb { 204 90 62 }
+}
+NIR = {
+	color = rgb { 46 139 87 }
+	color_ui = rgb { 46 139 87 }
+}

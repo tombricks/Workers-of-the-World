@@ -2,6 +2,9 @@ characters={
 	ALB_Enver_Hoxha = {
 		name = ALB_Enver_Hoxha
 
+		allowed_civil_war = {
+		}
+
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_ALB_Enver_Hoxha"

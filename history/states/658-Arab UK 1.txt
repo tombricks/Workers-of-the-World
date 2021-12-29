@@ -11,8 +11,8 @@ state={
 
 
 	history={
-		# UAE
-		owner = ZZZ # owner = ENG
+		owner = ISI
+		add_core_of = ISI
 		victory_points = {
 			7960 1 
 		}

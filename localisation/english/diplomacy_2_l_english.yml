@@ -1,0 +1,6 @@
+﻿l_english:
+##### stolen from kaiserreich legacy of the world war
+### Diplomacy Tooltips ###
+ RECALL_VOLUNTEERS_TITLE:0 "Recall Volunteers"
+ RECALL_VOLUNTEERS_ACTION_DESC:0 "Recall all volunteers sent to this country."
+ RECALL_VOLUNTEERS_ACTION_SEND_DESC:0 "Recall all volunteers sent to §Y[FROM.GetNameDef]§!?"

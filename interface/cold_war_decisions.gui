@@ -1,0 +1,42 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Cold_War_decision_category_window"
+		size = { width = 510 height = 320 }
+		position = { x = 0 y = 0 }
+		orientation = center
+
+		containerWindowType = {
+			name = "civil_war_window"
+			position = { x = 0 y = 19 }
+			size = { width = 510 height = 100%% }
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window"
+			}
+		}
+
+		gridBoxType = {
+			name = "civil_war_tabs"
+			position = { x = 56 y = -16 }
+			slotsize = { width = 91 height = 55 }
+			add_horizontal = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "cold_war_tabs_entry"
+
+		buttonType = {
+			name = "cold_war_tab_icon"
+			spriteType = "GFX_techtree_tabs"
+		}
+
+		iconType = {
+			name = "cold_war_tab_flag"
+			position = { x = 25 y = 13 }
+			spriteType = "GFX_flag_small2"
+			alwaystransparent = yes
+		}
+	}
+}

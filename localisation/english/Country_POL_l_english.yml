@@ -13,9 +13,9 @@
  POL_New_Marxism: "Polish People's Republic"
  POL_New_Marxism_DEF: "the Polish People's Republic"
  POL_New_Marxism_ADJ: "Polish" 
- POL_Reformist_Socialism: "Polish People's Republic"
- POL_Reformist_Socialism_DEF: "the Polish People's Republic"
- POL_Reformist_Socialism_ADJ: "Polish" 
+ POL_Socialism: "Polish People's Republic"
+ POL_Socialism_DEF: "the Polish People's Republic"
+ POL_Socialism_ADJ: "Polish" 
 
 ### Characters
  POL_Wladyslaw_Gomulka: "Władysław Gomułka"

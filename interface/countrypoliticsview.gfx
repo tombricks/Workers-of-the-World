@@ -470,8 +470,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_Reformist_Socialism_group"
-		texturefile = "gfx/interface/ideologies/Reformist_Socialism.dds"
+		name = "GFX_ideology_Socialism_group"
+		texturefile = "gfx/interface/ideologies/Socialism.dds"
 	}
 	
 	spriteType = {
@@ -490,8 +490,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_Reformist_Socialism"
-		texturefile = "gfx/interface/ideologies/Reformist_Socialism.dds"
+		name = "GFX_ideology_Socialism"
+		texturefile = "gfx/interface/ideologies/Socialism.dds"
 	}
 	
 	spriteType = {

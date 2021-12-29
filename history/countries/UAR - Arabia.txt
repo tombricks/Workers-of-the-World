@@ -68,17 +68,18 @@ if = {
 }
 
 set_politics = {
-	ruling_party = Reformist_Socialism
+	ruling_party = Socialism
 	last_election = "1.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	Reformist_Socialism = 100
+	Socialism = 100
 }
 
 create_faction = UAR_League
 add_to_faction = UAR
 add_to_faction = PAL
 add_to_faction = JOR
+add_to_faction = YEM

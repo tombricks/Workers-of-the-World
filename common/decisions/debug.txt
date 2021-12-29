@@ -10,7 +10,7 @@ debug_decisions = {
 				every_country = {
 					limit = {
 						is_subject_of = RUS
-						has_autonomy_state = Autonomy_Autonomous_Zone
+						has_autonomy_state = autonomy_autonomous_zone
 					}
 					RUS = {
 						set_autonomy = {

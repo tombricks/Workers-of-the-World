@@ -13,9 +13,9 @@
  ALB_New_Marxism: "People's Socialist Republic of Albania"
  ALB_New_Marxism_DEF: "the People's Socialist Republic of Albania"
  ALB_New_Marxism_ADJ: "Albanian" 
- ALB_Reformist_Socialism: "People's Socialist Republic of Albania"
- ALB_Reformist_Socialism_DEF: "the People's Socialist Republic of Albania"
- ALB_Reformist_Socialism_ADJ: "Albanian" 
+ ALB_Socialism: "People's Socialist Republic of Albania"
+ ALB_Socialism_DEF: "the People's Socialist Republic of Albania"
+ ALB_Socialism_ADJ: "Albanian" 
 
 ### Characters
  ALB_Enver_Hoxha: "Enver Hoxha"
@@ -28,5 +28,5 @@
  ALB_Marxism_Leninism_party_long: "Party of Labour of Albania"
  ALB_New_Marxism_party: "PPSh"
  ALB_New_Marxism_party_long: "Party of Labour of Albania"
- ALB_Reformist_Socialism_party: "PPSh"
- ALB_Reformist_Socialism_party_long: "Party of Labour of Albania"
+ ALB_Socialism_party: "PPSh"
+ ALB_Socialism_party_long: "Party of Labour of Albania"

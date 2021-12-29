@@ -1,0 +1,40 @@
+## ROOT is the diplomatic action initiator
+## FROM is the target
+## Default scope is FROM
+
+scripted_diplomatic_actions = {
+	recall_volunteers = {
+		allowed = { always = yes }
+		visible = {
+			has_volunteers_amount_from = { tag = ROOT count > 0 }
+			NOT = { ROOT = { has_country_flag = recalling_volunteers_from_@PREV } }
+		}
+
+		cost = 0
+		requires_acceptance = no
+		show_acceptance_on_action_button = no
+		send_description = RECALL_VOLUNTEERS_ACTION_SEND_DESC
+
+		complete_effect = {
+			log = "[ROOT.GetName] is recalling volunteers from [FROM.GetName]"
+			ROOT = {
+				set_country_flag = { flag = recalling_volunteers_from_@PREV days = 30 value = 1 }
+				recall_volunteers_from = PREV
+			}
+		}
+
+		ai_desire = {
+			base = 0
+			modifier = {
+				add = 1000
+				ROOT = {
+					OR = {
+						has_country_flag = imminent_war
+						has_variable = potential_and_current_enemies^num #is justifying/being justified against
+					}
+				}
+			}
+		}
+	}
+}
+

@@ -68,14 +68,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = Reformist_Socialism
+	ruling_party = Socialism
 	last_election = "1.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	Reformist_Socialism = 100
+	Socialism = 100
 }
+
+create_faction = ENG_IRE_faction
+add_to_faction = ENG
+add_to_faction = IRE
+add_to_faction = NIR
 
 recruit_character = ENG_Tony_Benn

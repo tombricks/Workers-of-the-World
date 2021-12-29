@@ -6,6 +6,11 @@ debug_decisions = {
 	}
 }
 
+cold_war_info = {
+	visible_when_empty = yes
+	scripted_gui = Cold_War_decision_category_gui
+}
+
 puppet_decisions = {
 	icon = generic_research
 }

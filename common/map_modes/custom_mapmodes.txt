@@ -60,7 +60,7 @@ scripted_map_modes = {
 								any_country = {
 									owns_state = FROM
 									is_subject_of = ROOT
-									has_autonomy_state = Autonomy_Autonomous_Zone
+									has_autonomy_state = autonomy_autonomous_zone
 								}
 							}
 						}
@@ -80,7 +80,7 @@ scripted_map_modes = {
 									any_country = {
 										FROM = { is_core_of = PREV }
 										is_subject_of = ROOT
-										has_autonomy_state = Autonomy_Autonomous_Zone
+										has_autonomy_state = autonomy_autonomous_zone
 									}
 								}
 							}
@@ -102,7 +102,7 @@ scripted_map_modes = {
 									any_country = {
 										FROM = { is_claimed_by = PREV }
 										is_subject_of = ROOT
-										has_autonomy_state = Autonomy_Autonomous_Zone
+										has_autonomy_state = autonomy_autonomous_zone
 									}
 								}
 							}

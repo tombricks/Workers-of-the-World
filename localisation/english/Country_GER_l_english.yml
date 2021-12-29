@@ -13,9 +13,19 @@
  GER_New_Marxism: "German Democratic Republic"
  GER_New_Marxism_DEF: "the German Democratic Republic"
  GER_New_Marxism_ADJ: "German" 
- GER_Reformist_Socialism: "German Democratic Republic"
- GER_Reformist_Socialism_DEF: "the German Democratic Republic"
- GER_Reformist_Socialism_ADJ: "German" 
+ GER_Socialism: "German Democratic Republic"
+ GER_Socialism_DEF: "the German Democratic Republic"
+ GER_Socialism_ADJ: "German" 
+
+### Parties
+ GER_Hypersocialism_party: "NKFD"
+ GER_Hypersocialism_party_long: "National Committee for a Free Germany"
+ GER_New_Marxism_party: "UDK-I"
+ GER_New_Marxism_party_long: "Union of German Communists (Internationalists)"
+ GER_Marxism_Leninism_party: "UDK"
+ GER_Marxism_Leninism_party_long: "Union of German Communists"
+ GER_Socialism_party: "UDK-S"
+ GER_Socialism_party_long: "Union of German Communists (Spartacists)"
 
 ### Characters
  GER_Hans_Modrow: "Hans Modrow"

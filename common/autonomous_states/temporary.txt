@@ -3,12 +3,12 @@ autonomy_state = {
 	
 	default = yes
 
-	min_freedom_level = 0.2
+	min_freedom_level = 0.1
 	
 	manpower_influence = 0.9
 
 	allowed = {
-		always = no
+		always = yes
 	}
 	
 	rule = {

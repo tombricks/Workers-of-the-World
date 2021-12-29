@@ -2,6 +2,9 @@ characters={
 	POL_Wladyslaw_Gomulka = {
 		name = POL_Wladyslaw_Gomulka
 
+		allowed_civil_war = {
+		}
+
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_Generic_Leader"

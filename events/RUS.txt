@@ -56,16 +56,6 @@ country_event = {
 
 				save_global_event_target_as = RUS_Stalinist
 			}
-			every_character = {
-				limit = { has_character_flag = RUS_Stalinist }
-				PREV = {
-					retire_character = PREV
-					set_nationality = {
-						target_country = RST
-						character = PREV
-					}
-				}
-			}
 			RST = {
 				set_politics = {
 					ruling_party = Marxism_Leninism
@@ -75,134 +65,24 @@ country_event = {
 					Hypersocialism = 50
 				}
 				RUS_Viktor_Grishin = {
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Marxism_Leninism_ideology
-							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Viktor_Grishin_leader_desc
-						}
-						promote_leader = yes
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Hypersocialism_ideology
-							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Viktor_Grishin_leader_desc
-						}
-						promote_leader = yes
-					}
+					promote_character = Marxism_Leninism
+					promote_character = Hypersocialism
 				}
 				set_cosmetic_tag = RUS_Stalinist
 				set_country_flag = RUS_stalinist_characters
 				remove_ideas = RUS_Viktor_Grishin
 
 				RUS_Yevgeny_Stalin = {
-					add_advisor_role = {
-						advisor = {
-							slot = political_advisor
-							idea_token = RUS_Yevgeny_Stalin
-							allowed = {
-								original_tag = RUS
-							}
-							available = {
-								has_country_flag = RUS_stalinist_characters
-							}
-							on_add = {
-								log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Yevgeny_Stalin"
-							}
-							on_remove = {
-								log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Yevgeny_Stalin"
-							}
-							traits = { TITLE_Stalin_Head }
-						}
-						activate = yes
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Marxism_Leninism_ideology
-							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Yevgeny_Stalin_desc
-						}
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Hypersocialism_ideology
-							traits = { TITLE_Chairman IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Yevgeny_Stalin_desc
-						}
+					add_trait = {
+						slot = political_advisor
+						trait = TITLE_Stalin_Head
 					}
 				}
-				RUS_Viktor_Anpilov = {
-					add_advisor_role = {
-						advisor = {
-							slot = political_advisor
-							idea_token = RUS_Viktor_Anpilov
-							allowed = {
-								original_tag = RUS
-							}
-							available = {
-								has_country_flag = RUS_stalinist_characters
-							}
-							on_add = {
-								log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Viktor_Anpilov"
-							}
-							on_remove = {
-								log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Viktor_Anpilov"
-							}
-							traits = { TITLE_General_Secretary }
-						}
-						activate = yes
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Marxism_Leninism_ideology
-							traits = { TITLE_General_Secretary IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Viktor_Anpilov_desc
-						}
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Hypersocialism_ideology
-							traits = { TITLE_General_Secretary IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Viktor_Anpilov_desc
-						}
-					}
-				}
-				RUS_Nina_Andreyeva = {
-					add_advisor_role = {
-						advisor = {
-							slot = political_advisor
-							idea_token = RUS_Nina_Andreyeva
-							allowed = {
-								original_tag = RUS
-							}
-							available = {
-								has_country_flag = RUS_stalinist_characters
-							}
-							on_add = {
-								log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Nina_Andreyeva"
-							}
-							on_remove = {
-								log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Nina_Andreyeva"
-							}
-							traits = { TITLE_Second_Secretary }
-						}
-						activate = yes
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Marxism_Leninism_ideology
-							traits = { TITLE_Second_Secretary IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Nina_Andreyeva_desc
-						}
-					}
-					add_country_leader_role = {
-						country_leader = {
-							ideology = Hypersocialism_ideology
-							traits = { TITLE_Second_Secretary IDEOLOGY_Iosif_Stalin_Thought }
-							desc = RUS_Nina_Andreyeva_desc
-						}
-					}
+
+				add_ideas = {
+					RUS_Yevgeny_Stalin
+					RUS_Viktor_Anpilov
+					RUS_Nina_Andreyeva
 				}
 
 				add_ideas = RUS_Yevgeny_Stalin

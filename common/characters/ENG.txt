@@ -2,6 +2,9 @@ characters={
 	ENG_Tony_Benn = {
 		name = ENG_Tony_Benn
 
+		allowed_civil_war = {
+		}
+
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_Generic_Leader"
@@ -12,7 +15,7 @@ characters={
 		}
 		
 		country_leader = {
-			ideology = Reformist_Socialism_ideology
+			ideology = Socialism_ideology
 			traits = { TITLE_Premier IDEOLOGY_Democratic_Socialism }
 			desc = ENG_Tony_Benn_desc
 			expire = "1999.1.1.1"

@@ -1,0 +1,58 @@
+﻿add_namespace = GER_Revolution
+
+# Youth Revolution
+country_event = {
+	id = GER_Revolution.1
+	title = GER_Revolution.1.TITLE
+	desc = GER_Revolution.1.DESC
+	picture = GFX_Country_Romanov_Gone
+	
+	is_triggered_only = yes
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: Event GER_Revolution.1"
+		hidden_effect = {
+			create_dynamic_country = {
+				original_tag = GER
+				set_cosmetic_tag = GER_FDJ
+				save_global_event_target_as = GER_FDJ
+				set_politics = {
+					ruling_party = New_Marxism
+				}
+				set_popularities = {
+					New_Marxism = 100
+				}
+				inherit_technology = GER
+			}
+			set_country_flag = Left_Faction_for_War
+			leave_faction = yes
+			FDJ = {
+				transfer_state = 65
+				transfer_state = 64
+				transfer_state = 60
+				transfer_state = 62
+				transfer_state = 61
+				transfer_state = 58
+				transfer_state = 59
+				transfer_state = 60
+			}
+			transfer_units_fraction = {
+				target = FDJ
+				size = 0.4
+			}
+			declare_war_on = {
+				target = FDJ
+				type = civil_war
+			}
+			add_civil_war_target = FDJ
+			country_lock_all_division_template = yes
+		}
+	}
+	
+	option = {
+		name = GER_Revolution.1.A
+	}
+	
+	option = {
+		name = GER_Revolution.1.A
+	}
+}

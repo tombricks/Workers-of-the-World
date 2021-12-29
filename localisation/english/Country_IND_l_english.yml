@@ -13,9 +13,9 @@
  IND_New_Marxism: "Indian Federative People's Republic"
  IND_New_Marxism_DEF: "the Indian Federative People's Republic"
  IND_New_Marxism_ADJ: "Indian" 
- IND_Reformist_Socialism: "Indian Federative People's Republic"
- IND_Reformist_Socialism_DEF: "the Indian Federative People's Republic"
- IND_Reformist_Socialism_ADJ: "Indian" 
+ IND_Socialism: "Indian Federative People's Republic"
+ IND_Socialism_DEF: "the Indian Federative People's Republic"
+ IND_Socialism_ADJ: "Indian" 
 
 ### Other
  IND_South_Asia: "South Asian Mutual Assistance Council"

@@ -13,9 +13,9 @@
  ENG_New_Marxism: "Commonwealth of Britain"
  ENG_New_Marxism_DEF: "the Commonwealth of Britain"
  ENG_New_Marxism_ADJ: "British" 
- ENG_Reformist_Socialism: "Commonwealth of Britain"
- ENG_Reformist_Socialism_DEF: "the Commonwealth of Britain"
- ENG_Reformist_Socialism_ADJ: "British" 
+ ENG_Socialism: "Commonwealth of Britain"
+ ENG_Socialism_DEF: "the Commonwealth of Britain"
+ ENG_Socialism_ADJ: "British" 
  
 ### Parties
  ENG_Hypersocialism_party: "CPGB-ML"
@@ -24,9 +24,12 @@
  ENG_Marxism_Leninism_party_long: "Communist Party of Great Britain"
  ENG_New_Marxism_party: "CPGB-ML"
  ENG_New_Marxism_party_long: "Communist Party of Great Britain (Marxist-Leninist)"
- ENG_Reformist_Socialism_party: "Labour"
- ENG_Reformist_Socialism_party_long: "Labour Party"
+ ENG_Socialism_party: "Labour"
+ ENG_Socialism_party_long: "Labour Party"
 
 ### Characters
  ENG_Tony_Benn: "Tony Benn"
  ENG_Tony_Benn_desc: ""
+
+### Other
+ ENG_IRE_faction: "Council of the British Isles"

@@ -2,6 +2,9 @@ characters={
 	GER_Hans_Modrow = {
 		name = GER_Hans_Modrow
 
+		allowed_civil_war = {
+		}
+
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_Generic_Leader"

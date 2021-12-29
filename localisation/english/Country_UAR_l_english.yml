@@ -13,9 +13,9 @@
  UAR_New_Marxism: "United Arab Republic"
  UAR_New_Marxism_DEF: "the United Arab Republic"
  UAR_New_Marxism_ADJ: "Arab" 
- UAR_Reformist_Socialism: "United Arab Republic"
- UAR_Reformist_Socialism_DEF: "the United Arab Republic"
- UAR_Reformist_Socialism_ADJ: "Arab" 
+ UAR_Socialism: "United Arab Republic"
+ UAR_Socialism_DEF: "the United Arab Republic"
+ UAR_Socialism_ADJ: "Arab" 
  
 ### Other
  UAR_League: "League of Arab States"

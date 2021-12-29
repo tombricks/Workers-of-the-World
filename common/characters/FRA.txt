@@ -2,6 +2,9 @@ characters={
 	FRA_Roland_Castro = {
 		name = FRA_Roland_Castro
 
+		allowed_civil_war = {
+		}
+
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_Generic_Leader"

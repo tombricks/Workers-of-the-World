@@ -13,9 +13,9 @@
  FRA_New_Marxism: "French Republic"
  FRA_New_Marxism_DEF: "the French Republic"
  FRA_New_Marxism_ADJ: "French" 
- FRA_Reformist_Socialism: "French Republic"
- FRA_Reformist_Socialism_DEF: "the French Republic"
- FRA_Reformist_Socialism_ADJ: "French" 
+ FRA_Socialism: "French Republic"
+ FRA_Socialism_DEF: "the French Republic"
+ FRA_Socialism_ADJ: "French" 
 
 ### Characters
  FRA_Roland_Castro: "Ronald Castro"

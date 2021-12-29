@@ -80,6 +80,26 @@ on_actions = {
 			log = "Capitulation: [FROM.GetNameWithFlag] defeats [ROOT.GetNameWithFlag]"
 		}
 	}
+	on_send_volunteers = {
+		effect = {
+			log = "Volunteers: [ROOT.GetNameWithFlag] to [FROM.GetNameWithFlag]"
+			if = {
+				limit = {
+					ROOT = { tag = CHI }
+					FROM = { has_civil_war = yes new_marxist_or_hypersoc_without_alb = yes }
+				}
+				if = {
+					limit = {
+						NOT = {
+							is_in_array = { ROOT.friendship_treaties = FROM }
+						}
+					}
+					ROOT = { save_event_target_as = treaty_target }
+					FROM = { country_event = Treaties.1 }
+				}
+			}
+		}
+	}
 	on_declare_war = {
 		effect = {
 			log = "Declaration: [ROOT.GetNameWithFlag] ([ROOT.GetTag]) declares on [FROM.GetNameWithFlag] ([FROM.GetTag])"
@@ -91,7 +111,7 @@ on_actions = {
 					}
 					log = "^^ Civil War"
 				}
-				add_to_array = { global.civil_wars = this }
+				add_to_array = { global.civil_wars = FROM }
 			}
 
 			if = {
@@ -107,6 +127,15 @@ on_actions = {
 				}
 			}
 		}	
+	}
+	on_civil_war_end = {
+		effect = {
+			log = "Civil War End: [ROOT.GetNameWithFlag] ([ROOT.GetTag]) defeats on [FROM.GetNameWithFlag] ([FROM.GetTag])"
+			ROOT = {
+				remove_from_array = { global.civil_wars = ROOT } 
+				remove_from_array = { global.civil_wars = FROM } 
+			}
+		}
 	}
 	on_new_term_election = {
 		random_events = {

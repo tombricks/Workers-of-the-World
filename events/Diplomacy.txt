@@ -1,0 +1,170 @@
+﻿add_namespace = Puppet_Event
+add_namespace = Treaties
+
+country_event = {
+	id = Puppet_Event.1
+	title = Puppet_Event.1.TITLE
+	desc = Puppet_Event.1.DESC
+	picture = GFX_Country_Romanov_Gone
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 ([event_target:new_puppet.GetName])" }
+	
+	option = {
+		name = Puppet_Event.1.A # AUTONOMOUS
+		log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 - Puppet_Event.1.A"
+		ai_chance = {
+			base = 20
+
+			modifier = {
+				factor = 2.5
+				original_tag = RUS
+				event_target:new_puppet = {
+					capital_scope = {
+						is_on_continent = europe
+					}
+				}
+			}
+
+			modifier = {
+				factor = 1.5
+				any_country = {
+					if = {
+						limit = {
+							OR = {
+								tag = PREV
+								AND = {
+									is_subject_of = PREV
+									has_autonomy_state = autonomy_autonomous_zone
+								}
+							}
+						}
+						is_owner_neighbor_of = event_target:new_puppet
+					}
+				}
+			}
+		}
+		set_autonomy = {
+			target = event_target:new_puppet
+			autonomy_state = autonomy_autonomous_zone
+		}
+		event_target:new_puppet = {
+			puppet_autonomous = yes
+		}
+	}
+	
+	option = {
+		name = Puppet_Event.1.B.A
+		log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 - Puppet_Event.1.B.A"
+		ai_chance = {
+			base = 5
+		}
+		set_autonomy = {
+			target = event_target:new_puppet
+			autonomy_state = autonomy_autonomous_zone
+		}
+		event_target:new_puppet = {
+			puppet_military = yes
+		}
+	}
+	
+	option = {
+		name = Puppet_Event.1.C # SATELLITE
+		log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 - Puppet_Event.1.C"
+		ai_chance = {
+			base = 30
+		}
+		set_autonomy = {
+			target = event_target:new_puppet
+			autonomy_state = autonomy_satellite
+		}
+		event_target:new_puppet = {
+			puppet_satellite = yes
+		}
+	}
+}
+
+country_event = {
+	id = Treaties.1
+	title = Treaties.1.TITLE
+	desc = Treaties.1.DESC
+	picture = GFX_Country_Romanov_Gone
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.1" }
+	
+	option = {
+		name = Treaties.1.A # Treaty
+		log = "[GetDateText]: [Root.GetName]: Event Treaties.1 - Treaties.1.A"
+		ai_chance = { base = 45 }
+		event_target:treaty_target = {
+			country_event = Treaties.2
+		}
+	}
+	
+	option = {
+		name = Treaties.1.B
+		log = "[GetDateText]: [Root.GetName]: Event Treaties.1 - Treaties.1.B"
+		ai_chance = { base = 5 }
+	}
+}
+country_event = {
+	id = Treaties.2
+	title = Treaties.2.TITLE
+	desc = Treaties.2.DESC
+	picture = GFX_Country_Romanov_Gone
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.2" }
+	
+	option = {
+		name = Treaties.2.A # Treaty
+		log = "[GetDateText]: [Root.GetName]: Event Treaties.2 - Treaties.2.A"
+		ai_chance = { base = 45 }
+		FROM = {
+			give_military_access = PREV
+			diplomatic_relation = {
+				country = PREV
+				relation = non_aggression_pact
+			}
+		}
+		give_guarantee = FROM
+		add_to_array = { friendship_treaties = FROM }
+		FROM = { news_event = Treaties.3 }
+	}
+	
+	option = {
+		name = Treaties.2.B
+		log = "[GetDateText]: [Root.GetName]: Event Treaties.2 - Treaties.2.B"
+		ai_chance = { base = 5 }
+		FROM = { news_event = Treaties.4 }
+	}
+}
+
+news_event = {
+	id = Treaties.3
+	title = Treaties.3.TITLE
+	desc = Treaties.3.DESC
+	picture = GFX_News_Metal_USSR_Thing
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.3" }
+	
+	option = {
+		name = Treaties.3.A
+	}
+}
+
+news_event = {
+	id = Treaties.4
+	title = Treaties.4.TITLE
+	desc = Treaties.4.DESC
+	picture = GFX_News_Metal_USSR_Thing
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.4" }
+	
+	option = {
+		name = Treaties.4.A
+	}
+}

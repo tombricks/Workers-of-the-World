@@ -2,16 +2,16 @@
 ### [TAG, country name (generic), adjective, ideology, capital, rrr ggg bbb, common/countries file]
 
 countries = [
-	["CYP",
-	"Cyprus",
-	"Cypriot",
-	"Marxism_Leninism",
-	"183",
-	"129 67 197",
+	["NIR",
+	"Northern Ireland",
+	"Northern Irish",
+	"Socialism",
+	"119",
+	"46 139 87",
 	"Western_European",
 	[],
-	"Socialist Republic of Cyprus",
-	"the Socialist Republic of Cyprus"]
+	"Northern Irish Condominium",
+	"the Northern Irish Condominium"]
 ]
 
 from shutil import copyfile
@@ -40,9 +40,9 @@ for country in countries:
  {country[0]}_New_Marxism: "{country[8]}"
  {country[0]}_New_Marxism_DEF: "{country[9]}"
  {country[0]}_New_Marxism_ADJ: "{country[2]}" 
- {country[0]}_Reformist_Socialism: "{country[8]}"
- {country[0]}_Reformist_Socialism_DEF: "{country[9]}"
- {country[0]}_Reformist_Socialism_ADJ: "{country[2]}" """)
+ {country[0]}_Socialism: "{country[8]}"
+ {country[0]}_Socialism_DEF: "{country[9]}"
+ {country[0]}_Socialism_ADJ: "{country[2]}" """)
 	if "DoSSR" in country[7]:
 		FileLoc.write(F"""
  

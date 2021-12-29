@@ -2,3 +2,7 @@ RST = {
 	global_event_target = RUS_Stalinist
 	fallback = RUS
 }
+FDJ = {
+	global_event_target = GER_FDJ
+	fallback = GER
+}

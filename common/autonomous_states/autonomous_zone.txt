@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = Autonomy_Autonomous_Zone
+	id = autonomy_autonomous_zone
 	
 	use_overlord_color = yes
 	default = no

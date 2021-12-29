@@ -203,7 +203,7 @@ d_create_army = {
 		limit = { check_variable = { i < num_of_divs } }
 		if = {
 			limit = {
-				has_autonomy_state = Autonomy_Autonomous_Zone
+				has_autonomy_state = autonomy_autonomous_zone
 				is_subject_of = RUS
 			}
 			RUS = {
@@ -323,7 +323,7 @@ d_world_ussr = {
 		RUS = {
 			set_autonomy = {
 				target = PREV
-				autonomy_state = Autonomy_Autonomous_Zone
+				autonomy_state = autonomy_autonomous_zone
 			}
 		}
 		set_cosmetic_tag = COUNTRY_SOVIET_SOCIALIST_REPUBLIC

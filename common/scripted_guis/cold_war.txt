@@ -1,4 +1,47 @@
 scripted_gui = {
+	Cold_War_decision_category_gui = {
+		context_type = decision_category
+		window_name = "Cold_War_decision_category_window"
+
+		dynamic_lists = {
+			civil_war_tabs = {
+				array = global.civil_wars
+				entry_container = "cold_war_tabs_entry"
+				change_scope = yes
+				index = i
+			}
+		}
+		
+		properties = {
+			cold_war_tab_icon = {
+				frame = _frame
+			}
+			cold_war_tab_flag = {
+				image = "[THIS.GetFlag]"
+			}
+		}
+
+		triggers = {
+			cold_war_tab_icon_visible = {
+				if = {
+					limit = {
+						check_variable = { i = ROOT.selected_cw_civil_war_tab }
+					}
+					set_temp_variable = { _frame = 1 }
+
+					else = {
+						set_temp_variable = { _frame = 2 }
+					}
+				}
+			}
+		}
+
+		effects = {
+			cold_war_tab_icon_click = {
+				set_variable = { ROOT.selected_cw_civil_war_tab = i }
+			}
+		}
+	}
 	Cold_War_Scripted_GUI = {
 		context_type = player_context
 		window_name = "Cold_War_Scripted_GUI_window"

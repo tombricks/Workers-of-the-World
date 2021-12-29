@@ -81,9 +81,9 @@ ideologies = {
 		faction_modifiers = { }
 	}
 	
-	Reformist_Socialism = {
+	Socialism = {
 		
-		types = { Reformist_Socialism_ideology = { } }
+		types = { Socialism_ideology = { } }
 		dynamic_faction_names = { 
 			"FACTION_NAME_DEMOCRATIC_1"
 			"FACTION_NAME_DEMOCRATIC_2"
