@@ -17,7 +17,7 @@ leader_traits = {
 	IDEOLOGY_Marxism_Leninism_Hoxhaism = { random = no } # Marxism-Leninism-Hoxhaism
 	IDEOLOGY_Islamic_Marxism = { random = no } # Islamic Marxism
 	IDEOLOGY_National_Bolshevism = { random = no } # National Bolshevism
-	IDEOLOGY_Proletarianism = { random = no } # Proletarianism
+	IDEOLOGY_Labourism = { random = no } # Labourism
 	IDEOLOGY_Neo_Baathism = { random = no } # Neo-Ba'athism
 	IDEOLOGY_Arab_Socialism = { random = no } # Arab Socialism
 	IDEOLOGY_Libertarian_Marxism = { random = no } # Libertarian Marxism

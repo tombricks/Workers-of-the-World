@@ -1,6 +1,7 @@
 ﻿l_english:
  autonomy_annex:0 "Annexed"
  autonomy_autonomous_zone:0 "Autonomous Zone"
+ autonomy_temporary:0 "Autonomous Zone"
  autonomy_puppet:0 "Puppet"
  autonomy_satellite:0 "Satellite"
  autonomy_free:0 "Free"

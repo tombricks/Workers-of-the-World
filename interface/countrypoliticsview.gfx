@@ -535,8 +535,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_Proletarianism"
-		textureFile = "gfx/interface/ideologies/Proletarianism.dds"
+		name = "GFX_ideology_Labourism"
+		textureFile = "gfx/interface/ideologies/Labourism.dds"
 	}
 	
 	spriteType = {

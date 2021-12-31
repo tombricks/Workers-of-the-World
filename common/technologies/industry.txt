@@ -33,6 +33,7 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 
@@ -70,6 +71,7 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 	
@@ -101,6 +103,7 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 	
@@ -143,6 +146,7 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 	
@@ -174,6 +178,7 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 	
@@ -206,6 +211,7 @@ technologies = {
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 
@@ -223,7 +229,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1937
 		
 		folder = {
@@ -238,10 +244,16 @@ technologies = {
 				factor = 2
 				date > "1937.1.1"
 			}
+
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+			}
 		}
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 	
@@ -249,7 +261,7 @@ technologies = {
 		
 		equipment_conversion_speed = 0.40
 
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1939
 		
 		folder = {
@@ -264,10 +276,16 @@ technologies = {
 				factor = 2
 				date > "1937.1.1"
 			}
+
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+			}
 		}
 		
 		categories = {
 			industry
+			cat_production
 		}
 	}
 
@@ -296,26 +314,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 25
-
-			modifier = {
-				factor = 2
-				NOT = { tag = GER }
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -502,7 +500,6 @@ technologies = {
 		industrial_capacity_dockyard = 0.1
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
-		equipment_conversion_speed = 0.20
 		industry_air_damage_factor = -0.15
 		global_building_slots_factor = 0.2
 		
@@ -524,26 +521,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 25
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 0.25
-				tag = JAP
-			}
 
 			modifier = {
 				factor = 0
@@ -853,10 +830,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
-				factor = 0.5
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -916,11 +889,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
-			modifier = {
-				tag = USA
-				factor = 0.5
-			}	
+			factor = 5	
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -972,11 +941,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
-			modifier = {
-				tag = USA
-				factor = 0.5
-			}	
+			factor = 5	
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1019,11 +984,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5
-			modifier = {
-				tag = USA
-				factor = 0.5
-			}	
+			factor = 5	
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1063,10 +1024,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				tag = USA
-				factor = 0.5
-			}
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1113,19 +1070,11 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_oil
 		}
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-				has_war = yes
-				factor = 5
-			}
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1166,19 +1115,11 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_oil
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-					tag = JAP
-				}
-				has_war = yes
-				factor = 25
-			}
 			modifier = {
 				factor = 0.5
 				oil > 10
@@ -1220,6 +1161,7 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_oil
 		}
 		
 		ai_will_do = {
@@ -1279,6 +1221,7 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_oil
 		}
 		
 		ai_will_do = {
@@ -1328,6 +1271,7 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_oil
 		}
 		
 		ai_will_do = {
@@ -1380,6 +1324,7 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_rubber
 		}
 		
 		ai_will_do = {
@@ -1439,6 +1384,7 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_rubber
 		}
 		
 		ai_will_do = {
@@ -1498,18 +1444,11 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_rubber
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = ITA
-				}
-				has_war = yes
-				factor = 15
-			}
 			modifier = {
 				factor = 0.5
 				rubber > 10
@@ -1552,6 +1491,7 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
+			cat_synth_rubber
 		}
 		
 		ai_will_do = {

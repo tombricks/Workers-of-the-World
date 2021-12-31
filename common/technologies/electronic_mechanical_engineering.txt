@@ -45,6 +45,7 @@ technologies = {
 
 		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.05
+		coordination_bonus = 0.04
 		
 		path = {
 			leads_to_tech = radio_detection 
@@ -58,6 +59,10 @@ technologies = {
 			position = { x = -2 y = 2 }
 		}
 		
+		enable_equipment_modules = { 
+			tank_radio_1
+		}
+
 		folder = {
 			name = support_folder
 			position = { x = 11 y = 9 } # x = 12 y = 0
@@ -92,7 +97,7 @@ technologies = {
 			building = radar_station
 			level = 1
 		}
-		
+		coordination_bonus = 0.01
 		path = {
 			leads_to_tech = decimetric_radar 
 			research_cost_coeff = 1
@@ -107,6 +112,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				tag = USA
+				factor = 4
+			}
 		}
 		
 		categories = {
@@ -123,11 +132,12 @@ technologies = {
 			leads_to_tech = improved_decimetric_radar 
 			research_cost_coeff = 1
 		}
-		
+		coordination_bonus = 0.01
 		research_cost = 1.25
 		start_year = 1938
 		enable_equipment_modules = { 
 			ship_radar_1
+			tank_radio_2
 		}
 		folder = {
 			name = electronics_folder
@@ -136,6 +146,17 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 5
+			}
+			modifier = {
+				date < "1938.1.1"
+				factor = 0.5
+			}
 		}
 		
 		categories = {
@@ -156,7 +177,7 @@ technologies = {
 			building = radar_station
 			level = 3
 		}
-		
+		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_2
 		}
@@ -176,6 +197,17 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 5
+			}
+			modifier = {
+				date < "1939.1.1"
+				factor = 0.5
+			}
 		}
 		
 		categories = {
@@ -191,9 +223,10 @@ technologies = {
 			building = radar_station
 			level = 4
 		}
-
+		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_3
+			tank_radio_3
 		}
 
 		static_anti_air_hit_chance_factor = 0.2
@@ -214,6 +247,13 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 4
+			}
+			modifier = {
 				date < "1940.1.1"
 				factor = 0.5
 			}
@@ -232,7 +272,7 @@ technologies = {
 			building = radar_station
 			level = 5
 		}
-
+		coordination_bonus = 0.01
 		
 
 		static_anti_air_hit_chance_factor = 0.2
@@ -253,6 +293,13 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 4
+			}
+			modifier = {
 				date < "1941.1.1"
 				factor = 0.5
 			}
@@ -271,7 +318,7 @@ technologies = {
 			building = radar_station
 			level = 6
 		}
-
+		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_4
 		}
@@ -288,6 +335,13 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 5
+			}
 		}
 		
 		categories = {
@@ -383,7 +437,9 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.08
-		
+		enable_equipment_modules = {
+			stabilizer
+		}
 		path = {
 			leads_to_tech = advanced_computing_machine 
 			research_cost_coeff = 1
@@ -412,6 +468,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1940.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1941.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -491,6 +562,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -523,6 +604,16 @@ technologies = {
 			modifier = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
+			}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
 			}
 		}
 		
@@ -557,6 +648,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -585,6 +686,16 @@ technologies = {
 			modifier = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
+			}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
 			}
 		}
 		
@@ -615,6 +726,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -644,6 +765,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
+			modifier = {
+				factor = 3
+
+				tag = GER
+			}
+			modifier = {
+				factor = 3
+
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -671,6 +802,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.75
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+					tag = JAP
+				}
+				factor = 3
+			}
 			modifier = {
 				OR = {
 					can_research = improved_fire_control_system
@@ -706,6 +845,14 @@ technologies = {
 			factor = 0.75
 			modifier = {
 				OR = {
+					tag = ENG
+					tag = USA
+					tag = JAP
+				}
+				factor = 3
+			}
+			modifier = {
+				OR = {
 					can_research = advanced_fire_control_system
 					has_tech = advanced_fire_control_system
 				}
@@ -737,7 +884,16 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.75			
+			factor = 0.75
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+					tag = JAP
+				}
+				factor = 3
+			}
+			
 		}
 		
 		categories = {
@@ -927,7 +1083,9 @@ technologies = {
 		
 		start_year = 1944
 		research_cost = 2
-
+		enable_equipment_modules = {
+			tank_gas_turbine_engine
+		}
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 11 }
@@ -983,6 +1141,11 @@ technologies = {
 				factor = 1.2
 				date > "1943.1.1"
 			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
 		}
 		
 		categories = {
@@ -1011,6 +1174,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 3
+			modifier = {
+				tag = USA
+				factor = 2
+			}
 		}
 		
 		categories = {
@@ -1039,6 +1206,13 @@ technologies = {
 		
 		nuclear_production = 1
 		on_research_complete = {
+			if = {
+				limit = {
+					tag = USA
+					has_war_with = JAP
+				}
+				play_warning_to_japan_effect = yes
+			}
 		}
 		categories = {
 			nuclear

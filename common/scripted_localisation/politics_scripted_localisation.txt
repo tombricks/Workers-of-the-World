@@ -21,7 +21,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } localization_key = IDEOLOGY_Marxism_Leninism_Hoxhaism } # Marxism-Leninism-Hoxhaism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = IDEOLOGY_Islamic_Marxism } # Islamic Marxism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = IDEOLOGY_National_Bolshevism } # National Bolshevism
-	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = IDEOLOGY_Proletarianism } # Proletarianism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Labourism } localization_key = IDEOLOGY_Labourism } # Labourism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } localization_key = IDEOLOGY_Neo_Baathism } # Neo-Ba'athism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Arab_Socialism } localization_key = IDEOLOGY_Arab_Socialism } # Arab Socialism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Libertarian_Marxism } localization_key = IDEOLOGY_Libertarian_Marxism } # Libertarian Marxism
@@ -44,7 +44,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } localization_key = IDEOLOGY_Marxism_Leninism_Hoxhaism_ADJ } # Marxist-Leninist-Hoxhaist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = IDEOLOGY_Islamic_Marxism_ADJ } # Islamic Marxist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = IDEOLOGY_National_Bolshevism_ADJ } # National Bolshevik
-	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = IDEOLOGY_Proletarianism_ADJ } # Proletarianist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Labourism } localization_key = IDEOLOGY_Labourism_ADJ } # Labourist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } localization_key = IDEOLOGY_Neo_Baathism_ADJ } # Neo-Ba'athist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Arab_Socialism } localization_key = IDEOLOGY_Arab_Socialism_ADJ } # Arab Socialist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Libertarian_Marxism } localization_key = IDEOLOGY_Libertarian_Marxism_ADJ } # Libertarian Marxist
@@ -64,10 +64,10 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Maoism } localization_key = GFX_ideology_New_Marxism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Military_Junta } localization_key = GFX_ideology_Military_Junta }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Libertarian_Socialism } localization_key = GFX_ideology_Socialism }
-	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } localization_key = GFX_ideology_Proletarianism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } localization_key = GFX_ideology_Labourism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } localization_key = GFX_ideology_Islamic_Marxism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } localization_key = GFX_ideology_National_Bolshevism }
-	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Proletarianism } localization_key = GFX_ideology_Proletarianism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Labourism } localization_key = GFX_ideology_Labourism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } localization_key = GFX_ideology_Arab_Socialism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Arab_Socialism } localization_key = GFX_ideology_Arab_Socialism }
 

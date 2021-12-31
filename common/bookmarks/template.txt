@@ -7,9 +7,43 @@ bookmarks = {
 		default_country = "RUS"
 		default = yes
 		
+		"ENG" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = Socialism
+		}
+		
+		"GER" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = Marxism_Leninism
+		}
+		
 		"RUS" = {
 			history = "RUS_SECOND_COLD_WAR_DESC"
 			ideology = Marxism_Leninism
+		}
+		
+		"UAR" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = Socialism
+		}
+		
+		"CHI" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = New_Marxism
+		}
+		
+		"FRA" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = New_Marxism
+		}
+		
+		"ALB" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = Hypersocialism
+		}
+		
+		"---" = {
+			history = "OTHER_SECOND_COLD_WAR_DESC"
 		}
 	}
 }

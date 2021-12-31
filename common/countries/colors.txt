@@ -175,8 +175,8 @@ IRN = {
 	color_ui = rgb { 85 123 59 }
 }
 UAR = {
-	color = rgb { 163 132 81 }
-	color_ui = rgb { 163 132 81 }
+	color = rgb { 42 130 79 }
+	color_ui = rgb { 42 130 79 }
 }
 PAL = {
 	color = rgb { 178 78 106 }
@@ -313,4 +313,8 @@ YEM = {
 NIR = {
 	color = rgb { 46 139 87 }
 	color_ui = rgb { 46 139 87 }
+}
+KOR = {
+	color = rgb { 151 78 62 }
+	color_ui = rgb { 151 78 62 }
 }

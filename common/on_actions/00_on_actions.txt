@@ -5,35 +5,6 @@ on_actions = {
 				limit = { NOT = { has_country_flag = has_starting_oob } }
 				d_create_army = yes
 			}
-			if = {
-				limit = { has_dlc = "Man the Guns" }
-				every_country = {
-					set_technology = {
-						early_ship_hull_light = 1
-						popup = no
-					}
-					set_technology = {
-						basic_torpedo = 1
-						popup = no
-					}
-					set_technology = {
-						early_ship_hull_submarine = 1
-						popup = no
-					}
-				}
-				else = {
-					every_country = {
-						set_technology = {
-							early_destroyer = 1
-							popup = no
-						}
-						set_technology = {
-							early_submarine = 1
-							popup = no
-						}
-					}
-				}
-			}
 
 			RUS = { add_to_array = { global.Cold_War_Factions = THIS } }
 			CHI = { add_to_array = { global.Cold_War_Factions = THIS } }

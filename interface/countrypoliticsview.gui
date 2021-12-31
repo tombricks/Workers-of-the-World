@@ -68,6 +68,7 @@ guiTypes = {
 				size = { width = 230 height = 64 }
 				slotsize = { width = 230 height = 16 }
 				max_slots_vertical = 4
+				max_slots = { x = 2 y = 4 }
 				add_horizontal = yes
 				format = "UPPER_LEFT"
 			}
@@ -164,7 +165,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 2 y = 30 }
+				position = { x = 2000 y = 30 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 162
