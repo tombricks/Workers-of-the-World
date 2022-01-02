@@ -12,6 +12,7 @@ state={
 	history={
 		owner = UAR
 		add_core_of  = UAR
+		add_core_of = ALG
 		# ALG
 
 		victory_points = {

@@ -49,6 +49,7 @@ country_event = {
 			autonomy_state = autonomy_autonomous_zone
 		}
 		event_target:new_puppet = {
+			puppet_lose_military = yes
 			puppet_autonomous = yes
 		}
 	}
@@ -79,6 +80,7 @@ country_event = {
 			autonomy_state = autonomy_satellite
 		}
 		event_target:new_puppet = {
+			puppet_lose_military = yes
 			puppet_satellite = yes
 		}
 	}

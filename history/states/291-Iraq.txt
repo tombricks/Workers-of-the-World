@@ -13,6 +13,7 @@ state={
 	history={
 		owner = UAR
 		add_core_of = UAR
+		add_core_of = IRQ
 		victory_points = {
 			2097 10
 		}

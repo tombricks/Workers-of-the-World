@@ -318,3 +318,35 @@ KOR = {
 	color = rgb { 151 78 62 }
 	color_ui = rgb { 151 78 62 }
 }
+ALG = {
+	color = rgb { 213 74 0 }
+	color_ui = rgb { 213 74 0 }
+}
+TUN = {
+	color = rgb { 166 76 58 }
+	color_ui = rgb { 166 76 58 }
+}
+LBA = {
+	color = rgb { 42 130 79 }
+	color_ui = rgb { 42 130 79 }
+}
+EGY = {
+	color = rgb { 163 132 81 }
+	color_ui = rgb { 163 132 81 }
+}
+LEB = {
+	color = rgb { 102 2 60 }
+	color_ui = rgb { 102 2 60 }
+}
+SYR = {
+	color = rgb { 141 107 165 }
+	color_ui = rgb { 141 107 165 }
+}
+IRQ = {
+	color = rgb { 209 86 86 }
+	color_ui = rgb { 209 86 86 }
+}
+KUW = {
+	color = rgb { 42 198 91 }
+	color_ui = rgb { 42 198 91 }
+}

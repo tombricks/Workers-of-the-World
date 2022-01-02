@@ -8,6 +8,7 @@ state={
 	history={
 		owner = UAR
 		add_core_of = UAR
+		add_core_of = SYR
 		victory_points = {
 			3942 1
 		}

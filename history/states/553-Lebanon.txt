@@ -9,6 +9,7 @@ state={
 	history={
 		owner = UAR
 		add_core_of = UAR
+		add_core_of = LEB
 		victory_points = {
 			792 5 
 		}

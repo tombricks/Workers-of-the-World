@@ -20,6 +20,14 @@ puppet_autonomous = {
 puppet_military = {
 	set_cosmetic_tag = COUNTRY_Military_Administration
 }
+puppet_lose_military = {
+	if = {
+		limit = {
+			has_cosmetic_tag = COUNTRY_Military_Administration
+		}
+		drop_cosmetic_tag = yes
+	}
+}
 puppet_satellite = {
 	random_cosmetic = yes
 }
