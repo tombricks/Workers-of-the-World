@@ -6,6 +6,17 @@ on_actions = {
 				d_create_army = yes
 			}
 
+			every_country = {
+				if = {
+					limit = { NOT = { has_subideology = yes } }
+					log = "tombricks Warning: [THIS.GetName] leader ([THIS.GetLeader]) has no subideology"
+				}
+				if = {
+					limit = { NOT = { has_leader_title = yes } }
+					log = "tombricks Warning: [THIS.GetName] leader ([THIS.GetLeader]) has no title"
+				}
+			}
+
 			RUS = { add_to_array = { global.Cold_War_Factions = THIS } }
 			CHI = { add_to_array = { global.Cold_War_Factions = THIS } }
 

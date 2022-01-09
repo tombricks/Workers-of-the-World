@@ -24,6 +24,7 @@
  TITLE_First_Secretary: "First Secretary"
  TITLE_Premier: "Premier"
  TITLE_Secretary: "Secretary"
+ TITLE_Collective: "Collective"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
@@ -56,4 +57,6 @@
  IDEOLOGY_Neo_Jacobinism_ADJ: "Neo-Jacobin"
  IDEOLOGY_Bolshevik_Leninism: "Bolshevik-Leninism"
  IDEOLOGY_Bolshevik_Leninism_ADJ: "Bolshevik-Leninist"
+ IDEOLOGY_Anarchism: "Anarchism"
+ IDEOLOGY_Anarchism_ADJ: "Anarchist"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!

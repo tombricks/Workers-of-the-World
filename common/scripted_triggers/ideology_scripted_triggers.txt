@@ -139,6 +139,7 @@ has_subideology = {
 		has_country_leader_with_trait = IDEOLOGY_Democratic_Socialism
 		has_country_leader_with_trait = IDEOLOGY_Neo_Jacobinism
 		has_country_leader_with_trait = IDEOLOGY_Bolshevik_Leninism
+		has_country_leader_with_trait = IDEOLOGY_Anarchism
 		# <END OF IDEOLOGIES TRIGGER>
 	}
 }
@@ -154,6 +155,7 @@ has_leader_title = {
 		has_country_leader_with_trait = TITLE_First_Secretary
 		has_country_leader_with_trait = TITLE_Premier
 		has_country_leader_with_trait = TITLE_Secretary
+		has_country_leader_with_trait = TITLE_Collective
 		# <END OF TITLES TRIGGER>
 	}
 }

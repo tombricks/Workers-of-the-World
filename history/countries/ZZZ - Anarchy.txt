@@ -15,3 +15,4 @@ set_popularities = {
 }
 
 add_ideas = { Anarchy }
+recruit_character = ZZZ_Anarchy

@@ -8,6 +8,7 @@ leader_traits = {
 	TITLE_First_Secretary = { random = no } # First Secretary
 	TITLE_Premier = { random = no } # Premier
 	TITLE_Secretary = { random = no } # Secretary
+	TITLE_Collective = { random = no } # Collective
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }
@@ -25,5 +26,6 @@ leader_traits = {
 	IDEOLOGY_Democratic_Socialism = { random = no } # Democratic Socialism
 	IDEOLOGY_Neo_Jacobinism = { random = no } # Neo-Jacobinism
 	IDEOLOGY_Bolshevik_Leninism = { random = no } # Bolshevik-Leninism
+	IDEOLOGY_Anarchism = { random = no } # Anarchism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 }

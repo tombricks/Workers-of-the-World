@@ -1,5 +1,5 @@
 ideologies = [
-	["Bolshevik_Leninism", "Bolshevik-Leninism", "Bolshevik-Leninist"]
+	["Anarchism", "Anarchism", "Anarchist"]
 ]
 
 # TRAITS
@@ -47,3 +47,18 @@ print(File_Scripted_Localisation_Text)
 File_File_Scripted_Localisation = open("common/scripted_localisation/politics_scripted_localisation.txt", "w", encoding="utf8")
 File_File_Scripted_Localisation.write(File_Scripted_Localisation_Text)
 File_File_Scripted_Localisation.close()
+
+# SCRIPTED TRIGGERS
+File_Scripted_Triggers = open("common/scripted_triggers/ideology_scripted_triggers.txt", "r", encoding="utf8")
+File_Scripted_Triggers_Text = File_Scripted_Triggers.read()
+File_Scripted_Triggers.close()
+
+for ideology in ideologies:
+	File_Scripted_Triggers_Text = File_Scripted_Triggers_Text.replace("# <END OF IDEOLOGIES TRIGGER>", F"has_country_leader_with_trait = IDEOLOGY_{ideology[0]}\n		# <END OF IDEOLOGIES TRIGGER>")
+
+print("--- common/scripted_triggers/ideology_scripted_triggers.txt ---")
+print(File_Scripted_Triggers_Text)
+
+File_Scripted_Triggers = open("common/scripted_triggers/ideology_scripted_triggers.txt", "w", encoding="utf8")
+File_Scripted_Triggers.write(File_Scripted_Triggers_Text)
+File_Scripted_Triggers.close()
