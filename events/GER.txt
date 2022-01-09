@@ -23,7 +23,6 @@ country_event = {
 				}
 				inherit_technology = GER
 			}
-			set_country_flag = Left_Faction_for_War
 			leave_faction = yes
 			FDJ = {
 				transfer_state = 65

@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = ZZZ # owner = CAN
+		owner = CAN
+		add_core_of = CAN
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2

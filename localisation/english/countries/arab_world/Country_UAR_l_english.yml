@@ -16,6 +16,10 @@
  UAR_Socialism: "Federation of Arab Republics"
  UAR_Socialism_DEF: "the Federation of Arab Republics"
  UAR_Socialism_ADJ: "Arab" 
- 
+
+### Characters
+ UAR_Khaled_Mohieddin: "Khaled Mohieddin"
+ UAR_Khaled_Mohieddin_desc: ""
+
 ### Other
  UAR_League: "League of Arab States"

@@ -21,3 +21,5 @@ add_to_faction = UAR
 add_to_faction = PAL
 add_to_faction = JOR
 add_to_faction = YEM
+
+recruit_character = UAR_Khaled_Mohieddin

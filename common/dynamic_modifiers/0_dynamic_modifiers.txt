@@ -126,3 +126,8 @@ military_appeasement = {
 	
 	resistance_growth = -0.5
 }
+
+Rival_Government = {
+	icon = GFX_idea_SPR_masters_of_our_own_fate
+	enable = { always = yes }
+}

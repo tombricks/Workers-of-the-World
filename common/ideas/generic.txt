@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		Fanatic_Support = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea Fanatic_Support" }
 
 			allowed = {
 				always = yes
@@ -14,6 +15,59 @@ ideas = {
 				
 			modifier = {
 				surrender_limit = 0.75
+			}
+		}
+		
+		Anarchy = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea Anarchy" }
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				surrender_limit = 10.0 # never gonna give ~~you~~ up
+				research_speed_factor = -1.0
+				min_export = 0.0
+				army_org = -10
+				army_morale_factor = -1
+				training_time_factor = 0.00
+				army_defence_factor = -1
+				mobilization_speed = -1
+				conscription_factor = -1
+				political_power_gain = -1
+				industrial_capacity_factory = -1
+				production_speed_buildings_factor = -1
+				research_speed_factor = -10
+				resistance_target = -1
+			}
+
+			rule = {
+				can_boost_other_ideologies = no
+				can_create_factions = no
+				can_declare_war_on_same_ideology = no
+				can_declare_war_without_wargoal_when_in_war = no
+				can_decline_call_to_war = no
+				can_force_government = no
+				can_generate_female_aces = no
+				can_guarantee_other_ideologies = no
+				can_join_factions = no
+				can_join_factions_not_allowed_diplomacy = no
+				can_join_opposite_factions = no
+				can_lower_tension = no
+				can_not_declare_war = no
+				can_occupy_non_war = no
+				can_only_justify_war_on_threat_country = no
+				can_puppet = no
+				can_send_volunteers = no
+				can_use_kamikaze_pilots = no
+				units_deployed_to_overlord = no
 			}
 		}
 	}

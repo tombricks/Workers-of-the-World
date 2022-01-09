@@ -1,0 +1,25 @@
+﻿l_english:
+### Country Names and Cosmetics
+ CAN: "Canada"
+ CAN_DEF: "Canada"
+ CAN_ADJ: "Canadian" 
+ 
+ CAN_Hypersocialism: "Confederative Republic of Canada"
+ CAN_Hypersocialism_DEF: "the Confederative Republic of Canada"
+ CAN_Hypersocialism_ADJ: "Canadian" 
+ CAN_Marxism_Leninism: "Confederative Republic of Canada"
+ CAN_Marxism_Leninism_DEF: "the Confederative Republic of Canada"
+ CAN_Marxism_Leninism_ADJ: "Canadian" 
+ CAN_New_Marxism: "Confederative Republic of Canada"
+ CAN_New_Marxism_DEF: "the Confederative Republic of Canada"
+ CAN_New_Marxism_ADJ: "Canadian" 
+ CAN_Socialism: "Confederative Republic of Canada"
+ CAN_Socialism_DEF: "the Confederative Republic of Canada"
+ CAN_Socialism_ADJ: "Canadian" 
+ 
+ CAN_Marxism_Leninism_party: "CPC"
+ CAN_Marxism_Leninism_party_long: "Communist Party of Canada"
+ CAN_New_Marxism_party: "PCQ"
+ CAN_New_Marxism_party_long: "Parti communiste du Québec (Communist Party of Quebec)"
+ CAN_Reformist_Socialism_party: "IBLTC"
+ CAN_Reformist_Socialism_party_long: "International Bolshevik-Leninist Tendency of Canada"

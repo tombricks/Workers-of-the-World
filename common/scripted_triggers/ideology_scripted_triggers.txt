@@ -40,3 +40,120 @@ CHI_cold_war_sphere = {
 		has_country_flag = CHI_cold_war_aligned
 	}
 }
+
+CHI_should_aid_me = {
+	OR = {
+		has_country_flag = CHI_please_aid_me
+		AND = {
+			NOT = {	has_government = Reactionism }
+			NOT = {
+				any_country = {
+					has_war_with = PREV
+					has_government = New_Marxism
+				}
+			}
+			OR = {
+				AND = {
+					has_defensive_war = yes
+					any_country = {
+						has_war_with = PREV
+						has_government = Marxism_Leninism
+					}
+				}
+				AND = {
+					has_civil_war = yes
+					OR = {
+						new_marxist_or_hypersoc_without_alb = yes
+						any_country = {
+							civilwar_target = PREV
+							has_government = Marxism_Leninism
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+RUS_should_aid_me = {
+	OR = {
+		has_country_flag = RUS_please_aid_me
+		AND = {
+			NOT = { has_government = Hypersocialism }
+			NOT = {	has_government = Reactionism }
+			NOT = {
+				any_country = {
+					has_war_with = PREV
+					has_government = Marxism_Leninism
+				}
+			}
+			OR = {
+				AND = { # Give aid to countries being invaded by NewMarxHypersoc
+					has_defensive_war = yes
+					any_country = {
+						has_war_with = PREV
+						new_marxist_or_hypersoc_without_alb = yes
+					}
+				}
+				AND = { # Give aid to civil wars if they are Marxist Leninist or against New Marxists or Hyperscos since they are schizo
+					has_civil_war = yes
+					OR = {
+						has_government = Marxism_Leninism
+						any_country = {
+							civilwar_target = PREV
+							OR = {
+								has_government = New_Marxism
+								has_government = Hypersocialism
+							}
+						}
+					}
+					if = { # only give to New Marxists if against Hypersocs - they schizo
+						limit = {
+							has_government = New_Marxism
+						}
+						any_country = {
+							civilwar_target = PREV
+							has_government = Hypersocialism
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+has_subideology = {
+	OR = {
+		has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism
+		has_country_leader_with_trait = IDEOLOGY_Iosif_Stalin_Thought
+		has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Maoism
+		has_country_leader_with_trait = IDEOLOGY_Military_Junta
+		has_country_leader_with_trait = IDEOLOGY_Libertarian_Socialism
+		has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism
+		has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism
+		has_country_leader_with_trait = IDEOLOGY_National_Bolshevism
+		has_country_leader_with_trait = IDEOLOGY_Labourism
+		has_country_leader_with_trait = IDEOLOGY_Neo_Baathism
+		has_country_leader_with_trait = IDEOLOGY_Arab_Socialism
+		has_country_leader_with_trait = IDEOLOGY_Libertarian_Marxism
+		has_country_leader_with_trait = IDEOLOGY_Democratic_Socialism
+		has_country_leader_with_trait = IDEOLOGY_Neo_Jacobinism
+		has_country_leader_with_trait = IDEOLOGY_Bolshevik_Leninism
+		# <END OF IDEOLOGIES TRIGGER>
+	}
+}
+
+has_leader_title = {
+	OR = {
+		has_country_leader_with_trait = TITLE_General_Secretary
+		has_country_leader_with_trait = TITLE_Second_Secretary
+		has_country_leader_with_trait = TITLE_Chairman
+		has_country_leader_with_trait = TITLE_Acting_General_Secretary
+		has_country_leader_with_trait = TITLE_President
+		has_country_leader_with_trait = TITLE_Stalin_Head
+		has_country_leader_with_trait = TITLE_First_Secretary
+		has_country_leader_with_trait = TITLE_Premier
+		has_country_leader_with_trait = TITLE_Secretary
+		# <END OF TITLES TRIGGER>
+	}
+}

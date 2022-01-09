@@ -1,0 +1,21 @@
+FRA_Jacobin = {
+	FRA_Lay_Claim_to_the_Natural_Borders = {
+		icon = GFX_decision_infiltrate_state
+		visible = {
+			always = yes
+		}
+
+		cost = 50
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision FRA_Lay_Claim_to_the_Natural_Borders"
+			add_state_claim = 42
+			add_state_claim = 51
+			add_state_claim = 8
+			add_state_claim = 34
+			add_state_claim = 6
+			add_state_claim = 35
+		}
+	}
+}

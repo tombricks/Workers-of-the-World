@@ -5,11 +5,12 @@ state=
 	manpower = 8143
 	
 	state_category = wasteland
-	impassable = yes
+	#impassable = yes
 	
 	history= {
-		# SUD
-		owner = ZZZ # owner = ENG
+		owner = SUD
+		add_core_of = SUD
+		
 		buildings = {
 			infrastructure = 0
 		}

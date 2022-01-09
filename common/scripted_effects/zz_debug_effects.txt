@@ -360,3 +360,100 @@ d_every_RUS_cold_war_sphere = {
 d_log_surrenders = {
 	log = "[THIS.GetName]: Surrender at [?THIS.surrender_progress]"
 }
+
+d_capitulate = {
+	log = "[FROM.GetName] [ROOT.GetName]"
+	#every_state
+}
+
+d_delete_army = {
+	every_state = {
+		PREV = {
+			delete_unit = {
+				state = PREV
+			}
+		}
+	}
+}
+
+d_disband_army = {
+	every_state = {
+		PREV = {
+			delete_unit = {
+				state = PREV
+				disband = yes
+			}
+		}
+	}
+}
+
+d_should_CHI_aid_me = {
+	if = {
+		limit = {
+			CHI_should_aid_me = yes
+		}
+		log = "Yes, CHI should aid [THIS.GetNameWithFlag]"
+		else = {
+			log = "No, CHI should not aid [THIS.GetNameWithFlag]"
+		}
+	}
+}
+
+d_should_RUS_aid_me = {
+	if = {
+		limit = {
+			RUS_should_aid_me = yes
+		}
+		log = "Yes, RUS should aid [THIS.GetNameWithFlag]"
+		else = {
+			log = "No, RUS should not aid [THIS.GetNameWithFlag]"
+		}
+	}
+}
+
+d_Jacobin_Revolt = {
+	FRA = {
+		start_civil_war = {
+			ideology = Hypersocialism
+			size = 0.6
+			states = {
+				14 20 30 15 735 19 21 
+			}
+			set_capital = {
+				state = 20
+				remember_old_capital = yes
+			}
+			set_province_controller = 6766
+			set_province_controller = 3652
+			set_province_controller = 3652
+		}
+	}
+}
+
+d_steal_army_troll = {
+	transfer_units_fraction= {
+		target = FROM
+		size = 1.0
+		stockpile_ratio = 1.0
+		army_ratio = 1.0
+		navy_ratio = 1.0
+		air_ratio = 1.0
+		keep_unit_leaders_trigger = {
+			always = no
+		}
+	}
+}
+
+d_occupy_all_occupied_provs = {
+	for_each_loop = {
+		array = global.province_controllers
+		if = {
+			limit = {
+				check_variable = { v = ROOT }
+			}
+			FROM = {
+				set_province_controller = var:i
+			}
+		}
+	}
+}

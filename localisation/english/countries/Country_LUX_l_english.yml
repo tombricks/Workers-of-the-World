@@ -16,3 +16,15 @@
  LUX_Socialism: "Luxembourg Soviet Republic"
  LUX_Socialism_DEF: "the Luxembourg Soviet Republic"
  LUX_Socialism_ADJ: "Luxembourg" 
+
+### Parties
+ LUX_Hypersocialism_party: "KPL"
+ LUX_Hypersocialism_party_long: "Kommunistesch Partei vu Lëtzebuerg (Communist Party of Luxembourg)"
+ LUX_Marxism_Leninism_party: "KPL"
+ LUX_Marxism_Leninism_party_long: "Kommunistesch Partei vu Lëtzebuerg (Communist Party of Luxembourg)"
+ LUX_New_Marxism_party: "KPL"
+ LUX_New_Marxism_party_long: "Kommunistesch Partei vu Lëtzebuerg (Communist Party of Luxembourg)"
+
+### Characters
+ LUX_Charles_Doerner: "Charles Doerner"
+ LUX_Charles_Doerner_desc: ""

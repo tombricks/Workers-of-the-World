@@ -18,8 +18,6 @@ characters = {
 			ideology = Marxism_Leninism_ideology
 			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism }
 			desc = RUS_Yegor_Ligachyov_desc
-			expire = "1999.1.1.1"
-			id = -1
 		}
 	}
 

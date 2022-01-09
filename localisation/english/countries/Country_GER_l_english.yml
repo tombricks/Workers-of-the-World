@@ -19,13 +19,13 @@
 
 ### Parties
  GER_Hypersocialism_party: "NKFD"
- GER_Hypersocialism_party_long: "National Committee for a Free Germany"
+ GER_Hypersocialism_party_long: "Nationalkomitee Freies Deutschland (National Committee for a Free Germany)"
  GER_New_Marxism_party: "UDK-I"
- GER_New_Marxism_party_long: "Union of German Communists (Internationalists)"
+ GER_New_Marxism_party_long: "Union Deutscher Kommunisten (Internationalisten) (Union of German Communists (Internationalists))"
  GER_Marxism_Leninism_party: "UDK"
- GER_Marxism_Leninism_party_long: "Union of German Communists"
+ GER_Marxism_Leninism_party_long: "Union Deutscher Kommunisten (Union of German Communists)"
  GER_Socialism_party: "UDK-S"
- GER_Socialism_party_long: "Union of German Communists (Spartacists)"
+ GER_Socialism_party_long: "Union Deutscher Kommunisten (Spartakisten) (Union of German Communists (Spartacists))"
 
 ### Characters
  GER_Hans_Modrow: "Hans Modrow"

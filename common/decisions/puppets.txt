@@ -13,7 +13,7 @@ puppet_decisions = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision convert_military_administration"
 			FROM = { save_event_target_as = new_puppet }
-			country_event = Puppet_Event.1
+			puppet_command = yes
 		}
 	}
 }

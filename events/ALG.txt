@@ -1,0 +1,40 @@
+﻿add_namespace = ALG_Revolution
+
+# Algerian Crisis
+country_event = {
+	id = ALG_Revolution.1
+	title = ALG_Revolution.1.TITLE
+	desc = ALG_Revolution.1.DESC
+	picture = GFX_Country_Romanov_Gone
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: Event ALG_Revolution.1"
+		hidden_effect = {
+			ALG = {
+				transfer_state = 514
+				transfer_state = 513
+				transfer_state = 460
+				transfer_state = 459
+			}
+			514 = { set_demilitarized_zone = yes }
+			513 = { set_demilitarized_zone = yes }
+			460 = { set_demilitarized_zone = yes }
+			459 = { set_demilitarized_zone = yes }
+			set_autonomy = {
+				target = ALG
+				autonomy_state = autonomy_autonomous_zone
+			}
+		}
+	}
+	
+	option = {
+		name = ALG_Revolution.1.A
+	}
+	
+	option = {
+		name = ALG_Revolution.1.B
+		ALG = { change_tag_from = UAR }
+	}
+}

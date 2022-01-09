@@ -7,9 +7,9 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = ZZZ # owner = JAP
-		# CHI
-		# CHI
+		owner = TAI
+		add_core_of = TAI
+		
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

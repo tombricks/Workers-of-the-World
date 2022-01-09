@@ -1,0 +1,28 @@
+capital = 524
+set_stability = 0.6
+set_war_support = 0.6
+
+# Starting tech
+tech_setup_generic = yes
+
+set_politics = {
+	ruling_party = Hypersocialism
+	last_election = "1.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	Hypersocialism = 100
+}
+
+	add_dynamic_modifier = {
+		modifier = Rival_Government
+		scope = CHI
+	}
+	CHI = {
+		add_dynamic_modifier = {
+			modifier = Rival_Government
+			scope = PREV
+		}
+	}

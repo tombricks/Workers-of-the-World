@@ -18,8 +18,6 @@ characters={
 			ideology = Marxism_Leninism_ideology
 			traits = { TITLE_First_Secretary IDEOLOGY_Marxism_Leninism }
 			desc = POL_Wladyslaw_Gomulka_desc
-			expire = "1999.1.1.1"
-			id = -1
 		}
 	}
 }

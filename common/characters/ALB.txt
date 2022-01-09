@@ -18,16 +18,12 @@ characters={
 			ideology = Hypersocialism_ideology
 			traits = { TITLE_First_Secretary IDEOLOGY_Labourism }
 			desc = ALB_Enver_Hoxha_desc
-			expire = "1999.1.1.1"
-			id = -1
 		}
 		
 		country_leader = {
 			ideology = Marxism_Leninism_ideology
 			traits = { TITLE_First_Secretary IDEOLOGY_Labourism }
 			desc = ALB_Enver_Hoxha_desc
-			expire = "1999.1.1.1"
-			id = -1
 		}
 	}
 }

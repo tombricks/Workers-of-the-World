@@ -1,5 +1,5 @@
 ideologies = [
-	["Democratic_Socialism", "Democratic Socialism", "Democratic Socialist"]
+	["Bolshevik_Leninism", "Bolshevik-Leninism", "Bolshevik-Leninist"]
 ]
 
 # TRAITS

@@ -1,6 +1,7 @@
 ideas = {
 	country = {
-		GER_A_State_Disarmed = { 
+		GER_A_State_Disarmed = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea GER_A_State_Disarmed" }
 
 			allowed = {
 				always = yes

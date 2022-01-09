@@ -62,12 +62,11 @@ New_Marxists_join_CHI = {
 	}
 }
 
-CHI_Send_Volunteers_to_Civil_War = {
+CHI_Send_Volunteers_to_War = {
 	reversed = yes
 
 	enable = {
-		new_marxist_or_hypersoc_without_alb = yes
-		has_civil_war = yes
+		CHI_should_aid_me = yes
 	}
 
 	ai_strategy = {

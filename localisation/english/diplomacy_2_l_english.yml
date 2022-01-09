@@ -4,3 +4,5 @@
  RECALL_VOLUNTEERS_TITLE:0 "Recall Volunteers"
  RECALL_VOLUNTEERS_ACTION_DESC:0 "Recall all volunteers sent to this country."
  RECALL_VOLUNTEERS_ACTION_SEND_DESC:0 "Recall all volunteers sent to §Y[FROM.GetNameDef]§!?"
+ 
+ left_faction_for_civilwar: "Left Faction for Civil War"

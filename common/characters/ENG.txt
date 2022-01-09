@@ -18,8 +18,6 @@ characters={
 			ideology = Socialism_ideology
 			traits = { TITLE_Premier IDEOLOGY_Democratic_Socialism }
 			desc = ENG_Tony_Benn_desc
-			expire = "1999.1.1.1"
-			id = -1
 		}
 	}
 }

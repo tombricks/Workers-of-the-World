@@ -23,6 +23,7 @@
  TITLE_Stalin_Head: "Head of the Union, Chairman of the Presidium and Supreme Commander-in-Chief of the Armed Forces"
  TITLE_First_Secretary: "First Secretary"
  TITLE_Premier: "Premier"
+ TITLE_Secretary: "Secretary"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
@@ -51,4 +52,8 @@
  IDEOLOGY_Libertarian_Marxism_ADJ: "Libertarian Marxist"
  IDEOLOGY_Democratic_Socialism: "Democratic Socialism"
  IDEOLOGY_Democratic_Socialism_ADJ: "Democratic Socialist"
+ IDEOLOGY_Neo_Jacobinism: "Neo-Jacobinism"
+ IDEOLOGY_Neo_Jacobinism_ADJ: "Neo-Jacobin"
+ IDEOLOGY_Bolshevik_Leninism: "Bolshevik-Leninism"
+ IDEOLOGY_Bolshevik_Leninism_ADJ: "Bolshevik-Leninist"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!

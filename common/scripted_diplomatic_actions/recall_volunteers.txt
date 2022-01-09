@@ -7,7 +7,6 @@ scripted_diplomatic_actions = {
 		allowed = { always = yes }
 		visible = {
 			has_volunteers_amount_from = { tag = ROOT count > 0 }
-			NOT = { ROOT = { has_country_flag = recalling_volunteers_from_@PREV } }
 		}
 
 		cost = 0

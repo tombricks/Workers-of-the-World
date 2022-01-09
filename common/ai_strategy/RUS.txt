@@ -62,58 +62,16 @@ Marxist_Leninists_join_RUS = {
 	}
 }
 
-RUS_Send_Volunteers_to_Civil_War = {
-	reversed = yes
-
-	enable = {
-		OR = {
-			has_government = Marxism_Leninism
-			AND = {
-				any_country = {
-					civilwar_target = PREV
-					new_marxist_or_hypersoc_without_alb = yes
-				}
-				NOT = {
-					any_country = {
-						civilwar_target = PREV
-						has_government = Marxism_Leninism
-					}
-				}
-			}
-		}
-		has_civil_war = yes
-	}
-
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = RUS
-		value = 150
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = RUS
-		value = 50
-	}
-}
 RUS_Send_Volunteers_to_War = {
 	reversed = yes
 
 	enable = {
-		has_government = Marxism_Leninism
-		has_war = yes
-		OR = {
-			has_defensive_war = yes
-		}
+		RUS_should_aid_me = yes
 	}
 
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = RUS
 		value = 150
-	}
-	ai_strategy = {
-		type = dont_join_wars_with
-		id = RUS
-		value = 50
 	}
 }

@@ -13,3 +13,5 @@ set_politics = {
 set_popularities = {
 	Socialism = 100
 }
+
+add_ideas = { Anarchy }

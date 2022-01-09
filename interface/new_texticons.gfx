@@ -4,4 +4,9 @@ spriteTypes = {
 		texturefile = "gfx/texticons/RUS_CPSU_Conservative.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_decision_header_FRA_Jacobin"
+		texturefile = "gfx/interface/decision_headers/decision_header_FRA_Jacobin.dds"
+		legacy_lazy_load = no
+	}
 }

@@ -11,7 +11,9 @@ state=
 
 	history=
 	{
-		owner = ZZZ # owner = ETH
+		owner = ETH
+		add_core_of = ETH
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2

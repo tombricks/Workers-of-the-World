@@ -17,3 +17,4 @@ set_popularities = {
 }
 
 recruit_character = FRA_Roland_Castro
+recruit_character = FRA_Jacques_Jurquet

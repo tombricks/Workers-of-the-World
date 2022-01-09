@@ -3,7 +3,7 @@ state={
 	name="STATE_515"
 	
 	state_category = pastoral
-	impassable = yes
+	#impassable = yes
 
 	history={
 		owner = ZZZ # owner = FRA

@@ -2,93 +2,16 @@
 ### [TAG, country name (generic), adjective, ideology, capital, rrr ggg bbb, common/countries file]
 
 countries = [
-	["ALG",
-	"Algeria",
-	"Algerian",
-	"Socialism",
-	"459",
-	"213 74 0",
-	"Middle_Eastern",
+	["CAN",
+	"Canada",
+	"Canadian",
+	"Marxism_Leninism",
+	"276",
+	"163 61 70",
+	"Western_European",
 	[],
-	"Algerian Arab Republic",
-	"the Algerian Arab Republic"],
-
-	["TUN",
-	"Tunisia",
-	"Tunisian",
-	"Socialism",
-	"458",
-	"166 76 58",
-	"Middle_Eastern",
-	[],
-	"Tunisian Arab Republic",
-	"the Tunisian Arab Republic"],
-
-	["LBA",
-	"Libya",
-	"Libyan",
-	"Socialism",
-	"448",
-	"42 130 79",
-	"Middle_Eastern",
-	[],
-	"Libyan Arab Republic",
-	"the Libyan Arab Republic"],
-
-	["EGY",
-	"Egypt",
-	"Egyptian",
-	"Socialism",
-	"447",
-	"163 132 81",
-	"Middle_Eastern",
-	[],
-	"Egyptian Arab Republic",
-	"the Egyptian Arab Republic"],
-
-	["LEB",
-	"Lebanon",
-	"Lebanese",
-	"Socialism",
-	"553",
-	"102 2 60",
-	"Middle_Eastern",
-	[],
-	"Lebanon Arab Republic",
-	"the Lebanon Arab Republic"],
-
-	["SYR",
-	"Syria",
-	"Syrian",
-	"Socialism",
-	"554",
-	"141 107 165",
-	"Middle_Eastern",
-	[],
-	"Syrian Arab Republic",
-	"the Syrian Arab Republic"],
-
-	["IRQ",
-	"Iraq",
-	"Iraqi",
-	"Socialism",
-	"291",
-	"209 86 86",
-	"Middle_Eastern",
-	[],
-	"Iraqi Arab Republic",
-	"the Iraqi Arab Republic"],
-
-	["KUW",
-	"Kuwait",
-	"Kuwaiti",
-	"Socialism",
-	"656",
-	"42 198 91",
-	"Middle_Eastern",
-	[],
-	"Kuwaiti Arab Republic",
-	"the Kuwaiti Arab Republic"]
+	"Confederative Republic of Canada",
+	"the Confederative Republic of Canada"]
 ]
 
 from shutil import copyfile
@@ -99,7 +22,7 @@ FileColor = open("common/countries/colors.txt", "a+", encoding="utf8")
 
 for country in countries:
 	FileTags.write(F"\n{country[0]} = \"countries/{country[6]}.txt\" ")
-	FileLoc   = open("localisation/english/Country_"+country[0]+"_l_english.yml", "w", encoding="utf8")
+	FileLoc   = open("localisation/english/countries/Country_"+country[0]+"_l_english.yml", "w", encoding="utf8")
 
 	FileLoc.write('\ufeff')
 	FileLoc.write(F"""l_english:

@@ -13,8 +13,9 @@ state=
 		victory_points = { 
 			5068 1
 		}
-		owner = ZZZ # owner = ENG
-		# SOM
+		owner = SOM
+		add_core_of = SOM
+		
 		buildings = {
 			infrastructure = 2
 			10833 = {
