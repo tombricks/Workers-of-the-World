@@ -12,6 +12,7 @@ state={
 	
 	history={
 		owner = ZZZ # owner = MEX
+		add_extra_state_shared_building_slots = 2
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 2

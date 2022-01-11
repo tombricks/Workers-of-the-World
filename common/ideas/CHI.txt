@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		CHI_Chinese_Marxists_in_Government = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea CHI_Pro_Chinese_Sympathies" }
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				New_Marxism_acceptance = 50
+				New_Marxism_drift = 0.01
+			}
+		}
+	}
+}

@@ -8,7 +8,7 @@ tech_setup_generic = yes
 
 set_politics = {
 	ruling_party = Marxism_Leninism
-	last_election = "1.1.1"
+	last_election = "1978.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }

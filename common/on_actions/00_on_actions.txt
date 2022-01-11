@@ -104,16 +104,18 @@ on_actions = {
 	
 						}
 					}
-				}
-				add_dynamic_modifier = {
-					modifier = Rival_Government
-					scope = FROM
-				}
-				FROM = {
 					add_dynamic_modifier = {
 						modifier = Rival_Government
-						scope = ROOT
+						scope = FROM
 					}
+					FROM = {
+						save_event_target_as = rival_gov
+						add_dynamic_modifier = {
+							modifier = Rival_Government
+							scope = ROOT
+						}
+					}
+					add_rival_government = yes
 				}
 			}
 
@@ -151,11 +153,13 @@ on_actions = {
 					modifier = Rival_Government
 					scope = FROM
 				}
+				remove_from_array = { THIS.rival_governments = FROM }
 				FROM = {
 					remove_dynamic_modifier = {
 						modifier = Rival_Government
 						scope = ROOT
 					}
+					remove_from_array = { THIS.rival_governments = ROOT }
 				}
 			}
 		}

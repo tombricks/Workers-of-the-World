@@ -156,3 +156,20 @@ d_call_to_arms = {
 	}
 	clear_array = global.CHI_cold_war_factions
 }
+add_rival_government = {
+	add_to_array = { THIS.rival_governments = event_target:rival_gov }
+	add_ai_strategy = {
+		type = antagonize
+		id = event_target:rival_gov
+		value = 250
+	}
+
+	event_target:rival_gov = {
+		add_to_array = { THIS.rival_governments = PREV }
+		add_ai_strategy = {
+			type = antagonize
+			id = PREV
+			value = 250
+		}
+	}
+}

@@ -1,5 +1,5 @@
 ideologies = [
-	["Anarchism", "Anarchism", "Anarchist"]
+	["Titoism", "Titoism", "Titoist"]
 ]
 
 # TRAITS

@@ -44,7 +44,6 @@ ideas = {
 				political_power_gain = -1
 				industrial_capacity_factory = -1
 				production_speed_buildings_factor = -1
-				research_speed_factor = -10
 				resistance_target = -1
 			}
 
@@ -58,7 +57,6 @@ ideas = {
 				can_generate_female_aces = no
 				can_guarantee_other_ideologies = no
 				can_join_factions = no
-				can_join_factions_not_allowed_diplomacy = no
 				can_join_opposite_factions = no
 				can_lower_tension = no
 				can_not_declare_war = no

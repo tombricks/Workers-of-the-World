@@ -43,6 +43,7 @@ CHI_cold_war_sphere = {
 
 CHI_should_aid_me = {
 	OR = {
+		has_country_flag = CHI_frendo
 		has_country_flag = CHI_please_aid_me
 		AND = {
 			NOT = {	has_government = Reactionism }
@@ -140,6 +141,10 @@ has_subideology = {
 		has_country_leader_with_trait = IDEOLOGY_Neo_Jacobinism
 		has_country_leader_with_trait = IDEOLOGY_Bolshevik_Leninism
 		has_country_leader_with_trait = IDEOLOGY_Anarchism
+		has_country_leader_with_trait = IDEOLOGY_Communism
+		has_country_leader_with_trait = IDEOLOGY_Islamic_Socialism
+		has_country_leader_with_trait = IDEOLOGY_African_Socialism
+		has_country_leader_with_trait = IDEOLOGY_Titoism
 		# <END OF IDEOLOGIES TRIGGER>
 	}
 }

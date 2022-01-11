@@ -191,7 +191,7 @@ technologies = {
 			}
 			#modifier = {
 			#	factor = 0
-			#	tag = SOV
+			#	tag = RUS
 			#	OR = {
 			#		date < "1944.1.1" # stock up on lots of rifles, we got the manpower
 			#		AND = {
@@ -1614,7 +1614,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = SOV
+				tag = RUS
 			}
 		}
 		
@@ -2020,7 +2020,7 @@ technologies = {
 		}		
 	}
 
-	######### FROM SOVIET FOCUS ##########
+	######### FROM RUSIET FOCUS ##########
 	penal_infantry = {
 		
 		allow = {

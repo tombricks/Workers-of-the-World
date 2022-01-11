@@ -1,0 +1,20 @@
+﻿l_english:
+### Country Names and Cosmetics
+ SEN: "Senegal"
+ SEN_DEF: "Senegal"
+ SEN_ADJ: "Senegalese" 
+ 
+ SEN_Hypersocialism: "Democratic Republic of Senegal"
+ SEN_Hypersocialism_DEF: "the Democratic Republic of Senegal"
+ SEN_Marxism_Leninism: "Democratic Republic of Senegal"
+ SEN_Marxism_Leninism_DEF: "the Democratic Republic of Senegal"
+ SEN_New_Marxism: "Democratic Republic of Senegal"
+ SEN_New_Marxism_DEF: "the Democratic Republic of Senegal"
+ SEN_Socialism: "Democratic Republic of Senegal"
+ SEN_Socialism_DEF: "the Democratic Republic of Senegal"
+
+ SEN_New_Marxism_party: "And-Jëf"
+ SEN_New_Marxism_party_long: "And-Jëf/Mouvement Révolutionnaire pour la Démocratie Nouvelle (Act Together/Revolutionary Movement for New Democracy)"
+ 
+ SEN_Landing_Savane: "Landing Savané"
+ SEN_Landing_Savane_desc: ""

@@ -27,5 +27,9 @@ leader_traits = {
 	IDEOLOGY_Neo_Jacobinism = { random = no } # Neo-Jacobinism
 	IDEOLOGY_Bolshevik_Leninism = { random = no } # Bolshevik-Leninism
 	IDEOLOGY_Anarchism = { random = no } # Anarchism
+	IDEOLOGY_Communism = { random = no } # Communism
+	IDEOLOGY_Islamic_Socialism = { random = no } # Islamic Socialism
+	IDEOLOGY_African_Socialism = { random = no } # African Socialism
+	IDEOLOGY_Titoism = { random = no } # Titoism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 }

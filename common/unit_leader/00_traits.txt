@@ -2569,4 +2569,24 @@ leader_traits = {
 			}
 		}
 	
+		RUS_Marshal_of_the_Soviet_Union = {
+			type = all
+			trait_type = status_trait
+
+			gain_xp = {
+				always = yes
+			}
+			
+			modifier = {
+				army_morale_factor = 0.2			
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+			new_commander_weight = {
+				factor = 0
+			}
+		}
+	
 }

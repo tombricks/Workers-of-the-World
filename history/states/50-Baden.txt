@@ -10,6 +10,7 @@ state={
 		owner = GER
 		add_core_of = GER
 		add_core_of = BDN
+		add_extra_state_shared_building_slots = 2
 		victory_points = {
 			9517 20
 		}

@@ -1,0 +1,22 @@
+﻿l_english:
+### Country Names and Cosmetics
+ MLI: "Mali"
+ MLI_DEF: "Mali"
+ MLI_ADJ: "Malian" 
+ 
+ MLI_Hypersocialism: "Socialist Republic of Mali"
+ MLI_Hypersocialism_DEF: "the Socialist Republic of Mali"
+ MLI_Marxism_Leninism: "Socialist Republic of Mali"
+ MLI_Marxism_Leninism_DEF: "the Socialist Republic of Mali"
+ MLI_New_Marxism: "Socialist Republic of Mali"
+ MLI_New_Marxism_DEF: "the Socialist Republic of Mali"
+ MLI_Socialism: "Socialist Republic of Mali"
+ MLI_Socialism_DEF: "the Socialist Republic of Mali"
+
+ MLI_New_Marxism_party: "PMT"
+ MLI_New_Marxism_party_long: "Parti du peuple mauritanien (Malian Party of Labour)"
+ 
+ MLI_Alpha_Oumar_Konare: "Alpha Oumar Konaré"
+ MLI_Alpha_Oumar_Konare_desc: ""
+ 
+ MLI_West_Africa_faction: "West African Organisation"

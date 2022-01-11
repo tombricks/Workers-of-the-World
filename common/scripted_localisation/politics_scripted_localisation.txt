@@ -31,6 +31,10 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Jacobinism } localization_key = IDEOLOGY_Neo_Jacobinism } # Neo-Jacobinism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Bolshevik_Leninism } localization_key = IDEOLOGY_Bolshevik_Leninism } # Bolshevik-Leninism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Anarchism } localization_key = IDEOLOGY_Anarchism } # Anarchism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Communism } localization_key = IDEOLOGY_Communism } # Communism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Socialism } localization_key = IDEOLOGY_Islamic_Socialism } # Islamic Socialism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_African_Socialism } localization_key = IDEOLOGY_African_Socialism } # African Socialism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Titoism } localization_key = IDEOLOGY_Titoism } # Titoism
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism_noun }
@@ -57,6 +61,10 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Jacobinism } localization_key = IDEOLOGY_Neo_Jacobinism_ADJ } # Neo-Jacobin
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Bolshevik_Leninism } localization_key = IDEOLOGY_Bolshevik_Leninism_ADJ } # Bolshevik-Leninist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Anarchism } localization_key = IDEOLOGY_Anarchism_ADJ } # Anarchist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Communism } localization_key = IDEOLOGY_Communism_ADJ } # Communist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Socialism } localization_key = IDEOLOGY_Islamic_Socialism_ADJ } # Islamic Socialist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_African_Socialism } localization_key = IDEOLOGY_African_Socialism_ADJ } # African Socialist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Titoism } localization_key = IDEOLOGY_Titoism_ADJ } # Titoist
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism }

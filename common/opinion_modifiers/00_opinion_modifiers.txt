@@ -120,11 +120,11 @@ opinion_modifiers = {
 		value = 10
 	}
 
-	SOV_FRA_join_comintern_reject = {		
+	RUS_FRA_join_comintern_reject = {		
 		value = -30
 	}
 
-	SOV_ultimatum_to_greece_thrace = {
+	RUS_ultimatum_to_greece_thrace = {
 		value = 25
 	}
 
@@ -736,7 +736,7 @@ opinion_modifiers = {
 
 	ROM_seek_alliance_GER = { value = 25 }
 
-	ROM_seek_alliance_SOV = { value = 25 }
+	ROM_seek_alliance_RUS = { value = 25 }
 
 
 	### Polish focus tree ###
@@ -799,7 +799,7 @@ opinion_modifiers = {
 
 	HUN_renegade = { value = -50 }
 
-	HUN_SOV_betrayal = { value = -50 }
+	HUN_RUS_betrayal = { value = -50 }
 
 	HUN_split_CZE = { value = 25 }
 	

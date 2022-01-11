@@ -3,32 +3,24 @@
 
 countries = [
 	{
-		"tag":				"HVR",
-		"name":				"Havering",
-		"adj":				"Havering",
-		"ideology":			"Hypersocialism",
-		"capital":			"126",
-		"colour":			"255 255 0",
-		"culture":			"Western_European",
-		"long_name":		"Democratic Federal Socialist Republican Empire of Havering",
-		"long_name_def":	"the Democratic Federal Socialist Republican Empire of Havering",
+		"tag":				"SEN",
+		"name":				"Senegal",
+		"adj":				"Senegalese",
+		"ideology":			"New_Marxism",
+		"capital":			"272",
+		"colour":			"114 89 52",
+		"culture":			"African",
+		"long_name":		"Democratic Republic of Senegal",
+		"long_name_def":	"the Democratic Republic of Senegal",
 		"parties":			{
-			"Hypersocialism": [ "TPB-1", "tombricks' First Personality in his Brain" ],
-			"New_Marxism": [ "TPB-2", "tombricks' Second Personality in his Brain" ],
-			"Reformist_Socialism": [ "TPB-3", "tombricks' Third Personality in his Brain" ]
+			"New_Marxism": [ "And-Jëf", "And-Jëf/Mouvement Révolutionnaire pour la Démocratie Nouvelle (Act Together/Revolutionary Movement for New Democracy)" ]
 		},
 		"characters":		{
-			"tombricks":	{
-				"name": 		"tombricks",
-				"title": 		"President",
-				"subideology": 	"Arab_Socialism",
-				"ideologies": 	[ "Hypersocialism", "New_Marxism", "Reformist_Socialism" ]
-			},
-			"Tobey_Maguire":	{
-				"name":			"Tobey Maguire",
-				"title":		"Chairman",
-				"subideology":	"Marxism_Leninism_Maoism",
-				"ideologies":	[ "Hypersocialism", "New_Marxism" ]
+			"Landing_Savane":	{
+				"name": 		"Landing Savané",
+				"title": 		"Secretary_General",
+				"subideology": 	"African_Socialism",
+				"ideologies": 	[ "New_Marxism" ]
 			}
 		}
 	}
@@ -91,7 +83,7 @@ tech_setup_generic = yes
 
 set_politics = {{
 	ruling_party = {country["ideology"]}
-	last_election = "1980.1.1"
+	last_election = "1978.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }}

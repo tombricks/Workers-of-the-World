@@ -326,7 +326,7 @@ d_world_ussr = {
 				autonomy_state = autonomy_autonomous_zone
 			}
 		}
-		set_cosmetic_tag = COUNTRY_SOVIET_SOCIALIST_REPUBLIC
+		set_cosmetic_tag = COUNTRY_RUSIET_SOCIALIST_REPUBLIC
 	}
 }
 d_insane_attack = {

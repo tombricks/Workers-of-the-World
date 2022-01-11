@@ -230,18 +230,6 @@ CAM = {
 	color = rgb { 216 45 188 }
 	color_ui = rgb { 216 45 188 }
 }
-LAO = {
-	color = rgb { 120 25 18 }
-	color_ui = rgb { 120 25 18 }
-}
-VIE = {
-	color = rgb { 218 78 76 }
-	color_ui = rgb { 218 78 76 }
-}
-CAM = {
-	color = rgb { 216 45 188 }
-	color_ui = rgb { 216 45 188 }
-}
 THA = {
 	color = rgb { 80 35 89 }
 	color_ui = rgb { 80 35 89 }
@@ -377,4 +365,20 @@ TAI = {
 CAN = {
 	color = rgb { 163 61 70 }
 	color_ui = rgb { 163 61 70 }
+}
+JAP = {
+	color = rgb { 219 202 109 }
+	color_ui = rgb { 219 202 109 }
+}
+MRT = {
+	color = rgb { 212 46 18 }
+	color_ui = rgb { 212 46 18 }
+}
+MLI = {
+	color = rgb { 239 206 73 }
+	color_ui = rgb { 239 206 73 }
+}
+SEN = {
+	color = rgb { 114 89 52 }
+	color_ui = rgb { 114 89 52 }
 }

@@ -17,6 +17,7 @@ state={
 
 		}
 		# USA
+		add_extra_state_shared_building_slots = 1
 		victory_points = {
 			6855 5 
 		}

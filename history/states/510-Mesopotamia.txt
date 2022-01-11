@@ -21,6 +21,7 @@ state={
 			7500 1 
 		}
 		# ARG
+		add_extra_state_shared_building_slots = 1
 	}
 
 	provinces={

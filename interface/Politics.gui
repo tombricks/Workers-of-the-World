@@ -17,7 +17,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "subideology"
 			position = { x = 90 y = 342 }
-			font = ""
+			font = "hoi_18mbs"
 			text = "[get_subideology_adj]"
 			maxWidth = 162
 			maxHeight = 32

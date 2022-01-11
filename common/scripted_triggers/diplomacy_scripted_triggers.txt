@@ -20,10 +20,10 @@
 #					tag = GER
 #				}
 #				custom_trigger_tooltip = {
-#					tooltip = PREVENT_GER_WAR_ON_SOV
+#					tooltip = PREVENT_GER_WAR_ON_RUS
 #					FROM = {
 #						NOT = {
-#							tag = SOV
+#							tag = RUS
 #						}
 #					}
 #				}

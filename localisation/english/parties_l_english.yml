@@ -59,4 +59,12 @@
  IDEOLOGY_Bolshevik_Leninism_ADJ: "Bolshevik-Leninist"
  IDEOLOGY_Anarchism: "Anarchism"
  IDEOLOGY_Anarchism_ADJ: "Anarchist"
+ IDEOLOGY_Communism: "Communism"
+ IDEOLOGY_Communism_ADJ: "Communist"
+ IDEOLOGY_Islamic_Socialism: "Islamic Socialism"
+ IDEOLOGY_Islamic_Socialism_ADJ: "Islamic Socialist"
+ IDEOLOGY_African_Socialism: "African Socialism"
+ IDEOLOGY_African_Socialism_ADJ: "African Socialist"
+ IDEOLOGY_Titoism: "Titoism"
+ IDEOLOGY_Titoism_ADJ: "Titoist"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!

@@ -51,7 +51,10 @@ New_Marxists_join_CHI = {
 	}
 
 	enable = {
-		new_marxist_or_hypersoc_without_alb = yes
+		OR = {
+			new_marxist_or_hypersoc_without_alb = yes
+			has_country_flag = CHI_frendo
+		}
 	}
 	abort_when_not_enabled = yes
 

@@ -240,4 +240,872 @@ characters = {
 			desc = RUS_Nina_Andreyeva_desc
 		}
 	}
+
+	### GENERALS RIPPED OFF OF RU WIKIPEDIA
+	RUS_Vasily_Ivanovich_Chuikov = {
+		name = RUS_Vasily_Ivanovich_Chuikov
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Kirill_Semyonov_Moskalenko = {
+		name = RUS_Kirill_Semyonov_Moskalenko
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Philip_Ivanovich_Golikov = {
+		name = RUS_Philip_Ivanovich_Golikov
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Sergei_Leonidovich_Sokolov = {
+		name = RUS_Sergei_Leonidovich_Sokolov
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Viktor_Georgievich_Kulikov = {
+		name = RUS_Viktor_Georgievich_Kulikov
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Nikolai_Vasilievic_Ogarkov = {
+		name = RUS_Nikolai_Vasilievic_Ogarkov
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Leonid_Ilyich_Brezhnev = {
+		name = RUS_Leonid_Ilyich_Brezhnev
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Dmitry_Fedorovich_Ustinov = {
+		name = RUS_Dmitry_Fedorovich_Ustinov
+		
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		field_marshal = {
+			traits = { RUS_Marshal_of_the_Soviet_Union }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Pavel_Ivanovich_Batov = {
+		name = RUS_Pavel_Ivanovich_Batov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Alexander_Alexandrovich_Luchinsky = {
+		name = RUS_Alexander_Alexandrovich_Luchinsky
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Ivan_Alexandrovich_Serov = {
+		name = RUS_Ivan_Alexandrovich_Serov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Pavel_Alekseevich_Kurochkin = {
+		name = RUS_Pavel_Alekseevich_Kurochkin
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Dmitry_Danilovich_Lelyushenko = {
+		name = RUS_Dmitry_Danilovich_Lelyushenko
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Pavel_Fedorovich_Batitsky = {
+		name = RUS_Pavel_Fedorovich_Batitsky
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Alexey_Alekseevich_Epishev = {
+		name = RUS_Alexey_Alekseevich_Epishev
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Afanasy_Pavlantievich_Beloborodov = {
+		name = RUS_Afanasy_Pavlantievich_Beloborodov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Andrey_Lavrentyevich_Getman = {
+		name = RUS_Andrey_Lavrentyevich_Getman
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Ivan_Grigorievich_Pavlovsky = {
+		name = RUS_Ivan_Grigorievich_Pavlovsky
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Vasily_Filippovich_Margelov = {
+		name = RUS_Vasily_Filippovich_Margelov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Joseph_Iraklievich_Gusakovsky = {
+		name = RUS_Joseph_Iraklievich_Gusakovsky
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Semyon_Pavlovich_Ivanov = {
+		name = RUS_Semyon_Pavlovich_Ivanov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Pyotr_Nikolaevich_Laschenko = {
+		name = RUS_Pyotr_Nikolaevich_Laschenko
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Nikolay_Grigorievich_Lyashchenko = {
+		name = RUS_Nikolay_Grigorievich_Lyashchenko
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Pyotr_Alekseevich_Belik = {
+		name = RUS_Pyotr_Alekseevich_Belik
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Vladimir_Fedorovich_Tolubko = {
+		name = RUS_Vladimir_Fedorovich_Tolubko
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Afanasy_Fedorovich_Scheglov = {
+		name = RUS_Afanasy_Fedorovich_Scheglov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Pyotr_Ivanovich_Ivashutin = {
+		name = RUS_Pyotr_Ivanovich_Ivashutin
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Evgeny_Filippovich_Ivanovsky = {
+		name = RUS_Evgeny_Filippovich_Ivanovsky
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Semyon_Konstantinovich_Kurkotkin = {
+		name = RUS_Semyon_Konstantinovich_Kurkotkin
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Vasily_Ivanovich_Petrov = {
+		name = RUS_Vasily_Ivanovich_Petrov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Evdokim_Egorovich_Maltsev = {
+		name = RUS_Evdokim_Egorovich_Maltsev
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Ivan_Egorovich_Shavrov = {
+		name = RUS_Ivan_Egorovich_Shavrov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Ivan_Nikolaevich_Shkadov = {
+		name = RUS_Ivan_Nikolaevich_Shkadov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Semyon_Petrovich_Vasyagin = {
+		name = RUS_Semyon_Petrovich_Vasyagin
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Yuri_Vladimirovich_Andropov = {
+		name = RUS_Yuri_Vladimirovich_Andropov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Nikolay_Anisimovich_Shchelokov = {
+		name = RUS_Nikolay_Anisimovich_Shchelokov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Anatoly_Ivanovich_Gribkov = {
+		name = RUS_Anatoly_Ivanovich_Gribkov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Ivan_Moiseevich_Tretyak = {
+		name = RUS_Ivan_Moiseevich_Tretyak
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Alexander_Terentyevich_Altunin = {
+		name = RUS_Alexander_Terentyevich_Altunin
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Ivan_Alexandrovich_Gerasimov = {
+		name = RUS_Ivan_Alexandrovich_Gerasimov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Vladimir_Leonidovich_Govorov = {
+		name = RUS_Vladimir_Leonidovich_Govorov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Alexander_Mikhailovich_Mayorov = {
+		name = RUS_Alexander_Mikhailovich_Mayorov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Valentin_Ivanovich_Varennikov = {
+		name = RUS_Valentin_Ivanovich_Varennikov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Vadim_Alexandrovich_Matrosov = {
+		name = RUS_Vadim_Alexandrovich_Matrosov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Semyon_Kuzmich_Tsvigun = {
+		name = RUS_Semyon_Kuzmich_Tsvigun
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Georgy_Karpovich_Tsinev = {
+		name = RUS_Georgy_Karpovich_Tsinev
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Mikhail_Mikhailovich_Kozlov = {
+		name = RUS_Mikhail_Mikhailovich_Kozlov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Gennady_Ivanovich_Obaturov = {
+		name = RUS_Gennady_Ivanovich_Obaturov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Sergei_Fedorovich_Akhromeev = {
+		name = RUS_Sergei_Fedorovich_Akhromeev
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	RUS_Grigory_Ivanovich_Salmanov = {
+		name = RUS_Grigory_Ivanovich_Salmanov
+		portraits = {
+			army = {
+				large = "GFX_Portrait_Generic_Leader"
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+	
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 }

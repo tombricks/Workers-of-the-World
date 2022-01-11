@@ -261,7 +261,7 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					tag = SOV
+					tag = RUS
 					has_war = yes
 					OR = {
 						has_manpower < 2000000
