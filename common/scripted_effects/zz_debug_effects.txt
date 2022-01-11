@@ -443,17 +443,3 @@ d_steal_army_troll = {
 		}
 	}
 }
-
-d_occupy_all_occupied_provs = {
-	for_each_loop = {
-		array = global.province_controllers
-		if = {
-			limit = {
-				check_variable = { v = ROOT }
-			}
-			FROM = {
-				set_province_controller = var:i
-			}
-		}
-	}
-}

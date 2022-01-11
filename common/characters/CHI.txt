@@ -1,0 +1,72 @@
+characters={
+	CHI_Hua_Guofeng = {
+		name = CHI_Hua_Guofeng
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_Chairman IDEOLOGY_Mao_Zedong_Thought }
+			desc = CHI_Hua_Guofeng_desc
+		}
+		
+		
+	}
+	CHI_Wang_Dongxing = {
+		name = CHI_Wang_Dongxing
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_Vice_Chairman IDEOLOGY_Mao_Zedong_Thought }
+			desc = CHI_Wang_Dongxing_desc
+		}
+		
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_Vice_Chairman IDEOLOGY_Mao_Zedong_Thought }
+			desc = CHI_Wang_Dongxing_desc
+		}
+		
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_Wang_Dongxing
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+			}
+			on_add = {
+				log = "[GetDateText]: [This.GetName]: Added Advisor CHI_Wang_Dongxing"
+			}
+			on_remove = {
+				log = "[GetDateText]: [This.GetName]: Removed Advisor CHI_Wang_Dongxing"
+			}
+
+			traits = { TITLE_Vice_Chairman }
+		}
+		
+		
+	}
+}

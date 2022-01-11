@@ -1,0 +1,6 @@
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_kgb
+	names = { "Committee for State Security" }
+	available = { always = yes }
+	default = { always = yes } 
+}

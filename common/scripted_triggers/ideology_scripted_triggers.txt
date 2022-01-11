@@ -145,6 +145,7 @@ has_subideology = {
 		has_country_leader_with_trait = IDEOLOGY_Islamic_Socialism
 		has_country_leader_with_trait = IDEOLOGY_African_Socialism
 		has_country_leader_with_trait = IDEOLOGY_Titoism
+		has_country_leader_with_trait = IDEOLOGY_Mao_Zedong_Thought
 		# <END OF IDEOLOGIES TRIGGER>
 	}
 }
@@ -161,6 +162,7 @@ has_leader_title = {
 		has_country_leader_with_trait = TITLE_Premier
 		has_country_leader_with_trait = TITLE_Secretary
 		has_country_leader_with_trait = TITLE_Collective
+		has_country_leader_with_trait = TITLE_Vice_Chairman
 		# <END OF TITLES TRIGGER>
 	}
 }

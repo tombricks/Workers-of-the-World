@@ -166,6 +166,7 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = RUS_Viktor_Anpilov
+			
 			allowed = {
 				original_tag = RUS
 			}

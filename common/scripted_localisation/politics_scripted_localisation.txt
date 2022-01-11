@@ -10,6 +10,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Premier } localization_key = TITLE_Premier } # Premier
 	text = { trigger = { has_country_leader_with_trait = TITLE_Secretary } localization_key = TITLE_Secretary } # Secretary
 	text = { trigger = { has_country_leader_with_trait = TITLE_Collective } localization_key = TITLE_Collective } # Collective
+	text = { trigger = { has_country_leader_with_trait = TITLE_Vice_Chairman } localization_key = TITLE_Vice_Chairman } # Vice Chairman
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { localization_key = TITLE_Default }
 }
@@ -35,11 +36,12 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Socialism } localization_key = IDEOLOGY_Islamic_Socialism } # Islamic Socialism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_African_Socialism } localization_key = IDEOLOGY_African_Socialism } # African Socialism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Titoism } localization_key = IDEOLOGY_Titoism } # Titoism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Mao_Zedong_Thought } localization_key = IDEOLOGY_Mao_Zedong_Thought } # Mao Zedong Thought
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
-	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism_noun }
+	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism }
 	text = { trigger = { has_government = Socialism } localization_key = Socialism_noun }
-	text = { trigger = { has_government = New_Marxism } localization_key = New_Marxism_noun }
+	text = { trigger = { has_government = New_Marxism } localization_key = IDEOLOGY_Marxism_Leninism }
 	text = { trigger = { has_government = Reactionism } localization_key = Reactionism_noun }
 }
 
@@ -65,11 +67,12 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Islamic_Socialism } localization_key = IDEOLOGY_Islamic_Socialism_ADJ } # Islamic Socialist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_African_Socialism } localization_key = IDEOLOGY_African_Socialism_ADJ } # African Socialist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Titoism } localization_key = IDEOLOGY_Titoism_ADJ } # Titoist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Mao_Zedong_Thought } localization_key = IDEOLOGY_Mao_Zedong_Thought_ADJ } # Mao Zedong Thought
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
-	text = { trigger = { has_government = Marxism_Leninism } localization_key = Marxism_Leninism }
+	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism_ADJ }
 	text = { trigger = { has_government = Socialism } localization_key = Socialism }
-	text = { trigger = { has_government = New_Marxism } localization_key = New_Marxism }
+	text = { trigger = { has_government = New_Marxism } localization_key = IDEOLOGY_Marxism_Leninism_ADJ }
 	text = { trigger = { has_government = Reactionism } localization_key = Reactionism }
 }
 

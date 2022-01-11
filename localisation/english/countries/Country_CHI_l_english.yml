@@ -16,9 +16,18 @@
  CHI_Socialism: "People's Republic of China"
  CHI_Socialism_DEF: "the People's Republic of China"
  CHI_Socialism_ADJ: "Chinese" 
+ 
+ CHI_New_Marxism_party: "CPC"
+ CHI_New_Marxism_party_long: "Zhōngguó Gòngchǎndǎng (Communist Party of China)"
 
 ### Ideas
  CHI_Chinese_Marxists_in_Government: "Chinese Marxists in Government"
+
+### Characters
+ CHI_Hua_Guofeng: "Hua Guofeng"
+ CHI_Hua_Guofeng_desc: ""
+ CHI_Wang_Dongxing: "Wang Dongxing"
+ CHI_Wang_Dongxing_desc: ""
 
 ### Other
  CHI_Internationale: "New Internationale"

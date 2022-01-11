@@ -9,6 +9,7 @@ leader_traits = {
 	TITLE_Premier = { random = no } # Premier
 	TITLE_Secretary = { random = no } # Secretary
 	TITLE_Collective = { random = no } # Collective
+	TITLE_Vice_Chairman = { random = no } # Vice Chairman
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }
@@ -31,5 +32,6 @@ leader_traits = {
 	IDEOLOGY_Islamic_Socialism = { random = no } # Islamic Socialism
 	IDEOLOGY_African_Socialism = { random = no } # African Socialism
 	IDEOLOGY_Titoism = { random = no } # Titoism
+	IDEOLOGY_Mao_Zedong_Thought = { random = no } # Mao Zedong Thought
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 }

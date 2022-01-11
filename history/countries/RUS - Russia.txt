@@ -18,6 +18,11 @@ set_popularities = {
 	Marxism_Leninism = 100
 }
 
+create_intelligence_agency = {
+	name = "Komitet Gosudarstvennoy Bezopasnosti"
+	icon = GFX_intelligence_agency_logo_kgb
+}
+
 recruit_character = RUS_Yegor_Ligachyov
 recruit_character = RUS_Grigory_Romanov
 recruit_character = RUS_Viktor_Grishin
@@ -29,6 +34,7 @@ RUS_Viktor_Grishin = { set_character_flag = RUS_Stalinist }
 RUS_Yevgeny_Stalin = { set_character_flag = RUS_Stalinist }
 RUS_Viktor_Anpilov = { set_character_flag = RUS_Stalinist }
 RUS_Nina_Andreyeva = { set_character_flag = RUS_Stalinist }
+
 add_ideas = {
 	RUS_Grigory_Romanov 
 	RUS_Viktor_Grishin

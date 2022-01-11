@@ -25,3 +25,10 @@ add_to_faction = BRM
 add_to_faction = BHU
 add_to_faction = FRA
 add_to_faction = ALB
+
+recruit_character = CHI_Hua_Guofeng
+recruit_character = CHI_Wang_Dongxing
+
+add_ideas = {
+	CHI_Wang_Dongxing
+}

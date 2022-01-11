@@ -1,5 +1,5 @@
 titles = [
-	["Collective", "Collective"]
+	["Vice_Chairman", "Vice Chairman"]
 ]
 
 # TRAITS
