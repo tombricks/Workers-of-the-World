@@ -17,8 +17,17 @@
  CHI_Socialism_DEF: "the People's Republic of China"
  CHI_Socialism_ADJ: "Chinese" 
  
+
+ CHI_Hypersocialism_party: "$Hypersocialism_party$"
+ CHI_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ CHI_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ CHI_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
  CHI_New_Marxism_party: "CPC"
  CHI_New_Marxism_party_long: "Zhōngguó Gòngchǎndǎng (Communist Party of China)"
+ CHI_Socialism_party: "$Socialism_party$"
+ CHI_Socialism_party_long: "$Socialism_party_long$"
+ CHI_Reactionism_party: "$Reactionism_party$"
+ CHI_Reactionism_party_long: "$Reactionism_party_long$"
 
 ### Ideas
  CHI_Chinese_Marxists_in_Government: "Chinese Marxists in Government"

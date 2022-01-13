@@ -151,6 +151,15 @@ communist_peace = {
 			factor = 0
 			FROM = { has_civil_war = yes }
 		}
+		modifier = {
+			add = 100
+			ROOT = {
+				tag = RUS
+			}
+			FROM = {
+				SOV_me_likey_ssr = yes
+			}
+		}
 	}
 
 	# ROOT = Taker, FROM = Giver

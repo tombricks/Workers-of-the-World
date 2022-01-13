@@ -18,5 +18,13 @@
  ALG_Socialism_ADJ: "Algerian" 
 
 ### Parties
- ALG_Socialism_party: "USAeA"
- ALG_Socialism_party_long: "Union socialiste arabe en Algérie (Arab Socialist Union in Algeria)"
+ ALG_Hypersocialism_party: "$Hypersocialism_party$"
+ ALG_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ ALG_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ ALG_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ ALG_New_Marxism_party: "$New_Marxism_party$"
+ ALG_New_Marxism_party_long: "$New_Marxism_party_long$"
+ ALG_Socialism_party: "$Socialism_party$"
+ ALG_Socialism_party_long: "$Socialism_party_long$"
+ ALG_Reactionism_party: "$Reactionism_party$"
+ ALG_Reactionism_party_long: "$Reactionism_party_long$"

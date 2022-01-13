@@ -16,3 +16,15 @@
  YEM_Socialism: "People's Democratic Republic of Yemen"
  YEM_Socialism_DEF: "the People's Democratic Republic of Yemen"
  YEM_Socialism_ADJ: "Yemeni" 
+
+### Parties
+ YEM_Hypersocialism_party: "$Hypersocialism_party$"
+ YEM_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ YEM_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ YEM_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ YEM_New_Marxism_party: "$New_Marxism_party$"
+ YEM_New_Marxism_party_long: "$New_Marxism_party_long$"
+ YEM_Socialism_party: "$Socialism_party$"
+ YEM_Socialism_party_long: "$Socialism_party_long$"
+ YEM_Reactionism_party: "$Reactionism_party$"
+ YEM_Reactionism_party_long: "$Reactionism_party_long$"

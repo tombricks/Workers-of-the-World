@@ -23,3 +23,15 @@
 
 ### Other
  UAR_League: "League of Arab States"
+
+### Parties
+ UAR_Hypersocialism_party: "$Hypersocialism_party$"
+ UAR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ UAR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ UAR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ UAR_New_Marxism_party: "$New_Marxism_party$"
+ UAR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ UAR_Socialism_party: "$Socialism_party$"
+ UAR_Socialism_party_long: "$Socialism_party_long$"
+ UAR_Reactionism_party: "$Reactionism_party$"
+ UAR_Reactionism_party_long: "$Reactionism_party_long$"

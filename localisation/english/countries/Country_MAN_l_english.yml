@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ MAN: "Manchuria"
+ MAN_DEF: "Manchuria"
+ MAN_ADJ: "Manchurian" 
+ 
+ MAN_Hypersocialism: "Manchurian Socialist Republic"
+ MAN_Hypersocialism_DEF: "the Manchurian Socialist Republic"
+ MAN_Marxism_Leninism: "Manchurian Socialist Republic"
+ MAN_Marxism_Leninism_DEF: "the Manchurian Socialist Republic"
+ MAN_New_Marxism: "Manchurian Socialist Republic"
+ MAN_New_Marxism_DEF: "the Manchurian Socialist Republic"
+ MAN_Socialism: "Manchurian Socialist Republic"
+ MAN_Socialism_DEF: "the Manchurian Socialist Republic"
+
+ MAN_Hypersocialism_party: "$Hypersocialism_party$"
+ MAN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MAN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ MAN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ MAN_New_Marxism_party: "$New_Marxism_party$"
+ MAN_New_Marxism_party_long: "$New_Marxism_party_long$"
+ MAN_Socialism_party: "$Socialism_party$"
+ MAN_Socialism_party_long: "$Socialism_party_long$"
+ MAN_Reactionism_party: "$Reactionism_party$"
+ MAN_Reactionism_party_long: "$Reactionism_party_long$"
+ 

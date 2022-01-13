@@ -9,4 +9,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decision_headers/decision_header_FRA_Jacobin.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_skull_emoji"
+		texturefile = "gfx/texticons/skull_emoji.dds"
+		legacy_lazy_load = no
+	}
 }

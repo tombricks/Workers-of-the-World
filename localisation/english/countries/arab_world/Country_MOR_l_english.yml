@@ -16,3 +16,15 @@
  MOR_Socialism: "Moroccan Republic"
  MOR_Socialism_DEF: "the Moroccan Arab Republic"
  MOR_Socialism_ADJ: "Moroccan" 
+
+### Parties
+ MOR_Hypersocialism_party: "$Hypersocialism_party$"
+ MOR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MOR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ MOR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ MOR_New_Marxism_party: "$New_Marxism_party$"
+ MOR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ MOR_Socialism_party: "$Socialism_party$"
+ MOR_Socialism_party_long: "$Socialism_party_long$"
+ MOR_Reactionism_party: "$Reactionism_party$"
+ MOR_Reactionism_party_long: "$Reactionism_party_long$"

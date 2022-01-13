@@ -4,7 +4,6 @@ country_event = {
 	id = ALB_Congress.1
 	title = ALB_Congress.1.TITLE
 	desc = ALB_Congress.1.DESC
-	picture = GFX_Country_Romanov_Gone
 	
 	is_triggered_only = yes
 	trigger = {

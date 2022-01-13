@@ -41,6 +41,13 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
+		gridBoxType = {
+			name = "influential_heading"
+			position = { x = 326 y = 474 }
+			slotsize = { width = 80 height = 0 }
+			add_horizontal = yes
+		}
+
 	}
 	containerWindowType = {
 		name = "Diplomatic_Scripted_GUI_window"
@@ -48,30 +55,30 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "subideology"
-			position = { x = 263 y = 124 }
+			position = { x = 247 y = 124 }
 			font = "hoi_26mbs"
 			text = "[get_subideology_adj]"
-			maxWidth = 245
+			maxWidth = 277
 			maxHeight = 20
 			format = center
 		}		
 
 		instantTextboxType = {
 			name = "real_ideology"
-			position = { x = 263 y = 150 }
+			position = { x = 247 y = 150 }
 			font = "hoi_18mbs"
 			text = "[get_ideology_adj]"
-			maxWidth = 245
+			maxWidth = 277
 			maxHeight = 20
 			format = center
 		}		
 
 		instantTextboxType = {
 			name = "party"
-			position = { x = 263 y = 170 }
+			position = { x = 247 y = 170 }
 			font = "hoi_16mbs"
 			text = "[THIS.GetRulingPartyLong]"
-			maxWidth = 245
+			maxWidth = 277
 			maxHeight = 20
 			format = center
 			fixedsize = yes
@@ -83,6 +90,18 @@ guiTypes = {
 			position = { x = 158 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
+
+		#containerWindowType = {
+		#	name = "tt_overlay"
+		#	position = { x = 250 y = 120 }
+		#	size = { width = 284 height = 80 }
+		#
+		#	background = {
+		#		name = "Background"		
+		#		quadTextureSprite ="GFX_tiled_window_transparent"
+		#		tooltip = "diplomacy_politics_tt"
+		#	}
+		#}
 	}
 
 	containerWindowType = {
@@ -121,6 +140,53 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			centerposition = yes
 			alwaystransparent = yes
+		}
+	}
+
+	#### TROLLING ###
+	
+	containerWindowType = {
+		name = "influential_icon_0"
+		iconType = {
+			name = "icon_sex"
+			quadTextureSprite = "GFX_find_screen_button"
+			pdx_tooltip = influential_skull
+		}
+	}
+	
+	containerWindowType = {
+		name = "influential_icon_1"
+		iconType = {
+			name = "icon_sex"
+			quadTextureSprite = "GFX_find_screen_button"
+			pdx_tooltip = influential_party_leader
+		}
+	}
+	
+	containerWindowType = {
+		name = "influential_icon_2"
+		iconType = {
+			name = "icon_sex"
+			quadTextureSprite = "GFX_find_screen_button"
+			pdx_tooltip = influential_party_deputy_leader
+		}
+	}
+	
+	containerWindowType = {
+		name = "influential_icon_3"
+		iconType = {
+			name = "icon_sex"
+			quadTextureSprite = "GFX_find_screen_button"
+			pdx_tooltip = influential_presidium_chairman
+		}
+	}
+	
+	containerWindowType = {
+		name = "influential_icon_4"
+		iconType = {
+			name = "icon_sex"
+			quadTextureSprite = "GFX_find_screen_button"
+			pdx_tooltip = influential_minister
 		}
 	}
 }

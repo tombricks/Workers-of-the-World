@@ -11,6 +11,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Secretary } localization_key = TITLE_Secretary } # Secretary
 	text = { trigger = { has_country_leader_with_trait = TITLE_Collective } localization_key = TITLE_Collective } # Collective
 	text = { trigger = { has_country_leader_with_trait = TITLE_Vice_Chairman } localization_key = TITLE_Vice_Chairman } # Vice Chairman
+	text = { trigger = { has_country_leader_with_trait = TITLE_Chairwoman } localization_key = TITLE_Chairwoman } # Chairwoman
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { localization_key = TITLE_Default }
 }

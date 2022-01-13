@@ -37,8 +37,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = political_advisor
-			idea_token = RUS_Grigory_Romanov
+			slot = influential_1
+			idea_token = RUS_Grigory_Romanov_influential_1
 			allowed = {
 				original_tag = RUS
 			}
@@ -81,8 +81,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = political_advisor
-			idea_token = RUS_Viktor_Grishin
+			slot = influential_2
+			idea_token = RUS_Viktor_Grishin_influential_2
 			allowed = {
 				original_tag = RUS
 			}
@@ -117,8 +117,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = political_advisor
-			idea_token = RUS_Yevgeny_Stalin
+			slot = influential_2
+			idea_token = RUS_Yevgeny_Stalin_influential_2
 			allowed = {
 				original_tag = RUS
 			}
@@ -164,8 +164,8 @@ characters = {
 		}
 		
 		advisor = {
-			slot = political_advisor
-			idea_token = RUS_Viktor_Anpilov
+			slot = influential_1
+			idea_token = RUS_Viktor_Anpilov_influential_1
 			
 			allowed = {
 				original_tag = RUS
@@ -212,8 +212,8 @@ characters = {
 		}
 
 		advisor = {
-			slot = political_advisor
-			idea_token = RUS_Nina_Andreyeva
+			slot = influential_1
+			idea_token = RUS_Nina_Andreyeva_influential_1
 			allowed = {
 				original_tag = RUS
 			}

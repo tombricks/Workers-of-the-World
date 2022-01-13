@@ -1,0 +1,16 @@
+1 influential_party_leader
+2 influential_party_deputy_leader
+3 influential_presidium_chairman
+4 influential_minister
+
+Soviet Union
+	Leader	influential_party_leader
+	1		influential_party_deputy_leader
+	2		influential_presidium_chairman
+	3		influential_minister
+
+China
+	Leader	influential_party_leader
+	1		influential_party_deputy_leader
+	2		tba
+	3		tba

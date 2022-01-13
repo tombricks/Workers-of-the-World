@@ -13,6 +13,13 @@ scripted_gui = {
 				image = "[get_subideology_icon]"
 			}
 		}
+
+		dynamic_lists = {
+			influential_heading = {
+				array = influential_gov
+				entry_container = "influential_icon_[?v]"
+			}
+		}
 	}
 	Diplomatic_Scripted_GUI = {
 		context_type = selected_country_context

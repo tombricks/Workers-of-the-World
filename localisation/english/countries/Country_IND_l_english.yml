@@ -17,5 +17,16 @@
  IND_Socialism_DEF: "the Indian Federative People's Republic"
  IND_Socialism_ADJ: "Indian" 
 
+ IND_Hypersocialism_party: "$Hypersocialism_party$"
+ IND_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ IND_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ IND_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ IND_New_Marxism_party: "$New_Marxism_party$"
+ IND_New_Marxism_party_long: "$New_Marxism_party_long$"
+ IND_Socialism_party: "$Socialism_party$"
+ IND_Socialism_party_long: "$Socialism_party_long$"
+ IND_Reactionism_party: "$Reactionism_party$"
+ IND_Reactionism_party_long: "$Reactionism_party_long$"
+
 ### Other
  IND_South_Asia: "South Asian Mutual Assistance Council"

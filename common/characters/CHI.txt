@@ -50,8 +50,8 @@ characters={
 		}
 		
 		advisor = {
-			slot = political_advisor
-			idea_token = CHI_Wang_Dongxing
+			slot = influential_1
+			idea_token = CHI_Wang_Dongxing_influential_1
 			allowed = {
 				original_tag = CHI
 			}

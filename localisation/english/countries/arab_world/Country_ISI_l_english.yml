@@ -7,3 +7,15 @@
  ISI_Reactionism: "Islamic Army of Arabia"
  ISI_Reactionism_DEF: "the Islamic Army of Arabia"
  ISI_Reactionism_ADJ: "Islamists" 
+
+### Parties
+ ISI_Hypersocialism_party: "$Hypersocialism_party$"
+ ISI_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ ISI_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ ISI_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ ISI_New_Marxism_party: "$New_Marxism_party$"
+ ISI_New_Marxism_party_long: "$New_Marxism_party_long$"
+ ISI_Socialism_party: "$Socialism_party$"
+ ISI_Socialism_party_long: "$Socialism_party_long$"
+ ISI_Reactionism_party: "$Reactionism_party$"
+ ISI_Reactionism_party_long: "$Reactionism_party_long$"

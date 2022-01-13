@@ -75,3 +75,17 @@ RUS_Send_Volunteers_to_War = {
 		value = 150
 	}
 }
+
+i_fucking_love_war_and_hate_china = {
+	reversed = yes
+
+	enable = {
+		has_war_with = CHI
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = RUS
+		value = 75
+	}	
+}

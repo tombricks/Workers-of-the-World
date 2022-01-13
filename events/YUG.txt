@@ -1,0 +1,40 @@
+﻿add_namespace = YUG_Death_of_Tito
+
+# Josip Broz Tito has died
+country_event = {
+	id = YUG_Death_of_Tito.1
+	title = YUG_Death_of_Tito.1.TITLE
+	desc = YUG_Death_of_Tito.1.DESC
+	
+	is_triggered_only = yes
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: Event YUG_Death_of_Tito.1"
+		hidden_effect = {
+			YUG_Josip_Broz_Tito = { set_character_flag = dead_character }
+			retire_character = YUG_Josip_Broz_Tito
+			add_stability = -0.15
+		}
+	}
+	
+	option = {
+		name = YUG_Death_of_Tito.1.A # noooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		news_event = YUG_Death_of_Tito.2
+	}
+}
+
+# Josip Broz Tito has died (major news)
+news_event = {
+	id = YUG_Death_of_Tito.2
+	title = YUG_Death_of_Tito.2.TITLE
+	desc = YUG_Death_of_Tito.2.DESC
+	picture = GFX_News_United_Nations
+	
+	is_triggered_only = yes
+	major = yes
+
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event YUG_Death_of_Tito.2" }
+	
+	option = {
+		name = YUG_Death_of_Tito.1.B # :wow:
+	}
+}

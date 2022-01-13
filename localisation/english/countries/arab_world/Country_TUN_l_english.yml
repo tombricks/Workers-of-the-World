@@ -16,3 +16,15 @@
  TUN_Socialism: "Tunisian Arab Republic"
  TUN_Socialism_DEF: "the Tunisian Arab Republic"
  TUN_Socialism_ADJ: "Tunisian" 
+
+### Parties
+ TUN_Hypersocialism_party: "$Hypersocialism_party$"
+ TUN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ TUN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ TUN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ TUN_New_Marxism_party: "$New_Marxism_party$"
+ TUN_New_Marxism_party_long: "$New_Marxism_party_long$"
+ TUN_Socialism_party: "$Socialism_party$"
+ TUN_Socialism_party_long: "$Socialism_party_long$"
+ TUN_Reactionism_party: "$Reactionism_party$"
+ TUN_Reactionism_party_long: "$Reactionism_party_long$"

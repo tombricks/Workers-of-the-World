@@ -16,3 +16,15 @@
  PAL_Socialism: "State of Palestine"
  PAL_Socialism_DEF: "the State of Palestine"
  PAL_Socialism_ADJ: "Palestinian" 
+
+### Parties
+ PAL_Hypersocialism_party: "$Hypersocialism_party$"
+ PAL_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ PAL_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ PAL_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ PAL_New_Marxism_party: "$New_Marxism_party$"
+ PAL_New_Marxism_party_long: "$New_Marxism_party_long$"
+ PAL_Socialism_party: "$Socialism_party$"
+ PAL_Socialism_party_long: "$Socialism_party_long$"
+ PAL_Reactionism_party: "$Reactionism_party$"
+ PAL_Reactionism_party_long: "$Reactionism_party_long$"

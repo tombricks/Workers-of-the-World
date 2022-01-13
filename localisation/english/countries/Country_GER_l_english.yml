@@ -26,6 +26,8 @@
  GER_Marxism_Leninism_party_long: "Union Deutscher Kommunisten (Union of German Communists)"
  GER_Socialism_party: "UDK-S"
  GER_Socialism_party_long: "Union Deutscher Kommunisten (Spartakisten) (Union of German Communists (Spartacists))"
+ GER_Reactionism_party: "$Reactionism_party$"
+ GER_Reactionism_party_long: "$Reactionism_party_long$"
 
 ### Characters
  GER_Hans_Modrow: "Hans Modrow"

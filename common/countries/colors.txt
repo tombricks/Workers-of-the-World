@@ -382,3 +382,15 @@ SEN = {
 	color = rgb { 114 89 52 }
 	color_ui = rgb { 114 89 52 }
 }
+XIN = {
+	color = rgb { 75 120 167 }
+	color_ui = rgb { 75 120 167 }
+}
+TIB = {
+	color = rgb { 145 150 94 }
+	color_ui = rgb { 145 150 94 }
+}
+MAN = {
+	color = rgb { 223 168 0 }
+	color_ui = rgb { 223 168 0 }
+}

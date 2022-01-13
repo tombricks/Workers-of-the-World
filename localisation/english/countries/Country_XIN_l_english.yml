@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ XIN: "Xinjiang"
+ XIN_DEF: "Xinjiang"
+ XIN_ADJ: "Xinjiang" 
+ 
+ XIN_Hypersocialism: "East Turkestan Republic"
+ XIN_Hypersocialism_DEF: "the East Turkestan Republic"
+ XIN_Marxism_Leninism: "East Turkestan Republic"
+ XIN_Marxism_Leninism_DEF: "the East Turkestan Republic"
+ XIN_New_Marxism: "East Turkestan Republic"
+ XIN_New_Marxism_DEF: "the East Turkestan Republic"
+ XIN_Socialism: "East Turkestan Republic"
+ XIN_Socialism_DEF: "the East Turkestan Republic"
+
+ XIN_Hypersocialism_party: "$Hypersocialism_party$"
+ XIN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ XIN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ XIN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ XIN_New_Marxism_party: "$New_Marxism_party$"
+ XIN_New_Marxism_party_long: "$New_Marxism_party_long$"
+ XIN_Socialism_party: "$Socialism_party$"
+ XIN_Socialism_party_long: "$Socialism_party_long$"
+ XIN_Reactionism_party: "$Reactionism_party$"
+ XIN_Reactionism_party_long: "$Reactionism_party_long$"
+ 

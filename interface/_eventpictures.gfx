@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_News_United_Nations"
+		texturefile = "gfx/event_pictures/News_United_Nations.dds"
+	}
+	spriteType = {
+		name = "GFX_News_Metal_USSR_Thing"
+		texturefile = "gfx/event_pictures/News_Metal_USSR_Thing.dds"
+	}
+	spriteType = {
+		name = "GFX_News_USSR_Mosaic"
+		texturefile = "gfx/event_pictures/News_USSR_Mosaic.dds"
+	}
+	spriteType = {
+		name = "GFX_Country_Romanov_Gone"
+		texturefile = "gfx/event_pictures/Country_Romanov_Gone.dds"
+	}
+	spriteType = {
+		name = "GFX_Country_Soviet_Army"
+		texturefile = "gfx/event_pictures/Country_Soviet_Army.dds"
+	}
+}

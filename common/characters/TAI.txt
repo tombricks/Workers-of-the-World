@@ -1,0 +1,25 @@
+characters = {
+	TAI_Jiang_Qing = {
+		name = TAI_Jiang_Qing
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_Chairwoman IDEOLOGY_Mao_Zedong_Thought }
+			desc = TAI_Jiang_Qing_desc
+		}
+		
+		
+	}
+}

@@ -19,6 +19,14 @@
  
  FRA_Hypersocialism_party: "Jacobins"
  FRA_Hypersocialism_party_long: "Parti des Jacobins, amis de la liberté, de l'égalité et du socialisme (Party of the Jacobins, Friends of Freedom, Equality and Socialism)"
+ FRA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ FRA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ FRA_New_Marxism_party: "$New_Marxism_party$"
+ FRA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ FRA_Socialism_party: "$Socialism_party$"
+ FRA_Socialism_party_long: "$Socialism_party_long$"
+ FRA_Reactionism_party: "$Reactionism_party$"
+ FRA_Reactionism_party_long: "$Reactionism_party_long$"
  
 ### Characters
  FRA_Roland_Castro: "Ronald Castro"

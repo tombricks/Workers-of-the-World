@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ TIB: "Tibet"
+ TIB_DEF: "Tibet"
+ TIB_ADJ: "Tibetan" 
+ 
+ TIB_Hypersocialism: "Tibetan Soviet Republic"
+ TIB_Hypersocialism_DEF: "the Tibetan Soviet Republic"
+ TIB_Marxism_Leninism: "Tibetan Soviet Republic"
+ TIB_Marxism_Leninism_DEF: "the Tibetan Soviet Republic"
+ TIB_New_Marxism: "Tibetan Soviet Republic"
+ TIB_New_Marxism_DEF: "the Tibetan Soviet Republic"
+ TIB_Socialism: "Tibetan Soviet Republic"
+ TIB_Socialism_DEF: "the Tibetan Soviet Republic"
+
+ TIB_Hypersocialism_party: "$Hypersocialism_party$"
+ TIB_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ TIB_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ TIB_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ TIB_New_Marxism_party: "$New_Marxism_party$"
+ TIB_New_Marxism_party_long: "$New_Marxism_party_long$"
+ TIB_Socialism_party: "$Socialism_party$"
+ TIB_Socialism_party_long: "$Socialism_party_long$"
+ TIB_Reactionism_party: "$Reactionism_party$"
+ TIB_Reactionism_party_long: "$Reactionism_party_long$"
+ 

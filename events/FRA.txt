@@ -4,7 +4,6 @@ country_event = {
 	id = FRA_Germany.1
 	title = FRA_Germany.1.TITLE
 	desc = FRA_Germany.1.DESC
-	picture = GFX_Country_Romanov_Gone
 	
 	is_triggered_only = yes
 	immediate = { log = "[GetDateText]: [Root.GetName]: Event FRA_Germany.1" }

@@ -24,6 +24,10 @@
  LUX_Marxism_Leninism_party_long: "Kommunistesch Partei vu Lëtzebuerg (Communist Party of Luxembourg)"
  LUX_New_Marxism_party: "KPL"
  LUX_New_Marxism_party_long: "Kommunistesch Partei vu Lëtzebuerg (Communist Party of Luxembourg)"
+ LUX_Socialism_party: "$Socialism_party$"
+ LUX_Socialism_party_long: "$Socialism_party_long$"
+ LUX_Reactionism_party: "$Reactionism_party$"
+ LUX_Reactionism_party_long: "$Reactionism_party_long$"
 
 ### Characters
  LUX_Charles_Doerner: "Charles Doerner"

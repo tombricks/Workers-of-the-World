@@ -25,10 +25,12 @@ CHI = {
 	add_dynamic_modifier = {
 		modifier = Rival_Government
 		scope = PREV
-	}	
+	}
+	every_owned_state = {
+		add_claim_by = PREV.PREV
+	}
 }
 add_rival_government = yes
 
-every_owned_state = {
-	add_claim_by = PREV
-}
+
+recruit_character = TAI_Jiang_Qing

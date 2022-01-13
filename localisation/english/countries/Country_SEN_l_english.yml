@@ -13,8 +13,17 @@
  SEN_Socialism: "Democratic Republic of Senegal"
  SEN_Socialism_DEF: "the Democratic Republic of Senegal"
 
+
+ SEN_Hypersocialism_party: "$Hypersocialism_party$"
+ SEN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ SEN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ SEN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
  SEN_New_Marxism_party: "And-Jëf"
  SEN_New_Marxism_party_long: "And-Jëf/Mouvement Révolutionnaire pour la Démocratie Nouvelle (Act Together/Revolutionary Movement for New Democracy)"
+ SEN_Socialism_party: "$Socialism_party$"
+ SEN_Socialism_party_long: "$Socialism_party_long$"
+ SEN_Reactionism_party: "$Reactionism_party$"
+ SEN_Reactionism_party_long: "$Reactionism_party_long$"
  
  SEN_Landing_Savane: "Landing Savané"
  SEN_Landing_Savane_desc: ""

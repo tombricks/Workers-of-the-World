@@ -296,7 +296,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_slot_political_advisor"
+		name = "GFX_idea_slot_influential_1"
 		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
 	}
 

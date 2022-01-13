@@ -26,6 +26,8 @@
  ENG_New_Marxism_party_long: "Communist Party of Great Britain (Marxist-Leninist)"
  ENG_Socialism_party: "Labour"
  ENG_Socialism_party_long: "Labour Party"
+ ENG_Reactionism_party: "$Reactionism_party$"
+ ENG_Reactionism_party_long: "$Reactionism_party_long$"
 
 ### Characters
  ENG_Tony_Benn: "Tony Benn"

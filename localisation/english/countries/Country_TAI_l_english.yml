@@ -16,3 +16,17 @@
  TAI_Socialism: "Chinese Revolutionary Soviet Republic"
  TAI_Socialism_DEF: "the Chinese Revolutionary Soviet Republic"
  TAI_Socialism_ADJ: "Taiwanese" 
+
+ TAI_Hypersocialism_party: "RCPC"
+ TAI_Hypersocialism_party_long: "Zhōngguó Gémìng Gòngchǎndǎng (Revolutionary Communist Party of China)"
+ TAI_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ TAI_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ TAI_New_Marxism_party: "$New_Marxism_party$"
+ TAI_New_Marxism_party_long: "$New_Marxism_party_long$"
+ TAI_Socialism_party: "$Socialism_party$"
+ TAI_Socialism_party_long: "$Socialism_party_long$"
+ TAI_Reactionism_party: "$Reactionism_party$"
+ TAI_Reactionism_party_long: "$Reactionism_party_long$"
+
+ TAI_Jiang_Qing: "Jiang Qing"
+ TAI_Jiang_Qing_desc: ""

@@ -13,8 +13,17 @@
  JAP_Socialism: "Socialist State of Japan"
  JAP_Socialism_DEF: "the Socialist State of Japan"
 
- JAP_Socialism_party: "JCP"
- JAP_Socialism_party_long: "Nihon Kyōsan-tō (Japanese Communist Party)"
  
  JAP_Kenji_Miyamoto: "Kenji Miyamoto"
  JAP_Kenji_Miyamoto_desc: ""
+
+ JAP_Hypersocialism_party: "$Hypersocialism_party$"
+ JAP_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ JAP_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ JAP_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ JAP_New_Marxism_party: "$New_Marxism_party$"
+ JAP_New_Marxism_party_long: "$New_Marxism_party_long$"
+ JAP_Socialism_party: "JCP"
+ JAP_Socialism_party_long: "Nihon Kyōsan-tō (Japanese Communist Party)"
+ JAP_Reactionism_party: "$Reactionism_party$"
+ JAP_Reactionism_party_long: "$Reactionism_party_long$"

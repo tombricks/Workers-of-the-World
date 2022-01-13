@@ -1,0 +1,30 @@
+TAI_Mainland = {
+	TAI_Core_Mainland_State = {
+		icon = GFX_decision_infiltrate_state
+		visible = {
+			always = yes
+		}
+		
+		target_trigger = {
+			FROM = {
+				is_core_of = CHI
+				NOT = { is_core_of = ROOT }
+				is_controlled_by = ROOT
+			}
+		}
+		state_target = yes
+		on_map_mode = map_only
+
+		cost = 15
+		fire_only_once = yes
+		days_remove = 30
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision TAI_Core_Mainland_State"
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision Removed TAI_Core_Mainland_State"
+			FROM = { add_core_of = ROOT }
+		}
+	}
+}

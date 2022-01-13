@@ -5,7 +5,6 @@ country_event = {
 	id = Puppet_Event.1
 	title = Puppet_Event.1.TITLE
 	desc = Puppet_Event.1.DESC
-	picture = GFX_Country_Romanov_Gone
 	
 	is_triggered_only = yes
 	immediate = { log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 ([event_target:new_puppet.GetName])" }
@@ -43,6 +42,14 @@ country_event = {
 					}
 				}
 			}
+			
+			modifier = {
+				factor = 100
+				original_tag = RUS
+				event_target:new_puppet = {
+					SOV_me_likey_ssr = yes
+				}
+			}
 		}
 		set_autonomy = {
 			target = event_target:new_puppet
@@ -73,7 +80,7 @@ country_event = {
 		name = Puppet_Event.1.C # SATELLITE
 		log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 - Puppet_Event.1.C"
 		ai_chance = {
-			base = 30
+			base = 50
 		}
 		set_autonomy = {
 			target = event_target:new_puppet
@@ -90,7 +97,6 @@ country_event = {
 	id = Treaties.1
 	title = Treaties.1.TITLE
 	desc = Treaties.1.DESC
-	picture = GFX_Country_Romanov_Gone
 	
 	is_triggered_only = yes
 	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.1" }
@@ -114,7 +120,6 @@ country_event = {
 	id = Treaties.2
 	title = Treaties.2.TITLE
 	desc = Treaties.2.DESC
-	picture = GFX_Country_Romanov_Gone
 	
 	is_triggered_only = yes
 	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.2" }

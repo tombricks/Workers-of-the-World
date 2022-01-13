@@ -40,6 +40,47 @@ ideologies = {
 		faction_modifiers = { }
 	}
 	
+	New_Marxism = {
+		
+		types = { New_Marxism_ideology = { } }
+		dynamic_faction_names = { 
+			"FACTION_NAME_NEW_MARXIST_1" 
+			"FACTION_NAME_NEW_MARXIST_2"
+			"FACTION_NAME_NEW_MARXIST_3"
+			"FACTION_NAME_NEW_MARXIST_4"
+			"FACTION_NAME_NEW_MARXIST_5"
+		}
+		
+		color = { 175 66 89 }
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		ai_communist = yes
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		
+		faction_modifiers = { }
+	}
+	
 	Marxism_Leninism = {
 		
 		types = { Marxism_Leninism_ideology = { } }
@@ -93,47 +134,6 @@ ideologies = {
 		}
 		
 		color = { 198 63 63 }
-		
-		war_impact_on_world_tension = 0.5
-		faction_impact_on_world_tension = 0.5
-		ai_communist = yes
-		
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_collaborate = yes
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-		}
-		
-		faction_modifiers = { }
-	}
-	
-	New_Marxism = {
-		
-		types = { New_Marxism_ideology = { } }
-		dynamic_faction_names = { 
-			"FACTION_NAME_NEW_MARXIST_1" 
-			"FACTION_NAME_NEW_MARXIST_2"
-			"FACTION_NAME_NEW_MARXIST_3"
-			"FACTION_NAME_NEW_MARXIST_4"
-			"FACTION_NAME_NEW_MARXIST_5"
-		}
-		
-		color = { 175 66 89 }
 		
 		war_impact_on_world_tension = 0.5
 		faction_impact_on_world_tension = 0.5

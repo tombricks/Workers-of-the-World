@@ -2,25 +2,33 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
-				limit = { NOT = { has_country_flag = has_starting_oob } }
-				d_create_army = yes
-			}
-
-			every_country = {
 				if = {
-					limit = { NOT = { has_subideology = yes } }
-					log = "tombricks Warning: [THIS.GetName] leader ([THIS.GetLeader]) has no subideology"
+					limit = {
+						NOT = { has_country_flag = has_starting_oob }
+					}
+					d_create_army = yes
 				}
+
 				if = {
-					limit = { NOT = { has_leader_title = yes } }
-					log = "tombricks Warning: [THIS.GetName] leader ([THIS.GetLeader]) has no title"
+					limit = {
+						NOT = { has_variable = influential_gov^num }
+					}
+					add_to_array = { influential_gov = 0 }
+					add_to_array = { influential_gov = 0 }
+					add_to_array = { influential_gov = 0 }
 				}
 			}
 
 			RUS = { add_to_array = { global.Cold_War_Factions = THIS } }
 			CHI = { add_to_array = { global.Cold_War_Factions = THIS } }
+			
+			ZZZ = { 
+				d_debug_log_all = yes
+				do_cold_war_sphere_arrays = yes
+			}
 
-			ZZZ = { do_cold_war_sphere_arrays = yes }
+			YUG = { country_event = { id = YUG_Death_of_Tito.1 months = 4 days = 3 } } # May 4 1980 - Death of Tito :wow:
+			RUS = { country_event = { id = RUS_XXVI_Congress.1 months = 13 days = 22 } } # February 23 1981 - Opening of the XXVI Congress of the Communist Party of the Soviet Union
 		}
 	}
 
@@ -60,6 +68,13 @@ on_actions = {
 	on_capitulation = { # Yes
 		effect = {
 			log = "[GetDateText]: Capitulation: [FROM.GetNameWithFlag] defeats [ROOT.GetNameWithFlag]"
+			if = {
+				limit = {
+					FROM = { original_tag = RUS }
+					ROOT = { original_tag = CHI }
+				}
+				# RUS = { country_event = RUS_End_of_China.1 } # see division of china.pdn
+			}
 		}
 	}
 	on_send_volunteers = {
@@ -129,6 +144,14 @@ on_actions = {
 				FROM = { save_event_target_as = german_target }
 				FRA = {
 					country_event = { id = FRA_Germany.1 hours = 12 }
+				}
+
+				else_if = {
+					limit = {
+						ROOT = { tag = CHI }	
+						FROM = { tag = TAI }
+					}
+					ROOT = { add_civil_war_target = CHI }	
 				}
 			}
 		}	

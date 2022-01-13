@@ -24,3 +24,10 @@ FRA_Jacobin = {
 		has_government = Hypersocialism
 	}
 }
+
+TAI_Mainland = {
+	icon = GFX_decision_category_intervention_overseas
+	allowed = {
+		original_tag = TAI
+	}
+}

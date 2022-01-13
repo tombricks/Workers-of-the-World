@@ -13,8 +13,16 @@
  MRT_Socialism: "Islamic Republic of Mauritania"
  MRT_Socialism_DEF: "the Islamic Republic of Mauritania"
 
+ MRT_Hypersocialism_party: "$Hypersocialism_party$"
+ MRT_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MRT_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ MRT_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ MRT_New_Marxism_party: "$New_Marxism_party$"
+ MRT_New_Marxism_party_long: "$New_Marxism_party_long$"
  MRT_Socialism_party: "PPM"
  MRT_Socialism_party_long: "Parti du peuple mauritanien (Mauritanian People's Party)"
- 
+ MRT_Reactionism_party: "$Reactionism_party$"
+ MRT_Reactionism_party_long: "$Reactionism_party_long$"
+
  MRT_Moktar_Ould_Daddah: "Moktar Ould Daddah"
  MRT_Moktar_Ould_Daddah_desc: ""

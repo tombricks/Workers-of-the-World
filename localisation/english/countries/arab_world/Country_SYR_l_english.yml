@@ -16,3 +16,15 @@
  SYR_Socialism: "Syrian Arab Republic"
  SYR_Socialism_DEF: "the Syrian Arab Republic"
  SYR_Socialism_ADJ: "Syrian" 
+
+### Parties
+ SYR_Hypersocialism_party: "$Hypersocialism_party$"
+ SYR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ SYR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ SYR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ SYR_New_Marxism_party: "$New_Marxism_party$"
+ SYR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ SYR_Socialism_party: "$Socialism_party$"
+ SYR_Socialism_party_long: "$Socialism_party_long$"
+ SYR_Reactionism_party: "$Reactionism_party$"
+ SYR_Reactionism_party_long: "$Reactionism_party_long$"

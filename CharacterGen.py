@@ -1,25 +1,12 @@
 characters = [
 	{
-		"tag": "CHI",
-		"id": "Hua_Guofeng",
-		"name": "Hua Guofeng",
+		"tag": "TAI",
+		"id": "Jiang_Qing",
+		"name": "Jiang Qing",
 		"leaders": {
-			"New_Marxism": [ "TITLE_Chairman", "IDEOLOGY_Mao_Zedong_Thought" ]
+			"Hypersocialism": [ "TITLE_Chairwoman", "IDEOLOGY_Mao_Zedong_Thought" ]
 		},
 		"advisors": {
-		}
-	},
-
-	{
-		"tag": "CHI",
-		"id": "Wang_Dongxing",
-		"name": "Wang Dongxing",
-		"leaders": {
-			"New_Marxism": [ "TITLE_Vice_Chairman", "IDEOLOGY_Mao_Zedong_Thought" ],
-			"Hypersocialism": [ "TITLE_Vice_Chairman", "IDEOLOGY_Mao_Zedong_Thought" ]
-		},
-		"advisors": {
-			"political_advisor": [ "TITLE_Vice_Chairman" ]
 		}
 	}
 ]
@@ -69,7 +56,7 @@ for character in characters:
 			traits += trait + " "
 		charactersFile += F'''advisor = {{
 			slot = {advisor}
-			idea_token = {characterId}
+			idea_token = {characterId}_{advisor}
 			allowed = {{
 				original_tag = {character["tag"]}
 			}}

@@ -17,6 +17,17 @@
  POL_Socialism_DEF: "the Polish People's Republic"
  POL_Socialism_ADJ: "Polish" 
 
+ POL_Hypersocialism_party: "$Hypersocialism_party$"
+ POL_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ POL_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ POL_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ POL_New_Marxism_party: "$New_Marxism_party$"
+ POL_New_Marxism_party_long: "$New_Marxism_party_long$"
+ POL_Socialism_party: "$Socialism_party$"
+ POL_Socialism_party_long: "$Socialism_party_long$"
+ POL_Reactionism_party: "$Reactionism_party$"
+ POL_Reactionism_party_long: "$Reactionism_party_long$"
+
 ### Characters
  POL_Wladyslaw_Gomulka: "Władysław Gomułka"
  POL_Wladyslaw_Gomulka_desc: ""

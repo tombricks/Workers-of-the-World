@@ -303,8 +303,10 @@ d_core_owned = {
 	}
 }
 d_list_characters = {
-	every_character = {
-		log = "[THIS.GetName]"
+	every_country = {
+		every_character = {
+			log = "[THIS.GetName]"
+		}
 	}
 }
 d_demote_country_leader = {
@@ -361,11 +363,6 @@ d_log_surrenders = {
 	log = "[THIS.GetName]: Surrender at [?THIS.surrender_progress]"
 }
 
-d_capitulate = {
-	log = "[FROM.GetName] [ROOT.GetName]"
-	#every_state
-}
-
 d_delete_army = {
 	every_state = {
 		PREV = {
@@ -411,25 +408,6 @@ d_should_RUS_aid_me = {
 	}
 }
 
-d_Jacobin_Revolt = {
-	FRA = {
-		start_civil_war = {
-			ideology = Hypersocialism
-			size = 0.6
-			states = {
-				14 20 30 15 735 19 21 
-			}
-			set_capital = {
-				state = 20
-				remember_old_capital = yes
-			}
-			set_province_controller = 6766
-			set_province_controller = 3652
-			set_province_controller = 3652
-		}
-	}
-}
-
 d_steal_army_troll = {
 	transfer_units_fraction= {
 		target = FROM
@@ -440,6 +418,53 @@ d_steal_army_troll = {
 		air_ratio = 1.0
 		keep_unit_leaders_trigger = {
 			always = no
+		}
+	}
+}
+
+d_add_state_slots = {
+	log = "[THIS.GetName]"
+	add_extra_state_shared_building_slots = var:args^0
+}
+
+d_create_ships = {
+	create_equipment_variant = {
+		name = "sheesh Class"
+		type = ship_hull_carrier_2
+		upgrades = {        #optional, inherits from parent
+			ship_deckspace_upgrade = 1
+			carrier_armor_upgrade = 2
+		}
+		modules = {         #optional, inherits from parent
+			fixed_ship_deck_slot_1 = ship_deck_space
+			front_1_custom_slot = ship_armor_carrier_deck
+			fixed_ship_deck_slot_2 = empty #overrides parent
+		}
+	}
+	for_loop_effect = {
+		start = 0
+		end = args^0
+		add = 1
+
+		create_ship = {
+			type = ship_hull_carrier_2
+			equipment_variant = "sheesh Class"
+		}
+	}
+}
+
+d_capitulate = {
+	d_disband_army = yes
+	every_controlled_state = {
+		set_state_controller_to = FROM
+	}
+}
+
+d_create_wargoal = {
+	FROM = {
+		create_wargoal = {
+			target = PREV
+			type = annex_everything
 		}
 	}
 }

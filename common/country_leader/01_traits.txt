@@ -10,6 +10,7 @@ leader_traits = {
 	TITLE_Secretary = { random = no } # Secretary
 	TITLE_Collective = { random = no } # Collective
 	TITLE_Vice_Chairman = { random = no } # Vice Chairman
+	TITLE_Chairwoman = { random = no } # Chairwoman
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }

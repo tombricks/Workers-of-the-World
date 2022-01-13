@@ -16,3 +16,15 @@
  EGY_Socialism: "Egyptian Arab Republic"
  EGY_Socialism_DEF: "the Egyptian Arab Republic"
  EGY_Socialism_ADJ: "Egyptian" 
+
+### Parties
+ EGY_Hypersocialism_party: "$Hypersocialism_party$"
+ EGY_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ EGY_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ EGY_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ EGY_New_Marxism_party: "$New_Marxism_party$"
+ EGY_New_Marxism_party_long: "$New_Marxism_party_long$"
+ EGY_Socialism_party: "$Socialism_party$"
+ EGY_Socialism_party_long: "$Socialism_party_long$"
+ EGY_Reactionism_party: "$Reactionism_party$"
+ EGY_Reactionism_party_long: "$Reactionism_party_long$"

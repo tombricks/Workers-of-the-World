@@ -16,3 +16,15 @@
  IRQ_Socialism: "Iraqi Arab Republic"
  IRQ_Socialism_DEF: "the Iraqi Arab Republic"
  IRQ_Socialism_ADJ: "Iraqi" 
+
+### Parties
+ IRQ_Hypersocialism_party: "$Hypersocialism_party$"
+ IRQ_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ IRQ_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ IRQ_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ IRQ_New_Marxism_party: "$New_Marxism_party$"
+ IRQ_New_Marxism_party_long: "$New_Marxism_party_long$"
+ IRQ_Socialism_party: "$Socialism_party$"
+ IRQ_Socialism_party_long: "$Socialism_party_long$"
+ IRQ_Reactionism_party: "$Reactionism_party$"
+ IRQ_Reactionism_party_long: "$Reactionism_party_long$"

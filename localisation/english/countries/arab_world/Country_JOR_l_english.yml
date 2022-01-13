@@ -16,3 +16,15 @@
  JOR_Socialism: "Socialist Jordanian State"
  JOR_Socialism_DEF: "the Socialist Jordanian State"
  JOR_Socialism_ADJ: "Jordanian" 
+
+### Parties
+ JOR_Hypersocialism_party: "$Hypersocialism_party$"
+ JOR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ JOR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ JOR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ JOR_New_Marxism_party: "$New_Marxism_party$"
+ JOR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ JOR_Socialism_party: "$Socialism_party$"
+ JOR_Socialism_party_long: "$Socialism_party_long$"
+ JOR_Reactionism_party: "$Reactionism_party$"
+ JOR_Reactionism_party_long: "$Reactionism_party_long$"

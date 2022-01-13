@@ -180,3 +180,13 @@
  TOPBAR_OFFICER_CORP_DESC:0 "Manage advisors and theorists, choose your army, navy, and air spirits, and unlock doctrines."
  IDEA_COST_NAVY_XP:0 "Cost (£navy_experience ): $VALUE|-0$"
  IDEA_COST_COMPACT_NAVY_XP:0 "£navy_experience  $VALUE|0$"
+
+ diplomacy_politics_tt: "sheesh [THIS.GetName]"
+ influential_1: "Influential Government Politician"
+ influential_2: "Influential Government Politician"
+ influential_3: "Influential Government Politician"
+ influential_party_leader: "This position is filled by the leader of the ruling political party, usually having a title such as General Secretary or Chairman."
+ influential_party_deputy_leader: "This position is filled by the deputy leader of the ruling political party, usually having a title such as Second Secretary or Vice-Chairman."
+ influential_presidium_chairman: "This position is filled by the Chairman of the Presidium of the Supreme Soviet."
+ influential_minister: "This position is filled by an influential minister."
+ influential_skull: "£skull_emoji"

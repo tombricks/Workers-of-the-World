@@ -17,11 +17,18 @@
  YUG_Socialism_DEF: "the Socialist Federal Republic of Yugoslavia"
  YUG_Socialism_ADJ: "Yugoslav" 
   
- YUG_Marxism_Leninism_party: "SKJ"
- YUG_Marxism_Leninism_party_long: "Savez komunista Jugoslavije (League of Communists of Yugoslavia)"
- YUG_Socialism_party: "SKJ"
- YUG_Socialism_party_long: "Savez komunista Jugoslavije (League of Communists of Yugoslavia)"
  
  
  YUG_Josip_Broz_Tito: "Josip Broz Tito"
  YUG_Josip_Broz_Tito_desc: ""
+
+ YUG_Hypersocialism_party: "$Hypersocialism_party$"
+ YUG_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ YUG_Marxism_Leninism_party: "SKJ"
+ YUG_Marxism_Leninism_party_long: "Savez komunista Jugoslavije (League of Communists of Yugoslavia)"
+ YUG_New_Marxism_party: "$New_Marxism_party$"
+ YUG_New_Marxism_party_long: "$New_Marxism_party_long$"
+ YUG_Socialism_party: "SKJ"
+ YUG_Socialism_party_long: "Savez komunista Jugoslavije (League of Communists of Yugoslavia)"
+ YUG_Reactionism_party: "$Reactionism_party$"
+ YUG_Reactionism_party_long: "$Reactionism_party_long$"

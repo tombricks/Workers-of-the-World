@@ -16,3 +16,15 @@
  KUW_Socialism: "Kuwaiti Arab Republic"
  KUW_Socialism_DEF: "the Kuwaiti Arab Republic"
  KUW_Socialism_ADJ: "Kuwaiti" 
+
+### Parties
+ KUW_Hypersocialism_party: "$Hypersocialism_party$"
+ KUW_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ KUW_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ KUW_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ KUW_New_Marxism_party: "$New_Marxism_party$"
+ KUW_New_Marxism_party_long: "$New_Marxism_party_long$"
+ KUW_Socialism_party: "$Socialism_party$"
+ KUW_Socialism_party_long: "$Socialism_party_long$"
+ KUW_Reactionism_party: "$Reactionism_party$"
+ KUW_Reactionism_party_long: "$Reactionism_party_long$"

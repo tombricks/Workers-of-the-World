@@ -13,8 +13,16 @@
  MLI_Socialism: "Socialist Republic of Mali"
  MLI_Socialism_DEF: "the Socialist Republic of Mali"
 
+ MLI_Hypersocialism_party: "$Hypersocialism_party$"
+ MLI_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MLI_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ MLI_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
  MLI_New_Marxism_party: "PMT"
  MLI_New_Marxism_party_long: "Parti du peuple mauritanien (Malian Party of Labour)"
+ MLI_Socialism_party: "$Socialism_party$"
+ MLI_Socialism_party_long: "$Socialism_party_long$"
+ MLI_Reactionism_party: "$Reactionism_party$"
+ MLI_Reactionism_party_long: "$Reactionism_party_long$"
  
  MLI_Alpha_Oumar_Konare: "Alpha Oumar Konaré"
  MLI_Alpha_Oumar_Konare_desc: ""

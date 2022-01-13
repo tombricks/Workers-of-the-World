@@ -1,105 +1,15 @@
-﻿add_namespace = RUS_Stalin_Putsch
+﻿add_namespace = RUS_XXVI_Congress
 
+# Opening of the 26th Congress
 country_event = {
-	id = RUS_Stalin_Putsch.1
-	title = RUS_Stalin_Putsch.1.TITLE
-	desc = RUS_Stalin_Putsch.1.DESC
-	picture = GFX_Country_Romanov_Gone
+	id = RUS_XXVI_Congress.1
+	title = RUS_XXVI_Congress.1.TITLE
+	desc = RUS_XXVI_Congress.1.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event RUS_Stalin_Putsch.1" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event RUS_XXVI_Congress.1" }
 	
 	option = {
-		name = RUS_Stalin_Putsch.1.A
-
-		hidden_effect = {
-			retire_character = RUS_Yegor_Ligachyov # Rip Bozo packwatch rest in piss wont be missed
-			dismantle_faction = yes
-			every_country = {
-				limit = {
-					is_subject_of = ROOT
-				}
-				ROOT = {
-					set_autonomy = {
-						target = PREV
-						autonomy_state = autonomy_free
-					}
-				}
-				add_to_array = { global.original_SSRs = THIS }
-				set_country_flag = original_ssr
-			}
-
-			RUS_Grigory_Romanov = {
-				add_country_leader_role = {
-					country_leader = {
-						ideology = Marxism_Leninism_ideology
-						traits = { TITLE_Acting_General_Secretary IDEOLOGY_Marxism_Leninism }
-						desc = RUS_Grigory_Romanov_leader_desc
-					}
-					promote_leader = yes
-				}
-			}
-
-			set_capital = {
-				state = 572
-				remember_old_capital = yes
-			}
-
-			start_civil_war = {
-				ideology = Hypersocialism
-				size = 0.5
-				states = { 233 827 828 821 232 235 234 218 238 237 236 217 245 829 401 251 249 399 400 833 256 250 239 255 252 265 351 248 253 260 240 220 257 258 222 224 223 254 219 205 243 242 246 247 264 244 195 263 208 209 210 }
-				set_capital = {
-					state = 219
-					remember_old_capital = no
-				}
-
-				save_global_event_target_as = RUS_Stalinist
-			}
-			RST = {
-				set_politics = {
-					ruling_party = Marxism_Leninism
-				}
-				set_popularities = {
-					Marxism_Leninism = 50
-					Hypersocialism = 50
-				}
-				RUS_Viktor_Grishin = {
-					promote_character = Marxism_Leninism
-					promote_character = Hypersocialism
-				}
-				set_cosmetic_tag = RUS_Stalinist
-				set_country_flag = RUS_stalinist_characters
-				remove_ideas = RUS_Viktor_Grishin
-
-				RUS_Yevgeny_Stalin = {
-					add_trait = {
-						slot = political_advisor
-						trait = TITLE_Stalin_Head
-					}
-				}
-
-				add_ideas = {
-					RUS_Yevgeny_Stalin
-					RUS_Viktor_Anpilov
-					RUS_Nina_Andreyeva
-				}
-
-				add_ideas = RUS_Yevgeny_Stalin
-				add_ideas = RUS_Viktor_Anpilov
-				add_ideas = RUS_Nina_Andreyeva
-
-				set_party_name = {
-					ideology = Marxism_Leninism
-					name = RUS_Hypersocialism_party
-					long_name = RUS_Hypersocialism_party_long
-				}
-
-				change_tag_from = RUS
-			}
-
-			drop_cosmetic_tag = yes
-			set_cosmetic_tag = RUS_RSR
-		}
+		name = RUS_XXVI_Congress.1.A
 	}
 }

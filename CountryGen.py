@@ -3,25 +3,48 @@
 
 countries = [
 	{
-		"tag":				"SEN",
-		"name":				"Senegal",
-		"adj":				"Senegalese",
+		"tag":				"XIN",
+		"name":				"Xinjiang",
+		"adj":				"Xinjiang",
 		"ideology":			"New_Marxism",
-		"capital":			"272",
-		"colour":			"114 89 52",
-		"culture":			"African",
-		"long_name":		"Democratic Republic of Senegal",
-		"long_name_def":	"the Democratic Republic of Senegal",
+		"capital":			"287",
+		"colour":			"75 120 167",
+		"culture":			"Asian",
+		"long_name":		"East Turkestan Republic",
+		"long_name_def":	"the East Turkestan Republic",
 		"parties":			{
-			"New_Marxism": [ "And-Jëf", "And-Jëf/Mouvement Révolutionnaire pour la Démocratie Nouvelle (Act Together/Revolutionary Movement for New Democracy)" ]
 		},
 		"characters":		{
-			"Landing_Savane":	{
-				"name": 		"Landing Savané",
-				"title": 		"Secretary_General",
-				"subideology": 	"African_Socialism",
-				"ideologies": 	[ "New_Marxism" ]
-			}
+		}
+	},
+	{
+		"tag":				"TIB",
+		"name":				"Tibet",
+		"adj":				"Tibetan",
+		"ideology":			"New_Marxism",
+		"capital":			"757",
+		"colour":			"145 150 94",
+		"culture":			"Asian",
+		"long_name":		"Tibetan Soviet Republic",
+		"long_name_def":	"the Tibetan Soviet Republic",
+		"parties":			{
+		},
+		"characters":		{
+		}
+	},
+	{
+		"tag":				"MAN",
+		"name":				"Manchuria",
+		"adj":				"Manchurian",
+		"ideology":			"New_Marxism",
+		"capital":			"716",
+		"colour":			"223 168 0",
+		"culture":			"Asian",
+		"long_name":		"Manchurian Socialist Republic",
+		"long_name_def":	"the Manchurian Socialist Republic",
+		"parties":			{
+		},
+		"characters":		{
 		}
 	}
 ]
@@ -37,8 +60,6 @@ for country in countries:
 		country["long_name"] = country["name"]
 	if "long_name_def" not in country:
 		country["long_name_def"] = "the " + country["long_name"]
-	
-
 
 	FileTags.write(F'\n{country["tag"]} = "countries/{country["culture"]}.txt" ')
 	FileLoc   = open("localisation/english/countries/Country_"+country["tag"]+"_l_english.yml", "w", encoding="utf8")
@@ -60,11 +81,26 @@ for country in countries:
  {country["tag"]}_Socialism_DEF: "{country["long_name_def"]}"
 
  """)
+	
+	parties = {
+		"Hypersocialism_party": "$Hypersocialism_party$",
+		"Hypersocialism_party_long": "$Hypersocialism_party_long$",
+		"Marxism_Leninism_party": "$Marxism_Leninism_party$",
+		"Marxism_Leninism_party_long": "$Marxism_Leninism_party_long$",
+		"New_Marxism_party": "$New_Marxism_party$",
+		"New_Marxism_party_long": "$New_Marxism_party_long$",
+		"Socialism_party": "$Socialism_party$",
+		"Socialism_party_long": "$Socialism_party_long$",
+		"Reactionism_party": "$Reactionism_party$",
+		"Reactionism_party_long": "$Reactionism_party_long$"
+	}
 
 	for party in country["parties"]:
-		FileLoc.write(F"""{country["tag"]}_{party}_party: "{country["parties"][party][0]}"
- {country["tag"]}_{party}_party_long: "{country["parties"][party][1]}"
- """)
+		parties[party+"_party"] = country["parties"][party][0]
+		parties[party+"_party_long"] = country["parties"][party][1]
+	
+	for party in parties:
+		FileLoc.write(F'{country["tag"]}_{party}: "{parties[party]}"\n ')
 
 	FileColor.write(F"""
 {country["tag"]} = {{

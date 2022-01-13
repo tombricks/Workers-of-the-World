@@ -1,0 +1,25 @@
+d_debug_log_all = {
+	log = " ---------- mega log ---------- "
+	d_debug_log_check_leaders = yes
+	d_debug_log_all_ruling_parties = yes
+}
+d_debug_log_check_leaders = {
+	log = " ---------- checking all leaders ---------- "
+	every_country = {
+		if = {
+			limit = { NOT = { has_subideology = yes } }
+			log = "tombricks log (warning): [THIS.GetName] ([THIS.GetTag]): leader ([THIS.GetLeader]) has no subideology"
+		}
+		if = {
+			limit = { NOT = { has_leader_title = yes } }
+			log = "tombricks log (warning): [THIS.GetName] ([THIS.GetTag]): leader ([THIS.GetLeader]) has no title"
+		}
+	}
+}
+d_debug_log_all_ruling_parties = {
+	log = " ---------- logging all ruling parties ---------- "
+	every_country = {
+		log = "tombricks log: [THIS.GetName] ([THIS.GetTag]) [THIS.get_ideology_adj]: ruling party: [THIS.GetRulingParty]"
+		log = "tombricks log: [THIS.GetName] ([THIS.GetTag]) [THIS.get_ideology_adj]: ruling party long: [THIS.GetRulingPartyLong]"
+	}
+}

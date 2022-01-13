@@ -163,6 +163,7 @@ has_leader_title = {
 		has_country_leader_with_trait = TITLE_Secretary
 		has_country_leader_with_trait = TITLE_Collective
 		has_country_leader_with_trait = TITLE_Vice_Chairman
+		has_country_leader_with_trait = TITLE_Chairwoman
 		# <END OF TITLES TRIGGER>
 	}
 }

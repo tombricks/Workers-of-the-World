@@ -14,6 +14,18 @@
  Reactionism: "Reactionary"
  Reactionism_desc: "Reactionary Regime"
  Reactionism_noun: "Reactionism"
+
+### Parties
+ Hypersocialism_party: "Hypersocialists"
+ Hypersocialism_party_long: "Hypersocialist Party"
+ Marxism_Leninism_party: "Communists"
+ Marxism_Leninism_party_long: "Communist Party"
+ New_Marxism_party: "Maoists"
+ New_Marxism_party_long: "Communist Party (Maoist)"
+ Socialism_party: "Socialists"
+ Socialism_party_long: "Socialist Party"
+ Reactionism_party: "Nationalists"
+ Reactionism_party_long: "Nationalist Party"
  
  TITLE_General_Secretary: "General Secretary"
  TITLE_Second_Secretary: "Second Secretary"
@@ -26,6 +38,7 @@
  TITLE_Secretary: "Secretary"
  TITLE_Collective: "Collective"
  TITLE_Vice_Chairman: "Vice Chairman"
+ TITLE_Chairwoman: "Chairwoman"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"

@@ -16,3 +16,15 @@
  LBA_Socialism: "Libyan Arab Republic"
  LBA_Socialism_DEF: "the Libyan Arab Republic"
  LBA_Socialism_ADJ: "Libyan" 
+
+### Parties
+ LBA_Hypersocialism_party: "$Hypersocialism_party$"
+ LBA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ LBA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ LBA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ LBA_New_Marxism_party: "$New_Marxism_party$"
+ LBA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ LBA_Socialism_party: "$Socialism_party$"
+ LBA_Socialism_party_long: "$Socialism_party_long$"
+ LBA_Reactionism_party: "$Reactionism_party$"
+ LBA_Reactionism_party_long: "$Reactionism_party_long$"

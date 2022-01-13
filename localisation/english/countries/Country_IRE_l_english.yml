@@ -17,5 +17,14 @@
  IRE_Socialism_DEF: "the Republic of Ireland"
  IRE_Socialism_ADJ: "Irish" 
  
+
+ IRE_Hypersocialism_party: "$Hypersocialism_party$"
+ IRE_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ IRE_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ IRE_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ IRE_New_Marxism_party: "$New_Marxism_party$"
+ IRE_New_Marxism_party_long: "$New_Marxism_party_long$"
  IRE_Socialism_party: "SF"
  IRE_Socialism_party_long: "Sinn Féin (Ourselves)"
+ IRE_Reactionism_party: "$Reactionism_party$"
+ IRE_Reactionism_party_long: "$Reactionism_party_long$"

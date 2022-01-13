@@ -5,7 +5,6 @@ country_event = {
 	id = GER_Revolution.1
 	title = GER_Revolution.1.TITLE
 	desc = GER_Revolution.1.DESC
-	picture = GFX_Country_Romanov_Gone
 	
 	is_triggered_only = yes
 	immediate = {
