@@ -4,7 +4,8 @@ state={
 	name="STATE_814"
 
 	history={
-		owner = LIT
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = LIT
 		victory_points = {
 			11312 1 #Marijampole

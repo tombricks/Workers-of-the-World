@@ -16,7 +16,7 @@ set_popularities = {
 	New_Marxism = 100
 }
 
-create_faction = CHI_Internationale
+create_faction = CHI_BLOC_FACTION
 add_to_array = { global.CHI_cold_war_factions = THIS }
 add_to_faction = CHI
 add_to_faction = PAK
@@ -30,5 +30,5 @@ recruit_character = CHI_Hua_Guofeng
 recruit_character = CHI_Wang_Dongxing
 
 add_ideas = {
-	CHI_Wang_Dongxing
+	CHI_Wang_Dongxing_influential_1
 }

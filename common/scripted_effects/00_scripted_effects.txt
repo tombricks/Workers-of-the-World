@@ -170,3 +170,6 @@ Protect_my_Child = {
 		modifier = offered_support
 	}
 }
+
+on_hourly_effect = {
+}

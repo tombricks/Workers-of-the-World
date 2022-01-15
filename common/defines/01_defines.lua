@@ -1,4 +1,4 @@
-NDefines.NGame.START_DATE = "1985.1.1.12"
+NDefines.NGame.START_DATE = "1980.1.1.12"
 NDefines.NGame.END_DATE = "1990.1.1.12"
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 7
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 4

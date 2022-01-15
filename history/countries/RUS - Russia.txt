@@ -34,23 +34,23 @@ recruit_character = RUS_Yevgeny_Stalin
 recruit_character = RUS_Viktor_Anpilov
 recruit_character = RUS_Nina_Andreyeva
 
-create_faction = RUS_UN_FACTION
+create_faction = RUS_BLOC_FACTION
 add_to_array = { global.RUS_cold_war_factions = THIS }
-set_autonomy = { target = FIN autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = UKR autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = BLR autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = LIT autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = LAT autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = EST autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = AZR autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = ARM autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = GEO autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = KAZ autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = UZB autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = TAJ autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = TKM autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = KYR autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = MOL autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = FIN autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = UKR autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = BLR autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = LIT autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = LAT autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = EST autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = AZR autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = ARM autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = GEO autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = KAZ autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = UZB autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = TAJ autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = TKM autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = KYR autonomy_state = autonomy_autonomous_zone }
+#set_autonomy = { target = MOL autonomy_state = autonomy_autonomous_zone }
 add_to_faction = MON
 add_to_faction = SWE
 add_to_faction = NOR

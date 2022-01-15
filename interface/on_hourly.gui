@@ -1,0 +1,14 @@
+guiTypes = {
+	containerWindowType = {
+		name = "on_hourly_container"
+		position = { x = 0 y = 0}	
+		size = { width = 8 height = 8 }
+
+		buttonType = {
+			name ="on_hourly"
+			spriteType = "GFX_skull_emoji"
+			frame = 1
+			position = { x = 0 y = 0 }
+		}	
+	}
+}

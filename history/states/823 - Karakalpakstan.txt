@@ -9,7 +9,8 @@ state = {
 			1614 1
 		}
 		
-		owner = UZB
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = UZB
 		
 		buildings = {

@@ -7,14 +7,6 @@
  RUS_USSR: "Union of Soviet Socialist Republics"
  RUS_USSR_DEF: "the Union of Soviet Socialist Republics"
  RUS_USSR_ADJ: "Soviet"
- 
- RUS_RSR: "Provisional Government of the Russian Soviet Republic"
- RUS_RSR_DEF: "the Provisional Government of the Russian Soviet Republic"
- RUS_RSR_ADJ: "Russian"
- 
- RUS_Stalinist: "Russian Socialist Federative Soviet Republic"
- RUS_Stalinist_DEF: "the Russian Socialist Federative Soviet Republic"
- RUS_Stalinist_ADJ: "Russian"
 
 ### Parties
  RUS_Hypersocialism_party: "VKP(b)"
@@ -29,14 +21,11 @@
  RUS_Reactionism_party_long: ""
 
 ### Special
- RUS_UN_FACTION: "United Nations"
- RUS_stalinist_characters: "Can use §RStalinist§! Characters"
+ RUS_BLOC_FACTION: "Soviet Bloc"
 
 ### Characters
- RUS_CPSU_Conservative: "§R£RUS_CPSU_Conservative_texticon Conservative Member of the CPSU§!\nConservative members of the Communist Party of the Soviet Union are against proposed reforms though also tend to be less radical than the Stalinite wings of the party. They see the USSR as the strongest world power and the vanguard of international communism, and seek to uphold Marxism-Leninism against all threats, domestic and abroad."
-
  RUS_Yegor_Ligachyov: "Yegor Ligachyov"
- RUS_Yegor_Ligachyov_desc: "$RUS_CPSU_Conservative$"
+ RUS_Yegor_Ligachyov_desc: ""
 
  RUS_Grigory_Romanov: "Grigory Romanov"
  RUS_Grigory_Romanov_desc: ""
@@ -46,8 +35,8 @@
  RUS_Viktor_Grishin_desc: ""
  RUS_Viktor_Grishin_leader_desc: ""
  
- RUS_Yevgeny_Stalin: "Yevgeny Stalin" # LETS FUCKING GOOOOOO
- RUS_Yevgeny_Stalin_desc: "„I was just speaking to Comrade Stalin“ is not a phrase one would have expected to hear in the 1980s, decades after the Man of Steel, General Secretary Josef Stalin passed away, but that is how history would have it. Yevgeny Stalin, grandson of the infamous Bolshevik revolutionary, has long upheld the legacy of his grandfather as one of a mighty leader who defeated his enemies and led the Soviet Union to triumph and has become a figurehead leader of the §RStalinists§! within the Union. His years of vocal opposition to reformism and allegations of his grandfather have paid off, with him becoming the §Y„Head of the Union, Chairman of the Presidium of the Supreme Soviet, and Supreme Commander-in-chief“§!, which is to say, he has become the official head of state of the USSR."
+ RUS_Yevgeny_Stalin: "Yevgeny Stalin"
+ RUS_Yevgeny_Stalin_desc: ""
  
  RUS_Viktor_Anpilov: "Viktor Anpilov"
  RUS_Viktor_Anpilov_desc: ""

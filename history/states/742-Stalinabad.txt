@@ -4,7 +4,8 @@ state = {
 
 	history = {
 
-		owner = TAJ
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = TAJ
 		victory_points = {
 			1384 1

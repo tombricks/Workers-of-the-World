@@ -5,7 +5,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = FIN
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = FIN
 		
 		victory_points = {

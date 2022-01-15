@@ -9,6 +9,12 @@ Soviet Union
 	2		influential_presidium_chairman
 	3		influential_minister
 
+SSRs
+	Leader	influential_party_leader
+	1		influential_party_deputy_leader
+	2		influential_presidium_chairman
+	3		influential_minister
+
 China
 	Leader	influential_party_leader
 	1		influential_party_deputy_leader

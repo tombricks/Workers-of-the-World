@@ -1,5 +1,5 @@
 ﻿l_english:
- Puppet_Event.1.TITLE: "Establish a Government in [event_target:new_puppet.GetNonIdeologyNameDef]"
+ Puppet_Event.1.TITLE: "Establish a Government in [new_puppet.GetNonIdeologyNameDef]"
  Puppet_Event.1.DESC: "§RTo release nations, establish a military administration§!"
  Puppet_Event.1.A: "Establish an Autonomous Zone"
  Puppet_Event.1.B.A: "Establish a Military Administration"

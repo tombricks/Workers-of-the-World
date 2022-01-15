@@ -4,7 +4,8 @@ state={
 	name="STATE_810"
 
 	history={
-		owner = LAT
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = LAT
 		victory_points = {
 			6222 3 #Jelgava

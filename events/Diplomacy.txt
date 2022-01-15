@@ -7,7 +7,7 @@ country_event = {
 	desc = Puppet_Event.1.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 ([event_target:new_puppet.GetName])" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 ([new_puppet.GetName])" }
 	
 	option = {
 		name = Puppet_Event.1.A # AUTONOMOUS
