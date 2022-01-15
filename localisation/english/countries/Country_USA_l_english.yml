@@ -1,0 +1,30 @@
+﻿l_english:
+### Country Names and Cosmetics
+ USA: "United States"
+ USA_DEF: "United States"
+ USA_ADJ: "United States" 
+ 
+ USA_Hypersocialism: "United States of America"
+ USA_Hypersocialism_DEF: "the United States of America"
+ USA_Marxism_Leninism: "United States of America"
+ USA_Marxism_Leninism_DEF: "the United States of America"
+ USA_New_Marxism: "United States of America"
+ USA_New_Marxism_DEF: "the United States of America"
+ USA_Socialism: "United States of America"
+ USA_Socialism_DEF: "the United States of America"
+
+ USA_Hypersocialism_party: "RCPUSA"
+ USA_Hypersocialism_party_long: "Revolutionary Communist Party, USA"
+ USA_Marxism_Leninism_party: "CPUSA"
+ USA_Marxism_Leninism_party_long: "Communist Party USA"
+ USA_New_Marxism_party: "RCPUSA"
+ USA_New_Marxism_party_long: "Revolutionary Communist Party, USA"
+ USA_Socialism_party: "$Socialism_party$"
+ USA_Socialism_party_long: "$Socialism_party_long$"
+ USA_Reactionism_party: "$Reactionism_party$"
+ USA_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ USA_Gus_Hall: "Gus Hall"
+ USA_Gus_Hall_desc: ""
+ USA_Bob_Avakian: "Bob Avakian"
+ USA_Bob_Avakian_desc: ""

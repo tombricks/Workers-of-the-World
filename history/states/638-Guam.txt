@@ -6,7 +6,8 @@ state=
 	manpower=75153
 	history=
 	{
-		owner = ZZZ # owner = USA
+		owner = USA
+		add_core_of = USA
 		# GUM
 		buildings = {
 			infrastructure = 3 #was: 5

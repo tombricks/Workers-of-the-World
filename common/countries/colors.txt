@@ -394,3 +394,7 @@ MAN = {
 	color = rgb { 223 168 0 }
 	color_ui = rgb { 223 168 0 }
 }
+USA = {
+	color = rgb { 97 34 122 }
+	color_ui = rgb { 97 34 122 }
+}

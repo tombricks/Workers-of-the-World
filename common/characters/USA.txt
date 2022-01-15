@@ -1,0 +1,54 @@
+characters = {
+	USA_Gus_Hall = {
+		name = USA_Gus_Hall
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_President IDEOLOGY_Constitutional_Marxism }
+			desc = USA_Gus_Hall_desc
+		}
+		
+		
+	}
+	USA_Bob_Avakian = {
+		name = USA_Bob_Avakian
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_Chairman IDEOLOGY_Mao_Zedong_Thought }
+			desc = USA_Bob_Avakian_desc
+		}
+		
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_Chairman IDEOLOGY_Mao_Zedong_Thought }
+			desc = USA_Bob_Avakian_desc
+		}
+		
+		
+	}
+}

@@ -3,7 +3,8 @@ state={
 	name="STATE_816"
 	state_category = town
 	history={
-		owner = ZZZ # owner = USA
+		owner = USA
+		add_core_of = USA
 		# USA
 		buildings = {
 			industrial_complex = 2

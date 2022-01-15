@@ -3,46 +3,19 @@
 
 countries = [
 	{
-		"tag":				"XIN",
-		"name":				"Xinjiang",
-		"adj":				"Xinjiang",
-		"ideology":			"New_Marxism",
-		"capital":			"287",
-		"colour":			"75 120 167",
-		"culture":			"Asian",
-		"long_name":		"East Turkestan Republic",
-		"long_name_def":	"the East Turkestan Republic",
+		"tag":				"USA",
+		"name":				"United States",
+		"adj":				"United States",
+		"ideology":			"Marxism_Leninism",
+		"capital":			"361",
+		"colour":			"97 34 122",
+		"culture":			"Western_European",
+		"long_name":		"United States of America",
+		"long_name_def":	"the United States of America",
 		"parties":			{
-		},
-		"characters":		{
-		}
-	},
-	{
-		"tag":				"TIB",
-		"name":				"Tibet",
-		"adj":				"Tibetan",
-		"ideology":			"New_Marxism",
-		"capital":			"757",
-		"colour":			"145 150 94",
-		"culture":			"Asian",
-		"long_name":		"Tibetan Soviet Republic",
-		"long_name_def":	"the Tibetan Soviet Republic",
-		"parties":			{
-		},
-		"characters":		{
-		}
-	},
-	{
-		"tag":				"MAN",
-		"name":				"Manchuria",
-		"adj":				"Manchurian",
-		"ideology":			"New_Marxism",
-		"capital":			"716",
-		"colour":			"223 168 0",
-		"culture":			"Asian",
-		"long_name":		"Manchurian Socialist Republic",
-		"long_name_def":	"the Manchurian Socialist Republic",
-		"parties":			{
+			"Hypersocialism": [ "RCPUSA", "Revolutionary Communist Party, USA" ],
+			"New_Marxism": [ "RCPUSA", "Revolutionary Communist Party, USA" ],
+			"Marxism_Leninism": [ "CPUSA", "Communist Party USA" ]
 		},
 		"characters":		{
 		}

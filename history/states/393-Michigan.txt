@@ -9,7 +9,8 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = ZZZ # owner = USA
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
