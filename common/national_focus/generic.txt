@@ -1,7 +1,19 @@
 ﻿search_filter_prios = {
 	FOCUS_FILTER_POLITICAL = 1010
+
+	
+ 
+	
+	
 	FOCUS_FILTER_RESEARCH = 522
+
+	
 	FOCUS_FILTER_INDUSTRY = 509
+
+	FOCUS_FILTER_ARMY_XP = 103
+	FOCUS_FILTER_NAVY_XP = 102
+	FOCUS_FILTER_AIR_XP = 101
+
 }
 
 focus_tree = {

@@ -1,0 +1,76 @@
+﻿focus_tree = {
+	id = RUS_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			tag = RUS
+			add = 10
+		}
+	}
+
+	default = no
+
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+
+	initial_show_position = {
+		focus = RUS_Revitalise_the_International_Department
+	}
+
+	focus = {
+		id = RUS_Revitalise_the_International_Department
+		icon = GFX_focus_SOV_proclaim_soviet_hegemony
+		cost = 5
+		x = 20
+		y = 0
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Revitalise_the_International_Department"
+		}
+	}
+
+	focus = {
+		id = RUS_Prepare_an_International_Conference
+		icon = GFX_focus_focus_fra_revolution_utmost
+		prerequisite = { focus = RUS_Revitalise_the_International_Department }
+		mutually_exclusive = { focus = RUS_Hold_an_Inner_Party_Session }
+		cost = 5
+		relative_position_id = RUS_Revitalise_the_International_Department
+		x = -1
+		y = 1
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Prepare_an_International_Conference"
+		}
+	}
+
+	focus = {
+		id = RUS_Hold_an_Inner_Party_Session
+		icon = GFX_focus_SOV_socialism_in_one_country
+		prerequisite = { focus = RUS_Revitalise_the_International_Department }
+		mutually_exclusive = { focus = RUS_Prepare_an_International_Conference }
+		cost = 5
+		relative_position_id = RUS_Revitalise_the_International_Department
+		x = 1
+		y = 1
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Hold_an_Inner_Party_Session"
+		}
+	}
+}
