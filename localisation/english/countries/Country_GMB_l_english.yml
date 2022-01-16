@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ GMB: "Gambia"
+ GMB_DEF: "Gambia"
+ GMB_ADJ: "Gambia" 
+ 
+ GMB_Hypersocialism: "Republic of the Gambia"
+ GMB_Hypersocialism_DEF: "the Republic of the Gambia"
+ GMB_Marxism_Leninism: "Republic of the Gambia"
+ GMB_Marxism_Leninism_DEF: "the Republic of the Gambia"
+ GMB_New_Marxism: "Republic of the Gambia"
+ GMB_New_Marxism_DEF: "the Republic of the Gambia"
+ GMB_Socialism: "Republic of the Gambia"
+ GMB_Socialism_DEF: "the Republic of the Gambia"
+
+ GMB_Hypersocialism_party: "$Hypersocialism_party$"
+ GMB_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ GMB_Marxism_Leninism_party: "GSRP"
+ GMB_Marxism_Leninism_party_long: "Gambia Socialist Revolutionary Party"
+ GMB_New_Marxism_party: "$New_Marxism_party$"
+ GMB_New_Marxism_party_long: "$New_Marxism_party_long$"
+ GMB_Socialism_party: "$Socialism_party$"
+ GMB_Socialism_party_long: "$Socialism_party_long$"
+ GMB_Reactionism_party: "$Reactionism_party$"
+ GMB_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ GMB_Kukoi_Sanyang: "Kukoi Sanyang"
+ GMB_Kukoi_Sanyang_desc: ""

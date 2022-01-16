@@ -3,21 +3,25 @@
 
 countries = [
 	{
-		"tag":				"USA",
-		"name":				"United States",
-		"adj":				"United States",
+		"tag":				"GMB",
+		"name":				"Gambia",
+		"adj":				"Gambia",
 		"ideology":			"Marxism_Leninism",
-		"capital":			"361",
-		"colour":			"97 34 122",
-		"culture":			"Western_European",
-		"long_name":		"United States of America",
-		"long_name_def":	"the United States of America",
+		"capital":			"701",
+		"colour":			"252 105 71",
+		"culture":			"African",
+		"long_name":		"Republic of the Gambia",
+		"long_name_def":	"the Republic of the Gambia",
 		"parties":			{
-			"Hypersocialism": [ "RCPUSA", "Revolutionary Communist Party, USA" ],
-			"New_Marxism": [ "RCPUSA", "Revolutionary Communist Party, USA" ],
-			"Marxism_Leninism": [ "CPUSA", "Communist Party USA" ]
+			"Marxism_Leninism": [ "GSRP", "Gambia Socialist Revolutionary Party" ]
 		},
 		"characters":		{
+			"Kukoi_Sanyang": {
+				"name":		"Kukoi Sanyang",
+				"title":	"President",
+				"subideology": "African_Socialism",
+				"ideologies": [ "Marxism_Leninism" ]
+			}
 		}
 	}
 ]

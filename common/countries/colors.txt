@@ -398,3 +398,7 @@ USA = {
 	color = rgb { 97 34 122 }
 	color_ui = rgb { 97 34 122 }
 }
+GMB = {
+	color = rgb { 252 105 71 }
+	color_ui = rgb { 252 105 71 }
+}
