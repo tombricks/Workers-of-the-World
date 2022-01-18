@@ -1,0 +1,11 @@
+﻿l_english:
+### Country Names and Cosmetics
+ KKK: "Southern Union"
+ KKK_DEF: "the Union of the South"
+ KKK_ADJ: "Southerner" 
+ 
+ KKK_Reactionism:0 "Ku Klux Klan"
+ KKK_Reactionism_DEF:0 "the Knights of the Ku Klux Klan"
+ KKK_Reactionism_ADJ:0 "Klan"
+  
+ KKK_Reactionism_party: "Ku Klux Klan"

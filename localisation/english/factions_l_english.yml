@@ -26,3 +26,5 @@
  FACTION_NAME_NONALIGNED_3: "The $CONTINENT$ Alliance"
  FACTION_NAME_NONALIGNED_4: "Confederate $CONTINENT_ADJ$ Nations"
  FACTION_NAME_NONALIGNED_5: "The $LEADER_COUNTRY$ Coalition"
+
+ USA_bloc_faction:0 "Federalists"

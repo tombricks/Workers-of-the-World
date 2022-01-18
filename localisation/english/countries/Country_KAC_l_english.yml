@@ -1,0 +1,11 @@
+﻿l_english:
+### Country Names and Cosmetics
+ KAC: "Montana"
+ KAC_DEF: "the State of Montana"
+ KAC_ADJ: "Montanan" 
+ 
+ KAC_Socialism:0 "Free Territory of America"
+ KAC_Socialism_DEF:0 "the Free Territory of America"
+ KAC_Socialism_ADJ:0 "Kazcynskyite"
+  
+ KAC_Socialism_party: "Green Party"

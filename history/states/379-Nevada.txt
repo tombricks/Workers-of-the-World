@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = CAL
 		add_core_of = USA
 		buildings = {
 			infrastructure = 2

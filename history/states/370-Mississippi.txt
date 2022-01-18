@@ -7,7 +7,8 @@ state={
 	state_category = city
 
 	history={
-		owner = USA
+		owner = KKK
+		add_core_of = KKK
 		add_core_of = USA
 		victory_points = {
 			4464 1 

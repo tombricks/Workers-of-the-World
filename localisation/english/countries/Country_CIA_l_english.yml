@@ -1,0 +1,12 @@
+﻿l_english:
+### Country Names and Cosmetics
+ CIA: "Rocky Republic"
+ CIA_DEF: "the Rocky Mountain Republic"
+ CIA_ADJ: "Rocky" 
+ 
+ CIA_Reactionism:0 "Central Intelligence Agency"
+ CIA_Reactionism_DEF:0 "the CIA Remnant"
+ CIA_Reactionism_ADJ:0 "CIA"
+  
+ CIA_Reactionism_party: "CIA"
+ CIA_Reactionism_party_long:0 "Central Intelligence Agency"

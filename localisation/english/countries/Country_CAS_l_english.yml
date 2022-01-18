@@ -1,0 +1,11 @@
+﻿l_english:
+### Country Names and Cosmetics
+ CAS: "Cascadia"
+ CAS_DEF: "Cascadia"
+ CAS_ADJ: "Cascadia" 
+ 
+ CAS_Hypersocialism:0 "Cascadian People's Republic"
+ CAS_Hypersocialism_DEF:0 "the People's Republic of Cascadia"
+ CAS_Hypersocialism_ADJ:0 "Cascadian"
+  
+ CAS_Hypersocialism_party:0 "Liberation Socialist Worker's Party"

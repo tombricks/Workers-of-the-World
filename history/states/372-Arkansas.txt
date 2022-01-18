@@ -12,7 +12,8 @@ state={
 
 
 	history={
-		owner = USA
+		owner = KKK
+		add_core_of = KKK
 		add_core_of = USA
 		buildings = {
 			infrastructure = 2

@@ -16,6 +16,12 @@ set_popularities = {
 	Marxism_Leninism = 100
 }
 
+create_faction = USA_bloc_faction
+add_to_faction = CAL
+add_to_faction = TEX
+add_to_faction = NMX
+add_to_faction = ARI
+add_to_faction = NTH
 
 recruit_character = USA_Gus_Hall
 recruit_character = USA_Bob_Avakian

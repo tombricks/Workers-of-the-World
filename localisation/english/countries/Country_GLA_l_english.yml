@@ -1,0 +1,12 @@
+﻿l_english:
+### Country Names and Cosmetics
+ GLA: "Great Lakes"
+ GLA_DEF: "the Great Lakes Confederacy"
+ GLA_ADJ: "Great Lake" 
+ 
+ GLA_New_Marxism:0 "Union of American Workers"
+ GLA_New_Marxism_DEF:0 "the United Union of American Workers"
+ GLA_New_Marxism_ADJ:0 "Unionist"
+  
+ GLA_Reactionism_party: "American Nazi Party"
+ GLA_New_Marxism_party: "American Worker's Party"
