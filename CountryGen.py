@@ -3,25 +3,35 @@
 
 countries = [
 	{
-		"tag":				"GMB",
-		"name":				"Gambia",
-		"adj":				"Gambia",
-		"ideology":			"Marxism_Leninism",
-		"capital":			"701",
-		"colour":			"252 105 71",
-		"culture":			"African",
-		"long_name":		"Republic of the Gambia",
-		"long_name_def":	"the Republic of the Gambia",
+		"tag":				"AST",
+		"name":				"Australia",
+		"adj":				"Australian",
+		"ideology":			"New_Marxism",
+		"capital":			"285",
+		"colour":			"170 20 89",
+		"culture":			"Western_European",
+		"long_name":		"People's Republic of Australia",
+		"long_name_def":	"the People's Republic of Australia",
 		"parties":			{
-			"Marxism_Leninism": [ "GSRP", "Gambia Socialist Revolutionary Party" ]
+			"Marxism_Leninism": [ "MLPA", "Marxist-Leninist Party of Australia" ]
 		},
 		"characters":		{
-			"Kukoi_Sanyang": {
-				"name":		"Kukoi Sanyang",
-				"title":	"President",
-				"subideology": "African_Socialism",
-				"ideologies": [ "Marxism_Leninism" ]
-			}
+		}
+	},
+	{
+		"tag":				"NZL",
+		"name":				"New Zealand",
+		"adj":				"New Zealand",
+		"ideology":			"New_Marxism",
+		"capital":			"284",
+		"colour":			"100 147 2",
+		"culture":			"Western_European",
+		"long_name":		"People's Republic of New Zealand",
+		"long_name_def":	"the People's Republic of New Zealand",
+		"parties":			{
+			"Marxism_Leninism": [ "MLPNZ", "Marxist-Leninist Party of New Zealand" ]
+		},
+		"characters":		{
 		}
 	}
 ]

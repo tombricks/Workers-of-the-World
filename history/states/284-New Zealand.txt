@@ -7,7 +7,8 @@ state={
 	state_category = city
 	
 	history={
-		owner = ZZZ # owner = NZL
+		owner = NZL
+		add_core_of = NZL
 		add_extra_state_shared_building_slots = 1
 		buildings = {
 			infrastructure = 3 #was: 6

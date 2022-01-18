@@ -402,3 +402,15 @@ GMB = {
 	color = rgb { 252 105 71 }
 	color_ui = rgb { 252 105 71 }
 }
+MEX = {
+	color = rgb { 156 35 31 }
+	color_ui = rgb { 156 35 31 }
+}
+AST = {
+	color = rgb { 170 20 89 }
+	color_ui = rgb { 170 20 89 }
+}
+NZL = {
+	color = rgb { 100 147 2 }
+	color_ui = rgb { 100 147 2 }
+}

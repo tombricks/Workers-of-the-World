@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ MEX: "Mexico"
+ MEX_DEF: "Mexico"
+ MEX_ADJ: "Mexican" 
+ 
+ MEX_Hypersocialism: "Socialist Republic of Mexico"
+ MEX_Hypersocialism_DEF: "the Socialist Republic of Mexico"
+ MEX_Marxism_Leninism: "Socialist Republic of Mexico"
+ MEX_Marxism_Leninism_DEF: "the Socialist Republic of Mexico"
+ MEX_New_Marxism: "Socialist Republic of Mexico"
+ MEX_New_Marxism_DEF: "the Socialist Republic of Mexico"
+ MEX_Socialism: "Socialist Republic of Mexico"
+ MEX_Socialism_DEF: "the Socialist Republic of Mexico"
+
+ MEX_Hypersocialism_party: "$Hypersocialism_party$"
+ MEX_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MEX_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ MEX_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ MEX_New_Marxism_party: "$New_Marxism_party$"
+ MEX_New_Marxism_party_long: "$New_Marxism_party_long$"
+ MEX_Socialism_party: "$Socialism_party$"
+ MEX_Socialism_party_long: "$Socialism_party_long$"
+ MEX_Reactionism_party: "$Reactionism_party$"
+ MEX_Reactionism_party_long: "$Reactionism_party_long$"
+ 

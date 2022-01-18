@@ -24,6 +24,8 @@ add_to_faction = THA
 add_to_faction = BRM
 add_to_faction = BHU
 add_to_faction = FRA
+add_to_faction = AST
+add_to_faction = NZL
 add_to_faction = ALB
 
 recruit_character = CHI_Hua_Guofeng

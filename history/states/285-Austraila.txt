@@ -4,7 +4,9 @@ state={
 	name="STATE_285"
 
 	history={
-		owner = ZZZ # owner = AST
+		owner = AST
+		add_core_of = AST
+		
 		add_extra_state_shared_building_slots = 2
 		buildings = {
 			infrastructure = 3 #was: 6

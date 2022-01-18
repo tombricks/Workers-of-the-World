@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ NZL: "New Zealand"
+ NZL_DEF: "New Zealand"
+ NZL_ADJ: "New Zealand" 
+ 
+ NZL_Hypersocialism: "People's Republic of New Zealand"
+ NZL_Hypersocialism_DEF: "the People's Republic of New Zealand"
+ NZL_Marxism_Leninism: "People's Republic of New Zealand"
+ NZL_Marxism_Leninism_DEF: "the People's Republic of New Zealand"
+ NZL_New_Marxism: "People's Republic of New Zealand"
+ NZL_New_Marxism_DEF: "the People's Republic of New Zealand"
+ NZL_Socialism: "People's Republic of New Zealand"
+ NZL_Socialism_DEF: "the People's Republic of New Zealand"
+
+ NZL_Hypersocialism_party: "$Hypersocialism_party$"
+ NZL_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ NZL_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ NZL_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ NZL_New_Marxism_party: "MLPNZ"
+ NZL_New_Marxism_party_long: "Marxist-Leninist Party of New Zealand"
+ NZL_Socialism_party: "$Socialism_party$"
+ NZL_Socialism_party_long: "$Socialism_party_long$"
+ NZL_Reactionism_party: "$Reactionism_party$"
+ NZL_Reactionism_party_long: "$Reactionism_party_long$"
+ 

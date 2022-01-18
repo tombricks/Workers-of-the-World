@@ -112,3 +112,8 @@ TEX = "countries/Western_European.txt"
 NMX = "countries/Western_European.txt" 
 ARI = "countries/Western_European.txt" 
 NTH = "countries/Western_European.txt" 
+
+MEX = "countries/Western_European.txt" 
+AST = "countries/Western_European.txt" 
+NZL = "countries/Western_European.txt" 
+

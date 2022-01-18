@@ -34,6 +34,11 @@ recruit_character = RUS_Yevgeny_Stalin
 recruit_character = RUS_Viktor_Anpilov
 recruit_character = RUS_Nina_Andreyeva
 
+add_ideas = {
+	RUS_Grigory_Romanov_influential_1
+	RUS_Viktor_Grishin_influential_2
+}
+
 create_faction = RUS_BLOC_FACTION
 add_to_array = { global.RUS_cold_war_factions = THIS }
 #set_autonomy = { target = FIN autonomy_state = autonomy_autonomous_zone }

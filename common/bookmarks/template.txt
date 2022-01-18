@@ -7,14 +7,14 @@ bookmarks = {
 		default_country = "RUS"
 		default = yes
 		
+		"USA" = {
+			history = "RUS_SECOND_COLD_WAR_DESC"
+			ideology = Marxism_Leninism
+		}
+		
 		"ENG" = {
 			history = "RUS_SECOND_COLD_WAR_DESC"
 			ideology = Socialism
-		}
-		
-		"GER" = {
-			history = "RUS_SECOND_COLD_WAR_DESC"
-			ideology = Marxism_Leninism
 		}
 		
 		"RUS" = {

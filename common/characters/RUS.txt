@@ -86,10 +86,6 @@ characters = {
 			allowed = {
 				original_tag = RUS
 			}
-			available = {
-				#has_country_flag = RUS_stalinist_characters
-				# He is hard-core conservative and pro-Stalinist but he is also a "moderator"?
-			}
 			on_add = {
 				log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Viktor_Grishin"
 			}
@@ -114,24 +110,6 @@ characters = {
 			army = {
 				small = "GFX_idea_minister_Yevgeny_Stalin"
 			}
-		}
-
-		advisor = {
-			slot = influential_2
-			idea_token = RUS_Yevgeny_Stalin_influential_2
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				has_country_flag = RUS_stalinist_characters
-			}
-			on_add = {
-				log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Yevgeny_Stalin"
-			}
-			on_remove = {
-				log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Yevgeny_Stalin"
-			}
-			traits = {  }
 		}
 
 		country_leader = {
@@ -163,25 +141,6 @@ characters = {
 			}
 		}
 		
-		advisor = {
-			slot = influential_1
-			idea_token = RUS_Viktor_Anpilov_influential_1
-			
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				has_country_flag = RUS_stalinist_characters
-			}
-			on_add = {
-				log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Viktor_Anpilov"
-			}
-			on_remove = {
-				log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Viktor_Anpilov"
-			}
-			traits = { TITLE_General_Secretary }
-		}
-		
 		country_leader = {
 			ideology = Marxism_Leninism_ideology
 			traits = { TITLE_General_Secretary IDEOLOGY_Iosif_Stalin_Thought }
@@ -209,24 +168,6 @@ characters = {
 			army = {
 				small = "GFX_idea_minister_Nina_Andreyeva"
 			}
-		}
-
-		advisor = {
-			slot = influential_1
-			idea_token = RUS_Nina_Andreyeva_influential_1
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				has_country_flag = RUS_stalinist_characters
-			}
-			on_add = {
-				log = "[GetDateText]: [This.GetName]: Added Advisor RUS_Nina_Andreyeva"
-			}
-			on_remove = {
-				log = "[GetDateText]: [This.GetName]: Removed Advisor RUS_Nina_Andreyeva"
-			}
-			traits = { TITLE_Second_Secretary }
 		}
 		
 		country_leader = {
