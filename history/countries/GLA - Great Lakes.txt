@@ -1,0 +1,19 @@
+#
+set_stability = 0.05
+set_war_support = 0.5
+
+# Starting tech
+tech_setup_generic = yes
+
+set_politics = {
+	ruling_party = New_Marxism
+	last_election = "1978.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	New_Marxism = 100
+}
+
+

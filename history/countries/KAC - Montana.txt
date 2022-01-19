@@ -1,0 +1,21 @@
+#
+set_stability = 0.1
+set_war_support = 0.65
+
+recruit_character = KAC_ted_kazcynski
+
+# Starting tech
+tech_setup_generic = yes
+
+set_politics = {
+	ruling_party = Socialism
+	last_election = "1978.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	Socialism = 100
+}
+
+
