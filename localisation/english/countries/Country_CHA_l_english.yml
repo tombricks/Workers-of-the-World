@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ CHA: "Chad"
+ CHA_DEF: "Chad"
+ CHA_ADJ: "Chadian" 
+ 
+ CHA_Hypersocialism: "Chadian Islamic Socialist Republic"
+ CHA_Hypersocialism_DEF: "the Chadian Islamic Socialist Republic"
+ CHA_Marxism_Leninism: "Chadian Islamic Socialist Republic"
+ CHA_Marxism_Leninism_DEF: "the Chadian Islamic Socialist Republic"
+ CHA_New_Marxism: "Chadian Islamic Socialist Republic"
+ CHA_New_Marxism_DEF: "the Chadian Islamic Socialist Republic"
+ CHA_Socialism: "Chadian Islamic Socialist Republic"
+ CHA_Socialism_DEF: "the Chadian Islamic Socialist Republic"
+
+ CHA_Hypersocialism_party: "$Hypersocialism_party$"
+ CHA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ CHA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ CHA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ CHA_New_Marxism_party: "$New_Marxism_party$"
+ CHA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ CHA_Socialism_party: "FROLINAT"
+ CHA_Socialism_party_long: "Front de libération nationale du Tchad (National Liberation Front of Chad)"
+ CHA_Reactionism_party: "$Reactionism_party$"
+ CHA_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ CHA_Ibrahim_Abatcha: "Ibrahim Abatcha"
+ CHA_Ibrahim_Abatcha_desc: ""

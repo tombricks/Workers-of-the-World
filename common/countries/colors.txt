@@ -458,3 +458,7 @@ NZL = {
 	color = rgb { 100 147 2 }
 	color_ui = rgb { 100 147 2 }
 }
+CHA = {
+	color = rgb { 229 52 96 }
+	color_ui = rgb { 229 52 96 }
+}

@@ -117,3 +117,5 @@ MEX = "countries/Western_European.txt"
 AST = "countries/Western_European.txt" 
 NZL = "countries/Western_European.txt" 
 
+
+CHA = "countries/African.txt" 

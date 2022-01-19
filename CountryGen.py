@@ -3,33 +3,17 @@
 
 countries = [
 	{
-		"tag":				"AST",
-		"name":				"Australia",
-		"adj":				"Australian",
-		"ideology":			"New_Marxism",
-		"capital":			"285",
+		"tag":				"CHA",
+		"name":				"Chad",
+		"adj":				"Chadian",
+		"ideology":			"Socialism",
+		"capital":			"774",
 		"colour":			"170 20 89",
-		"culture":			"Western_European",
-		"long_name":		"People's Republic of Australia",
-		"long_name_def":	"the People's Republic of Australia",
+		"culture":			"African",
+		"long_name":		"Chadian Islamic Socialist Republic",
+		"long_name_def":	"the Chadian Islamic Socialist Republic",
 		"parties":			{
-			"Marxism_Leninism": [ "MLPA", "Marxist-Leninist Party of Australia" ]
-		},
-		"characters":		{
-		}
-	},
-	{
-		"tag":				"NZL",
-		"name":				"New Zealand",
-		"adj":				"New Zealand",
-		"ideology":			"New_Marxism",
-		"capital":			"284",
-		"colour":			"100 147 2",
-		"culture":			"Western_European",
-		"long_name":		"People's Republic of New Zealand",
-		"long_name_def":	"the People's Republic of New Zealand",
-		"parties":			{
-			"Marxism_Leninism": [ "MLPNZ", "Marxist-Leninist Party of New Zealand" ]
+			"Socialism": [ "FROLINAT", "Front de libération nationale du Tchad (National Liberation Front of Chad)" ]
 		},
 		"characters":		{
 		}

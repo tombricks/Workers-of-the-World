@@ -1,21 +1,10 @@
 characters = [
 	{
-		"tag": "USA",
-		"id": "Gus_Hall",
-		"name": "Gus Hall",
+		"tag": "CHA",
+		"id": "Ibrahim_Abatcha",
+		"name": "Ibrahim Abatcha",
 		"leaders": {
-			"Marxism_Leninism": [ "TITLE_President", "IDEOLOGY_Constitutional_Marxism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "USA",
-		"id": "Bob_Avakian",
-		"name": "Bob Avakian",
-		"leaders": {
-			"New_Marxism": [ "TITLE_Chairman", "IDEOLOGY_Mao_Zedong_Thought" ],
-			"Hypersocialism": [ "TITLE_Chairman", "IDEOLOGY_Mao_Zedong_Thought" ]
+			"Socialism": [ "TITLE_Secretary_General", "IDEOLOGY_Islamic_Socialism" ]
 		},
 		"advisors": {
 		}
