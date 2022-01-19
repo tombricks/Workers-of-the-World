@@ -1,8 +1,4 @@
---------- Localisation ---------
-
----------    Recruit   ---------
-
----------  Characters  ---------
+characters = {
 	GNB_Luis_Cabral = {
 		name = GNB_Luis_Cabral
 
@@ -26,3 +22,5 @@
 		
 		
 	}
+
+}

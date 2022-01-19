@@ -119,3 +119,5 @@ NZL = "countries/Western_European.txt"
 
 
 CHA = "countries/African.txt" 
+NGR = "countries/African.txt" 
+GNB = "countries/African.txt" 

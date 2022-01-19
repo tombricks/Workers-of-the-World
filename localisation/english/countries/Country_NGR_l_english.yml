@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ NGR: "Niger"
+ NGR_DEF: "Niger"
+ NGR_ADJ: "Nigerien" 
+ 
+ NGR_Hypersocialism: "Republic of Socialist Niger"
+ NGR_Hypersocialism_DEF: "the Republic of Socialist Niger"
+ NGR_Marxism_Leninism: "Republic of Socialist Niger"
+ NGR_Marxism_Leninism_DEF: "the Republic of Socialist Niger"
+ NGR_New_Marxism: "Republic of Socialist Niger"
+ NGR_New_Marxism_DEF: "the Republic of Socialist Niger"
+ NGR_Socialism: "Republic of Socialist Niger"
+ NGR_Socialism_DEF: "the Republic of Socialist Niger"
+
+ NGR_Hypersocialism_party: "$Hypersocialism_party$"
+ NGR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ NGR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ NGR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ NGR_New_Marxism_party: "$New_Marxism_party$"
+ NGR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ NGR_Socialism_party: "$Socialism_party$"
+ NGR_Socialism_party_long: "$Socialism_party_long$"
+ NGR_Reactionism_party: "$Reactionism_party$"
+ NGR_Reactionism_party_long: "$Reactionism_party_long$"
+ 

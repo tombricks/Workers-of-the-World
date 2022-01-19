@@ -1,10 +1,10 @@
 characters = [
 	{
-		"tag": "CHA",
-		"id": "Ibrahim_Abatcha",
-		"name": "Ibrahim Abatcha",
+		"tag": "GNB",
+		"id": "Luis_Cabral",
+		"name": "Luís Cabral",
 		"leaders": {
-			"Socialism": [ "TITLE_Secretary_General", "IDEOLOGY_Islamic_Socialism" ]
+			"Socialism": [ "TITLE_President", "IDEOLOGY_African_Socialism" ]
 		},
 		"advisors": {
 		}

@@ -462,3 +462,11 @@ CHA = {
 	color = rgb { 229 52 96 }
 	color_ui = rgb { 229 52 96 }
 }
+NGR = {
+	color = rgb { 110 123 59 }
+	color_ui = rgb { 110 123 59 }
+}
+GNB = {
+	color = rgb { 125 211 188 }
+	color_ui = rgb { 125 211 188 }
+}

@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ GNB: "Guinea-Bissau"
+ GNB_DEF: "Guinea-Bissau"
+ GNB_ADJ: "Guinea-Bissau" 
+ 
+ GNB_Hypersocialism: "Federal Republic of Guinea and Cape Verde"
+ GNB_Hypersocialism_DEF: "the Federal Republic of Guinea and Cape Verde"
+ GNB_Marxism_Leninism: "Federal Republic of Guinea and Cape Verde"
+ GNB_Marxism_Leninism_DEF: "the Federal Republic of Guinea and Cape Verde"
+ GNB_New_Marxism: "Federal Republic of Guinea and Cape Verde"
+ GNB_New_Marxism_DEF: "the Federal Republic of Guinea and Cape Verde"
+ GNB_Socialism: "Federal Republic of Guinea and Cape Verde"
+ GNB_Socialism_DEF: "the Federal Republic of Guinea and Cape Verde"
+
+ GNB_Hypersocialism_party: "$Hypersocialism_party$"
+ GNB_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ GNB_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ GNB_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ GNB_New_Marxism_party: "$New_Marxism_party$"
+ GNB_New_Marxism_party_long: "$New_Marxism_party_long$"
+ GNB_Socialism_party: "PAIGC"
+ GNB_Socialism_party_long: "Partido Africano para a Independência da Guiné e Cabo Verde (African Party for the Independence of Guinea and Cape Verde)"
+ GNB_Reactionism_party: "$Reactionism_party$"
+ GNB_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ GNB_Luis_Cabral: "Luís Cabral"
+ GNB_Luis_Cabral_desc: ""
