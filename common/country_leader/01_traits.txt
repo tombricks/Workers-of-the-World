@@ -35,4 +35,15 @@ leader_traits = {
 	IDEOLOGY_Titoism = { random = no } # Titoism
 	IDEOLOGY_Mao_Zedong_Thought = { random = no } # Mao Zedong Thought
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
+
+	NTH_turncoat = {
+		random = no
+		army_attack_factor = 0.025
+		army_defence_factor = 0.025
+		army_morale_factor = -0.10
+		targeted_modifier = {
+			tag = CIA
+			attack_bonus_against = -0.05
+		}
+	}
 }

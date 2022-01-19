@@ -1,23 +1,19 @@
-#
 set_stability = 0.2
-set_war_support = 0.3
+set_war_support = 0.8
 
 # Starting tech
 tech_setup_generic = yes
 
-create_faction = CIA_bloc_faction
-
-recruit_character = CIA_ronald_reagan
-
 set_politics = {
-	ruling_party = Reactionism
+	ruling_party = Marxism_Leninism
 	last_election = "1978.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	Reactionism = 100
+	Marxism_Leninism = 40
+	Reactionism = 60
 }
 
-
+recruit_character = NTH_william_westmoreland

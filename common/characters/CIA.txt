@@ -1,8 +1,6 @@
 characters = {
-	KAC_ted_kazcynski = {
-		name = "Theodora Kazcynski"
-
-		gender = female
+	CIA_ronald_reagan = {
+		name = "Ronald Reagan"
 
 		allowed_civil_war = {
 		}
@@ -17,9 +15,9 @@ characters = {
 		}
 		
 		country_leader = {
-			ideology = Socialism_ideology
-			traits = { IDEOLOGY_Anarchism }
-			desc = USA_monkey_desc
+			ideology = Reactionism_ideology
+			traits = { TITLE_President }
+			desc = USA_reagan_desc
 		}
 		
 		
