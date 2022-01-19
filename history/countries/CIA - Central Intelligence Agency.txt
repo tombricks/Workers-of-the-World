@@ -5,6 +5,8 @@ set_war_support = 0.3
 # Starting tech
 tech_setup_generic = yes
 
+create_faction = CIA_bloc_faction
+
 set_politics = {
 	ruling_party = Reactionism
 	last_election = "1978.1.1"

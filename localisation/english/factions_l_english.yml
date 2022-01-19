@@ -28,3 +28,5 @@
  FACTION_NAME_NONALIGNED_5: "The $LEADER_COUNTRY$ Coalition"
 
  USA_bloc_faction:0 "Federalists"
+ ILL_bloc_faction:0 "Resurrectionists"
+ CIA_bloc_faction:0 "Remnants"
