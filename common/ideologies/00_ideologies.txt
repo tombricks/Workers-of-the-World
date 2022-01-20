@@ -10,7 +10,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 86 6 41 }
+		color = { 104 8 85 }
 		
 		war_impact_on_world_tension = 0.5
 		faction_impact_on_world_tension = 0.5
@@ -92,7 +92,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 195 22 22 }
+		color = { 162 17 17 }
 		
 		war_impact_on_world_tension = 0.5
 		faction_impact_on_world_tension = 0.5
