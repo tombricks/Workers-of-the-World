@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ TZN: "Tanzania"
+ TZN_DEF: "Tanzania"
+ TZN_ADJ: "Tanzanian" 
+ 
+ TZN_Hypersocialism: "United Republic of Tanzania"
+ TZN_Hypersocialism_DEF: "the United Republic of Tanzania"
+ TZN_Marxism_Leninism: "United Republic of Tanzania"
+ TZN_Marxism_Leninism_DEF: "the United Republic of Tanzania"
+ TZN_New_Marxism: "United Republic of Tanzania"
+ TZN_New_Marxism_DEF: "the United Republic of Tanzania"
+ TZN_Socialism: "United Republic of Tanzania"
+ TZN_Socialism_DEF: "the United Republic of Tanzania"
+
+ TZN_Hypersocialism_party: "$Hypersocialism_party$"
+ TZN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ TZN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ TZN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ TZN_New_Marxism_party: "$New_Marxism_party$"
+ TZN_New_Marxism_party_long: "$New_Marxism_party_long$"
+ TZN_Socialism_party: "$Socialism_party$"
+ TZN_Socialism_party_long: "$Socialism_party_long$"
+ TZN_Reactionism_party: "$Reactionism_party$"
+ TZN_Reactionism_party_long: "$Reactionism_party_long$"
+ 

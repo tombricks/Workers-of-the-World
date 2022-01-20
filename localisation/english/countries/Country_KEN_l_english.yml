@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ KEN: "Kenya"
+ KEN_DEF: "Kenya"
+ KEN_ADJ: "Kenyan" 
+ 
+ KEN_Hypersocialism: "Republic of Kenya"
+ KEN_Hypersocialism_DEF: "the Republic of Kenya"
+ KEN_Marxism_Leninism: "Republic of Kenya"
+ KEN_Marxism_Leninism_DEF: "the Republic of Kenya"
+ KEN_New_Marxism: "Republic of Kenya"
+ KEN_New_Marxism_DEF: "the Republic of Kenya"
+ KEN_Socialism: "Republic of Kenya"
+ KEN_Socialism_DEF: "the Republic of Kenya"
+
+ KEN_Hypersocialism_party: "$Hypersocialism_party$"
+ KEN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ KEN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ KEN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ KEN_New_Marxism_party: "$New_Marxism_party$"
+ KEN_New_Marxism_party_long: "$New_Marxism_party_long$"
+ KEN_Socialism_party: "$Socialism_party$"
+ KEN_Socialism_party_long: "$Socialism_party_long$"
+ KEN_Reactionism_party: "$Reactionism_party$"
+ KEN_Reactionism_party_long: "$Reactionism_party_long$"
+ 

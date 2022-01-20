@@ -470,3 +470,11 @@ GNB = {
 	color = rgb { 125 211 188 }
 	color_ui = rgb { 125 211 188 }
 }
+KEN = {
+	color = rgb { 163 84 80 }
+	color_ui = rgb { 163 84 80 }
+}
+TZN = {
+	color = rgb { 143 175 100 }
+	color_ui = rgb { 143 175 100 }
+}

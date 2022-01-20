@@ -3,17 +3,16 @@
 
 countries = [
 	{
-		"tag":				"GNB",
-		"name":				"Guinea-Bissau",
-		"adj":				"Guinea-Bissau",
+		"tag":				"TZN",
+		"name":				"Tanzania",
+		"adj":				"Tanzanian",
 		"ideology":			"Socialism",
-		"capital":			"296",
-		"colour":			"125 211 188",
+		"capital":			"546",
+		"colour":			"143 175 100",
 		"culture":			"African",
-		"long_name":		"Federal Republic of Guinea and Cape Verde",
-		"long_name_def":	"the Federal Republic of Guinea and Cape Verde",
+		"long_name":		"United Republic of Tanzania",
+		"long_name_def":	"the United Republic of Tanzania",
 		"parties":			{
-			"Socialism": [ "PAIGC", "Partido Africano para a Independência da Guiné e Cabo Verde (African Party for the Independence of Guinea and Cape Verde)" ]
 		},
 		"characters":		{
 		}
