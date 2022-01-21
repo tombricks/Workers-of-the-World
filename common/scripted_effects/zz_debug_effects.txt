@@ -468,3 +468,12 @@ d_create_wargoal = {
 		}
 	}
 }
+
+d_list_dlcs = {
+	if = { limit = { has_dlc = "Together for Victory" } log = "TFV: Yes" else = { log = "TFV: No" } }
+	if = { limit = { has_dlc = "Death or Dishonor" } log = "DOD: Yes" else = { log = "DOD: No" } }
+	if = { limit = { has_dlc = "Waking the Tiger" } log = "WTT: Yes" else = { log = "WTT: No" } }
+	if = { limit = { has_dlc = "Man the Guns" } log = "MTG: Yes" else = { log = "MTG: No" } }
+	if = { limit = { has_dlc = "La Resistance" } log = "LAR: Yes" else = { log = "LAR: No" } }
+	if = { limit = { has_dlc = "Battle for the Bosporus" } log = "BFTB: Yes" else = { log = "BFTB: No" } }
+}
