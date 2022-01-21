@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ MZB: "Mozambique"
+ MZB_DEF: "Mozambique"
+ MZB_ADJ: "Mozambician" 
+ 
+ MZB_Hypersocialism: "People's Republic of Mozambique"
+ MZB_Hypersocialism_DEF: "the People's Republic of Mozambique"
+ MZB_Marxism_Leninism: "People's Republic of Mozambique"
+ MZB_Marxism_Leninism_DEF: "the People's Republic of Mozambique"
+ MZB_New_Marxism: "People's Republic of Mozambique"
+ MZB_New_Marxism_DEF: "the People's Republic of Mozambique"
+ MZB_Socialism: "People's Republic of Mozambique"
+ MZB_Socialism_DEF: "the People's Republic of Mozambique"
+
+ MZB_Hypersocialism_party: "$Hypersocialism_party$"
+ MZB_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MZB_Marxism_Leninism_party: "FRELIMO"
+ MZB_Marxism_Leninism_party_long: "Frente de Libertação de Moçambique (Liberation Front of Mozambique)"
+ MZB_New_Marxism_party: "$New_Marxism_party$"
+ MZB_New_Marxism_party_long: "$New_Marxism_party_long$"
+ MZB_Socialism_party: "$Socialism_party$"
+ MZB_Socialism_party_long: "$Socialism_party_long$"
+ MZB_Reactionism_party: "$Reactionism_party$"
+ MZB_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ MZB_Samora_Machel: "Samora Machel"
+ MZB_Samora_Machel_desc: ""

@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ UGA: "Uganda"
+ UGA_DEF: "Uganda"
+ UGA_ADJ: "Ugandan" 
+ 
+ UGA_Hypersocialism: "Republic of Uganda"
+ UGA_Hypersocialism_DEF: "the Republic of Uganda"
+ UGA_Marxism_Leninism: "Republic of Uganda"
+ UGA_Marxism_Leninism_DEF: "the Republic of Uganda"
+ UGA_New_Marxism: "Republic of Uganda"
+ UGA_New_Marxism_DEF: "the Republic of Uganda"
+ UGA_Socialism: "Republic of Uganda"
+ UGA_Socialism_DEF: "the Republic of Uganda"
+
+ UGA_Hypersocialism_party: "$Hypersocialism_party$"
+ UGA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ UGA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ UGA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ UGA_New_Marxism_party: "$New_Marxism_party$"
+ UGA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ UGA_Socialism_party: "UPC"
+ UGA_Socialism_party_long: "Congress ya Watu wa Uganda (Uganda People's Congress)"
+ UGA_Reactionism_party: "$Reactionism_party$"
+ UGA_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ UGA_Milton_Obote: "Milton Obote"
+ UGA_Milton_Obote_desc: ""

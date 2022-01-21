@@ -478,3 +478,11 @@ TZN = {
 	color = rgb { 143 175 100 }
 	color_ui = rgb { 143 175 100 }
 }
+MZB = {
+	color = rgb { 81 170 104 }
+	color_ui = rgb { 81 170 104 }
+}
+UGA = {
+	color = rgb { 73 191 73 }
+	color_ui = rgb { 73 191 73 }
+}

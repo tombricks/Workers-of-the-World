@@ -3,18 +3,25 @@
 
 countries = [
 	{
-		"tag":				"TZN",
-		"name":				"Tanzania",
-		"adj":				"Tanzanian",
+		"tag":				"UGA",
+		"name":				"Uganda",
+		"adj":				"Ugandan",
 		"ideology":			"Socialism",
-		"capital":			"546",
-		"colour":			"143 175 100",
+		"capital":			"548",
+		"colour":			"73 191 73",
 		"culture":			"African",
-		"long_name":		"United Republic of Tanzania",
-		"long_name_def":	"the United Republic of Tanzania",
+		"long_name":		"Republic of Uganda",
+		"long_name_def":	"the Republic of Uganda",
 		"parties":			{
+			"Socialism": [ "UPC", "Congress ya Watu wa Uganda (Uganda People's Congress)" ]
 		},
 		"characters":		{
+			"Milton_Obote": {
+				"name": "Milton Obote",
+				"title": "President",
+				"subideology": "Socialism",
+				"ideologies": [ "African_Socialism" ]
+			} 
 		}
 	}
 ]
