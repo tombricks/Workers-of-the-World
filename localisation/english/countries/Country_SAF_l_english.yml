@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ SAF: "South Africa"
+ SAF_DEF: "South Africa"
+ SAF_ADJ: "South African" 
+ 
+ SAF_Hypersocialism: "People's Republic of South Africa"
+ SAF_Hypersocialism_DEF: "the People's Republic of South Africa"
+ SAF_Marxism_Leninism: "People's Republic of South Africa"
+ SAF_Marxism_Leninism_DEF: "the People's Republic of South Africa"
+ SAF_New_Marxism: "People's Republic of South Africa"
+ SAF_New_Marxism_DEF: "the People's Republic of South Africa"
+ SAF_Socialism: "People's Republic of South Africa"
+ SAF_Socialism_DEF: "the People's Republic of South Africa"
+
+ SAF_Hypersocialism_party: "$Hypersocialism_party$"
+ SAF_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ SAF_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ SAF_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ SAF_New_Marxism_party: "SACP"
+ SAF_New_Marxism_party_long: "South African Communist Party"
+ SAF_Socialism_party: "$Socialism_party$"
+ SAF_Socialism_party_long: "$Socialism_party_long$"
+ SAF_Reactionism_party: "$Reactionism_party$"
+ SAF_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ SAF_Nelson_Mandela: "Nelson Mandela"
+ SAF_Nelson_Mandela_desc: ""

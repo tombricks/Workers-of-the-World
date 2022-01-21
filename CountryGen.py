@@ -3,24 +3,24 @@
 
 countries = [
 	{
-		"tag":				"UGA",
-		"name":				"Uganda",
-		"adj":				"Ugandan",
-		"ideology":			"Socialism",
-		"capital":			"548",
-		"colour":			"73 191 73",
+		"tag":				"SAF",
+		"name":				"South Africa",
+		"adj":				"South African",
+		"ideology":			"New_Marxism",
+		"capital":			"681",
+		"colour":			"141 42 0",
 		"culture":			"African",
-		"long_name":		"Republic of Uganda",
-		"long_name_def":	"the Republic of Uganda",
+		"long_name":		"People's Republic of South Africa",
+		"long_name_def":	"the People's Republic of South Africa",
 		"parties":			{
-			"Socialism": [ "UPC", "Congress ya Watu wa Uganda (Uganda People's Congress)" ]
+			"New_Marxism": [ "SACP", "South African Communist Party" ]
 		},
 		"characters":		{
-			"Milton_Obote": {
-				"name": "Milton Obote",
+			"Nelson_Mandela": {
+				"name": "Nelson Mandela",
 				"title": "President",
-				"subideology": "Socialism",
-				"ideologies": [ "African_Socialism" ]
+				"subideology": "African_Socialism",
+				"ideologies": [ "New_Marxism" ]
 			} 
 		}
 	}
