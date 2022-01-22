@@ -41,6 +41,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Mao_Zedong_Thought } localization_key = IDEOLOGY_Mao_Zedong_Thought } # Mao Zedong Thought
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism } localization_key = IDEOLOGY_Marxism } # Marxism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Constitutional_Marxism } localization_key = IDEOLOGY_Constitutional_Marxism } # Constitutional Marxism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism } localization_key = IDEOLOGY_Marxism_Hitlerism } # Marxism-Hitlerism
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism }
@@ -74,6 +75,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Mao_Zedong_Thought } localization_key = IDEOLOGY_Mao_Zedong_Thought_ADJ } # Mao Zedong Thought
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism } localization_key = IDEOLOGY_Marxism_ADJ } # Marxist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Constitutional_Marxism } localization_key = IDEOLOGY_Constitutional_Marxism_ADJ } # Constitutional Marxist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism } localization_key = IDEOLOGY_Marxism_Hitlerism_ADJ } # Marxist-Hitlerist
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism_ADJ }

@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ EQG: "Equatorial Guinea"
+ EQG_DEF: "Equatorial Guinea"
+ EQG_ADJ: "Equatoguinean" 
+ 
+ EQG_Hypersocialism: "Republic of Equatorial Guinea"
+ EQG_Hypersocialism_DEF: "the Republic of Equatorial Guinea"
+ EQG_Marxism_Leninism: "Republic of Equatorial Guinea"
+ EQG_Marxism_Leninism_DEF: "the Republic of Equatorial Guinea"
+ EQG_New_Marxism: "Republic of Equatorial Guinea"
+ EQG_New_Marxism_DEF: "the Republic of Equatorial Guinea"
+ EQG_Socialism: "Republic of Equatorial Guinea"
+ EQG_Socialism_DEF: "the Republic of Equatorial Guinea"
+
+ EQG_Hypersocialism_party: "PUNT"
+ EQG_Hypersocialism_party_long: "Partido Único Nacional de los Trabajadores (United National Workers' Party)"
+ EQG_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ EQG_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ EQG_New_Marxism_party: "$New_Marxism_party$"
+ EQG_New_Marxism_party_long: "$New_Marxism_party_long$"
+ EQG_Socialism_party: "$Socialism_party$"
+ EQG_Socialism_party_long: "$Socialism_party_long$"
+ EQG_Reactionism_party: "PUNT"
+ EQG_Reactionism_party_long: "Partido Único Nacional de los Trabajadores (United National Workers' Party)"
+ 
+ EQG_Francisco_Macias_Nguema: "Francisco Macías Nguema"
+ EQG_Francisco_Macias_Nguema_desc: ""

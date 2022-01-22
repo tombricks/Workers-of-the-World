@@ -542,3 +542,7 @@ CMR = {
 	color = rgb { 174 136 0 }
 	color_ui = rgb { 174 136 0 }
 }
+EQG = {
+	color = rgb { 95 50 43 }
+	color_ui = rgb { 95 50 43 }
+}

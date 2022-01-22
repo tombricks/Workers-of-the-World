@@ -3,24 +3,25 @@
 
 countries = [
 	{
-		"tag":				"CMR",
-		"name":				"Cameroon",
-		"adj":				"Cameroon",
-		"ideology":			"Socialism",
-		"capital":			"773",
-		"colour":			"174 136 0",
+		"tag":				"EQG",
+		"name":				"Equatorial Guinea",
+		"adj":				"Equatoguinean",
+		"ideology":			"Hypersocialism",
+		"capital":			"297",
+		"colour":			"95 50 43",
 		"culture":			"African",
-		"long_name":		"Cameroon Republic",
-		"long_name_def":	"the Cameroon Republic",
+		"long_name":		"Republic of Equatorial Guinea",
+		"long_name_def":	"the Republic of Equatorial Guinea",
 		"parties":			{
-			"Socialism": [ "UPC", "Union des Populations du Cameroun (Union of the Peoples of Cameroon)" ],
+			"Hypersocialism": [ "PUNT", "Partido Único Nacional de los Trabajadores (United National Workers' Party)" ],
+			"Reactionism": [ "PUNT", "Partido Único Nacional de los Trabajadores (United National Workers' Party)" ]
 		},
 		"characters":		{
-			"Theodore_Mayi_Matip": {
-				"name": "Theodore Mayi-Matip",
+			"Francisco_Macias_Nguema": {
+				"name": "Francisco Macías Nguema",
 				"title": "President",
-				"subideology": "Marxism",
-				"ideologies": [ "Socialism" ]
+				"subideology": "Marxism_Hitlerism",
+				"ideologies": [ "Hypersocialism", "Reactionism" ]
 			}
 		}
 	}

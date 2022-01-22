@@ -148,6 +148,7 @@ has_subideology = {
 		has_country_leader_with_trait = IDEOLOGY_Mao_Zedong_Thought
 		has_country_leader_with_trait = IDEOLOGY_Marxism
 		has_country_leader_with_trait = IDEOLOGY_Constitutional_Marxism
+		has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism
 		# <END OF IDEOLOGIES TRIGGER>
 	}
 }

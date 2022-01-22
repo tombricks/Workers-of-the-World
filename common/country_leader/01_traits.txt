@@ -37,6 +37,7 @@ leader_traits = {
 	IDEOLOGY_Mao_Zedong_Thought = { random = no } # Mao Zedong Thought
 	IDEOLOGY_Marxism = { random = no } # Marxism
 	IDEOLOGY_Constitutional_Marxism = { random = no } # Constitutional Marxism
+	IDEOLOGY_Marxism_Hitlerism = { random = no } # Marxism-Hitlerism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	NTH_turncoat = {
