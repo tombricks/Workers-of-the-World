@@ -3,24 +3,24 @@
 
 countries = [
 	{
-		"tag":				"SAF",
-		"name":				"South Africa",
-		"adj":				"South African",
-		"ideology":			"New_Marxism",
-		"capital":			"681",
-		"colour":			"141 42 0",
+		"tag":				"ANG",
+		"name":				"Angola",
+		"adj":				"Angolan",
+		"ideology":			"Marxism_Leninism",
+		"capital":			"540",
+		"colour":			"0 102 191",
 		"culture":			"African",
-		"long_name":		"People's Republic of South Africa",
-		"long_name_def":	"the People's Republic of South Africa",
+		"long_name":		"People's Republic of Angola",
+		"long_name_def":	"the People's Republic of Angola",
 		"parties":			{
-			"New_Marxism": [ "SACP", "South African Communist Party" ]
+			"New_Marxism": [ "MPLA", "Movimento Popular de Libertação de Angola (People's Movement for the Liberation of Angola)" ],
 		},
 		"characters":		{
-			"Nelson_Mandela": {
-				"name": "Nelson Mandela",
+			"Jose_Eduardo_dos_Santos": {
+				"name": "José Eduardo dos Santos",
 				"title": "President",
-				"subideology": "African_Socialism",
-				"ideologies": [ "New_Marxism" ]
+				"subideology": "Marxism_Leninism",
+				"ideologies": [ "Marxism_Leninism" ]
 			} 
 		}
 	}

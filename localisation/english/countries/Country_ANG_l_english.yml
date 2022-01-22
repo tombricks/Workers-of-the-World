@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ ANG: "Angola"
+ ANG_DEF: "Angola"
+ ANG_ADJ: "Angolan" 
+ 
+ ANG_Hypersocialism: "People's Republic of Angola"
+ ANG_Hypersocialism_DEF: "the People's Republic of Angola"
+ ANG_Marxism_Leninism: "People's Republic of Angola"
+ ANG_Marxism_Leninism_DEF: "the People's Republic of Angola"
+ ANG_New_Marxism: "People's Republic of Angola"
+ ANG_New_Marxism_DEF: "the People's Republic of Angola"
+ ANG_Socialism: "People's Republic of Angola"
+ ANG_Socialism_DEF: "the People's Republic of Angola"
+
+ ANG_Hypersocialism_party: "$Hypersocialism_party$"
+ ANG_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ ANG_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ ANG_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ ANG_New_Marxism_party: "MPLA"
+ ANG_New_Marxism_party_long: "Movimento Popular de Libertação de Angola (People's Movement for the Liberation of Angola)"
+ ANG_Socialism_party: "$Socialism_party$"
+ ANG_Socialism_party_long: "$Socialism_party_long$"
+ ANG_Reactionism_party: "$Reactionism_party$"
+ ANG_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ ANG_Jose_Eduardo_dos_Santos: "José Eduardo dos Santos"
+ ANG_Jose_Eduardo_dos_Santos_desc: ""

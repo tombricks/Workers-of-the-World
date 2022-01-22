@@ -1,0 +1,25 @@
+characters = {
+	ZIM_Josiah_Tongogara = {
+		name = ZIM_Josiah_Tongogara
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_President IDEOLOGY_Mao_Zedong_Thought }
+			desc = ZIM_Josiah_Tongogara_desc
+		}
+
+	}
+}

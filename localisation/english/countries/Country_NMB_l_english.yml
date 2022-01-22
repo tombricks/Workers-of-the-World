@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ NMB: "Namibia"
+ NMB_DEF: "Namibia"
+ NMB_ADJ: "Namibian" 
+ 
+ NMB_Hypersocialism: "Republic of Namibia"
+ NMB_Hypersocialism_DEF: "the Republic of Namibia"
+ NMB_Marxism_Leninism: "Republic of Namibia"
+ NMB_Marxism_Leninism_DEF: "the Republic of Namibia"
+ NMB_New_Marxism: "Republic of Namibia"
+ NMB_New_Marxism_DEF: "the Republic of Namibia"
+ NMB_Socialism: "Republic of Namibia"
+ NMB_Socialism_DEF: "the Republic of Namibia"
+
+ NMB_Hypersocialism_party: "$Hypersocialism_party$"
+ NMB_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ NMB_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ NMB_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ NMB_New_Marxism_party: "SWAPO"
+ NMB_New_Marxism_party_long: "South West Africa People’s Organisation"
+ NMB_Socialism_party: "$Socialism_party$"
+ NMB_Socialism_party_long: "$Socialism_party_long$"
+ NMB_Reactionism_party: "$Reactionism_party$"
+ NMB_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ NMB_Sam_Nujoma: "Sam Nujoma"
+ NMB_Sam_Nujoma_desc: ""

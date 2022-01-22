@@ -490,3 +490,19 @@ SAF = {
 	color = rgb { 141 42 0 }
 	color_ui = rgb { 141 42 0 }
 }
+NMB = {
+	color = rgb { 227 228 121 }
+	color_ui = rgb { 227 228 121 }
+}
+BOT = {
+	color = rgb { 181 123 57 }
+	color_ui = rgb { 181 123 57 }
+}
+ZIM = {
+	color = rgb { 224 164 80 }
+	color_ui = rgb { 224 164 80 }
+}
+ANG = {
+	color = rgb { 0 102 191 }
+	color_ui = rgb { 0 102 191 }
+}

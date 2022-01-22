@@ -1,0 +1,19 @@
+capital = 540
+set_stability = 0.6
+set_war_support = 0.6
+
+# Starting tech
+tech_setup_generic = yes
+
+set_politics = {
+	ruling_party = Marxism_Leninism
+	last_election = "1978.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	Marxism_Leninism = 100
+}
+
+recruit_character = ANG_Jose_Eduardo_dos_Santos

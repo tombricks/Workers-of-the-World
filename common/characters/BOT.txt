@@ -1,0 +1,31 @@
+characters = {
+	BOT_Christopher_Phatshwe = {
+		name = BOT_Christopher_Phatshwe
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Mao_Zedong_Thought }
+			desc = BOT_Christopher_Phatshwe_desc
+		}
+
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Mao_Zedong_Thought }
+			desc = BOT_Christopher_Phatshwe_desc
+		}
+
+	}
+}

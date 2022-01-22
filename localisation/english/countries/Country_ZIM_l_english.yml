@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ ZIM: "Zimbabwe"
+ ZIM_DEF: "Zimbabwe"
+ ZIM_ADJ: "Zimbabwe" 
+ 
+ ZIM_Hypersocialism: "Socialist Zimbabwe Republic"
+ ZIM_Hypersocialism_DEF: "the Socialist Zimbabwe Republic"
+ ZIM_Marxism_Leninism: "Socialist Zimbabwe Republic"
+ ZIM_Marxism_Leninism_DEF: "the Socialist Zimbabwe Republic"
+ ZIM_New_Marxism: "Socialist Zimbabwe Republic"
+ ZIM_New_Marxism_DEF: "the Socialist Zimbabwe Republic"
+ ZIM_Socialism: "Socialist Zimbabwe Republic"
+ ZIM_Socialism_DEF: "the Socialist Zimbabwe Republic"
+
+ ZIM_Hypersocialism_party: "$Hypersocialism_party$"
+ ZIM_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ ZIM_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ ZIM_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ ZIM_New_Marxism_party: "ZANU"
+ ZIM_New_Marxism_party_long: "Zimbabwe African National Union"
+ ZIM_Socialism_party: "$Socialism_party$"
+ ZIM_Socialism_party_long: "$Socialism_party_long$"
+ ZIM_Reactionism_party: "$Reactionism_party$"
+ ZIM_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ ZIM_Josiah_Tongogara: "Josiah Tongogara"
+ ZIM_Josiah_Tongogara_desc: ""
