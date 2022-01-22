@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ MLW: "Malawi"
+ MLW_DEF: "Malawi"
+ MLW_ADJ: "Malawian" 
+ 
+ MLW_Hypersocialism: "Republic of Malawi"
+ MLW_Hypersocialism_DEF: "the Republic of Malawi"
+ MLW_Marxism_Leninism: "Republic of Malawi"
+ MLW_Marxism_Leninism_DEF: "the Republic of Malawi"
+ MLW_New_Marxism: "Republic of Malawi"
+ MLW_New_Marxism_DEF: "the Republic of Malawi"
+ MLW_Socialism: "Republic of Malawi"
+ MLW_Socialism_DEF: "the Republic of Malawi"
+
+ MLW_Hypersocialism_party: "$Hypersocialism_party$"
+ MLW_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MLW_Marxism_Leninism_party: "LESOMA"
+ MLW_Marxism_Leninism_party_long: "Socialist League of Malawi "
+ MLW_New_Marxism_party: "$New_Marxism_party$"
+ MLW_New_Marxism_party_long: "$New_Marxism_party_long$"
+ MLW_Socialism_party: "$Socialism_party$"
+ MLW_Socialism_party_long: "$Socialism_party_long$"
+ MLW_Reactionism_party: "$Reactionism_party$"
+ MLW_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ MLW_Attati_Mpakati: "Attati Mpakati"
+ MLW_Attati_Mpakati_desc: ""

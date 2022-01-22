@@ -506,3 +506,39 @@ ANG = {
 	color = rgb { 0 102 191 }
 	color_ui = rgb { 0 102 191 }
 }
+ZAM = {
+	color = rgb { 203 97 187 }
+	color_ui = rgb { 203 97 187 }
+}
+MLW = {
+	color = rgb { 169 211 48 }
+	color_ui = rgb { 169 211 48 }
+}
+CBR = {
+	color = rgb { 118 147 157 }
+	color_ui = rgb { 118 147 157 }
+}
+COG = {
+	color = rgb { 230 128 153 }
+	color_ui = rgb { 230 128 153 }
+}
+CAR = {
+	color = rgb { 160 133 117 }
+	color_ui = rgb { 160 133 117 }
+}
+RWA = {
+	color = rgb { 188 190 123 }
+	color_ui = rgb { 188 190 123 }
+}
+BRD = {
+	color = rgb { 146 201 177 }
+	color_ui = rgb { 146 201 177 }
+}
+GAB = {
+	color = rgb { 148 71 128 }
+	color_ui = rgb { 148 71 128 }
+}
+CMR = {
+	color = rgb { 174 136 0 }
+	color_ui = rgb { 174 136 0 }
+}

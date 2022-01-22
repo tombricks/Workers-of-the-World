@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ CAR: "Central Africa"
+ CAR_DEF: "Central Africa"
+ CAR_ADJ: "Central Africa" 
+ 
+ CAR_Hypersocialism: "Central African Socialist Republic"
+ CAR_Hypersocialism_DEF: "the Central African Socialist Republic"
+ CAR_Marxism_Leninism: "Central African Socialist Republic"
+ CAR_Marxism_Leninism_DEF: "the Central African Socialist Republic"
+ CAR_New_Marxism: "Central African Socialist Republic"
+ CAR_New_Marxism_DEF: "the Central African Socialist Republic"
+ CAR_Socialism: "Central African Socialist Republic"
+ CAR_Socialism_DEF: "the Central African Socialist Republic"
+
+ CAR_Hypersocialism_party: "$Hypersocialism_party$"
+ CAR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ CAR_Marxism_Leninism_party: "MLPC"
+ CAR_Marxism_Leninism_party_long: "Mouvement pour la Libération du Peuple Centrafricain (Movement for the Liberation of the Central African People)"
+ CAR_New_Marxism_party: "$New_Marxism_party$"
+ CAR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ CAR_Socialism_party: "$Socialism_party$"
+ CAR_Socialism_party_long: "$Socialism_party_long$"
+ CAR_Reactionism_party: "$Reactionism_party$"
+ CAR_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ CAR_Ange_Felix_Patasse: "Ange-Félix Patassé"
+ CAR_Ange_Felix_Patasse_desc: ""

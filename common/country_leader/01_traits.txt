@@ -11,6 +11,7 @@ leader_traits = {
 	TITLE_Collective = { random = no } # Collective
 	TITLE_Vice_Chairman = { random = no } # Vice Chairman
 	TITLE_Chairwoman = { random = no } # Chairwoman
+	TITLE_Secretary_General = { random = no } # Secretary-General
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }
@@ -34,6 +35,8 @@ leader_traits = {
 	IDEOLOGY_African_Socialism = { random = no } # African Socialism
 	IDEOLOGY_Titoism = { random = no } # Titoism
 	IDEOLOGY_Mao_Zedong_Thought = { random = no } # Mao Zedong Thought
+	IDEOLOGY_Marxism = { random = no } # Marxism
+	IDEOLOGY_Constitutional_Marxism = { random = no } # Constitutional Marxism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	NTH_turncoat = {

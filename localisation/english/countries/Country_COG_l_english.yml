@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ COG: "Congo-Kinshasa"
+ COG_DEF: "Congo-Kinshasa"
+ COG_ADJ: "Congo-Kinshasa" 
+ 
+ COG_Hypersocialism: "Free Republic of the Congo"
+ COG_Hypersocialism_DEF: "the Free Republic of the Congo"
+ COG_Marxism_Leninism: "Free Republic of the Congo"
+ COG_Marxism_Leninism_DEF: "the Free Republic of the Congo"
+ COG_New_Marxism: "Free Republic of the Congo"
+ COG_New_Marxism_DEF: "the Free Republic of the Congo"
+ COG_Socialism: "Free Republic of the Congo"
+ COG_Socialism_DEF: "the Free Republic of the Congo"
+
+ COG_Hypersocialism_party: "$Hypersocialism_party$"
+ COG_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ COG_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ COG_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ COG_New_Marxism_party: "PRP"
+ COG_New_Marxism_party_long: "Parti de la révolution du peuple (People's Revolutionary Party)"
+ COG_Socialism_party: "$Socialism_party$"
+ COG_Socialism_party_long: "$Socialism_party_long$"
+ COG_Reactionism_party: "$Reactionism_party$"
+ COG_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ COG_Laurent_Desire_Kabila: "Laurent-Désiré Kabila"
+ COG_Laurent_Desire_Kabila_desc: ""

@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ GAB: "Gabon"
+ GAB_DEF: "Gabon"
+ GAB_ADJ: "Gabonese" 
+ 
+ GAB_Hypersocialism: "Gabonese Socialist Republic"
+ GAB_Hypersocialism_DEF: "the Gabonese Socialist Republic"
+ GAB_Marxism_Leninism: "Gabonese Socialist Republic"
+ GAB_Marxism_Leninism_DEF: "the Gabonese Socialist Republic"
+ GAB_New_Marxism: "Gabonese Socialist Republic"
+ GAB_New_Marxism_DEF: "the Gabonese Socialist Republic"
+ GAB_Socialism: "Gabonese Socialist Republic"
+ GAB_Socialism_DEF: "the Gabonese Socialist Republic"
+
+ GAB_Hypersocialism_party: "$Hypersocialism_party$"
+ GAB_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ GAB_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ GAB_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ GAB_New_Marxism_party: "$New_Marxism_party$"
+ GAB_New_Marxism_party_long: "$New_Marxism_party_long$"
+ GAB_Socialism_party: "PSG"
+ GAB_Socialism_party_long: "Parti Socialiste Gabonais (Gabonese Socialist Party)"
+ GAB_Reactionism_party: "$Reactionism_party$"
+ GAB_Reactionism_party_long: "$Reactionism_party_long$"
+ 

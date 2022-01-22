@@ -1,5 +1,6 @@
 ideologies = [
-	["Mao_Zedong_Thought", "Mao Zedong Thought", "Mao Zedong Thought"]
+	["Marxism", "Marxism", "Marxist"],
+	["Constitutional_Marxism", "Constitutional Marxism", "Constitutional Marxist"]
 ]
 
 # TRAITS

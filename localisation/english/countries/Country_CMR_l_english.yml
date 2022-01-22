@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ CMR: "Cameroon"
+ CMR_DEF: "Cameroon"
+ CMR_ADJ: "Cameroon" 
+ 
+ CMR_Hypersocialism: "Cameroon Republic"
+ CMR_Hypersocialism_DEF: "the Cameroon Republic"
+ CMR_Marxism_Leninism: "Cameroon Republic"
+ CMR_Marxism_Leninism_DEF: "the Cameroon Republic"
+ CMR_New_Marxism: "Cameroon Republic"
+ CMR_New_Marxism_DEF: "the Cameroon Republic"
+ CMR_Socialism: "Cameroon Republic"
+ CMR_Socialism_DEF: "the Cameroon Republic"
+
+ CMR_Hypersocialism_party: "$Hypersocialism_party$"
+ CMR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ CMR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ CMR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ CMR_New_Marxism_party: "$New_Marxism_party$"
+ CMR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ CMR_Socialism_party: "UPC"
+ CMR_Socialism_party_long: "Union des Populations du Cameroun (Union of the Peoples of Cameroon)"
+ CMR_Reactionism_party: "$Reactionism_party$"
+ CMR_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ CMR_Theodore_Mayi_Matip: "Theodore Mayi-Matip"
+ CMR_Theodore_Mayi_Matip_desc: ""

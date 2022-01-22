@@ -39,6 +39,7 @@
  TITLE_Collective: "Collective"
  TITLE_Vice_Chairman: "Vice Chairman"
  TITLE_Chairwoman: "Chairwoman"
+ TITLE_Secretary_General: "Secretary-General"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
@@ -83,4 +84,8 @@
  IDEOLOGY_Titoism_ADJ: "Titoist"
  IDEOLOGY_Mao_Zedong_Thought: "Mao Zedong Thought"
  IDEOLOGY_Mao_Zedong_Thought_ADJ: "Mao Zedong Thought"
+ IDEOLOGY_Marxism: "Marxism"
+ IDEOLOGY_Marxism_ADJ: "Marxist"
+ IDEOLOGY_Constitutional_Marxism: "Constitutional Marxism"
+ IDEOLOGY_Constitutional_Marxism_ADJ: "Constitutional Marxist"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!

@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ RWA: "Rwanda"
+ RWA_DEF: "Rwanda"
+ RWA_ADJ: "Rwandan" 
+ 
+ RWA_Hypersocialism: "Rwandan Democratic Republic"
+ RWA_Hypersocialism_DEF: "the Rwandan Democratic Republic"
+ RWA_Marxism_Leninism: "Rwandan Democratic Republic"
+ RWA_Marxism_Leninism_DEF: "the Rwandan Democratic Republic"
+ RWA_New_Marxism: "Rwandan Democratic Republic"
+ RWA_New_Marxism_DEF: "the Rwandan Democratic Republic"
+ RWA_Socialism: "Rwandan Democratic Republic"
+ RWA_Socialism_DEF: "the Rwandan Democratic Republic"
+
+ RWA_Hypersocialism_party: "$Hypersocialism_party$"
+ RWA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ RWA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ RWA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ RWA_New_Marxism_party: "PCPR"
+ RWA_New_Marxism_party_long: "Parti communiste du peuple rwandais (Communist Party of the Rwandan People)"
+ RWA_Socialism_party: "$Socialism_party$"
+ RWA_Socialism_party_long: "$Socialism_party_long$"
+ RWA_Reactionism_party: "$Reactionism_party$"
+ RWA_Reactionism_party_long: "$Reactionism_party_long$"
+ 

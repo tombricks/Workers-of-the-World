@@ -3,25 +3,25 @@
 
 countries = [
 	{
-		"tag":				"ANG",
-		"name":				"Angola",
-		"adj":				"Angolan",
-		"ideology":			"Marxism_Leninism",
-		"capital":			"540",
-		"colour":			"0 102 191",
+		"tag":				"CMR",
+		"name":				"Cameroon",
+		"adj":				"Cameroon",
+		"ideology":			"Socialism",
+		"capital":			"773",
+		"colour":			"174 136 0",
 		"culture":			"African",
-		"long_name":		"People's Republic of Angola",
-		"long_name_def":	"the People's Republic of Angola",
+		"long_name":		"Cameroon Republic",
+		"long_name_def":	"the Cameroon Republic",
 		"parties":			{
-			"New_Marxism": [ "MPLA", "Movimento Popular de Libertação de Angola (People's Movement for the Liberation of Angola)" ],
+			"Socialism": [ "UPC", "Union des Populations du Cameroun (Union of the Peoples of Cameroon)" ],
 		},
 		"characters":		{
-			"Jose_Eduardo_dos_Santos": {
-				"name": "José Eduardo dos Santos",
+			"Theodore_Mayi_Matip": {
+				"name": "Theodore Mayi-Matip",
 				"title": "President",
-				"subideology": "Marxism_Leninism",
-				"ideologies": [ "Marxism_Leninism" ]
-			} 
+				"subideology": "Marxism",
+				"ideologies": [ "Socialism" ]
+			}
 		}
 	}
 ]
