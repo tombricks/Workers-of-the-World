@@ -19,11 +19,14 @@
 
  MON_Hypersocialism_party: "$Hypersocialism_party$"
  MON_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- MON_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- MON_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ MON_Marxism_Leninism_party: "MAKhN"
+ MON_Marxism_Leninism_party_long: "Mongol Ardiin Khuv'sgalt Nam (Mongolian People's Revolutionary Party)"
  MON_New_Marxism_party: "$New_Marxism_party$"
  MON_New_Marxism_party_long: "$New_Marxism_party_long$"
  MON_Socialism_party: "$Socialism_party$"
  MON_Socialism_party_long: "$Socialism_party_long$"
  MON_Reactionism_party: "$Reactionism_party$"
  MON_Reactionism_party_long: "$Reactionism_party_long$"
+
+ MON_Yumjaagiin_Tsedenbal: "Yumjaagiin Tsedenbal"
+ MON_Yumjaagiin_Tsedenbal_desc: ""

@@ -19,11 +19,14 @@
 
  BEL_Hypersocialism_party: "$Hypersocialism_party$"
  BEL_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- BEL_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- BEL_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ BEL_Marxism_Leninism_party: "KPB-PCB"
+ BEL_Marxism_Leninism_party_long: "Kommunistische Partij van België/Parti Communiste de Belgique (Communist Party of Belgium)"
  BEL_New_Marxism_party: "$New_Marxism_party$"
  BEL_New_Marxism_party_long: "$New_Marxism_party_long$"
  BEL_Socialism_party: "$Socialism_party$"
  BEL_Socialism_party_long: "$Socialism_party_long$"
  BEL_Reactionism_party: "$Reactionism_party$"
  BEL_Reactionism_party_long: "$Reactionism_party_long$"
+
+ BEL_Louis_Van_Geyt: "Louis Van Geyt"
+ BEL_Louis_Van_Geyt_desc: ""

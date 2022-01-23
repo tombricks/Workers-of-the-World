@@ -20,3 +20,5 @@ set_autonomy = {
 	target = NIR
 	autonomy_state = autonomy_autonomous_zone
 }
+
+recruit_character = IRE_Ruairi_O_Bradaigh

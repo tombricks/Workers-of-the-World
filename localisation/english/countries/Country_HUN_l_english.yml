@@ -19,11 +19,14 @@
 
  HUN_Hypersocialism_party: "$Hypersocialism_party$"
  HUN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- HUN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- HUN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ HUN_Marxism_Leninism_party: "MSZMP"
+ HUN_Marxism_Leninism_party_long: "Magyar Szocialista Munkáspárt (Hungarian Socialist Workers' Party)"
  HUN_New_Marxism_party: "$New_Marxism_party$"
  HUN_New_Marxism_party_long: "$New_Marxism_party_long$"
  HUN_Socialism_party: "$Socialism_party$"
  HUN_Socialism_party_long: "$Socialism_party_long$"
  HUN_Reactionism_party: "$Reactionism_party$"
  HUN_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ HUN_Janos_Kadar: "János Kádár"
+ HUN_Janos_Kadar_desc: ""

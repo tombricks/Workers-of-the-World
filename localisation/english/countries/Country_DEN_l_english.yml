@@ -19,11 +19,14 @@
 
  DEN_Hypersocialism_party: "$Hypersocialism_party$"
  DEN_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- DEN_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- DEN_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ DEN_Marxism_Leninism_party: "DKP"
+ DEN_Marxism_Leninism_party_long: "Danmarks Kommunistiske Parti (Communist Party of Denmark)"
  DEN_New_Marxism_party: "$New_Marxism_party$"
  DEN_New_Marxism_party_long: "$New_Marxism_party_long$"
  DEN_Socialism_party: "$Socialism_party$"
  DEN_Socialism_party_long: "$Socialism_party_long$"
  DEN_Reactionism_party: "$Reactionism_party$"
  DEN_Reactionism_party_long: "$Reactionism_party_long$"
+
+ DEN_Jorgen_Jensen: "Jørgen Jensen"
+ DEN_Jorgen_Jensen_desc: ""

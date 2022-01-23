@@ -19,11 +19,14 @@
 
  ITA_Hypersocialism_party: "$Hypersocialism_party$"
  ITA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- ITA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- ITA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ ITA_Marxism_Leninism_party: "PCI"
+ ITA_Marxism_Leninism_party_long: "Partito Comunista Italiano (Italian Communist Party)"
  ITA_New_Marxism_party: "$New_Marxism_party$"
  ITA_New_Marxism_party_long: "$New_Marxism_party_long$"
  ITA_Socialism_party: "$Socialism_party$"
  ITA_Socialism_party_long: "$Socialism_party_long$"
  ITA_Reactionism_party: "$Reactionism_party$"
  ITA_Reactionism_party_long: "$Reactionism_party_long$"
+
+ ITA_Enrico_Berlinguer: "Enrico Berlinguer"
+ ITA_Enrico_Berlinguer_desc: ""

@@ -19,11 +19,14 @@
 
  POR_Hypersocialism_party: "$Hypersocialism_party$"
  POR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- POR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- POR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ POR_Marxism_Leninism_party: "PCP"
+ POR_Marxism_Leninism_party_long: "Partido Comunista Português (Portuguese Communist Party)"
  POR_New_Marxism_party: "$New_Marxism_party$"
  POR_New_Marxism_party_long: "$New_Marxism_party_long$"
  POR_Socialism_party: "$Socialism_party$"
  POR_Socialism_party_long: "$Socialism_party_long$"
  POR_Reactionism_party: "$Reactionism_party$"
  POR_Reactionism_party_long: "$Reactionism_party_long$"
+
+ POR_Alvaro_Cunhal: "Álvaro Cunhal"
+ POR_Alvaro_Cunhal_desc: ""

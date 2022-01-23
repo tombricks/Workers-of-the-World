@@ -1,4 +1,3 @@
-capital = 9
 set_stability = 0.6
 set_war_support = 0.6
 
@@ -15,3 +14,5 @@ set_politics = {
 set_popularities = {
 	Marxism_Leninism = 100
 }
+
+recruit_character = CZE_Gustav_Husak

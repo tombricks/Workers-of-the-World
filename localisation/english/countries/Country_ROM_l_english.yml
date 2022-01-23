@@ -19,11 +19,14 @@
 
  ROM_Hypersocialism_party: "$Hypersocialism_party$"
  ROM_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- ROM_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- ROM_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ ROM_Marxism_Leninism_party: "PCR"
+ ROM_Marxism_Leninism_party_long: "Partidul Comunist Român (Romanian Communist Party)"
  ROM_New_Marxism_party: "$New_Marxism_party$"
  ROM_New_Marxism_party_long: "$New_Marxism_party_long$"
  ROM_Socialism_party: "$Socialism_party$"
  ROM_Socialism_party_long: "$Socialism_party_long$"
  ROM_Reactionism_party: "$Reactionism_party$"
  ROM_Reactionism_party_long: "$Reactionism_party_long$"
+
+ ROM_Nicolae_Ceausescu: "Nicolae Ceaușescu"
+ ROM_Nicolae_Ceausescu_desc: ""
