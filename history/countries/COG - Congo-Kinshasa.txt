@@ -16,4 +16,7 @@ set_popularities = {
 	New_Marxism = 100
 }
 
+puppet = BRD
+puppet = RWA
+
 recruit_character = COG_Laurent_Desire_Kabila

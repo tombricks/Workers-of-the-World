@@ -74,6 +74,10 @@ add_to_faction = DEN
 add_to_faction = TUR
 add_to_faction = IRN
 add_to_faction = AFG
+add_to_faction = NGA
+add_to_faction = ANG
+add_to_faction = MZB
+add_to_faction = ETH
 
 recruit_character = RUS_Vasily_Ivanovich_Chuikov
 recruit_character = RUS_Kirill_Semyonov_Moskalenko

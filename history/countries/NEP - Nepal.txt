@@ -16,4 +16,6 @@ set_popularities = {
 	New_Marxism = 100
 }
 
+puppet = BHU
+
 recruit_character = NEP_Mohan_Bikram_Singh
