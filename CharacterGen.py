@@ -150,6 +150,16 @@ characters = [
 		},
 		"advisors": {
 		}
+	},
+	{ # https://en.wikipedia.org/wiki/Cambodian_People%27s_Party#Forerunner_organizations_and_early_history
+		"tag": "CAM",
+		"id": "Pen_Sovan",
+		"name": "Pen Sovan",
+		"leaders": {
+			"Marxism_Leninism": [ "TITLE_General_Secretary", "IDEOLOGY_Marxism_Leninism" ]
+		},
+		"advisors": {
+		}
 	}
 ]
 

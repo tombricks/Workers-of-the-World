@@ -1,0 +1,27 @@
+
+characters = {
+	BRM_Thakin_Ba_Thein_Tin = {
+		name = BRM_Thakin_Ba_Thein_Tin
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_Chairman IDEOLOGY_Marxism_Leninism_Maoism }
+			desc = BRM_Thakin_Ba_Thein_Tin_desc
+		}
+		
+		
+	}
+
+}

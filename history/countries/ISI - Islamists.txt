@@ -15,3 +15,5 @@ set_politics = {
 set_popularities = {
 	Reactionism = 100
 }
+
+recruit_character = ISI_Omar_Abdel_Rahman

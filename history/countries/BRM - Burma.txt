@@ -15,3 +15,5 @@ set_politics = {
 set_popularities = {
 	New_Marxism = 100
 }
+
+recruit_character = BRM_Thakin_Ba_Thein_Tin

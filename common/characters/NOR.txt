@@ -1,0 +1,27 @@
+
+characters = {
+	NOR_Martin_Gunnar_Knutsen = {
+		name = NOR_Martin_Gunnar_Knutsen
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_Chairman IDEOLOGY_Marxism_Leninism }
+			desc = NOR_Martin_Gunnar_Knutsen_desc
+		}
+		
+		
+	}
+
+}

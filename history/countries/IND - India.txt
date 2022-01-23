@@ -24,3 +24,5 @@ add_to_faction = BNG
 add_to_faction = VIE
 add_to_faction = LAO
 add_to_faction = CAM
+
+recruit_character = IND_E_M_S_Namboodiripad

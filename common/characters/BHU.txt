@@ -1,0 +1,27 @@
+
+characters = {
+	BHU_Sherub_Gyeltshen = {
+		name = BHU_Sherub_Gyeltshen
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism_Maoism }
+			desc = BHU_Sherub_Gyeltshen_desc
+		}
+		
+		
+	}
+
+}

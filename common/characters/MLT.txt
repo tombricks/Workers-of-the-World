@@ -1,0 +1,27 @@
+
+characters = {
+	MLT_Anthony_Vassallo = {
+		name = MLT_Anthony_Vassallo
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism }
+			desc = MLT_Anthony_Vassallo_desc
+		}
+		
+		
+	}
+
+}

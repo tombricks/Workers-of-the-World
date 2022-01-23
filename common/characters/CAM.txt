@@ -1,0 +1,27 @@
+
+characters = {
+	CAM_Pen_Sovan = {
+		name = CAM_Pen_Sovan
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism }
+			desc = CAM_Pen_Sovan_desc
+		}
+		
+		
+	}
+
+}

@@ -15,3 +15,5 @@ set_politics = {
 set_popularities = {
 	Marxism_Leninism = 100
 }
+
+recruit_character = AFG_Hafizullah_Amin

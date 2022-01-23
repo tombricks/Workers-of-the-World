@@ -1,0 +1,27 @@
+
+characters = {
+	VIE_Ton_Duc_Thang = {
+		name = VIE_Ton_Duc_Thang
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_President IDEOLOGY_Marxism_Leninism }
+			desc = VIE_Ton_Duc_Thang_desc
+		}
+		
+		
+	}
+
+}
