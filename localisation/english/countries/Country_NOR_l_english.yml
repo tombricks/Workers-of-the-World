@@ -19,8 +19,8 @@
 
  NOR_Hypersocialism_party: "$Hypersocialism_party$"
  NOR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- NOR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- NOR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ NOR_Marxism_Leninism_party: "NKP"
+ NOR_Marxism_Leninism_party_long: "Norges Kommunistiske Parti (Communist Party of Norway)"
  NOR_New_Marxism_party: "$New_Marxism_party$"
  NOR_New_Marxism_party_long: "$New_Marxism_party_long$"
  NOR_Socialism_party: "$Socialism_party$"

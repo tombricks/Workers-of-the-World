@@ -19,8 +19,8 @@
 
  TUR_Hypersocialism_party: "$Hypersocialism_party$"
  TUR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- TUR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- TUR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ TUR_Marxism_Leninism_party: "TKP"
+ TUR_Marxism_Leninism_party_long: "Türkiye Komünist Partisi (Communist Party of Turkey)"
  TUR_New_Marxism_party: "$New_Marxism_party$"
  TUR_New_Marxism_party_long: "$New_Marxism_party_long$"
  TUR_Socialism_party: "$Socialism_party$"

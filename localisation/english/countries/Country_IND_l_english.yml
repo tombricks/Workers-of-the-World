@@ -19,8 +19,8 @@
 
  IND_Hypersocialism_party: "$Hypersocialism_party$"
  IND_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- IND_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- IND_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ IND_Marxism_Leninism_party: "UCPI"
+ IND_Marxism_Leninism_party_long: "Unified Communist Party off India"
  IND_New_Marxism_party: "$New_Marxism_party$"
  IND_New_Marxism_party_long: "$New_Marxism_party_long$"
  IND_Socialism_party: "$Socialism_party$"

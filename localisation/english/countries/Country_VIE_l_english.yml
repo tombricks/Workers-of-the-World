@@ -19,8 +19,8 @@
 
  VIE_Hypersocialism_party: "$Hypersocialism_party$"
  VIE_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- VIE_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- VIE_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ VIE_Marxism_Leninism_party: "CPV"
+ VIE_Marxism_Leninism_party_long: "Đảng Cộng sản Việt Nam (Communist Party of Vietnam)"
  VIE_New_Marxism_party: "$New_Marxism_party$"
  VIE_New_Marxism_party_long: "$New_Marxism_party_long$"
  VIE_Socialism_party: "$Socialism_party$"

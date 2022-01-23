@@ -19,8 +19,8 @@
 
  CAM_Hypersocialism_party: "$Hypersocialism_party$"
  CAM_Hypersocialism_party_long: "$Hypersocialism_party_long$"
- CAM_Marxism_Leninism_party: "$Marxism_Leninism_party$"
- CAM_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ CAM_Marxism_Leninism_party: "KPRP"
+ CAM_Marxism_Leninism_party_long: "Kampuchean People's Revolutionary Party"
  CAM_New_Marxism_party: "$New_Marxism_party$"
  CAM_New_Marxism_party_long: "$New_Marxism_party_long$"
  CAM_Socialism_party: "$Socialism_party$"
