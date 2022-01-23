@@ -1,148 +1,10 @@
+import os
+
 characters = [
 	{
-		"tag": "CZE",
-		"id": "Gustav_Husak",
-		"name": "Gustáv Husák",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_First_Secretary", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "MON",
-		"id": "Yumjaagiin_Tsedenbal",
-		"name": "Yumjaagiin Tsedenbal",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_General_Secretary", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "AUS",
-		"id": "Franz_Muhri",
-		"name": "Franz Muhri",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_Chairman", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "HUN",
-		"id": "Janos_Kadar",
-		"name": "János Kádár",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_General_Secretary", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "ROM",
-		"id": "Nicolae_Ceausescu",
-		"name": "Nicolae Ceaușescu",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_General_Secretary", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "BUL",
-		"id": "Todor_Zhivkov",
-		"name": "Todor Zhivkov",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_First_Secretary", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "GRE",
-		"id": "Charilaos_Florakis",
-		"name": "Charilaos Florakis",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_Secretary_General", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "SWI",
-		"id": "Gaston_Armand_Amaudruz",
-		"name": "Gaston-Armand Amaudruz",
-		"leaders": {
-			"Reactionism": [ "TITLE_Fuhrer", "IDEOLOGY_Anti_Communism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "SPR",
-		"id": "Santiago_Carrillo",
-		"name": "Santiago Carrillo",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_Secretary_General", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "POR",
-		"id": "Alvaro_Cunhal",
-		"name": "Álvaro Cunhal",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_Secretary_General", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "IRE",
-		"id": "Ruairi_O_Bradaigh",
-		"name": "Ruairí Ó Bradaigh",
-		"leaders": {
-			"Socialism": [ "TITLE_President", "IDEOLOGY_Democratic_Socialism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "ITA",
-		"id": "Enrico_Berlinguer",
-		"name": "Enrico Berlinguer",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_General_Secretary", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "BEL",
-		"id": "Louis_Van_Geyt",
-		"name": "Louis Van Geyt",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_Chairman", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "HOL",
-		"id": "Marcus_Bakker",
-		"name": "Marcus Bakker",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_Chairman", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "DEN",
-		"id": "Jorgen_Jensen",
-		"name": "Jørgen Jensen",
+		"tag": "SWE",
+		"id": "Frank_Baude",
+		"name": "Frank Baude",
 		"leaders": {
 			"Marxism_Leninism": [ "TITLE_Chairman", "IDEOLOGY_Marxism_Leninism" ]
 		},
@@ -154,6 +16,7 @@ characters = [
 charactersFile = ""
 charactersLocalisation = ""
 charactersRecruit = ""
+output = True
 
 for character in characters:
 	characterId = character["tag"] + "_" + character["id"]
@@ -216,6 +79,25 @@ for character in characters:
 
 	charactersFile += "\n	}\n"
 
+	if output:
+		with open("localisation/english/countries/Country_"+character["tag"]+"_l_english.yml", "a", encoding="utf8") as file:
+			file.write('\n\n'+charactersLocalisation)
+		
+		with open("common/characters/"+character["tag"]+".txt", "a", encoding="utf8") as file:
+			file.write('\ncharacters = {\n'+charactersFile+'\n}')
+		
+		#with open("history/characters/"+character["tag"]+".txt", "a", encoding="utf8") as file:
+		#	file.write('\ncharacters = {\n'+charactersFile+'\n}')
+
+		for filename in os.listdir("history/countries/"):
+			if filename[0:3] == character["tag"]:
+				with open("history/countries/"+filename, "a", encoding="utf8") as file:
+					file.write("\n"+charactersRecruit)
+		
+		charactersLocalisation = ""
+		charactersRecruit = ""
+		charactersFile = ""
+
 with open("characters_output.txt", "w", encoding="utf8") as file:
 	file.write("--------- Localisation ---------\n")
 	file.write(charactersLocalisation)
@@ -223,4 +105,3 @@ with open("characters_output.txt", "w", encoding="utf8") as file:
 	file.write(charactersRecruit)
 	file.write("\n---------  Characters  ---------\n")
 	file.write(charactersFile)
-	
