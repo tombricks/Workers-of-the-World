@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ GNA: "Guinea"
+ GNA_DEF: "Guinea"
+ GNA_ADJ: "Guinean" 
+ 
+ GNA_Hypersocialism: "People's Revolutionary Republic of Guinea"
+ GNA_Hypersocialism_DEF: "the People's Revolutionary Republic of Guinea"
+ GNA_Marxism_Leninism: "People's Revolutionary Republic of Guinea"
+ GNA_Marxism_Leninism_DEF: "the People's Revolutionary Republic of Guinea"
+ GNA_New_Marxism: "People's Revolutionary Republic of Guinea"
+ GNA_New_Marxism_DEF: "the People's Revolutionary Republic of Guinea"
+ GNA_Socialism: "People's Revolutionary Republic of Guinea"
+ GNA_Socialism_DEF: "the People's Revolutionary Republic of Guinea"
+
+ GNA_Hypersocialism_party: "$Hypersocialism_party$"
+ GNA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ GNA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ GNA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ GNA_New_Marxism_party: "PDG-RDA"
+ GNA_New_Marxism_party_long: "Parti Démocratique de Guinée-Rassemblement Démocratique Africain (Democratic Party of Guinea - African Democratic Rally)"
+ GNA_Socialism_party: "$Socialism_party$"
+ GNA_Socialism_party_long: "$Socialism_party_long$"
+ GNA_Reactionism_party: "$Reactionism_party$"
+ GNA_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ GNA_Ahmed_Sekou_Toure: "Ahmed Sékou Touré"
+ GNA_Ahmed_Sekou_Toure_desc: ""

@@ -1,0 +1,25 @@
+characters = {
+	IVO_Achy_Ekissi = {
+		name = IVO_Achy_Ekissi
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_Chairman IDEOLOGY_Labourism }
+			desc = IVO_Achy_Ekissi_desc
+		}
+
+	}
+}

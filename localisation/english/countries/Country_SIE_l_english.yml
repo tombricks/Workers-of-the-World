@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ SIE: "Sierra Leone"
+ SIE_DEF: "Sierra Leone"
+ SIE_ADJ: "Sierra Leone" 
+ 
+ SIE_Hypersocialism: "Republic of Sierra Leone"
+ SIE_Hypersocialism_DEF: "the Republic of Sierra Leone"
+ SIE_Marxism_Leninism: "Republic of Sierra Leone"
+ SIE_Marxism_Leninism_DEF: "the Republic of Sierra Leone"
+ SIE_New_Marxism: "Republic of Sierra Leone"
+ SIE_New_Marxism_DEF: "the Republic of Sierra Leone"
+ SIE_Socialism: "Republic of Sierra Leone"
+ SIE_Socialism_DEF: "the Republic of Sierra Leone"
+
+ SIE_Hypersocialism_party: "$Hypersocialism_party$"
+ SIE_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ SIE_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ SIE_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ SIE_New_Marxism_party: "$New_Marxism_party$"
+ SIE_New_Marxism_party_long: "$New_Marxism_party_long$"
+ SIE_Socialism_party: "APC"
+ SIE_Socialism_party_long: "All People's Congress"
+ SIE_Reactionism_party: "$Reactionism_party$"
+ SIE_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ SIE_Siaka_Stevens: "Siaka Stevens"
+ SIE_Siaka_Stevens_desc: ""

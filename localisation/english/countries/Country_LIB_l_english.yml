@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ LIB: "Liberia"
+ LIB_DEF: "Liberia"
+ LIB_ADJ: "Liberian" 
+ 
+ LIB_Hypersocialism: "Republic of Liberia"
+ LIB_Hypersocialism_DEF: "the Republic of Liberia"
+ LIB_Marxism_Leninism: "Republic of Liberia"
+ LIB_Marxism_Leninism_DEF: "the Republic of Liberia"
+ LIB_New_Marxism: "Republic of Liberia"
+ LIB_New_Marxism_DEF: "the Republic of Liberia"
+ LIB_Socialism: "Republic of Liberia"
+ LIB_Socialism_DEF: "the Republic of Liberia"
+
+ LIB_Hypersocialism_party: "$Hypersocialism_party$"
+ LIB_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ LIB_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ LIB_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ LIB_New_Marxism_party: "$New_Marxism_party$"
+ LIB_New_Marxism_party_long: "$New_Marxism_party_long$"
+ LIB_Socialism_party: "UPP"
+ LIB_Socialism_party_long: "United People's Party "
+ LIB_Reactionism_party: "$Reactionism_party$"
+ LIB_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ LIB_Gabriel_Baccus_Matthews: "Gabriel Baccus Matthews"
+ LIB_Gabriel_Baccus_Matthews_desc: ""

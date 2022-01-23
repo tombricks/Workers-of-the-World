@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ BIF: "Biafra"
+ BIF_DEF: "Biafra"
+ BIF_ADJ: "Biafran" 
+ 
+ BIF_Hypersocialism: "Republic of Biafra"
+ BIF_Hypersocialism_DEF: "the Republic of Biafra"
+ BIF_Marxism_Leninism: "Republic of Biafra"
+ BIF_Marxism_Leninism_DEF: "the Republic of Biafra"
+ BIF_New_Marxism: "Republic of Biafra"
+ BIF_New_Marxism_DEF: "the Republic of Biafra"
+ BIF_Socialism: "Republic of Biafra"
+ BIF_Socialism_DEF: "the Republic of Biafra"
+
+ BIF_Hypersocialism_party: "$Hypersocialism_party$"
+ BIF_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ BIF_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ BIF_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ BIF_New_Marxism_party: "BIP"
+ BIF_New_Marxism_party_long: "Biafra Independence Party"
+ BIF_Socialism_party: "$Socialism_party$"
+ BIF_Socialism_party_long: "$Socialism_party_long$"
+ BIF_Reactionism_party: "$Reactionism_party$"
+ BIF_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ BIF_Chukwuemeka_Odumegwu_Ojukwu: "Chukwuemeka Odumegwu-Ojukwu"
+ BIF_Chukwuemeka_Odumegwu_Ojukwu_desc: ""

@@ -546,3 +546,43 @@ EQG = {
 	color = rgb { 95 50 43 }
 	color_ui = rgb { 95 50 43 }
 }
+NGA = {
+	color = rgb { 101 181 181 }
+	color_ui = rgb { 101 181 181 }
+}
+BIF = {
+	color = rgb { 255 53 94 }
+	color_ui = rgb { 255 53 94 }
+}
+BFA = {
+	color = rgb { 172 182 139 }
+	color_ui = rgb { 172 182 139 }
+}
+GNA = {
+	color = rgb { 0 147 147 }
+	color_ui = rgb { 0 147 147 }
+}
+SIE = {
+	color = rgb { 164 84 21 }
+	color_ui = rgb { 164 84 21 }
+}
+LIB = {
+	color = rgb { 247 158 0 }
+	color_ui = rgb { 247 158 0 }
+}
+IVO = {
+	color = rgb { 116 116 184 }
+	color_ui = rgb { 116 116 184 }
+}
+GHA = {
+	color = rgb { 230 190 138 }
+	color_ui = rgb { 230 190 138 }
+}
+TOG = {
+	color = rgb { 81 42 104 }
+	color_ui = rgb { 81 42 104 }
+}
+DAH = {
+	color = rgb { 0 54 117 }
+	color_ui = rgb { 0 54 117 }
+}

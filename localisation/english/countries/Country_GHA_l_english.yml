@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ GHA: "Ghana"
+ GHA_DEF: "Ghana"
+ GHA_ADJ: "Ghanaian" 
+ 
+ GHA_Hypersocialism: "Republic of Ghana"
+ GHA_Hypersocialism_DEF: "the Republic of Ghana"
+ GHA_Marxism_Leninism: "Republic of Ghana"
+ GHA_Marxism_Leninism_DEF: "the Republic of Ghana"
+ GHA_New_Marxism: "Republic of Ghana"
+ GHA_New_Marxism_DEF: "the Republic of Ghana"
+ GHA_Socialism: "Republic of Ghana"
+ GHA_Socialism_DEF: "the Republic of Ghana"
+
+ GHA_Hypersocialism_party: "$Hypersocialism_party$"
+ GHA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ GHA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ GHA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ GHA_New_Marxism_party: "$New_Marxism_party$"
+ GHA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ GHA_Socialism_party: "PNP"
+ GHA_Socialism_party_long: "People's National Party"
+ GHA_Reactionism_party: "$Reactionism_party$"
+ GHA_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ GHA_Hilla_Limann: "Hilla Limann"
+ GHA_Hilla_Limann_desc: ""

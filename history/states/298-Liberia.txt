@@ -11,7 +11,9 @@ state=
 	
 
 	history= {
-		owner = ZZZ # owner = LIB
+		owner = LIB
+		add_core_of = LIB
+		
 		add_extra_state_shared_building_slots = 1
 		buildings = {
 			infrastructure = 1

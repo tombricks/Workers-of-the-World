@@ -1,0 +1,25 @@
+characters = {
+	GNA_Ahmed_Sekou_Toure = {
+		name = GNA_Ahmed_Sekou_Toure
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_President IDEOLOGY_African_Socialism }
+			desc = GNA_Ahmed_Sekou_Toure_desc
+		}
+
+	}
+}

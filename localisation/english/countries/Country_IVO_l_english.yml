@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ IVO: "Ivory Coast"
+ IVO_DEF: "Ivory Coast"
+ IVO_ADJ: "Ivory Coast" 
+ 
+ IVO_Hypersocialism: "Workers' Republic of Ivory Coast"
+ IVO_Hypersocialism_DEF: "the Workers' Republic of Ivory Coast"
+ IVO_Marxism_Leninism: "Workers' Republic of Ivory Coast"
+ IVO_Marxism_Leninism_DEF: "the Workers' Republic of Ivory Coast"
+ IVO_New_Marxism: "Workers' Republic of Ivory Coast"
+ IVO_New_Marxism_DEF: "the Workers' Republic of Ivory Coast"
+ IVO_Socialism: "Workers' Republic of Ivory Coast"
+ IVO_Socialism_DEF: "the Workers' Republic of Ivory Coast"
+
+ IVO_Hypersocialism_party: "PCRCI"
+ IVO_Hypersocialism_party_long: "Parti Communiste Révolutionnaire de Côte d'Ivoire (Revolutionary Communist Party of Ivory Coast)"
+ IVO_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ IVO_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ IVO_New_Marxism_party: "$New_Marxism_party$"
+ IVO_New_Marxism_party_long: "$New_Marxism_party_long$"
+ IVO_Socialism_party: "$Socialism_party$"
+ IVO_Socialism_party_long: "$Socialism_party_long$"
+ IVO_Reactionism_party: "$Reactionism_party$"
+ IVO_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ IVO_Achy_Ekissi: "Achy Ekissi"
+ IVO_Achy_Ekissi_desc: ""

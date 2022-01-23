@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ DAH: "Benin"
+ DAH_DEF: "Benin"
+ DAH_ADJ: "Benin" 
+ 
+ DAH_Hypersocialism: "People's Republic of Benin"
+ DAH_Hypersocialism_DEF: "the People's Republic of Benin"
+ DAH_Marxism_Leninism: "People's Republic of Benin"
+ DAH_Marxism_Leninism_DEF: "the People's Republic of Benin"
+ DAH_New_Marxism: "People's Republic of Benin"
+ DAH_New_Marxism_DEF: "the People's Republic of Benin"
+ DAH_Socialism: "People's Republic of Benin"
+ DAH_Socialism_DEF: "the People's Republic of Benin"
+
+ DAH_Hypersocialism_party: "$Hypersocialism_party$"
+ DAH_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ DAH_Marxism_Leninism_party: "PRPB"
+ DAH_Marxism_Leninism_party_long: "Parti de la Révolution Populaire du Bénin (People's Revolutionary Party of Benin)"
+ DAH_New_Marxism_party: "$New_Marxism_party$"
+ DAH_New_Marxism_party_long: "$New_Marxism_party_long$"
+ DAH_Socialism_party: "$Socialism_party$"
+ DAH_Socialism_party_long: "$Socialism_party_long$"
+ DAH_Reactionism_party: "$Reactionism_party$"
+ DAH_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ DAH_Mathieu_Kerekou: "Mathieu Kérékou"
+ DAH_Mathieu_Kerekou_desc: ""

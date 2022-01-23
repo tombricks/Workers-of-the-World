@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ NGA: "Nigeria"
+ NGA_DEF: "Nigeria"
+ NGA_ADJ: "Nigerian" 
+ 
+ NGA_Hypersocialism: "Federal Republic of Nigeria"
+ NGA_Hypersocialism_DEF: "the Federal Republic of Nigeria"
+ NGA_Marxism_Leninism: "Federal Republic of Nigeria"
+ NGA_Marxism_Leninism_DEF: "the Federal Republic of Nigeria"
+ NGA_New_Marxism: "Federal Republic of Nigeria"
+ NGA_New_Marxism_DEF: "the Federal Republic of Nigeria"
+ NGA_Socialism: "Federal Republic of Nigeria"
+ NGA_Socialism_DEF: "the Federal Republic of Nigeria"
+
+ NGA_Hypersocialism_party: "$Hypersocialism_party$"
+ NGA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ NGA_Marxism_Leninism_party: "NCUP"
+ NGA_Marxism_Leninism_party_long: "Nigerian Communist Unity Party"
+ NGA_New_Marxism_party: "$New_Marxism_party$"
+ NGA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ NGA_Socialism_party: "$Socialism_party$"
+ NGA_Socialism_party_long: "$Socialism_party_long$"
+ NGA_Reactionism_party: "$Reactionism_party$"
+ NGA_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ NGA_Tunji_Otegbeye: "Tunji Otegbeye"
+ NGA_Tunji_Otegbeye_desc: ""

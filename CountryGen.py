@@ -3,25 +3,24 @@
 
 countries = [
 	{
-		"tag":				"EQG",
-		"name":				"Equatorial Guinea",
-		"adj":				"Equatoguinean",
-		"ideology":			"Hypersocialism",
-		"capital":			"297",
-		"colour":			"95 50 43",
+		"tag":				"DAH",
+		"name":				"Benin",
+		"adj":				"Benin",
+		"ideology":			"Marxism_Leninism",
+		"capital":			"776",
+		"colour":			"0 54 117",
 		"culture":			"African",
-		"long_name":		"Republic of Equatorial Guinea",
-		"long_name_def":	"the Republic of Equatorial Guinea",
+		"long_name":		"People's Republic of Benin",
+		"long_name_def":	"the People's Republic of Benin",
 		"parties":			{
-			"Hypersocialism": [ "PUNT", "Partido Único Nacional de los Trabajadores (United National Workers' Party)" ],
-			"Reactionism": [ "PUNT", "Partido Único Nacional de los Trabajadores (United National Workers' Party)" ]
+			"Marxism_Leninism": [ "PRPB", "Parti de la Révolution Populaire du Bénin (People's Revolutionary Party of Benin)" ],
 		},
 		"characters":		{
-			"Francisco_Macias_Nguema": {
-				"name": "Francisco Macías Nguema",
+			"Mathieu_Kerekou": {
+				"name": "Mathieu Kérékou",
 				"title": "President",
-				"subideology": "Marxism_Hitlerism",
-				"ideologies": [ "Hypersocialism", "Reactionism" ]
+				"subideology": "Marxism_Leninism",
+				"ideologies": [ "Marxism_Leninism" ]
 			}
 		}
 	}

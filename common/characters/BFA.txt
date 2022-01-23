@@ -1,0 +1,25 @@
+characters = {
+	BFA_Thomas_Sankara = {
+		name = BFA_Thomas_Sankara
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_President IDEOLOGY_Marxism_Leninism }
+			desc = BFA_Thomas_Sankara_desc
+		}
+
+	}
+}
