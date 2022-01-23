@@ -6,12 +6,14 @@ set_war_support = 0.6
 tech_setup_generic = yes
 
 set_politics = {
-	ruling_party = Marxism_Leninism
+	ruling_party = New_Marxism
 	last_election = "1978.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	Marxism_Leninism = 100
+	New_Marxism = 100
 }
+
+recruit_character = NEP_Mohan_Bikram_Singh
