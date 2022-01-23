@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ MAD: "Madagascar"
+ MAD_DEF: "Madagascar"
+ MAD_ADJ: "Malagasy" 
+ 
+ MAD_Hypersocialism: "Democratic Republic of Madagascar"
+ MAD_Hypersocialism_DEF: "the Democratic Republic of Madagascar"
+ MAD_Marxism_Leninism: "Democratic Republic of Madagascar"
+ MAD_Marxism_Leninism_DEF: "the Democratic Republic of Madagascar"
+ MAD_New_Marxism: "Democratic Republic of Madagascar"
+ MAD_New_Marxism_DEF: "the Democratic Republic of Madagascar"
+ MAD_Socialism: "Democratic Republic of Madagascar"
+ MAD_Socialism_DEF: "the Democratic Republic of Madagascar"
+
+ MAD_Hypersocialism_party: "$Hypersocialism_party$"
+ MAD_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ MAD_Marxism_Leninism_party: "AREMA"
+ MAD_Marxism_Leninism_party_long: "Antoko Revolisionera Malagasy (Malagasy Revolutionary Party)"
+ MAD_New_Marxism_party: "$New_Marxism_party$"
+ MAD_New_Marxism_party_long: "$New_Marxism_party_long$"
+ MAD_Socialism_party: "$Socialism_party$"
+ MAD_Socialism_party_long: "$Socialism_party_long$"
+ MAD_Reactionism_party: "$Reactionism_party$"
+ MAD_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ MAD_Didier_Ratsiraka: "Didier Ratsiraka"
+ MAD_Didier_Ratsiraka_desc: ""

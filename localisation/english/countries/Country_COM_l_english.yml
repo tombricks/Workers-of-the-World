@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ COM: "Comoros"
+ COM_DEF: "Comoros"
+ COM_ADJ: "Comorian" 
+ 
+ COM_Hypersocialism: "Comorian State"
+ COM_Hypersocialism_DEF: "the Comorian State"
+ COM_Marxism_Leninism: "Comorian State"
+ COM_Marxism_Leninism_DEF: "the Comorian State"
+ COM_New_Marxism: "Comorian State"
+ COM_New_Marxism_DEF: "the Comorian State"
+ COM_Socialism: "Comorian State"
+ COM_Socialism_DEF: "the Comorian State"
+
+ COM_Hypersocialism_party: "$Hypersocialism_party$"
+ COM_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ COM_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ COM_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ COM_New_Marxism_party: "FNU"
+ COM_New_Marxism_party_long: "Front national uni (United National Front)"
+ COM_Socialism_party: "$Socialism_party$"
+ COM_Socialism_party_long: "$Socialism_party_long$"
+ COM_Reactionism_party: "$Reactionism_party$"
+ COM_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ COM_Ali_Soilih: "Ali Soilih"
+ COM_Ali_Soilih_desc: ""

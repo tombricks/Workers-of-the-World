@@ -3,24 +3,24 @@
 
 countries = [
 	{
-		"tag":				"DAH",
-		"name":				"Benin",
-		"adj":				"Benin",
-		"ideology":			"Marxism_Leninism",
-		"capital":			"776",
-		"colour":			"0 54 117",
+		"tag":				"SEY",
+		"name":				"Seychelles",
+		"adj":				"Seychelles",
+		"ideology":			"New_Marxism",
+		"capital":			"709",
+		"colour":			"203 163 217",
 		"culture":			"African",
-		"long_name":		"People's Republic of Benin",
-		"long_name_def":	"the People's Republic of Benin",
+		"long_name":		"Republic of Seychelles",
+		"long_name_def":	"the Republic of Seychelles",
 		"parties":			{
-			"Marxism_Leninism": [ "PRPB", "Parti de la Révolution Populaire du Bénin (People's Revolutionary Party of Benin)" ],
+			"New_Marxism": [ "FPPS", "Front Progressiste du Peuple Seychellois (Seychelles People's Progressive Front)" ],
 		},
 		"characters":		{
-			"Mathieu_Kerekou": {
-				"name": "Mathieu Kérékou",
+			"France_Albert_Rene": {
+				"name": "France-Albert René",
 				"title": "President",
 				"subideology": "Marxism_Leninism",
-				"ideologies": [ "Marxism_Leninism" ]
+				"ideologies": [ "New_Marxism" ]
 			}
 		}
 	}

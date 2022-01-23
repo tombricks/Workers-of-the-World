@@ -1,0 +1,28 @@
+﻿l_english:
+### Country Names and Cosmetics
+ SEY: "Seychelles"
+ SEY_DEF: "Seychelles"
+ SEY_ADJ: "Seychelles" 
+ 
+ SEY_Hypersocialism: "Republic of Seychelles"
+ SEY_Hypersocialism_DEF: "the Republic of Seychelles"
+ SEY_Marxism_Leninism: "Republic of Seychelles"
+ SEY_Marxism_Leninism_DEF: "the Republic of Seychelles"
+ SEY_New_Marxism: "Republic of Seychelles"
+ SEY_New_Marxism_DEF: "the Republic of Seychelles"
+ SEY_Socialism: "Republic of Seychelles"
+ SEY_Socialism_DEF: "the Republic of Seychelles"
+
+ SEY_Hypersocialism_party: "$Hypersocialism_party$"
+ SEY_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ SEY_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ SEY_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ SEY_New_Marxism_party: "FPPS"
+ SEY_New_Marxism_party_long: "Front Progressiste du Peuple Seychellois (Seychelles People's Progressive Front)"
+ SEY_Socialism_party: "$Socialism_party$"
+ SEY_Socialism_party_long: "$Socialism_party_long$"
+ SEY_Reactionism_party: "$Reactionism_party$"
+ SEY_Reactionism_party_long: "$Reactionism_party_long$"
+ 
+ SEY_France_Albert_Rene: "France-Albert René"
+ SEY_France_Albert_Rene_desc: ""

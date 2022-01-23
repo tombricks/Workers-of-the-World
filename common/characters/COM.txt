@@ -1,0 +1,25 @@
+characters = {
+	COM_Ali_Soilih = {
+		name = COM_Ali_Soilih
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_President IDEOLOGY_Islamic_Marxism }
+			desc = COM_Ali_Soilih_desc
+		}
+
+	}
+}

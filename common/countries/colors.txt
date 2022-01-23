@@ -586,3 +586,15 @@ DAH = {
 	color = rgb { 0 54 117 }
 	color_ui = rgb { 0 54 117 }
 }
+MAD = {
+	color = rgb { 186 112 134 }
+	color_ui = rgb { 186 112 134 }
+}
+COM = {
+	color = rgb { 189 138 244 }
+	color_ui = rgb { 189 138 244 }
+}
+SEY = {
+	color = rgb { 203 163 217 }
+	color_ui = rgb { 203 163 217 }
+}
