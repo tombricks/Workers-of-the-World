@@ -8,11 +8,11 @@ d_debug_log_check_leaders = {
 	every_country = {
 		if = {
 			limit = { NOT = { has_subideology = yes } }
-			log = "tombricks log (warning): [THIS.GetName] ([THIS.GetTag]): leader ([THIS.GetLeader]) has no subideology"
+			log = "tombricks log (warning): [THIS.GetName] ([THIS.GetTag]): [THIS.get_ideology_adj] leader ([THIS.GetLeader]) has no subideology"
 		}
 		if = {
 			limit = { NOT = { has_leader_title = yes } }
-			log = "tombricks log (warning): [THIS.GetName] ([THIS.GetTag]): leader ([THIS.GetLeader]) has no title"
+			log = "tombricks log (warning): [THIS.GetName] ([THIS.GetTag]): [THIS.get_ideology_adj] leader ([THIS.GetLeader]) has no title"
 		}
 	}
 }
