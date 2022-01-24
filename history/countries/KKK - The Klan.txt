@@ -2,6 +2,9 @@
 set_stability = 0.4
 set_war_support = 0.7
 
+recruit_character = KKK_david_duke
+recruit_character = KKK_malcolm_x
+
 
 # Starting tech
 tech_setup_generic = yes
@@ -14,7 +17,9 @@ set_politics = {
 }
 
 set_popularities = {
-	Reactionism = 100
+	Reactionism = 40
+	New_Marxism = 42
+	Socialism = 18
 }
 
 
