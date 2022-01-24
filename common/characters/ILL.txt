@@ -19,6 +19,12 @@ characters = {
 			#traits = { TITLE_President IDEOLOGY_Constitutional_Marxism } #idk what to put here
 			desc = USA_glr_desc
 		}
+
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { IDEOLOGY_Marxism_Hitlerism }
+			desc = USA_glr_desc
+		}
 		
 		
 	}
