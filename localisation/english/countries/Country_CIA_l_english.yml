@@ -10,3 +10,7 @@
   
  CIA_Reactionism_party: "CIA"
  CIA_Reactionism_party_long:0 "Central Intelligence Agency"
+
+
+ CIA_operating_in_minor_state:0 "CIA Clandestine Operations"
+ CIA_operating_in_minor_state_desc:0 "The CIA is operating in this state, organising local resistance groups opposing our regime."

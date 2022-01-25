@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		CIA_operating_in_minor_state = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+				
+			modifier = {
+				stability_factor = -0.30
+				war_support_factor = -0.10
+				conscription_factor = -0.50
+				Reactionary_drift = 0.025
+			}
+
+			on_remove = {
+				country_lock_all_division_template = no
+			}
+		}
+	}
+}

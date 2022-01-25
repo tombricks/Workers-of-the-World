@@ -9,6 +9,19 @@ create_faction = CIA_bloc_faction
 
 recruit_character = CIA_ronald_reagan
 
+CAL = {
+	add_ideas = CIA_operating_in_minor_state
+}
+TEX = {
+	add_ideas = CIA_operating_in_minor_state
+}
+NMX = {
+	add_ideas = CIA_operating_in_minor_state
+}
+ARI = {
+	add_ideas = CIA_operating_in_minor_state
+}
+
 set_politics = {
 	ruling_party = Reactionism
 	last_election = "1978.1.1"
