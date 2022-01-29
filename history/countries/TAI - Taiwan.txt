@@ -32,5 +32,4 @@ CHI = {
 }
 add_rival_government = yes
 
-
 recruit_character = TAI_Jiang_Qing

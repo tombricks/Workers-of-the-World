@@ -1,3 +1,10 @@
+### Basic Cold War AI with Russia to make them defend borders and antagonise Russia
+### Chinese Soft Aid - AI where China gives soft aid. This includes non-aggression pacts, lend lease, relations, etc.
+### Chinese Volunteers - AI where China gives volunteers.
+### Chinese Allies - AI where China gives alliances.
+### Reverse Chinese Ally - Reversed AI for nations to be friendly with China
+
+
 RUS_CHI_Cold_War = {
 	allowed = {
 		original_tag = RUS
@@ -29,44 +36,48 @@ RUS_CHI_Cold_War = {
 	ai_strategy = {
 		type = force_defend_ally_borders
 		target = europe
-		value = 300
+		value = 100
 	}
 
 	ai_strategy = {
 		type = force_defend_ally_borders
 		target = asia
-		value = 100
+		value = 150
 	}
 
 	ai_strategy = {
 		type = force_defend_ally_borders
 		target = africa
-		value = 100
+		value = 125
 	}
 }
 
-Marxist_Leninists_join_RUS = {
-	allowed = {
-		always = yes
-	}
+RUS_Soft_Aid = {
+	reversed = yes
 
 	enable = {
-		has_government = Marxism_Leninism
+		RUS_Soft_Aid_trigger = yes
 	}
-	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = befriend
 		id = RUS
-		value = 250
+		value = 150
+	}
+
+	ai_strategy = {
+		type = diplo_action_desire
+		target = non_aggression_pact
+		id = RUS
+		value = 150
 	}
 }
 
-RUS_Send_Volunteers_to_War = {
+RUS_Volunteers = {
 	reversed = yes
 
 	enable = {
-		RUS_should_aid_me = yes
+		RUS_Volunteers_trigger = yes
 	}
 
 	ai_strategy = {
@@ -76,16 +87,22 @@ RUS_Send_Volunteers_to_War = {
 	}
 }
 
-i_fucking_love_war_and_hate_china = {
-	reversed = yes
+Friendly_to_RUS = {
 
 	enable = {
-		has_war_with = CHI
+		RUS_Soft_Aid_trigger = yes
 	}
 
 	ai_strategy = {
-		type = send_volunteers_desire
+		type = befriend
 		id = RUS
-		value = 75
-	}	
+		value = 150
+	}
+
+	ai_strategy = {
+		type = diplo_action_desire
+		target = non_aggression_pact
+		id = RUS
+		value = 150
+	}
 }

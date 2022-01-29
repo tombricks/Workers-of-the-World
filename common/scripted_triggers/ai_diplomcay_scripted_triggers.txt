@@ -1,0 +1,84 @@
+Is_New_Marxist_or_ind_Hypersocialist = {
+	OR = {
+		has_government = New_Marxism
+		AND = {
+			has_government = Hypersocialism
+			NOT = { has_global_flag = Hypersocialist_independent }
+		}
+	}	
+}
+
+CHI_Is_Friend = {
+	CHI_Soft_Aid_trigger = yes
+}
+CHI_Is_Enemy = {
+	OR = {
+		has_war_with = CHI
+		has_country_flag = Enemy_of@CHI
+	}
+}
+CHI_Soft_Aid_trigger = {
+	NOT = { CHI_Is_Enemy = yes }
+	NOT = { has_government = Reactionism }
+	OR = {
+		has_country_flag = Friend_of@CHI
+		Is_New_Marxist_or_ind_Hypersocialist = yes
+	}
+}
+CHI_Volunteers_trigger = {
+	NOT = { has_government = Reactionism }
+	OR = {
+		any_country = {
+			AND = {
+				has_war_with = PREV
+				OR = {
+					has_government = Marxism_Leninism
+					CHI_Is_Enemy = yes
+					RUS_Is_Friend = yes
+				}
+			}
+		}
+		AND = {
+			CHI_Soft_Aid_trigger = yes
+			enemies_strength_ratio > 0.65
+		}
+	}
+}
+
+
+RUS_Is_Friend = {
+	RUS_Soft_Aid_trigger = yes
+}
+RUS_Is_Enemy = {
+	OR = {
+		has_war_with = RUS
+		has_country_flag = Enemy_of@RUS
+	}
+}
+RUS_Soft_Aid_trigger = {
+	NOT = { RUS_Is_Enemy = yes }
+	NOT = { has_government = Reactionism }
+	OR = {
+		has_country_flag = Friend_of@RUS
+		has_government = Marxism_Leninism
+	}
+}
+RUS_Volunteers_trigger = {
+	NOT = { has_government = Reactionism }
+	OR = {
+		any_country = {
+			AND = {
+				has_war_with = PREV
+				OR = {
+					has_government = New_Marxism
+					RUS_Is_Enemy = yes
+					CHI_Is_Friend = yes
+				}
+			}
+		}
+		AND = {
+			RUS_Soft_Aid_trigger = yes
+			enemies_strength_ratio > 0.65
+		}
+	}
+}

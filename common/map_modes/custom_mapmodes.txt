@@ -37,6 +37,44 @@ scripted_map_modes = {
 			}
 		}
 	}
+	rev_opinion_map_mode = {
+		top = {
+			type = country
+
+			color = {
+				if = {
+					limit = { tag = FROM }
+					
+					set_temp_variable = { blue = 1.0 }
+					set_temp_variable = { green = 0.0 }
+					set_temp_variable = { red = 0.0 }
+					
+					else_if = {
+						limit = {
+							check_variable = { ROOT.opinion@FROM > 0 }
+						}
+						set_temp_variable = { maxi = ROOT.opinion@FROM }
+						divide_temp_variable = { maxi = 100 }
+						set_temp_variable = { green = maxi }
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+					else = {
+						set_temp_variable = { maxi = ROOT.opinion@FROM }
+						divide_temp_variable = { maxi = 100 }
+						multiply_temp_variable = { maxi = -1 }
+						set_temp_variable = { red = maxi }
+						set_temp_variable = { green = 0.0 }
+						set_temp_variable = { blue = 0.0 }
+					}
+				}
+
+				set_temp_variable = { alpha = 1.0 }
+
+				always = yes
+			}
+		}
+	}
 	
 	nation_map_mode = {
 		top = {

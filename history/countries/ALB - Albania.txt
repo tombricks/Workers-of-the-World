@@ -12,6 +12,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_country_flag = elections_are_congress
+set_country_flag = Friend_of@CHI
 
 set_popularities = {
 	Hypersocialism = 100

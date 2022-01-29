@@ -18,6 +18,8 @@ set_popularities = {
 	Marxism_Leninism = 100
 }
 
+set_country_flag = Enemy_of@CHI
+
 add_to_array = { influential_gov = 2 }
 add_to_array = { influential_gov = 3 }
 add_to_array = { influential_gov = 4 }
@@ -78,6 +80,11 @@ add_to_faction = NGA
 add_to_faction = ANG
 add_to_faction = MZB
 add_to_faction = ETH
+add_to_faction = IND
+add_to_faction = BNG
+add_to_faction = VIE
+add_to_faction = LAO
+add_to_faction = CAM
 
 recruit_character = RUS_Vasily_Ivanovich_Chuikov
 recruit_character = RUS_Kirill_Semyonov_Moskalenko

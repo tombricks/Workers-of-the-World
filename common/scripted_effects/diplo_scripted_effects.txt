@@ -163,13 +163,29 @@ add_rival_government = {
 		id = event_target:rival_gov
 		value = 250
 	}
+	set_country_flag = Enemy_of@event_target:rival_gov
 
 	event_target:rival_gov = {
 		add_to_array = { THIS.rival_governments = PREV }
+		set_country_flag = Enemy_of@PREV
 		add_ai_strategy = {
 			type = antagonize
 			id = PREV
 			value = 250
+		}
+	}
+}
+become_friend = {
+	set_country_flag = Friend_of@event_target:become_frendo
+	add_opinion_modifier = {
+		target = event_target:become_frendo
+		modifier = Friendship_Treaty
+	}
+	event_target:become_frendo = {
+		set_country_flag = Friend_of@PREV
+		add_opinion_modifier = {
+			target = PREV
+			modifier = Friendship_Treaty
 		}
 	}
 }

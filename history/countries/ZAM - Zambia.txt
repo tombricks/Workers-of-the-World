@@ -1,6 +1,8 @@
 capital = 771
 set_stability = 0.6
 set_war_support = 0.6
+CHI = { save_event_target_as = become_frendo }
+become_friend = yes
 
 # Starting tech
 tech_setup_generic = yes
@@ -17,14 +19,3 @@ set_popularities = {
 }
 
 recruit_character = ZAM_Kenneth_Kaunda
-
-add_opinion_modifier = {
-	target = CHI
-	modifier = Friendship_Treaty
-}
-CHI = {
-	add_opinion_modifier = {
-		target = ZAM
-		modifier = Friendship_Treaty
-	}
-}

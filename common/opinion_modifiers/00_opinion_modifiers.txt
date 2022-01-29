@@ -1099,6 +1099,6 @@ opinion_modifiers = {
 	}
 
 	Friendship_Treaty = {
-		value = 50
+		value = 100
 	}
 }

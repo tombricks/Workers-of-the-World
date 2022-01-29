@@ -33,7 +33,6 @@ add_to_faction = NMB
 add_to_faction = BOT
 add_to_faction = ZIM
 add_to_faction = COG
-add_to_faction = IVO
 add_to_faction = BIF
 add_to_faction = NEP
 add_to_faction = SOM

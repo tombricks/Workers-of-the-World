@@ -1,7 +1,9 @@
 capital = 556
 set_stability = 0.6
 set_war_support = 0.6
-set_country_flag = CHI_frendo
+CHI = { save_event_target_as = become_frendo }
+become_friend = yes
+
 
 # Starting tech
 tech_setup_generic = yes
@@ -16,10 +18,5 @@ set_politics = {
 set_popularities = {
 	New_Marxism = 100
 }
-
-create_faction = MLI_West_Africa_faction
-add_to_array = { global.CHI_cold_war_factions = THIS }
-puppet = SEN
-add_to_faction = MRT
 
 recruit_character = MLI_Alpha_Oumar_Konare

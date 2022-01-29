@@ -80,21 +80,6 @@ on_actions = {
 	on_send_volunteers = {
 		effect = {
 			log = "[GetDateText]: Volunteers: [ROOT.GetNameWithFlag] to [FROM.GetNameWithFlag]"
-			if = {
-				limit = {
-					ROOT = { tag = CHI }
-					FROM = { has_civil_war = yes new_marxist_or_hypersoc_without_alb = yes }
-				}
-				if = {
-					limit = {
-						NOT = {
-							is_in_array = { ROOT.friendship_treaties = FROM }
-						}
-					}
-					ROOT = { save_event_target_as = treaty_target }
-					FROM = { country_event = Treaties.1 }
-				}
-			}
 		}
 	}
 	on_declare_war = {

@@ -384,30 +384,6 @@ d_disband_army = {
 	}
 }
 
-d_should_CHI_aid_me = {
-	if = {
-		limit = {
-			CHI_should_aid_me = yes
-		}
-		log = "Yes, CHI should aid [THIS.GetNameWithFlag]"
-		else = {
-			log = "No, CHI should not aid [THIS.GetNameWithFlag]"
-		}
-	}
-}
-
-d_should_RUS_aid_me = {
-	if = {
-		limit = {
-			RUS_should_aid_me = yes
-		}
-		log = "Yes, RUS should aid [THIS.GetNameWithFlag]"
-		else = {
-			log = "No, RUS should not aid [THIS.GetNameWithFlag]"
-		}
-	}
-}
-
 d_steal_army_troll = {
 	transfer_units_fraction= {
 		target = FROM
@@ -476,4 +452,40 @@ d_list_dlcs = {
 	if = { limit = { has_dlc = "Man the Guns" } log = "MTG: Yes" else = { log = "MTG: No" } }
 	if = { limit = { has_dlc = "La Resistance" } log = "LAR: Yes" else = { log = "LAR: No" } }
 	if = { limit = { has_dlc = "Battle for the Bosporus" } log = "BFTB: Yes" else = { log = "BFTB: No" } }
+}
+
+d_list_all_non_existants = {
+	every_possible_country = {
+		limit = {
+			is_dynamic_country = no
+			exists = no
+		}
+		log = "[THIS.GetNonideologyName] ([THIS.GetTag])"
+	}
+}
+
+d_autonifiy_every = {
+	every_other_country = {
+		limit = { not = { tag = ZZZ } }
+		PREV = {
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_autonomous_zone
+			}
+		}
+		puppet_autonomous = yes
+	}
+}
+
+d_industry_logging = {
+	every_country = {
+		d_industry_solo_log = yes
+	}
+}
+d_industry_solo_log = {
+	set_temp_variable = { tot_fact = num_of_civilian_factories }
+	add_to_temp_variable = { tot_fact = num_of_military_factories }
+	set_temp_variable = { tot_fact_per = num_of_military_factories }
+	divide_temp_variable = { tot_fact_per = tot_fact }
+	log = "[THIS.GetTag]: [?num_of_military_factories]/[?tot_fact] ([?tot_fact_per|%])"
 }

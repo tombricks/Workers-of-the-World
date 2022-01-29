@@ -3,16 +3,6 @@ is_enemy_ideology = {
 	always = yes
 }
 
-new_marxist_or_hypersoc_without_alb = {
-	OR = {
-		has_government = New_Marxism
-		AND = {
-			has_government = Hypersocialism
-			NOT = { has_global_flag = ALB_International }
-		}
-	}
-}
-
 RUS_cold_war_sphere = {
 	OR = {
 		is_in_faction_with = RUS
@@ -41,41 +31,6 @@ CHI_cold_war_sphere = {
 	}
 }
 
-CHI_should_aid_me = {
-	OR = {
-		has_country_flag = CHI_frendo
-		has_country_flag = CHI_please_aid_me
-		AND = {
-			NOT = {	has_government = Reactionism }
-			NOT = {
-				any_country = {
-					has_war_with = PREV
-					has_government = New_Marxism
-				}
-			}
-			OR = {
-				AND = {
-					has_defensive_war = yes
-					any_country = {
-						has_war_with = PREV
-						has_government = Marxism_Leninism
-					}
-				}
-				AND = {
-					has_civil_war = yes
-					OR = {
-						new_marxist_or_hypersoc_without_alb = yes
-						any_country = {
-							civilwar_target = PREV
-							has_government = Marxism_Leninism
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
 RUS_should_aid_me = {
 	OR = {
 		has_country_flag = RUS_please_aid_me
@@ -93,7 +48,7 @@ RUS_should_aid_me = {
 					has_defensive_war = yes
 					any_country = {
 						has_war_with = PREV
-						new_marxist_or_hypersoc_without_alb = yes
+						Is_New_Marxist_or_ind_Hypersocialist = yes
 					}
 				}
 				AND = { # Give aid to civil wars if they are Marxist Leninist or against New Marxists or Hyperscos since they are schizo
