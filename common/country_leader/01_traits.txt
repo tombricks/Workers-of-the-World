@@ -38,6 +38,8 @@ leader_traits = {
 	IDEOLOGY_Marxism = { random = no } # Marxism
 	IDEOLOGY_Constitutional_Marxism = { random = no } # Constitutional Marxism
 	IDEOLOGY_Marxism_Hitlerism = { random = no } # Marxism-Hitlerism
+	IDEOLOGY_Nasserism = { random = no } # Nasserism
+	IDEOLOGY_Baathism = { random = no } # Ba'athism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	NTH_turncoat = {

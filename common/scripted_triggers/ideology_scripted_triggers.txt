@@ -104,6 +104,8 @@ has_subideology = {
 		has_country_leader_with_trait = IDEOLOGY_Marxism
 		has_country_leader_with_trait = IDEOLOGY_Constitutional_Marxism
 		has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism
+		has_country_leader_with_trait = IDEOLOGY_Nasserism
+		has_country_leader_with_trait = IDEOLOGY_Baathism
 		# <END OF IDEOLOGIES TRIGGER>
 	}
 }

@@ -1,5 +1,6 @@
 ideologies = [
-	["Marxism_Hitlerism", "Marxism-Hitlerism", "Marxist-Hitlerist"]
+	["Nasserism", "Nasserism", "Nasserist"],
+	["Baathism", "Ba'athism", "Ba'athist"]
 ]
 
 # TRAITS

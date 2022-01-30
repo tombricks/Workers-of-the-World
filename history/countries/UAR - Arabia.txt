@@ -19,7 +19,11 @@ set_popularities = {
 create_faction = UAR_League
 add_to_faction = UAR
 add_to_faction = PAL
-add_to_faction = JOR
 add_to_faction = YEM
 
-recruit_character = UAR_Khaled_Mohieddin
+recruit_character = EGY_Kamal_el_Din_Hussein
+recruit_character = SYR_Abdel_Hamid_al_Sarraj
+
+add_ideas = {
+	SYR_Abdel_Hamid_al_Sarraj_influential_1
+}

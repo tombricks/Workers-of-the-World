@@ -15,6 +15,13 @@ puppet_autonomous = {
 			is_subject_of = RUS
 		}
 		set_cosmetic_tag = COUNTRY_Soviet_Socialist_Republic
+
+		else_if = {
+			limit = {
+				is_subject_of = UAR
+			}
+			set_cosmetic_tag = COUNTRY_Arab_Republic
+		}
 	}
 }
 puppet_military = {

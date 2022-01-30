@@ -2,6 +2,8 @@
 2 influential_party_deputy_leader
 3 influential_presidium_chairman
 4 influential_minister
+5 influential_president
+6 influential_vice_president
 
 Soviet Union
 	Leader	influential_party_leader
@@ -18,5 +20,11 @@ SSRs
 China
 	Leader	influential_party_leader
 	1		influential_party_deputy_leader
+	2		tba
+	3		tba
+
+UAR
+	Leader	influential_president
+	1		influential_vice_president
 	2		tba
 	3		tba

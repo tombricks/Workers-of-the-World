@@ -42,6 +42,8 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism } localization_key = IDEOLOGY_Marxism } # Marxism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Constitutional_Marxism } localization_key = IDEOLOGY_Constitutional_Marxism } # Constitutional Marxism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism } localization_key = IDEOLOGY_Marxism_Hitlerism } # Marxism-Hitlerism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Nasserism } localization_key = IDEOLOGY_Nasserism } # Nasserism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Baathism } localization_key = IDEOLOGY_Baathism } # Ba'athism
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism }
@@ -76,6 +78,8 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism } localization_key = IDEOLOGY_Marxism_ADJ } # Marxist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Constitutional_Marxism } localization_key = IDEOLOGY_Constitutional_Marxism_ADJ } # Constitutional Marxist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism } localization_key = IDEOLOGY_Marxism_Hitlerism_ADJ } # Marxist-Hitlerist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Nasserism } localization_key = IDEOLOGY_Nasserism_ADJ } # Nasserist
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Baathism } localization_key = IDEOLOGY_Baathism_ADJ } # Ba'athist
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism_ADJ }
@@ -98,6 +102,8 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } localization_key = GFX_ideology_Arab_Socialism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Arab_Socialism } localization_key = GFX_ideology_Arab_Socialism }
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Neo_Jacobinism } localization_key = GFX_ideology_Jacobinism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Nasserism } localization_key = GFX_ideology_Arab_Socialism }
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Baathism } localization_key = GFX_ideology_Arab_Socialism }
 
 	text = { trigger = { has_government = Hypersocialism } localization_key = GFX_ideology_Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = GFX_ideology_Marxism_Leninism }
