@@ -44,3 +44,81 @@ characters = {
 		
 	}
 }
+characters = {
+	SYR_Khalid_Bakdash = {
+		name = SYR_Khalid_Bakdash
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism }
+			desc = SYR_Khalid_Bakdash_desc
+		}
+		
+		
+	}
+
+}
+characters = {
+	SYR_Salah_Jadid = {
+		name = SYR_Salah_Jadid
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Socialism_ideology
+			traits = { TITLE_President IDEOLOGY_Nasserism }
+			desc = SYR_Salah_Jadid_desc
+		}
+		
+		
+	}
+
+}
+characters = {
+	SYR_Hafez_al_Assad = {
+		name = SYR_Hafez_al_Assad
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Socialism_ideology
+			traits = { TITLE_President IDEOLOGY_Baathism }
+			desc = SYR_Hafez_al_Assad_desc
+		}
+		
+		
+	}
+
+}

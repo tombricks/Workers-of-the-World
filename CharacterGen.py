@@ -3,8 +3,38 @@ import os
 characters = [
 	{
 		"tag": "EGY",
-		"id": "Kamal_el_Din_Hussein",
-		"name": "Kamal el-Din Hussein",
+		"id": "Ali_Sabri",
+		"name": "Ali Sabri",
+		"leaders": {
+			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
+		},
+		"advisors": {
+		}
+	},
+	{
+		"tag": "EGY",
+		"id": "Sherif_Hatata",
+		"name": "Sherif Hatata",
+		"leaders": {
+			"Marxism_Leninism": [ "TITLE_Secretary_General", "IDEOLOGY_Communism" ]
+		},
+		"advisors": {
+		}
+	},
+	{
+		"tag": "SYR",
+		"id": "Khalid_Bakdash",
+		"name": "Khalid Bakdash",
+		"leaders": {
+			"Marxism_Leninism": [ "TITLE_General_Secretary", "IDEOLOGY_Marxism_Leninism" ]
+		},
+		"advisors": {
+		}
+	},
+	{
+		"tag": "SYR",
+		"id": "Salah_Jadid",
+		"name": "Salah Jadid",
 		"leaders": {
 			"Socialism": [ "TITLE_President", "IDEOLOGY_Nasserism" ]
 		},
@@ -13,13 +43,63 @@ characters = [
 	},
 	{
 		"tag": "SYR",
-		"id": "Abdel_Hamid_al_Sarraj",
-		"name": "Abdel Hamid al-Sarraj",
+		"id": "Hafez_al_Assad",
+		"name": "Haffez al-Assad",
 		"leaders": {
-			"Socialism": [ "TITLE_Vice_President", "IDEOLOGY_Nasserism" ]
+			"Socialism": [ "TITLE_President", "IDEOLOGY_Baathism" ]
 		},
 		"advisors": {
-			"influential_1": [ "TITLE_Vice_President" ]
+		}
+	},
+	{
+		"tag": "IRQ",
+		"id": "Abdul_Salam_Arif",
+		"name": "Abdul Salam Arif",
+		"leaders": {
+			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
+		},
+		"advisors": {
+		}
+	},
+	{
+		"tag": "IRQ",
+		"id": "Fuad_al_Rikabi",
+		"name": "Fuad al-Rikabi",
+		"leaders": {
+			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
+		},
+		"advisors": {
+			"influential_1": [ "TITLE_Vice_Chairman" ]
+		}
+	},
+	{
+		"tag": "JOR",
+		"id": "Abdullah_Rimawi",
+		"name": "Abdullah Rimawi",
+		"leaders": {
+			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
+		},
+		"advisors": {
+		}
+	},
+	{
+		"tag": "LBA",
+		"id": "Muammar_Gaddafi",
+		"name": "Muammar Gaddafi",
+		"leaders": {
+			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Islamic_Socialism" ]
+		},
+		"advisors": {
+		}
+	},
+	{
+		"tag": "TUN",
+		"id": "Habib_Bourguiba",
+		"name": "Habib Bourguiba",
+		"leaders": {
+			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Islamic_Socialism" ]
+		},
+		"advisors": {
 		}
 	}
 ]
@@ -27,7 +107,7 @@ characters = [
 charactersFile = ""
 charactersLocalisation = ""
 charactersRecruit = ""
-output = False
+output = True
 
 for character in characters:
 	characterId = character["tag"] + "_" + character["id"]

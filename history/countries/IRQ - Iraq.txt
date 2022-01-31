@@ -15,3 +15,7 @@ set_politics = {
 set_popularities = {
 	Socialism = 100
 }
+
+recruit_character = IRQ_Abdul_Salam_Arif
+
+recruit_character = IRQ_Fuad_al_Rikabi
