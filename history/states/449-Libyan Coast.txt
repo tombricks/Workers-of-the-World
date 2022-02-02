@@ -1,24 +1,25 @@
 
 state={
 	id=449
-	name="STATE_449" # El Agheila
-	manpower = 40431
-	
-	state_category = enclave
+	name="STATE_449"
 
 	history={
 		owner = UAR
-		add_core_of  = UAR
+		add_core_of = UAR
 		add_core_of = LBA
+
 		buildings = {
 			infrastructure = 2
+
 		}
-		# LBA
+
 	}
 
 	provinces={
-		1041 1198 4047 4057 10046 10117 12088 
+		1041 1118 4047 7136 9980 10046 10117 12088 13073 
 	}
-
-	local_supplies=0.0 
+	manpower=254490
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

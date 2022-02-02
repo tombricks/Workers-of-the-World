@@ -1,23 +1,24 @@
+
 state={
 	id=661
 	name="STATE_661"
-	manpower = 17617
-	
-	state_category = wasteland
-	
+
 	history={
 		owner = UAR
-		add_core_of  = UAR
+		add_core_of = UAR
 		add_core_of = LBA
+
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		# LBA
-	}
-	
-	provinces={
-		1174 4051 4117 4176 7154 7194 10037 10067 11940 12009 
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		1174 4051 4117 4962 7154 7194 10037 10067 10884 11940 
+	}
+	manpower=220442
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

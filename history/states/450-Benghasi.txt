@@ -2,15 +2,12 @@
 state={
 	id=450
 	name="STATE_450"
-	manpower = 82535
-	
-	state_category = enclave
 
 	history={
 		owner = UAR
-		add_core_of  = UAR
+		add_core_of = UAR
 		add_core_of = LBA
-		
+
 		victory_points = {
 			11954 3 
 		}
@@ -19,14 +16,18 @@ state={
 			air_base = 1
 			11954 = {
 				naval_base = 1
+
 			}
+
 		}
-		# LBA
+
 	}
+	manpower=316058
+	state_category=town
 
 	provinces={
-		1127 4120 10123 11954 
+		1127 1198 4057 4120 4133 4200 7063 7076 8069 9977 10785 11954 
 	}
-
-	local_supplies=0.0 
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

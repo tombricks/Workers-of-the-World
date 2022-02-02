@@ -1,0 +1,20 @@
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		4176 4194 7066 7209 12009 
+	}
+	history={
+		owner = UAR
+		add_core_of = UAR
+		add_core_of = LBA
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	state_category=town
+	manpower=229850
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

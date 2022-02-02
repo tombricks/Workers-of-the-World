@@ -1,0 +1,22 @@
+state={
+	id=836
+	name="STATE_836"
+	provinces={
+		1057 1140 1994 4191 10104 10754 
+	}
+
+	history={
+		owner = UAR
+		add_core_of = UAR
+		add_core_of = LBA
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower=158743
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
