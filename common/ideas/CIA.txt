@@ -15,7 +15,7 @@ ideas = {
 				stability_factor = -0.30
 				war_support_factor = -0.10
 				conscription_factor = -0.50
-				Reactionary_drift = 0.025
+				Reactionism_drift = 0.025
 			}
 
 			on_remove = {
