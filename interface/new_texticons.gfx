@@ -1,9 +1,16 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_RUS_CPSU_Conservative_texticon"
-		texturefile = "gfx/texticons/RUS_CPSU_Conservative.dds"
+		name = "GFX_party_cpsu"
+		texturefile = "gfx/texticons/parties/cpsu.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_party_arab_socialist_union"
+		texturefile = "gfx/texticons/parties/arab_socialist_union.dds"
+		legacy_lazy_load = no
+	}
+
 	spriteType = {
 		name = "GFX_decision_header_FRA_Jacobin"
 		texturefile = "gfx/interface/decision_headers/decision_header_FRA_Jacobin.dds"

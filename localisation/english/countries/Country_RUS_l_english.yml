@@ -9,14 +9,14 @@
  RUS_USSR_ADJ: "Soviet"
 
 ### Parties
- RUS_Hypersocialism_party: "VKP(b)"
- RUS_Hypersocialism_party_long: "Vsesoyuznaya kommunisticheskaya partiya (bol'shevikov) (All-Union Communist Party (Bolsheviks))"
- RUS_Marxism_Leninism_party: "KPSS"
- RUS_Marxism_Leninism_party_long: "Kommunisticheskaya partiya Sovetskogo Soyuza (Communist Party of the Soviet Union)"
- RUS_New_Marxism_party: "RKP(b)"
- RUS_New_Marxism_party_long: "Rossiyskaya kommunisticheskaya partiya (bol'shevikov) (Russian Communist Party (Bolsheviks))"
- RUS_Socialism_party: "RKP"
- RUS_Socialism_party_long: "Rossiyskaya kommunisticheskaya partiya (Russian Communist Party)"
+ RUS_Hypersocialism_party: "£party_cpsu VKP(b)"
+ RUS_Hypersocialism_party_long: "£party_cpsu Vsesoyuznaya kommunisticheskaya partiya (bol'shevikov) (All-Union Communist Party (Bolsheviks))"
+ RUS_Marxism_Leninism_party: "£party_cpsu KPSS"
+ RUS_Marxism_Leninism_party_long: "£party_cpsu Kommunisticheskaya partiya Sovetskogo Soyuza (Communist Party of the Soviet Union)"
+ RUS_New_Marxism_party: "£party_cpsu RKP(b)"
+ RUS_New_Marxism_party_long: "£party_cpsu Rossiyskaya kommunisticheskaya partiya (bol'shevikov) (Russian Communist Party (Bolsheviks))"
+ RUS_Socialism_party: "£party_cpsu RKP"
+ RUS_Socialism_party_long: "£party_cpsu Rossiyskaya kommunisticheskaya partiya (Russian Communist Party)"
  RUS_Reactionism_party: ""
  RUS_Reactionism_party_long: ""
 

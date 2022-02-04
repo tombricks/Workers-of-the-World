@@ -489,3 +489,43 @@ d_industry_solo_log = {
 	divide_temp_variable = { tot_fact_per = tot_fact }
 	log = "[THIS.GetTag]: [?num_of_military_factories]/[?tot_fact] ([?tot_fact_per|%])"
 }
+console_ideology = {
+	if = {
+		limit = {
+			check_variable = { args^console_arg = 0 }
+		}
+		set_temp_variable = { console_ideology = token:Hypersocialism }
+		else_if = {
+			limit = {
+				check_variable = { args^console_arg = 1 }
+			}
+			set_temp_variable = { console_ideology = token:New_Marxism }
+		}
+		else_if = {
+			limit = {
+				check_variable = { args^console_arg = 2 }
+			}
+			set_temp_variable = { console_ideology = token:Marxism_Leninism }
+		}
+		else_if = {
+			limit = {
+				check_variable = { args^console_arg = 3 }
+			}
+			set_temp_variable = { console_ideology = token:Socialism }
+		}
+		else_if = {
+			limit = {
+				check_variable = { args^console_arg = 4 }
+			}
+			set_temp_variable = { console_ideology = token:Reactionism }
+		}
+	}
+}
+d_custom_start_civil_war = {
+	set_temp_variable = { console_arg = 0 }
+	console_ideology = yes
+	start_civil_war = {
+		ideology = var:console_ideology
+		size = var:args^1
+	}
+}
