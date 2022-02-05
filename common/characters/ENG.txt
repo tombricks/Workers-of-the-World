@@ -20,4 +20,25 @@ characters={
 			desc = ENG_Tony_Benn_desc
 		}
 	}
+	ENG_John_Tyndall = {
+		name = "John Tyndall"
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_Lord_Protector IDEOLOGY_Social_Cromwellianism }
+			desc = ENG_John_Tyndall_desc
+		}
+	}
 }
