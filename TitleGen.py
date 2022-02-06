@@ -1,5 +1,5 @@
 titles = [
-	["Secretary_General", "Secretary-General"]
+	["Commander", "Commander"]
 ]
 
 # TRAITS
@@ -61,3 +61,18 @@ print(File_Scripted_Triggers_Text)
 File_Scripted_Triggers = open("common/scripted_triggers/ideology_scripted_triggers.txt", "w", encoding="utf8")
 File_Scripted_Triggers.write(File_Scripted_Triggers_Text)
 File_Scripted_Triggers.close()
+
+# SCRIPTED EFFECTS
+File_Scripted_Effects = open("common/scripted_effects/politics_scripted_effects.txt", "r", encoding="utf8")
+File_Scripted_Effects_Text = File_Scripted_Effects.read()
+File_Scripted_Effects.close()
+
+for title in titles:
+	File_Scripted_Effects_Text = File_Scripted_Effects_Text.replace("# <END OF TITLES EFFECT>", F"if = {{ limit = {{ has_country_leader_with_trait = TITLE_{title[0]} }} remove_country_leader_trait = TITLE_{title[0]} }}\n	# <END OF TITLES EFFECT>")
+
+print("--- common/scripted_effects/politics_scripted_effects.txt ---")
+print(File_Scripted_Effects_Text)
+
+File_Scripted_Effects = open("common/scripted_effects/politics_scripted_effects.txt", "w", encoding="utf8")
+File_Scripted_Effects.write(File_Scripted_Effects_Text)
+File_Scripted_Effects.close()

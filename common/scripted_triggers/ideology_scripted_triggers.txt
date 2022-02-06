@@ -106,6 +106,8 @@ has_subideology = {
 		has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism
 		has_country_leader_with_trait = IDEOLOGY_Nasserism
 		has_country_leader_with_trait = IDEOLOGY_Baathism
+		has_country_leader_with_trait = IDEOLOGY_Social_Cromwellianism
+		has_country_leader_with_trait = IDEOLOGY_Basedism
 		# <END OF IDEOLOGIES TRIGGER>
 	}
 }
@@ -125,6 +127,8 @@ has_leader_title = {
 		has_country_leader_with_trait = TITLE_Vice_Chairman
 		has_country_leader_with_trait = TITLE_Chairwoman
 		has_country_leader_with_trait = TITLE_Secretary_General
+		has_country_leader_with_trait = TITLE_Lord_Protector
+		has_country_leader_with_trait = TITLE_Commander
 		# <END OF TITLES TRIGGER>
 	}
 }

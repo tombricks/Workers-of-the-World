@@ -1,0 +1,50 @@
+remove_subideology = {
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism } remove_country_leader_trait = IDEOLOGY_Marxism_Leninism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Iosif_Stalin_Thought } remove_country_leader_trait = IDEOLOGY_Iosif_Stalin_Thought }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Maoism } remove_country_leader_trait = IDEOLOGY_Marxism_Leninism_Maoism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Military_Junta } remove_country_leader_trait = IDEOLOGY_Military_Junta }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Libertarian_Socialism } remove_country_leader_trait = IDEOLOGY_Libertarian_Socialism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism } remove_country_leader_trait = IDEOLOGY_Marxism_Leninism_Hoxhaism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Islamic_Marxism } remove_country_leader_trait = IDEOLOGY_Islamic_Marxism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_National_Bolshevism } remove_country_leader_trait = IDEOLOGY_National_Bolshevism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Labourism } remove_country_leader_trait = IDEOLOGY_Labourism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Neo_Baathism } remove_country_leader_trait = IDEOLOGY_Neo_Baathism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Arab_Socialism } remove_country_leader_trait = IDEOLOGY_Arab_Socialism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Libertarian_Marxism } remove_country_leader_trait = IDEOLOGY_Libertarian_Marxism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Democratic_Socialism } remove_country_leader_trait = IDEOLOGY_Democratic_Socialism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Neo_Jacobinism } remove_country_leader_trait = IDEOLOGY_Neo_Jacobinism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Bolshevik_Leninism } remove_country_leader_trait = IDEOLOGY_Bolshevik_Leninism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Anarchism } remove_country_leader_trait = IDEOLOGY_Anarchism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Communism } remove_country_leader_trait = IDEOLOGY_Communism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Islamic_Socialism } remove_country_leader_trait = IDEOLOGY_Islamic_Socialism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_African_Socialism } remove_country_leader_trait = IDEOLOGY_African_Socialism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Titoism } remove_country_leader_trait = IDEOLOGY_Titoism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Mao_Zedong_Thought } remove_country_leader_trait = IDEOLOGY_Mao_Zedong_Thought }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Marxism } remove_country_leader_trait = IDEOLOGY_Marxism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Constitutional_Marxism } remove_country_leader_trait = IDEOLOGY_Constitutional_Marxism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Marxism_Hitlerism } remove_country_leader_trait = IDEOLOGY_Marxism_Hitlerism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Nasserism } remove_country_leader_trait = IDEOLOGY_Nasserism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Baathism } remove_country_leader_trait = IDEOLOGY_Baathism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Social_Cromwellianism } remove_country_leader_trait = IDEOLOGY_Social_Cromwellianism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Basedism } remove_country_leader_trait = IDEOLOGY_Basedism }
+	# <END OF IDEOLOGIES EFFECT>
+}
+
+remove_leader_title = {
+	if = { limit = { has_country_leader_with_trait = TITLE_General_Secretary } remove_country_leader_trait = TITLE_General_Secretary }
+	if = { limit = { has_country_leader_with_trait = TITLE_Second_Secretary } remove_country_leader_trait = TITLE_Second_Secretary }
+	if = { limit = { has_country_leader_with_trait = TITLE_Chairman } remove_country_leader_trait = TITLE_Chairman }
+	if = { limit = { has_country_leader_with_trait = TITLE_Acting_General_Secretary } remove_country_leader_trait = TITLE_Acting_General_Secretary }
+	if = { limit = { has_country_leader_with_trait = TITLE_President } remove_country_leader_trait = TITLE_President }
+	if = { limit = { has_country_leader_with_trait = TITLE_Stalin_Head } remove_country_leader_trait = TITLE_Stalin_Head }
+	if = { limit = { has_country_leader_with_trait = TITLE_First_Secretary } remove_country_leader_trait = TITLE_First_Secretary }
+	if = { limit = { has_country_leader_with_trait = TITLE_Premier } remove_country_leader_trait = TITLE_Premier }
+	if = { limit = { has_country_leader_with_trait = TITLE_Secretary } remove_country_leader_trait = TITLE_Secretary }
+	if = { limit = { has_country_leader_with_trait = TITLE_Collective } remove_country_leader_trait = TITLE_Collective }
+	if = { limit = { has_country_leader_with_trait = TITLE_Vice_Chairman } remove_country_leader_trait = TITLE_Vice_Chairman }
+	if = { limit = { has_country_leader_with_trait = TITLE_Chairwoman } remove_country_leader_trait = TITLE_Chairwoman }
+	if = { limit = { has_country_leader_with_trait = TITLE_Secretary_General } remove_country_leader_trait = TITLE_Secretary_General }
+	if = { limit = { has_country_leader_with_trait = TITLE_Lord_Protector } remove_country_leader_trait = TITLE_Lord_Protector }
+	if = { limit = { has_country_leader_with_trait = TITLE_Commander } remove_country_leader_trait = TITLE_Commander }
+	# <END OF TITLES EFFECT>
+}

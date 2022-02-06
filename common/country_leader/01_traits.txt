@@ -13,6 +13,7 @@ leader_traits = {
 	TITLE_Chairwoman = { random = no } # Chairwoman
 	TITLE_Secretary_General = { random = no } # Secretary-General
 	TITLE_Lord_Protector = { random = no } # Lord-Protector
+	TITLE_Commander = { random = no } # Commander
 	# <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	IDEOLOGY_Marxism_Leninism = { random = no }
@@ -42,6 +43,7 @@ leader_traits = {
 	IDEOLOGY_Nasserism = { random = no } # Nasserism
 	IDEOLOGY_Baathism = { random = no } # Ba'athism
 	IDEOLOGY_Social_Cromwellianism = { random = no } # Cromwell gang
+	IDEOLOGY_Basedism = { random = no } # Basedism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	NTH_turncoat = {

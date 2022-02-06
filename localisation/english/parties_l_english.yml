@@ -40,7 +40,8 @@
  TITLE_Vice_Chairman: "Vice Chairman"
  TITLE_Chairwoman: "Chairwoman"
  TITLE_Secretary_General: "Secretary-General"
- TITLE_Lord_Protector: "Lord-Protector"
+ TITLE_Lord_Protector: "Lord Protector"
+ TITLE_Commander: "Commander"
  # <END OF TITLES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
  
  IDEOLOGY_Marxism_Leninism: "Marxism-Leninism"
@@ -96,5 +97,7 @@
  IDEOLOGY_Baathism: "Ba'athism"
  IDEOLOGY_Baathism_ADJ: "Ba'athist"
  IDEOLOGY_Social_Cromwellianism: "Social Cromwellianism"
- IDEOLOGY_Social_Cromwellianism_ADJ: "Social Cromwellianism"
+ IDEOLOGY_Social_Cromwellianism_ADJ: "Social Cromwellian"
+ IDEOLOGY_Basedism: "Basedism"
+ IDEOLOGY_Basedism_ADJ: "Based"
  # <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
