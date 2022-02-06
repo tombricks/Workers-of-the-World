@@ -22,7 +22,7 @@
 
 	focus = {
 		id = RUS_Revitalise_the_International_Department
-		icon = GFX_focus_SOV_proclaim_soviet_hegemony
+		icon = GFX_focus_generic_join_comintern
 		cost = 5
 		x = 20
 		y = 0
@@ -33,6 +33,8 @@
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_Revitalise_the_International_Department"
+			add_ideas = RUS_International_Department
+			country_event = RUS_International_Communist_League.1
 		}
 	}
 
@@ -52,6 +54,22 @@
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_Prepare_an_International_Conference"
+			every_country = {
+				limit = {
+					has_government = Marxism_Leninism
+					OR = {
+						is_major = yes
+						original_tag = RUS
+						original_tag = GER
+						original_tag = CAN
+						original_tag = IND
+						original_tag = IRN
+						original_tag = NGA
+						original_tag = ETH
+					}
+				}
+				news_event = RUS_International_Communist_League.2
+			}
 		}
 	}
 
@@ -71,6 +89,129 @@
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_Hold_an_Inner_Party_Session"
+			news_event = RUS_International_Communist_League.3
+			every_other_country = {
+				limit = {
+					has_government = Marxism_Leninism
+					OR = {
+						is_major = yes
+						original_tag = GER
+						original_tag = CAN
+						original_tag = IND
+						original_tag = IRN
+						original_tag = NGA
+						original_tag = ETH
+					}
+				}
+				news_event = RUS_International_Communist_League.4
+			}
+		}
+	}
+
+	focus = {
+		id = RUS_Announce_the_International_Communist_League
+		icon = GFX_focus_SOV_proclaim_soviet_hegemony
+		prerequisite = { focus = RUS_Prepare_an_International_Conference focus = RUS_Hold_an_Inner_Party_Session }
+		cost = 5
+		relative_position_id = RUS_Revitalise_the_International_Department
+		x = 0
+		y = 2
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Announce_the_International_Communist_League"
+			every_country = {
+				news_event = RUS_International_Communist_League.5
+			}
+			every_other_country = {
+				limit = {
+					has_government = Marxism_Leninism
+				}
+				tooltip = RUS_Announce_the_International_Communist_League_TT
+
+				country_event = {
+					id = RUS_International_Communist_League.6
+					days = 1
+					random_hours = 48
+				}
+			}
+			unlock_decision_category_tooltip = RUS_International_Communist_League_category
+		}
+	}
+
+	focus = {
+		id = RUS_Invite_Socialist_Observers
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = RUS_Prepare_an_International_Conference }
+		cost = 5
+		relative_position_id = RUS_Revitalise_the_International_Department
+		x = -2
+		y = 3
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Invite_Socialist_Observers"
+		}
+	}
+
+	focus = {
+		id = RUS_International_Democratic_Centralism
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		prerequisite = { focus = RUS_Hold_an_Inner_Party_Session }
+		cost = 5
+		relative_position_id = RUS_Revitalise_the_International_Department
+		x = 2
+		y = 3
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_International_Democratic_Centralism"
+		}
+	}
+
+	focus = {
+		id = RUS_Integrate_COMECON
+		icon = GFX_focus_SOV_the_comecon
+		prerequisite = { focus = RUS_Announce_the_International_Communist_League }
+		cost = 5
+		relative_position_id = RUS_Revitalise_the_International_Department
+		x = 0
+		y = 3
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Integrate_COMECON"
+		}
+	}
+
+	focus = {
+		id = RUS_Hold_the_First_World_Congress
+		icon = GFX_focus_ger_great_red_menace
+		prerequisite = { focus = RUS_Integrate_COMECON }
+		prerequisite = { focus = RUS_Invite_Socialist_Observers focus = RUS_International_Democratic_Centralism }
+		cost = 5
+		relative_position_id = RUS_Revitalise_the_International_Department
+		x = 0
+		y = 4
+		
+		ai_will_do = {
+			factor = 80
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Hold_the_First_World_Congress"
 		}
 	}
 }

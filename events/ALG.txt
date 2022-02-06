@@ -9,7 +9,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "[GetDateText]: [Root.GetName]: Event ALG_Revolution.1"
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Revolution.1"
 		hidden_effect = {
 			ALG = {
 				transfer_state = 514

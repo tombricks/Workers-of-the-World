@@ -11,7 +11,7 @@ country_event = {
 		date > 1981.1.1
 		date < 1982.1.1
 	}
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event ALB_Congress.1" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: coutnry_event ALB_Congress.1" }
 	
 	option = {
 		name = ALB_Congress.1.A

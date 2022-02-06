@@ -1,0 +1,59 @@
+add_namespace = Character_events
+
+# Notification event that leader has gotten sick
+unit_leader_event = {
+	id = Character_events.1
+	title = Character_events.1.TITLE
+	desc = Character_events.1.DESC
+
+	is_triggered_only = yes
+	
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: [From.GetName]: unit_leader_event Character_events.1"
+		hidden_effect = {
+			FROM = {
+				set_unit_leader_flag = {
+					flag = recently_sick
+					value = 1
+					days = 180
+				}
+			}
+		}
+	}
+
+	option = {
+		name = unfortunate
+		effect_tooltip = {
+			FROM = {
+				add_timed_unit_leader_trait = {
+					trait = sick
+					days = 30
+				}
+			}
+		}
+	}	
+}
+
+# Notification event that leader has been wounded
+unit_leader_event = {
+	id = Character_events.2
+	title = Character_events.2.TITLE
+	desc = Character_events.2.DESC
+
+	is_triggered_only = yes
+
+	immediate = { log = "[GetDateText]: [Root.GetName]: [From.GetName]: unit_leader_event Character_events.2" }
+
+	option = {
+		name = unfortunate
+		effect_tooltip = {
+			FROM = {
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 90
+				}
+			}
+		}
+	}	
+}

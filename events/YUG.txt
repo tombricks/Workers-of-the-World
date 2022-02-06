@@ -8,7 +8,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	immediate = {
-		log = "[GetDateText]: [Root.GetName]: Event YUG_Death_of_Tito.1"
+		log = "[GetDateText]: [Root.GetName]: country_event YUG_Death_of_Tito.1"
 		hidden_effect = {
 			YUG_Josip_Broz_Tito = { set_character_flag = dead_character }
 			retire_character = YUG_Josip_Broz_Tito
@@ -32,7 +32,7 @@ news_event = {
 	is_triggered_only = yes
 	major = yes
 
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event YUG_Death_of_Tito.2" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: news_event YUG_Death_of_Tito.2" }
 	
 	option = {
 		name = YUG_Death_of_Tito.1.B # :wow:

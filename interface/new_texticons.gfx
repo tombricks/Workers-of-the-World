@@ -17,6 +17,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_decision_header_RUS_International_Communist_League_category"
+		texturefile = "gfx/interface/decision_headers/decision_header_RUS_International_Communist_League_category.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_skull_emoji"
 		texturefile = "gfx/texticons/skull_emoji.dds"
 		legacy_lazy_load = no

@@ -8,7 +8,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	immediate = {
-		log = "[GetDateText]: [Root.GetName]: Event GER_Revolution.1"
+		log = "[GetDateText]: [Root.GetName]: country_event GER_Revolution.1"
 		hidden_effect = {
 			create_dynamic_country = {
 				original_tag = GER

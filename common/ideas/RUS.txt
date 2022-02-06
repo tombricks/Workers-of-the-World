@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		RUS_International_Department = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea RUS_International_Department" }
+			
+			picture = home_of_revolution
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				justify_war_goal_time = -0.2
+				opinion_gain_monthly_factor = 0.2
+				opinion_gain_monthly_same_ideology_factor = 0.3
+			}
+		}
+	}
+}

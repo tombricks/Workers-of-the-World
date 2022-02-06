@@ -6,7 +6,7 @@ country_event = {
 	desc = FRA_Germany.1.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event FRA_Germany.1" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event FRA_Germany.1" }
 	
 	option = {
 		name = FRA_Germany.1.A

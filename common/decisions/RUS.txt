@@ -1,0 +1,2 @@
+RUS_International_Communist_League_category = {
+}

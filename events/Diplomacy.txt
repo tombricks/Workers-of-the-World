@@ -7,11 +7,11 @@ country_event = {
 	desc = Puppet_Event.1.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 ([new_puppet.GetName])" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event Puppet_Event.1 ([new_puppet.GetName])" }
 	
 	option = {
 		name = Puppet_Event.1.A # AUTONOMOUS
-		log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 - Puppet_Event.1.A"
+		log = "[GetDateText]: [Root.GetName]: country_event Puppet_Event.1 - Puppet_Event.1.A"
 		ai_chance = {
 			base = 20
 
@@ -63,7 +63,7 @@ country_event = {
 	
 	option = {
 		name = Puppet_Event.1.B.A
-		log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 - Puppet_Event.1.B.A"
+		log = "[GetDateText]: [Root.GetName]: country_event Puppet_Event.1 - Puppet_Event.1.B.A"
 		ai_chance = {
 			base = 5
 		}
@@ -78,7 +78,7 @@ country_event = {
 	
 	option = {
 		name = Puppet_Event.1.C # SATELLITE
-		log = "[GetDateText]: [Root.GetName]: Event Puppet_Event.1 - Puppet_Event.1.C"
+		log = "[GetDateText]: [Root.GetName]: country_event Puppet_Event.1 - Puppet_Event.1.C"
 		ai_chance = {
 			base = 50
 		}
@@ -99,11 +99,11 @@ country_event = {
 	desc = Treaties.1.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.1" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event Treaties.1" }
 	
 	option = {
 		name = Treaties.1.A # Treaty
-		log = "[GetDateText]: [Root.GetName]: Event Treaties.1 - Treaties.1.A"
+		log = "[GetDateText]: [Root.GetName]: country_event Treaties.1 - Treaties.1.A"
 		ai_chance = { base = 45 }
 		event_target:treaty_target = {
 			country_event = Treaties.2
@@ -112,7 +112,7 @@ country_event = {
 	
 	option = {
 		name = Treaties.1.B
-		log = "[GetDateText]: [Root.GetName]: Event Treaties.1 - Treaties.1.B"
+		log = "[GetDateText]: [Root.GetName]: country_event Treaties.1 - Treaties.1.B"
 		ai_chance = { base = 5 }
 	}
 }
@@ -122,11 +122,11 @@ country_event = {
 	desc = Treaties.2.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.2" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event Treaties.2" }
 	
 	option = {
 		name = Treaties.2.A # Treaty
-		log = "[GetDateText]: [Root.GetName]: Event Treaties.2 - Treaties.2.A"
+		log = "[GetDateText]: [Root.GetName]: country_event Treaties.2 - Treaties.2.A"
 		ai_chance = { base = 45 }
 		FROM = {
 			give_military_access = PREV
@@ -142,7 +142,7 @@ country_event = {
 	
 	option = {
 		name = Treaties.2.B
-		log = "[GetDateText]: [Root.GetName]: Event Treaties.2 - Treaties.2.B"
+		log = "[GetDateText]: [Root.GetName]: country_event Treaties.2 - Treaties.2.B"
 		ai_chance = { base = 5 }
 		FROM = { news_event = Treaties.4 }
 	}
@@ -155,7 +155,7 @@ news_event = {
 	picture = GFX_News_Metal_USSR_Thing
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.3" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: news_event Treaties.3" }
 	
 	option = {
 		name = Treaties.3.A
@@ -169,7 +169,7 @@ news_event = {
 	picture = GFX_News_Metal_USSR_Thing
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: Event Treaties.4" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: news_event Treaties.4" }
 	
 	option = {
 		name = Treaties.4.A

@@ -6,10 +6,24 @@ debug_decisions = {
 	}
 }
 
-cold_war_info = {
+RUS_International_Communist_League_category = {
+	icon = GFX_decision_category_SOV_permanent_revolution
+	allowed = {
+		original_tag = RUS
+	}
+	visible = {
+		OR = {
+			has_completed_focus = RUS_Announce_the_International_Communist_League
+			is_debug = yes
+		}
+	}
 	visible_when_empty = yes
-	scripted_gui = Cold_War_decision_category_gui
 }
+
+#cold_war_info = {
+#	visible_when_empty = yes
+#	scripted_gui = Cold_War_decision_category_gui
+#}
 
 puppet_decisions = {
 	icon = generic_research
