@@ -16,9 +16,51 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
-				justify_war_goal_time = -0.2
 				opinion_gain_monthly_factor = 0.2
 				opinion_gain_monthly_same_ideology_factor = 0.3
+			}
+		}
+		RUS_International_Democratic_Centralism_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea RUS_International_Democratic_Centralism_idea" }
+			
+			picture = SOV_soviet_hegemony
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				justify_war_goal_time = -0.25
+			}
+		}
+		RUS_International_Democratic_Centralism_rev = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea RUS_International_Democratic_Centralism_rev" }
+			
+			picture = SOV_soviet_hegemony
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				Marxism_Leninism_acceptance = 30
+			}
+
+			targeted_modifier = {
+				tag = RUS
+				defense_bonus_against = -0.15
 			}
 		}
 	}

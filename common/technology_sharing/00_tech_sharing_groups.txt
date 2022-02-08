@@ -13,3 +13,17 @@ technology_sharing_group = {
     }
 
 }
+
+technology_sharing_group = {
+	id = RUS_COMECON_share
+	name = RUS_COMECON_share_name
+	desc = RUS_COMECON_share_desc
+	picture = GFX_focus_SOV_the_comecon
+
+	research_sharing_per_country_bonus = 0.25
+
+	available = {
+		RUS = { has_completed_focus = RUS_Integrate_COMECON }
+		RUS_In_the_League = yes
+	}
+}

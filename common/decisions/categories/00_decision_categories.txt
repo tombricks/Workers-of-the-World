@@ -17,6 +17,7 @@ RUS_International_Communist_League_category = {
 			is_debug = yes
 		}
 	}
+	scripted_gui = RUS_International_Communist_League_category_gui
 	visible_when_empty = yes
 }
 

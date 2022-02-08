@@ -22,4 +22,41 @@ characters = {
 		
 		
 	}
+
+	MON_Sonomyn_Luvsan = {
+		name = MON_Sonomyn_Luvsan
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_idea_minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_Chairman IDEOLOGY_Marxism_Leninism }
+			desc = MON_Sonomyn_Luvsan_desc
+		}
+		
+		advisor = {
+			slot = influential_1
+			idea_token = MON_Sonomyn_Luvsan_influential_1
+			allowed = {
+				original_tag = MON
+			}
+			on_add = {
+				log = "[GetDateText]: [This.GetName]: Added Advisor MON_Sonomyn_Luvsan"
+			}
+			on_remove = {
+				log = "[GetDateText]: [This.GetName]: Removed Advisor MON_Sonomyn_Luvsan"
+			}
+			traits = { TITLE_Chairman }
+		}
+	}
 }

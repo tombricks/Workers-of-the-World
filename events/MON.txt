@@ -1,0 +1,144 @@
+﻿add_namespace = MON_Annexation
+
+# USSR invites us
+country_event = {
+	id = MON_Annexation.1
+	title = MON_Annexation.1.TITLE
+	desc = MON_Annexation.1.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.1" }
+	
+	option = {
+		name = MON_Annexation.1.A
+		ai_chance = { base = 85 }
+		RUS = {
+			set_autonomy = {
+				target = MON
+				autonomy_state = autonomy_autonomous_zone
+			}
+		}
+		set_cosmetic_tag = MON_SSR
+		set_party_name = {
+			ideology = Marxism_Leninism
+			name = MON_Soviet_party
+			long_name = MON_Soviet_party_long
+		}
+		hidden_effect = {
+			MON_Yumjaagiin_Tsedenbal = {
+				remove_leader_title = yes
+				add_country_leader_trait = TITLE_First_Secretary
+			}
+			every_country = {
+				news_event = MON_Annexation.2
+			}
+			remove_from_array = { array = RUS.RUS_International_Communist_League_members value = THIS }
+			add_to_array = { RUS.RUS_International_Communist_League_observers = THIS }
+			remove_ideas = RUS_International_Democratic_Centralism_rev
+			CHI = {
+				country_event = {
+					id = MON_Annexation.4
+					days = 5
+					random_days = 4
+				}
+			}
+		}
+		custom_effect_tooltip = MON_Annexation.1.TT
+	}
+	
+	option = {
+		name = MON_Annexation.1.B
+		ai_chance = { base = 15 }
+		RUS = {
+			news_event = MON_Annexation.3
+		}
+	}
+}
+
+# Mongolia joins the Union
+news_event = {
+	id = MON_Annexation.2
+	title = MON_Annexation.2.TITLE
+	desc = MON_Annexation.2.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: news_event MON_Annexation.2" }
+	
+	option = {
+		name = MON_Annexation.2.A
+	}
+}
+
+# :skull:
+news_event = {
+	id = MON_Annexation.3
+	title = MON_Annexation.3.TITLE
+	desc = MON_Annexation.3.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: news_event MON_Annexation.3" }
+	
+	option = {
+		name = MON_Annexation.3.A
+	}
+}
+
+# Mongolian Communists request help
+country_event = {
+	id = MON_Annexation.4
+	title = MON_Annexation.4.TITLE
+	desc = MON_Annexation.4.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.4"	}
+	
+	option = {
+		name = MON_Annexation.4.A
+	}
+}
+
+
+# Mongolian Civil War
+country_event = {
+	id = MON_Annexation.100
+	title = MON_Annexation.100.TITLE
+	desc = MON_Annexation.100.DESC
+	
+	is_triggered_only = yes
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.100"
+		hidden_effect = {
+			MON_Sonomyn_Luvsan = {
+				remove_advisor_role = {
+					slot = influential_1
+				}
+				remove_country_leader_role = {
+					ideology = Marxism_Leninism_ideology
+				}
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader = {
+						ideology = New_Marxism_ideology
+						traits = { TITLE_Chairman IDEOLOGY_Marxism_Leninism }
+						desc = MON_Sonomyn_Luvsan_desc
+					}
+				}
+			}
+			leave_faction_for_civil_war = yes
+			start_civil_war = {
+				ideology = New_Marxism
+				size = 0.3
+				states = { 817 819 }
+				set_party_name = {
+					ideology = New_Marxism
+					name = MON_Marxism_Leninism_party
+					long_name = MON_Marxism_Leninism_party_long
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = MON_Annexation.100.A
+	}
+}

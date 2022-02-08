@@ -30,3 +30,31 @@
 
  MON_Yumjaagiin_Tsedenbal: "Yumjaagiin Tsedenbal"
  MON_Yumjaagiin_Tsedenbal_desc: ""
+ MON_Sonomyn_Luvsan: "Sonomyn Luvsan"
+ MON_Sonomyn_Luvsan_desc: ""
+
+### Annexation
+ MON_Soviet_party: "ZMKN"
+ MON_Soviet_party_long: "Zövlölt Mongolyn Kommunist Nam (Soviet Communist Party of Mongolia)"
+ 
+ MON_SSR_Marxism_Leninism: "Mongolian Soviet Socialist Republic"
+ MON_SSR_Marxism_Leninism_DEF: "the Mongolian Soviet Socialist Republic"
+ MON_SSR_Marxism_Leninism_ADJ: "Mongolian"
+ 
+ MON_Annexation.1.TITLE: "Invitation to join the Soviet Union"
+ MON_Annexation.1.DESC: "Perhaps due to the Soviet-friendly nature of our leader, [get_leader_title] [GetLeader], the Soviet Union has invited us to become a Soviet Socialist Republic within the Union."
+ MON_Annexation.1.A: "We shall accept!"
+ MON_Annexation.1.TT: "§RNot everyone may be happy with this...§!"
+ MON_Annexation.1.B: "Reject this annexation!"
+ 
+ MON_Annexation.2.TITLE: "Mongolia joins the USSR"
+ MON_Annexation.2.DESC: ""
+ MON_Annexation.2.A: "The Union expands..."
+ 
+ MON_Annexation.3.TITLE: "Mongolia rejects the Invitation"
+ MON_Annexation.3.DESC: ""
+ MON_Annexation.3.A: "£skull_emoji"
+ 
+ MON_Annexation.100.TITLE: "Mongolian Civil War"
+ MON_Annexation.100.DESC: "$leave_faction_for_civil_war_tt$"
+ MON_Annexation.100.A: "£skull_emoji"

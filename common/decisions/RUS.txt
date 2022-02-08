@@ -1,2 +1,54 @@
 RUS_International_Communist_League_category = {
+	RUS_Invite_FROM_to_League = {
+		icon = GFX_decision_eng_trade_unions_support
+		visible = {
+			always = yes
+		}
+
+		target_trigger = {
+			FROM = {
+				has_government = Marxism_Leninism
+			}
+			NOT = {
+				OR = {
+					is_in_array = { RUS_International_Communist_League_members = FROM }
+					is_in_array = { RUS_International_Communist_League_observers = FROM }
+				}
+			}
+		}
+
+		cost = 15
+		days_remove = 180
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: [From.GetName] Target Decision RUS_Invite_FROM_to_League"
+			FROM = {
+				country_event = RUS_International_Communist_League.6
+			}
+		}
+	}
+	RUS_Invite_Mongolia_to_the_Union = {
+		icon = GFX_decision_SOV_the_stalin_constitution
+		visible = {
+			has_completed_focus = RUS_International_Democratic_Centralism
+			MON = {
+				has_country_leader = {
+					character = MON_Yumjaagiin_Tsedenbal
+					ruling_only = yes
+				}
+				exists = yes
+				RUS_In_the_League = yes
+			}
+		}
+
+		cost = 75
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: [From.GetName] Target Decision RUS_Invite_Mongolia_to_the_Union"
+			MON = {
+				country_event = MON_Annexation.1
+			}
+		}
+	}
 }

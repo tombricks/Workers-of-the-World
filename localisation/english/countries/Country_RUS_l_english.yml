@@ -22,6 +22,8 @@
 
 ### Special
  RUS_BLOC_FACTION: "Soviet Bloc"
+ RUS_COMECON_share_name: "Committee of the International Communist League for Scientific and Technical Cooperation"
+ RUS_COMECON_share_desc: ""
 
 ### Characters
  RUS_Yegor_Ligachyov: "Yegor Ligachyov"
@@ -143,10 +145,13 @@
  RUS_Announce_the_International_Communist_League: "Announce the International Communist League"
  RUS_Announce_the_International_Communist_League_desc: ""
  RUS_Announce_the_International_Communist_League_TT: "Every Soviet-Aligned Communist country"
+ RUS_Announce_the_International_Communist_League_TT_2: "Unlocks Decisions to invite other Soviet-Aligned Communist countries to the League."
  RUS_Invite_Socialist_Observers: "Invite Socialist Observers"
  RUS_Invite_Socialist_Observers_desc: ""
+ RUS_Invite_Socialist_Observers_TT: "Unlocks Decisions to invite Socialist countries as observers to the League."
  RUS_International_Democratic_Centralism: "International Democratic Centralism"
  RUS_International_Democratic_Centralism_desc: ""
+ RUS_International_Democratic_Centralism_TT: "Unlocks Decisions in the future to intervene in allied nations and secure Soviet hegemony."
  RUS_Integrate_COMECON: "Integrate COMECON"
  RUS_Integrate_COMECON_desc: ""
  RUS_Hold_the_First_World_Congress: "Hold the First World Congress"
@@ -155,3 +160,10 @@
 ### Decisions
  RUS_International_Communist_League_category: "The International Communist League"
  RUS_International_Communist_League_category_desc: "\n\n£decision_header_RUS_International_Communist_League_category\n\n\n\n"
+
+### International Communist League
+ RUS_ICL_entry_text: "[THIS.GetFlag] [THIS.GetName][get_subject_texticon]"
+ occed_texticon: " £occupation_costs"
+ sbjct_texticon: " £autonomy_texticon"
+
+ RUS_Invite_FROM_to_League: "Invite [FROM.GetName] to the League"

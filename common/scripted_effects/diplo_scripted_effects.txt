@@ -196,3 +196,50 @@ become_friend = {
 		}
 	}
 }
+leave_faction_for_civil_war = {
+	if = {
+		limit = {
+			always = no # disbaled
+		}
+		set_country_flag = left_faction_for_civil_war
+		if = {
+			limit = {
+				is_subject = yes
+			}
+			set_variable = { former_overlord = OVERLORD }
+			if = {
+				limit = {
+					has_autonomy_state = autonomy_autonomous_zone
+				}
+				set_country_flag = former_overlord_autonomous_zone
+				
+				else_if = {
+					limit = {
+						has_autonomy_state = autonomy_satellite
+					}
+					set_country_flag = former_overlord_satellite
+				}
+				
+				else_if = {
+					limit = {
+						has_autonomy_state = autonomy_temporary
+					}
+					set_country_flag = former_overlord_temporary
+				}
+			}	
+			OVERLORD = {
+				set_autonomy = {
+					target = PREV
+					autonomy_state = autonomy_free
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction = yes
+			}
+			set_variable = { former_faction_leader = faction_leader }
+			leave_faction = yes
+		}
+	}
+}

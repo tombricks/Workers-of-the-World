@@ -6,3 +6,7 @@ RUS_RSR = {
 	color = rgb { 80 124 159 }
 	color_ui = rgb { 80 124 159 }
 }
+MON_SSR = {
+	color = rgb { 127 39 39 }
+	color_ui = rgb { 127 39 39 }
+}

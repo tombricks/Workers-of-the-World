@@ -139,6 +139,28 @@
 				}
 			}
 			unlock_decision_category_tooltip = RUS_International_Communist_League_category
+
+			hidden_effect = {
+				add_to_array = { RUS_International_Communist_League_members = RUS } # No Shit Sherlock
+
+				add_to_array = { RUS_International_Communist_League_observers = ARM } # free will more like not real
+				add_to_array = { RUS_International_Communist_League_observers = AZR }
+				add_to_array = { RUS_International_Communist_League_observers = BLR }
+				add_to_array = { RUS_International_Communist_League_observers = GEO }
+				add_to_array = { RUS_International_Communist_League_observers = UKR }
+				add_to_array = { RUS_International_Communist_League_observers = TKM }
+				add_to_array = { RUS_International_Communist_League_observers = UZB }
+				add_to_array = { RUS_International_Communist_League_observers = TAJ }
+				add_to_array = { RUS_International_Communist_League_observers = KAZ }
+				add_to_array = { RUS_International_Communist_League_observers = KYR }
+				add_to_array = { RUS_International_Communist_League_observers = EST }
+				add_to_array = { RUS_International_Communist_League_observers = FIN }
+				add_to_array = { RUS_International_Communist_League_observers = LAT }
+				add_to_array = { RUS_International_Communist_League_observers = LIT }
+				add_to_array = { RUS_International_Communist_League_observers = MOL }
+			}
+
+			custom_effect_tooltip = RUS_Announce_the_International_Communist_League_TT_2
 		}
 	}
 
@@ -157,6 +179,7 @@
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_Invite_Socialist_Observers"
+			custom_effect_tooltip = RUS_Invite_Socialist_Observers_TT
 		}
 	}
 
@@ -175,6 +198,14 @@
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_International_Democratic_Centralism"
+			add_ideas = RUS_International_Democratic_Centralism_idea
+			every_country = {
+				limit = {
+					RUS_In_the_League = yes
+				}
+				add_ideas = RUS_International_Democratic_Centralism_rev
+			}
+			custom_effect_tooltip = RUS_International_Democratic_Centralism_TT
 		}
 	}
 
@@ -193,6 +224,13 @@
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_Integrate_COMECON"
+			add_to_tech_sharing_group = RUS_COMECON_share
+			every_other_country = {
+				limit = {
+					RUS_In_the_League = yes
+				}
+				add_to_tech_sharing_group = RUS_COMECON_share
+			}
 		}
 	}
 

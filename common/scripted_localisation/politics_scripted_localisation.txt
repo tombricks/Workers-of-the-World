@@ -143,3 +143,10 @@ defined_text = {
 	text = { trigger = { is_subject = yes } localization_key = "Subject" } 
 	text = { localization_key = "Free" }
 }
+
+defined_text = {
+	name = get_subject_texticon
+	text = { trigger = { exists = no } localization_key = "occed_texticon" } 
+	text = { trigger = { is_subject = yes } localization_key = "sbjct_texticon" } 
+	text = { localization_key = "" }
+}

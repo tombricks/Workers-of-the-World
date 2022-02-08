@@ -6,3 +6,4 @@
  RECALL_VOLUNTEERS_ACTION_SEND_DESC:0 "Recall all volunteers sent to §Y[FROM.GetNameDef]§!?"
  
  left_faction_for_civilwar: "Left Faction for Civil War"
+ leave_faction_for_civil_war_tt: "§RNote to Player: For the duration of the civil war, your country will leave any faction and become free from overlords. When the civil war concludes, you will rejoin. This is due to Paradox's bad game design.§!"

@@ -1,0 +1,28 @@
+scripted_gui = {
+	RUS_International_Communist_League_category_gui = {
+		context_type = decision_category
+		window_name = "RUS_International_Communist_League_category_window"
+
+		dynamic_lists = {
+			members_grid = {
+				array = RUS.RUS_International_Communist_League_members
+				entry_container = RUS_ICL_entry
+				change_scope = yes
+			}
+			observers_grid = {
+				array = RUS.RUS_International_Communist_League_observers
+				entry_container = RUS_ICL_entry
+				change_scope = yes
+			}
+		}
+		
+		properties = {
+		}
+
+		triggers = {
+		}
+
+		effects = {
+		}
+	}
+}

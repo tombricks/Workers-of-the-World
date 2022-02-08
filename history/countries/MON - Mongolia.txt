@@ -17,3 +17,8 @@ set_popularities = {
 }
 
 recruit_character = MON_Yumjaagiin_Tsedenbal
+recruit_character = MON_Sonomyn_Luvsan
+
+add_ideas = {
+	MON_Sonomyn_Luvsan_influential_1
+}

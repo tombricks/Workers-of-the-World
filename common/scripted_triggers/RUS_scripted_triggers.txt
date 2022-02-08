@@ -50,3 +50,10 @@ SOV_me_likey_ssr = {
 		tag = MOL
 	}
 }
+
+RUS_In_the_League = {
+	OR = {
+		is_in_array = { RUS.RUS_International_Communist_League_members = THIS }
+		is_in_array = { RUS.RUS_International_Communist_League_observers = THIS }
+	}
+}

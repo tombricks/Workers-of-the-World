@@ -305,7 +305,7 @@ d_core_owned = {
 d_list_characters = {
 	every_country = {
 		every_character = {
-			log = "[THIS.GetName]"
+			log = "[?THIS.GetTokenKey] [THIS.GetName]"
 		}
 	}
 }

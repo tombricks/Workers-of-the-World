@@ -20,10 +20,10 @@ TAI_Mainland = {
 		days_remove = 30
 		
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAI_Core_Mainland_State"
+			log = "[GetDateText]: [Root.GetName]: Target Decision TAI_Core_Mainland_State"
 		}
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision Removed TAI_Core_Mainland_State"
+			log = "[GetDateText]: [Root.GetName]: [From.GetName] Target Decision Removed TAI_Core_Mainland_State"
 			FROM = { add_core_of = ROOT }
 		}
 	}

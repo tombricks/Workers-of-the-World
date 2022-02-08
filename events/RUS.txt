@@ -96,8 +96,18 @@ country_event = {
 	
 	option = {
 		name = RUS_International_Communist_League.6.A # yes
-		ai_chance = { base = 199 }
-		RUS = { news_event = RUS_International_Communist_League.7 }
+		ai_chance = { base = 399 }
+		RUS = {
+			news_event = RUS_International_Communist_League.7
+			add_to_array = { RUS_International_Communist_League_members = PREV }
+		}
+		add_to_tech_sharing_group = RUS_COMECON_share
+		if = {
+			limit = {
+				RUS = { has_completed_focus = RUS_International_Democratic_Centralism }
+			}
+			add_ideas = RUS_International_Democratic_Centralism_rev
+		}
 	}
 	
 	option = {

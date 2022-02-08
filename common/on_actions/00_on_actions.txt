@@ -93,17 +93,7 @@ on_actions = {
 					}
 					log = "^^ Civil War ([ROOT.get_ideology] vs [FROM.get_ideology])"
 					add_to_array = { global.civil_wars = FROM }
-					FROM = {
-						if = {
-							limit = {
-								is_in_faction = yes
-							}
-							set_country_flag = left_faction_for_civilwar
-							set_variable = { left_faction_for_civilwar_leader = faction_leader }
-							leave_faction = yes
-	
-						}
-					}
+					FROM = { leave_faction_for_civil_war = yes }
 					add_dynamic_modifier = {
 						modifier = Rival_Government
 						scope = FROM
@@ -149,13 +139,60 @@ on_actions = {
 				if = { limit = { is_in_array = { global.civil_wars = FROM } } remove_from_array = { array = global.civil_wars value = FROM } } 
 				if = {
 					limit = {
-						has_country_flag = left_faction_for_civilwar
+						has_country_flag = left_faction_for_civil_war
 					}
-					var:left_faction_for_civilwar_leader = {
-						add_to_faction = PREV
+					if = {
+						limit = {	
+							has_variable = former_overlord
+						}
+						if = {
+							limit = {
+								has_country_flag = former_overlord_autonomous_zone
+							}
+							var:former_overlord = {
+								set_autonomy = {
+									target = PREV
+									autonomy_state = autonomy_autonomous_zone
+								}
+							}
+							else_if = {
+								limit = {
+									has_country_flag = former_overlord_satellite
+								}
+								var:former_overlord = {
+									set_autonomy = {
+										target = PREV
+										autonomy_state = autonomy_satellite
+									}
+								}
+							}
+							else_if = {
+								limit = {
+									has_country_flag = former_overlord_temporary
+								}
+								var:former_overlord = {
+									set_autonomy = {
+										target = PREV
+										autonomy_state = autonomy_temporary
+									}
+								}
+							}
+						}
+						clear_variable = former_overlord
+						clr_country_flag = former_overlord_autonomous_zone
+						clr_country_flag = former_overlord_satellite
+						clr_country_flag = former_overlord_temporary
 					}
-					clear_variable = left_faction_for_civilwar_leader
-					clr_country_flag = left_faction_for_civilwar
+
+					if = {
+						limit = {
+							has_variable = former_faction_leader
+						}
+						var:former_faction_leader = {
+							add_to_faction = PREV
+						}
+						clear_variable = former_faction_leader
+					}
 				}
 				remove_dynamic_modifier = {
 					modifier = Rival_Government
