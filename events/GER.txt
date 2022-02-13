@@ -48,9 +48,6 @@ country_event = {
 	
 	option = {
 		name = GER_Revolution.1.A
-	}
-	
-	option = {
-		name = GER_Revolution.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event GER_Revolution.1 - GER_Revolution.1.A"
 	}
 }

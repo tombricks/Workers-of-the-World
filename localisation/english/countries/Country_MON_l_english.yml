@@ -55,6 +55,11 @@
  MON_Annexation.3.DESC: ""
  MON_Annexation.3.A: "£skull_emoji"
  
- MON_Annexation.100.TITLE: "Mongolian Civil War"
- MON_Annexation.100.DESC: "$leave_faction_for_civil_war_tt$"
+ MON_Annexation.100.TITLE: "Anti-Unionist Revolt"
+ MON_Annexation.100.DESC: ""
  MON_Annexation.100.A: "£skull_emoji"
+ 
+ MON_Annexation.101.TITLE: "Civil War in Mongolia"
+ MON_Annexation.101.DESC: ""
+ MON_Annexation.101.A: "£skull_emoji"
+ 

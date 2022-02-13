@@ -30,10 +30,12 @@ country_event = {
 	
 	option = {
 		name = ALG_Revolution.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Revolution.1 - ALG_Revolution.1.A"
 	}
 	
 	option = {
 		name = ALG_Revolution.1.B
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Revolution.1 - ALG_Revolution.1.B"
 		ALG = { change_tag_from = UAR }
 	}
 }

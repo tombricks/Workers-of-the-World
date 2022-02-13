@@ -19,6 +19,7 @@ RUS_International_Communist_League_category = {
 
 		cost = 15
 		days_remove = 180
+		on_map_mode = map_and_decisions_view
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: [From.GetName] Target Decision RUS_Invite_FROM_to_League"

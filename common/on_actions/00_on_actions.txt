@@ -68,12 +68,24 @@ on_actions = {
 	on_capitulation = { # Yes
 		effect = {
 			log = "[GetDateText]: Capitulation: [FROM.GetNameWithFlag] defeats [ROOT.GetNameWithFlag]"
-			if = {
-				limit = {
-					FROM = { original_tag = RUS }
-					ROOT = { original_tag = CHI }
+			
+			FROM = {
+				if = {
+					limit = {
+						civilwar_target = ROOT
+					}
+					log = "^^ Civil War Capitulation ([FROM.get_ideology] defeats [FROM.get_ideology])"
+
+					if = {
+						limit = {
+							original_tag = MON
+							has_event_target = MON_Anti_Unionist
+						}
+						RUS = {
+							country_event = MON_Annexation.102
+						}
+					}
 				}
-				# RUS = { country_event = RUS_End_of_China.1 } # see division of china.pdn
 			}
 		}
 	}

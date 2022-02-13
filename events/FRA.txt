@@ -10,6 +10,7 @@ country_event = {
 	
 	option = {
 		name = FRA_Germany.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event FRA_Germany.1 - FRA_Germany.1.A"
 		declare_war_on = {
 			target = GER
 			type = topple_government
@@ -18,5 +19,6 @@ country_event = {
 	
 	option = {
 		name = FRA_Germany.1.B
+		log = "[GetDateText]: [Root.GetName]: country_event FRA_Germany.1 - FRA_Germany.1.B"
 	}
 }

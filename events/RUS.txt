@@ -12,6 +12,7 @@ country_event = {
 	
 	option = {
 		name = RUS_XXVI_Congress.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event RUS_XXVI_Congress.1 - RUS_XXVI_Congress.1.A"
 	}
 }
 
@@ -26,6 +27,7 @@ country_event = {
 	
 	option = {
 		name = RUS_International_Communist_League.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.1 - RUS_International_Communist_League.1.A"
 	}
 }
 
@@ -36,10 +38,11 @@ news_event = {
 	desc = RUS_International_Communist_League.2.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.2" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.2" }
 	
 	option = {
 		name = RUS_International_Communist_League.2.A
+		#log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.2 - RUS_International_Communist_League.2.A"
 	}
 }
 
@@ -50,10 +53,11 @@ news_event = {
 	desc = RUS_International_Communist_League.3.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.3" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.3" }
 	
 	option = {
 		name = RUS_International_Communist_League.3.A
+		#log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.3 - RUS_International_Communist_League.3.A"
 	}
 }
 
@@ -64,10 +68,11 @@ news_event = {
 	desc = RUS_International_Communist_League.4.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.4" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.4" }
 	
 	option = {
 		name = RUS_International_Communist_League.4.A
+		#log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.4 - RUS_International_Communist_League.4.A"
 	}
 }
 
@@ -78,10 +83,11 @@ news_event = {
 	desc = RUS_International_Communist_League.5.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.5" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.5" }
 	
 	option = {
 		name = RUS_International_Communist_League.5.A
+		#log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.5 - RUS_International_Communist_League.5.A"
 	}
 }
 
@@ -96,6 +102,7 @@ country_event = {
 	
 	option = {
 		name = RUS_International_Communist_League.6.A # yes
+		log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.6 - RUS_International_Communist_League.6.A"
 		ai_chance = { base = 399 }
 		RUS = {
 			news_event = RUS_International_Communist_League.7
@@ -112,6 +119,7 @@ country_event = {
 	
 	option = {
 		name = RUS_International_Communist_League.6.B # no
+		log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.6 - RUS_International_Communist_League.6.B"
 		ai_chance = { base = 1 } # trolling
 		RUS = { news_event = RUS_International_Communist_League.8 }
 	}
@@ -124,10 +132,11 @@ news_event = {
 	desc = RUS_International_Communist_League.7.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.7" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.7" }
 	
 	option = {
 		name = RUS_International_Communist_League.7.A
+		#log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.7 - RUS_International_Communist_League.7.A"
 	}
 }
 
@@ -138,9 +147,10 @@ news_event = {
 	desc = RUS_International_Communist_League.8.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.8" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event RUS_International_Communist_League.8" }
 	
 	option = {
 		name = RUS_International_Communist_League.8.A
+		#log = "[GetDateText]: [Root.GetName]: country_event RUS_International_Communist_League.8 - RUS_International_Communist_League.8.A"
 	}
 }

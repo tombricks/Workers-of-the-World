@@ -18,6 +18,7 @@ country_event = {
 	
 	option = {
 		name = YUG_Death_of_Tito.1.A # noooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		log = "[GetDateText]: [Root.GetName]: country_event YUG_Death_of_Tito.1 - YUG_Death_of_Tito.1.A"
 		news_event = YUG_Death_of_Tito.2
 	}
 }
@@ -32,9 +33,10 @@ news_event = {
 	is_triggered_only = yes
 	major = yes
 
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event YUG_Death_of_Tito.2" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event YUG_Death_of_Tito.2" }
 	
 	option = {
-		name = YUG_Death_of_Tito.1.B # :wow:
+		name = YUG_Death_of_Tito.2.A # :wow:
+		#log = "[GetDateText]: [Root.GetName]: country_event YUG_Death_of_Tito.2 - YUG_Death_of_Tito.2.A"
 	}
 }

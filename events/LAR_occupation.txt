@@ -1,4 +1,4 @@
-﻿
+﻿### VANILLA SHIT 
 add_namespace = occupied_countries
 
 # create uprising

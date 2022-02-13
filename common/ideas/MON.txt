@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		MON_Opposition_to_the_Union = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: added idea MON_Opposition_to_the_Union" }
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				New_Marxism_acceptance = 50
+				New_Marxism_drift = 0.01
+			}
+		}
+	}
+}

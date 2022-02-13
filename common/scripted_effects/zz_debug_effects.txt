@@ -529,3 +529,9 @@ d_custom_start_civil_war = {
 		size = var:args^1
 	}
 }
+d_remove_from_league = {
+	for_each_loop = {
+		array = args
+		remove_from_array = { array = RUS.RUS_International_Communist_League_members index = v }
+	}
+}

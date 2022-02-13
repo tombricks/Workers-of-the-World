@@ -11,6 +11,7 @@ country_event = {
 	
 	option = {
 		name = MON_Annexation.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.1 - MON_Annexation.1.A"
 		ai_chance = { base = 85 }
 		RUS = {
 			set_autonomy = {
@@ -48,6 +49,7 @@ country_event = {
 	
 	option = {
 		name = MON_Annexation.1.B
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.1 - MON_Annexation.1.B"
 		ai_chance = { base = 15 }
 		RUS = {
 			news_event = MON_Annexation.3
@@ -62,10 +64,11 @@ news_event = {
 	desc = MON_Annexation.2.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event MON_Annexation.2" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event MON_Annexation.2" }
 	
 	option = {
 		name = MON_Annexation.2.A
+		#log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.2 - MON_Annexation.2.A"
 	}
 }
 
@@ -76,10 +79,11 @@ news_event = {
 	desc = MON_Annexation.3.DESC
 	
 	is_triggered_only = yes
-	immediate = { log = "[GetDateText]: [Root.GetName]: news_event MON_Annexation.3" }
+	#immediate = { log = "[GetDateText]: [Root.GetName]: news_event MON_Annexation.3" }
 	
 	option = {
 		name = MON_Annexation.3.A
+		#log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.3 - MON_Annexation.3.A"
 	}
 }
 
@@ -93,7 +97,28 @@ country_event = {
 	immediate = { log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.4"	}
 	
 	option = {
-		name = MON_Annexation.4.A
+		name = MON_Annexation.4.A # Oke
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.4 - MON_Annexation.4.A"
+		ai_chance = { base = 90 }
+		effect_tooltip = {
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = MON
+			}
+		}
+		MON = {
+			country_event = {
+				id = MON_Annexation.100
+				days = 4
+			}
+		}
+	}
+	
+	option = {
+		name = MON_Annexation.4.B # Oke
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.4 - MON_Annexation.4.B"
+		ai_chance = { base = 10 }
 	}
 }
 
@@ -134,11 +159,107 @@ country_event = {
 					name = MON_Marxism_Leninism_party
 					long_name = MON_Marxism_Leninism_party_long
 				}
+				CHI = {
+					send_equipment = {
+						equipment = infantry_equipment
+						amount = 500
+						target = PREV
+					}
+					add_ai_strategy = {
+						type = send_volunteers_desire
+						id = PREV
+						value = 50
+					}
+					add_ai_strategy = {
+						type = befriend
+						id = PREV
+						value = 50
+					}
+				}
+				save_global_event_target_as = MON_Anti_Unionist
+			}
+			every_country = {
+				news_event = MON_Annexation.101
 			}
 		}
 	}
 	
 	option = {
 		name = MON_Annexation.100.A
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.100 - MON_Annexation.100.A"
+	}
+}
+
+# Mongolian Civil War (News Event)
+news_event = {
+	id = MON_Annexation.101
+	title = MON_Annexation.101.TITLE
+	desc = MON_Annexation.101.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_Annexation.101.A
+	}
+}
+
+# (For RUS) Mongolians Capitulate
+country_event = {
+	id = MON_Annexation.102
+	title = MON_Annexation.102.TITLE
+	desc = MON_Annexation.102.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.102" }
+	
+	option = {
+		name = MON_Annexation.102.A
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.102 - MON_Annexation.102.A"
+		ai_chance = { base = 85 }
+
+		declare_war_on = {
+			target = event_target:MON_Anti_Unionist
+			type = annex_everything 
+		}
+
+		every_country = {
+			news_event = MON_Annexation.103
+		}
+	}
+	
+	option = {
+		name = MON_Annexation.102.B
+		log = "[GetDateText]: [Root.GetName]: country_event MON_Annexation.102 - MON_Annexation.102.B"
+		ai_chance = { base = 15 }
+
+		every_country = {
+			news_event = MON_Annexation.104
+		}
+	}
+}
+
+# Moscow Intervention
+news_event = {
+	id = MON_Annexation.103
+	title = MON_Annexation.103.TITLE
+	desc = MON_Annexation.103.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_Annexation.103.A
+	}
+}
+
+# Moscow admits defeat
+news_event = {
+	id = MON_Annexation.104
+	title = MON_Annexation.104.TITLE
+	desc = MON_Annexation.104.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_Annexation.104.A
 	}
 }
