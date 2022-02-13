@@ -10,7 +10,7 @@ characters={
 				large = "GFX_Portrait_ALB_Enver_Hoxha"
 			}
 			army = {
-				small = "GFX_idea_minister_Enver_Hoxha"
+				small = "GFX_Minister_Enver_Hoxha"
 			}
 		}
 		

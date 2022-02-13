@@ -540,3 +540,13 @@ d_remove_from_league = {
 		remove_from_array = { array = RUS.RUS_International_Communist_League_members index = v }
 	}
 }
+d_add_all_as_influential = {
+	every_character = {
+		add_advisor_role = {
+			advisor = {
+				slot = influential_1
+				cost = 150
+			}
+		}
+	}
+}

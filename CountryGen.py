@@ -126,7 +126,7 @@ set_popularities = {{
 				large = "GFX_Portrait_Generic_Leader"
 			}}
 			army = {{
-				small = "GFX_idea_minister_Generic_Leader"
+				small = "GFX_Minister_Generic_Leader"
 			}}
 		}}
 		
