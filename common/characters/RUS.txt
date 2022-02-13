@@ -10,7 +10,7 @@ characters = {
 				large = "GFX_Portrait_RUS_Yegor_Ligachyov"
 			}
 			army = {
-				small = "GFX_idea_minister_Yegor_Ligachev"
+				small = "GFX_idea_minister_RUS_Yegor_Ligachev"
 			}
 		}
 		
@@ -32,7 +32,7 @@ characters = {
 				large = "GFX_Portrait_RUS_Grigory_Romanov"
 			}
 			army = {
-				small = "GFX_idea_minister_Grigory_Romanov"
+				small = "GFX_idea_minister_RUS_Grigory_Romanov"
 			}
 		}
 
@@ -64,7 +64,7 @@ characters = {
 				large = "GFX_Portrait_RUS_Viktor_Grishin"
 			}
 			army = {
-				small = "GFX_idea_minister_Viktor_Grishin"
+				small = "GFX_idea_minister_RUS_Viktor_Grishin"
 			}
 		}
 
@@ -108,7 +108,7 @@ characters = {
 				large = "GFX_Portrait_RUS_Yevgeny_Stalin"
 			}
 			army = {
-				small = "GFX_idea_minister_Yevgeny_Stalin"
+				small = "GFX_idea_minister_RUS_Yevgeny_Stalin"
 			}
 		}
 
@@ -137,7 +137,7 @@ characters = {
 				large = "GFX_Portrait_RUS_Viktor_Anpilov"
 			}
 			army = {
-				small = "GFX_idea_minister_Viktor_Anpilov"
+				small = "GFX_idea_minister_RUS_Viktor_Anpilov"
 			}
 		}
 		
@@ -166,7 +166,7 @@ characters = {
 				large = "GFX_Portrait_RUS_Nina_Andreyeva"
 			}
 			army = {
-				small = "GFX_idea_minister_Nina_Andreyeva"
+				small = "GFX_idea_minister_RUS_Nina_Andreyeva"
 			}
 		}
 		

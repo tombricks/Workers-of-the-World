@@ -2,102 +2,19 @@ import os
 
 characters = [
 	{
-		"tag": "EGY",
-		"id": "Ali_Sabri",
-		"name": "Ali Sabri",
+		"tag": "ZZZ",
+		"id": "Karl_Marx",
+		"name": "Karl Marx",
 		"leaders": {
-			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
 		},
 		"advisors": {
 		}
 	},
 	{
-		"tag": "EGY",
-		"id": "Sherif_Hatata",
-		"name": "Sherif Hatata",
+		"tag": "ZZZ",
+		"id": "Vladimir_Lenin",
+		"name": "Vladimir Lenin",
 		"leaders": {
-			"Marxism_Leninism": [ "TITLE_Secretary_General", "IDEOLOGY_Communism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "SYR",
-		"id": "Khalid_Bakdash",
-		"name": "Khalid Bakdash",
-		"leaders": {
-			"Marxism_Leninism": [ "TITLE_General_Secretary", "IDEOLOGY_Marxism_Leninism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "SYR",
-		"id": "Salah_Jadid",
-		"name": "Salah Jadid",
-		"leaders": {
-			"Socialism": [ "TITLE_President", "IDEOLOGY_Nasserism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "SYR",
-		"id": "Hafez_al_Assad",
-		"name": "Haffez al-Assad",
-		"leaders": {
-			"Socialism": [ "TITLE_President", "IDEOLOGY_Baathism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "IRQ",
-		"id": "Abdul_Salam_Arif",
-		"name": "Abdul Salam Arif",
-		"leaders": {
-			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "IRQ",
-		"id": "Fuad_al_Rikabi",
-		"name": "Fuad al-Rikabi",
-		"leaders": {
-			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
-		},
-		"advisors": {
-			"influential_1": [ "TITLE_Vice_Chairman" ]
-		}
-	},
-	{
-		"tag": "JOR",
-		"id": "Abdullah_Rimawi",
-		"name": "Abdullah Rimawi",
-		"leaders": {
-			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Nasserism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "LBA",
-		"id": "Muammar_Gaddafi",
-		"name": "Muammar Gaddafi",
-		"leaders": {
-			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Islamic_Socialism" ]
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "TUN",
-		"id": "Habib_Bourguiba",
-		"name": "Habib Bourguiba",
-		"leaders": {
-			"Socialism": [ "TITLE_Chairman", "IDEOLOGY_Islamic_Socialism" ]
 		},
 		"advisors": {
 		}

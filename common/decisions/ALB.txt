@@ -1,0 +1,42 @@
+Political_Decisions = {
+	ALB_Revive_the_Revolutionaries = {
+		icon = GFX_decision_SOV_secure_the_administration
+		allowed = {
+			original_tag = ALB
+		}
+
+		visible = {
+			has_government = Hypersocialism
+			has_full_control_of_state = 126
+			has_full_control_of_state = 219
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { has_government = Hypersocialism }
+				NOT = { has_full_control_of_state = 126 }
+				NOT = { has_full_control_of_state = 219 }
+			}
+		}
+
+		cost = 250
+		fire_only_once = yes
+		days_remove = 60
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ALB_Revive_the_Revolutionaries"
+		}
+		
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision Remove ALB_Revive_the_Revolutionaries"
+			ZZZ = {
+				ZZZ_Karl_Marx = {
+					set_nationality = ROOT
+				}
+				ZZZ_Vladimir_Lenin = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+}

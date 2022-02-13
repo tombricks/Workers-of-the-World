@@ -46,3 +46,6 @@ TAI_Mainland = {
 		original_tag = TAI
 	}
 }
+Political_Decisions = {
+	icon = GFX_decision_category_generic
+}
