@@ -17,6 +17,15 @@
  LBA_Socialism_DEF: "the Libyan Arab Republic"
  LBA_Socialism_ADJ: "Libyan" 
 
+### Cosmetics
+ LBA_Jamahiriya_Socialism: "Revolutionary Libyan Jamahiriya"
+ LBA_Jamahiriya_Socialism_DEF: "the Revolutionary Libyan Jamahiriya"
+ LBA_Jamahiriya_Socialism_ADJ: "Libyan"
+ 
+ LBA_Islamic_Socialism: "Great Islamic State of the Arab Nation"
+ LBA_Islamic_Socialism_DEF: "the Great Islamic State of the Sahel and the Arab Nation"
+ LBA_Islamic_Socialism_ADJ: "Islamo-Arabic"
+
 ### Parties
  LBA_Hypersocialism_party: "$Hypersocialism_party$"
  LBA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
@@ -24,10 +33,31 @@
  LBA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
  LBA_New_Marxism_party: "$New_Marxism_party$"
  LBA_New_Marxism_party_long: "$New_Marxism_party_long$"
- LBA_Socialism_party: "$Socialism_party$"
- LBA_Socialism_party_long: "$Socialism_party_long$"
+ LBA_Socialism_party: "£party_arab_socialist_union Libyan ASU"
+ LBA_Socialism_party_long: "£party_arab_socialist_union ālātḥād ālāštrāky ālʿrby āllyby (Libyan Arab Socialist Union)"
  LBA_Reactionism_party: "$Reactionism_party$"
  LBA_Reactionism_party_long: "$Reactionism_party_long$"
 
  LBA_Muammar_Gaddafi: "Muammar Gaddafi"
  LBA_Muammar_Gaddafi_desc: ""
+
+### Events
+ LBA_Independence.1.TITLE: "Islamic Legionnaire kills General"
+ LBA_Independence.1.DESC: "arab general killed\nwe must revenge\nfuck gaddafi"
+ LBA_Independence.1.A: "inshallah"
+
+ LBA_Independence.2.TITLE: "Islamic Legionnaire kills Arab General"
+ LBA_Independence.2.DESC: ""
+ LBA_Independence.2.A: "£skull_emoji"
+
+ LBA_Independence.3.TITLE: "The Anti-Gaddafi Plot"
+ LBA_Independence.3.DESC: "Muammar Gaddafi, Chairman of the Libyan Arab Socialist Union and leader of the autonomous Libyan Arab Republic within our glorious Federation, has been allowed to roam freely for too long. He has preached anti-constitutional ideas of secessionism and advocated for the official adoption of Islam as the state religion, spitting in the face of the late President Hussein. Gaddafi, or at least his influence, has directly lead to the formation of the Islamic Legion which has now taken the life of a loyal general.\n\nIt has been a long time waiting, but Gaddafi will finally be removed from office."
+ LBA_Independence.3.A: "It is time to cleanse the Federation of Gaddafist corruption..."
+
+ LBA_Independence.4.TITLE: "Attempted Federal Coup against Gaddafi"
+ LBA_Independence.4.DESC: ""
+ LBA_Independence.4.A: "£skull_emoji"
+
+ LBA_Independence.5.TITLE: "Crisis in Libya"
+ LBA_Independence.5.DESC: ""
+ LBA_Independence.5.A: "£skull_emoji"

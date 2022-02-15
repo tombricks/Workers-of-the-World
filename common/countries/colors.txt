@@ -315,8 +315,8 @@ TUN = {
 	color_ui = rgb { 166 76 58 }
 }
 LBA = {
-	color = rgb { 42 130 79 }
-	color_ui = rgb { 42 130 79 }
+	color = rgb { 79 130 42 }
+	color_ui = rgb { 79 130 42 }
 }
 EGY = {
 	color = rgb { 163 132 81 }

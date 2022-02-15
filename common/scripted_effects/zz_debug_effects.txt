@@ -550,3 +550,20 @@ d_add_all_as_influential = {
 		}
 	}
 }
+d_end_subject = {
+	overlord = {
+		set_autonomy = {
+			target = prev
+			autonomy_state = autonomy_free
+		}
+	}
+}
+d_log_date = {
+	log = "[?global.date.GetDateStringNoHourLong]"
+}
+d_Become_CHI_Friend = {
+	set_country_flag = Friend_of@CHI
+}
+d_remove_marshal = {
+	demote_leader = yes
+}

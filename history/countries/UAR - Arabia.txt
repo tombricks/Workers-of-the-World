@@ -1,6 +1,7 @@
 capital = 446
 set_stability = 0.6
 set_war_support = 0.6
+load_oob = "UAR"
 
 # Starting tech
 tech_setup_generic = yes
@@ -20,6 +21,15 @@ create_faction = UAR_League
 add_to_faction = UAR
 add_to_faction = PAL
 add_to_faction = YEM
+
+set_autonomy = { target = ALG autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = TUN autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = LBA autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = JOR autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = LEB autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = SYR autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = IRQ autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = KUW autonomy_state = autonomy_autonomous_zone }
 
 recruit_character = EGY_Kamal_el_Din_Hussein
 recruit_character = SYR_Abdel_Hamid_al_Sarraj

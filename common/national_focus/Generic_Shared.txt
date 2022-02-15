@@ -31,7 +31,7 @@
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 0
-		cost = 10
+		cost = 70
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
@@ -54,7 +54,7 @@
 		x = -1
 		y = 1
 		relative_position_id = army_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -79,7 +79,7 @@
 		x = 1
 		y = 1
 		relative_position_id = army_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -101,7 +101,7 @@
 		x = 0
 		y = 2
 		relative_position_id = army_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -125,7 +125,7 @@
 		x = 0
 		y = 2
 		relative_position_id = equipment_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -149,7 +149,7 @@
 		x = 0
 		y = 2
 		relative_position_id = motorization_effort
-		cost = 10
+		cost = 70
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 
@@ -172,7 +172,7 @@
 		x = 0
 		y = 2
 		relative_position_id = doctrine_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -196,7 +196,7 @@
 		x = 0
 		y = 2
 		relative_position_id = equipment_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -220,7 +220,7 @@
 		x = 0
 		y = 2
 		relative_position_id = mechanization_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -245,7 +245,7 @@
 		x = 1
 		y = 1
 		relative_position_id = equipment_effort_3
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		
@@ -271,7 +271,7 @@
 		icon = GFX_goal_generic_build_airforce
 		x = 5
 		y = 0
-		cost = 10
+		cost = 70
 		
 		search_filters = {   FOCUS_FILTER_RESEARCH }
 
@@ -359,7 +359,7 @@
 		x = -1
 		y = 1
 		relative_position_id = aviation_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -389,7 +389,7 @@
 		x = 1
 		y = 1
 		relative_position_id = aviation_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -415,7 +415,7 @@
 		x = -1
 		y = 1
 		relative_position_id = bomber_focus
-		cost = 10
+		cost = 70
 
 		search_filters = {   FOCUS_FILTER_RESEARCH }
 		
@@ -505,7 +505,7 @@
 		x = -1
 		y = 1
 		relative_position_id = aviation_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -530,7 +530,7 @@
 		x = 0
 		y = 2
 		relative_position_id = aviation_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -563,7 +563,7 @@
 		x = 1
 		y = 1
 		relative_position_id = aviation_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -585,7 +585,7 @@
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 9
 		y = 0
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		
@@ -716,7 +716,7 @@
 		x = -1
 		y = 1
 		relative_position_id = naval_effort
-		cost = 10
+		cost = 70
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 
@@ -758,7 +758,7 @@
 		x = 1
 		y = 1
 		relative_position_id = naval_effort
-		cost = 10
+		cost = 70
 		
 		search_filters = {   FOCUS_FILTER_RESEARCH }
 
@@ -795,7 +795,7 @@
 		x = 0
 		y = 1
 		relative_position_id = flexible_navy
-		cost = 10
+		cost = 70
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -833,7 +833,7 @@
 		x = 0
 		y = 1
 		relative_position_id = large_navy
-		cost = 10
+		cost = 70
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 
@@ -872,7 +872,7 @@
 		x = 0
 		y = 1
 		relative_position_id = submarine_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -910,7 +910,7 @@
 		x = 0
 		y = 1
 		relative_position_id = cruiser_effort
-		cost = 10
+		cost = 70
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -948,7 +948,7 @@
 		icon = GFX_goal_generic_production
 		x = 13
 		y = 0
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		
@@ -993,7 +993,7 @@
 		x = -1
 		y = 1
 		relative_position_id = industrial_effort
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1068,7 +1068,7 @@
 		x = 1
 		y = 1
 		relative_position_id = industrial_effort
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1142,7 +1142,7 @@
 		x = 0
 		y = 1
 		relative_position_id = construction_effort
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1216,7 +1216,7 @@
 		x = 0
 		y = 1
 		relative_position_id = production_effort
-		cost = 10
+		cost = 70
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 
@@ -1290,7 +1290,7 @@
 		x = 0
 		y = 1
 		relative_position_id = construction_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		
@@ -1386,7 +1386,7 @@
 		x = 0
 		y = 1
 		relative_position_id = production_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1460,7 +1460,7 @@
 		x = 0
 		y = 1
 		relative_position_id = infrastructure_effort
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		
@@ -1556,7 +1556,7 @@
 		x = 2
 		y = 1
 		relative_position_id = infrastructure_effort
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1630,7 +1630,7 @@
 		x = -2
 		y = 1
 		relative_position_id = infrastructure_effort_2
-		cost = 10
+		cost = 70
 		
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 
@@ -1660,7 +1660,7 @@
 		x = 0
 		y = 1
 		relative_position_id = infrastructure_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		
@@ -1683,7 +1683,7 @@
 		x = 0
 		y = 1
 		relative_position_id = extra_tech_slot
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		
@@ -1701,7 +1701,7 @@
 		x = 2
 		y = 1
 		relative_position_id = infrastructure_effort_2
-		cost = 10
+		cost = 70
 
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		

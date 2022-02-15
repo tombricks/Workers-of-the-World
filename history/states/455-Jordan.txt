@@ -7,9 +7,9 @@ state={
 	state_category = rural
 
 	history={
-		owner = UAR
-		add_core_of = UAR
+		owner = JOR
 		add_core_of = JOR
+		add_claim_by = UAR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

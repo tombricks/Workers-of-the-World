@@ -1,0 +1,14 @@
+ALG_UAR_Collapse_neutrality = {
+	allowed = {
+		tag = ALG
+	}
+	enable = {
+		has_global_flag = LBA_Independence_event
+	}
+
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = UAR
+		value = 150
+	}
+}

@@ -30,11 +30,6 @@ ideologies = {
 		can_collaborate = yes
 		
 		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
 		}
 		
 		faction_modifiers = { }
@@ -71,11 +66,6 @@ ideologies = {
 		can_collaborate = yes
 		
 		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
 		}
 		
 		faction_modifiers = { }
@@ -112,11 +102,6 @@ ideologies = {
 		can_collaborate = yes
 		
 		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
 		}
 		
 		faction_modifiers = { }
@@ -153,11 +138,6 @@ ideologies = {
 		can_collaborate = yes
 		
 		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
 		}
 		
 		faction_modifiers = { }

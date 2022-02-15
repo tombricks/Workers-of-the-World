@@ -23,7 +23,7 @@
 	focus = {
 		id = RUS_Revitalise_the_International_Department
 		icon = GFX_focus_generic_join_comintern
-		cost = 5
+		cost = 35
 		x = 20
 		y = 0
 		
@@ -43,7 +43,7 @@
 		icon = GFX_focus_focus_fra_revolution_utmost
 		prerequisite = { focus = RUS_Revitalise_the_International_Department }
 		mutually_exclusive = { focus = RUS_Hold_an_Inner_Party_Session }
-		cost = 5
+		cost = 35
 		relative_position_id = RUS_Revitalise_the_International_Department
 		x = -1
 		y = 1
@@ -78,7 +78,7 @@
 		icon = GFX_focus_SOV_socialism_in_one_country
 		prerequisite = { focus = RUS_Revitalise_the_International_Department }
 		mutually_exclusive = { focus = RUS_Prepare_an_International_Conference }
-		cost = 5
+		cost = 35
 		relative_position_id = RUS_Revitalise_the_International_Department
 		x = 1
 		y = 1
@@ -112,7 +112,7 @@
 		id = RUS_Announce_the_International_Communist_League
 		icon = GFX_focus_SOV_proclaim_soviet_hegemony
 		prerequisite = { focus = RUS_Prepare_an_International_Conference focus = RUS_Hold_an_Inner_Party_Session }
-		cost = 5
+		cost = 35
 		relative_position_id = RUS_Revitalise_the_International_Department
 		x = 0
 		y = 2
@@ -168,7 +168,7 @@
 		id = RUS_Invite_Socialist_Observers
 		icon = GFX_focus_prc_agrarian_socialism
 		prerequisite = { focus = RUS_Prepare_an_International_Conference }
-		cost = 5
+		cost = 35
 		relative_position_id = RUS_Revitalise_the_International_Department
 		x = -2
 		y = 3
@@ -187,7 +187,7 @@
 		id = RUS_International_Democratic_Centralism
 		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
 		prerequisite = { focus = RUS_Hold_an_Inner_Party_Session }
-		cost = 5
+		cost = 35
 		relative_position_id = RUS_Revitalise_the_International_Department
 		x = 2
 		y = 3
@@ -213,7 +213,7 @@
 		id = RUS_Integrate_COMECON
 		icon = GFX_focus_SOV_the_comecon
 		prerequisite = { focus = RUS_Announce_the_International_Communist_League }
-		cost = 5
+		cost = 35
 		relative_position_id = RUS_Revitalise_the_International_Department
 		x = 0
 		y = 3
@@ -239,7 +239,7 @@
 		icon = GFX_focus_ger_great_red_menace
 		prerequisite = { focus = RUS_Integrate_COMECON }
 		prerequisite = { focus = RUS_Invite_Socialist_Observers focus = RUS_International_Democratic_Centralism }
-		cost = 5
+		cost = 35
 		relative_position_id = RUS_Revitalise_the_International_Department
 		x = 0
 		y = 4

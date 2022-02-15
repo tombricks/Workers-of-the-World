@@ -1,0 +1,255 @@
+add_namespace = LBA_Independence
+add_namespace = IRQ_Independence
+
+
+#######################
+#### LIBYAN EVENTS ####
+#######################
+
+# UAR: Islamic Legionnaire kills Arab General
+country_event = {
+	id = LBA_Independence.1
+	title = LBA_Independence.1.TITLE
+	desc = LBA_Independence.1.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.1" }
+	
+	option = {
+		name = LBA_Independence.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.1 - LBA_Independence.1.A"
+		random_unit_leader = {
+			limit = {
+				has_character_flag = UAR_Arab_Nationalist
+			}
+			retire = yes
+		}
+		every_country = {
+			news_event = LBA_Independence.2
+		}
+		country_event = {
+			id = LBA_Independence.3
+			days = 4
+		}
+	}
+}
+
+# NEWS: Arab General killed, Hussein vows revenge
+news_event = {
+	id = LBA_Independence.2
+	title = LBA_Independence.2.TITLE
+	desc = LBA_Independence.2.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LBA_Independence.2.A
+	}
+}
+
+# UAR: The Anti-Gaddafi Plot
+country_event = {
+	id = LBA_Independence.3
+	title = LBA_Independence.3.TITLE
+	desc = LBA_Independence.3.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.3" }
+	
+	option = {
+		name = LBA_Independence.3.A
+		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.3 - LBA_Independence.3.A"
+		LBA = {
+			country_event = LBA_Independence.4
+		}
+	}
+}
+
+# LBA: Anti-Gaddafi Coup Fails
+country_event = {
+	id = LBA_Independence.4
+	title = LBA_Independence.4.TITLE
+	desc = LBA_Independence.4.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.4" }
+	
+	option = {
+		name = LBA_Independence.4.A
+		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.4 - LBA_Independence.4.A"
+		UAR = {
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_free
+			}
+		}
+		leave_faction = yes
+		every_country = {
+			news_event = LBA_Independence.5
+		}
+		country_event = {
+			id = LBA_Independence.6
+			days = 3
+		}
+	}
+}
+
+# NEWS: Crisis in Libya 
+news_event = {
+	id = LBA_Independence.5
+	title = LBA_Independence.5.TITLE
+	desc = LBA_Independence.5.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LBA_Independence.5.A
+	}
+}
+
+# LBA: Independence
+country_event = {
+	id = LBA_Independence.6
+	title = LBA_Independence.6.TITLE
+	desc = LBA_Independence.6.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.6" }
+	
+	option = {
+		name = LBA_Independence.6.A
+		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.6 - LBA_Independence.6.A"
+
+		set_cosmetic_tag = LBA_Jamahiriya
+		remove_leader_title = yes
+		add_country_leader_trait = TITLE_Premier
+		set_country_flag = Friend_of@CHI
+
+		every_country = {
+			news_event = LBA_Independence.7
+		}
+		UAR = {
+			country_event = LBA_Independence.8
+		}
+	}
+}
+
+# NEWS: Libya Proclaims Imdependence
+news_event = {
+	id = LBA_Independence.7
+	title = LBA_Independence.7.TITLE
+	desc = LBA_Independence.7.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LBA_Independence.7.A
+	}
+}
+
+# UAR: Libya Independence
+country_event = {
+	id = LBA_Independence.8
+	title = LBA_Independence.8.TITLE
+	desc = LBA_Independence.8.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.8" }
+	
+	option = {
+		name = LBA_Independence.8.A
+		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.8 - LBA_Independence.8.A"
+		ai_chance = { base = 100 }
+		declare_war_on = {
+			target = LBA
+			type = annex_everything
+		}
+		every_country = {
+			news_event = LBA_Independence.9
+		}
+		hidden_effect = {
+			IRQ = {
+				country_event = {
+					id = IRQ_Independence.1
+					days = 7
+				}
+			}
+			set_global_flag = LBA_Independence_event
+		}
+	}
+	
+	option = {
+		name = LBA_Independence.8.B
+		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.8 - LBA_Independence.8.B"
+		ai_chance = { base = 0 } # eventually will cause coup path
+	}
+}
+
+# NEWS: Begun, the Arab Wars have
+news_event = {
+	id = LBA_Independence.9
+	title = LBA_Independence.9.TITLE
+	desc = LBA_Independence.9.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LBA_Independence.9.A
+	}
+}
+
+######################
+#### IRAQI EVENTS ####
+######################
+
+# IRQ: Iraqi Civil War
+country_event = {
+	id = IRQ_Independence.1
+	title = IRQ_Independence.1.TITLE
+	desc = IRQ_Independence.1.DESC
+	
+	is_triggered_only = yes
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: country_event IRQ_Independence.1"
+		hidden_effect = {
+			start_civil_war = {
+				ideology = New_Marxism
+				size = 0.5
+				states = { 291 }
+				save_global_event_target_as = IRQ_Communists
+			}
+		}
+	}
+	
+	option = {
+		name = IRQ_Independence.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event IRQ_Independence.1 - IRQ_Independence.1.A"
+		event_target:IRQ_Communists = {
+			change_tag_from = IRQ
+		}
+		every_country = {
+			news_event = IRQ_Independence.2
+		}
+	}
+	
+	option = {
+		name = IRQ_Independence.1.B
+		log = "[GetDateText]: [Root.GetName]: country_event IRQ_Independence.1 - IRQ_Independence.1.B"
+		every_country = {
+			news_event = IRQ_Independence.2
+		}
+	}
+}
+
+# NEWS: Iraqi Civil War
+news_event = {
+	id = IRQ_Independence.2
+	title = IRQ_Independence.2.TITLE
+	desc = IRQ_Independence.2.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = IRQ_Independence.2.A
+	}
+}

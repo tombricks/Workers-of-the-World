@@ -3,11 +3,11 @@
 from PIL import Image
 import os
 
-template_file = Image.open("./minister_unknown.dds")
+template_file = Image.open("./leader_unknown minister.dds")
 for folder in os.walk('.'):
     if folder[0] != ".":
         for orig_file_name in folder[2]:
-            if os.path.isfile((folder[0] + "\\" + orig_file_name.replace(".dds", "") + " minister.dds")):
+            if not os.path.isfile((folder[0] + "\\" + orig_file_name.replace(".dds", "") + " minister.dds")) and "minister" not in orig_file_name:
                 print(folder[0] + "\\" + orig_file_name)
                 orig_file = Image.open(folder[0] + "\\" + orig_file_name)
                 new_file = template_file

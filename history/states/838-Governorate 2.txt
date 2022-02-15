@@ -5,9 +5,9 @@ state={
 		4176 4194 7066 7209 12009 
 	}
 	history={
-		owner = UAR
-		add_core_of = UAR
+		owner = LBA
 		add_core_of = LBA
+		add_claim_by = UAR
 
 		buildings = {
 			infrastructure = 2

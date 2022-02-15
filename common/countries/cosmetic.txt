@@ -10,3 +10,7 @@ MON_SSR = {
 	color = rgb { 127 39 39 }
 	color_ui = rgb { 127 39 39 }
 }
+LBA_Islamic = {
+	color = rgb { 46 61 52 }
+	color_ui = rgb { 46 61 52 }
+}

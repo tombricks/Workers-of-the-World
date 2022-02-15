@@ -98,4 +98,14 @@ spriteTypes = {
 		name = "GFX_Minister_ZZZ_Vladimir_Lenin"
 		texturefile = "gfx/leaders/ZZZ/Vladimir Lenin minister.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_Portrait_LBA_Muammar_Gaddafi"
+		texturefile = "gfx/leaders/LBA/Muammar Gaddafi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Minister_LBA_Muammar_Gaddafi"
+		texturefile = "gfx/leaders/LBA/Muammar Gaddafi minister.dds"
+	}
 }
