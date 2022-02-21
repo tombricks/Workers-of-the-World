@@ -48,6 +48,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Baathism } localization_key = IDEOLOGY_Baathism } # Ba'athism
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Social_Cromwellianism } localization_key = IDEOLOGY_Social_Cromwellianism } # Cromwell :skull:
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Basedism } localization_key = IDEOLOGY_Basedism } # Basedism
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Left_Wing_Nationalism } localization_key = IDEOLOGY_Left_Wing_Nationalism } # Left-Wing Nationalism
 	# <END OF IDEOLOGIES>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism_noun }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism }
@@ -86,6 +87,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Baathism } localization_key = IDEOLOGY_Baathism_ADJ } # Ba'athist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Social_Cromwellianism } localization_key = IDEOLOGY_Social_Cromwellianism_ADJ } # Ba'athist
 	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Basedism } localization_key = IDEOLOGY_Basedism_ADJ } # Based
+	text = { trigger = { has_country_leader_with_trait = IDEOLOGY_Left_Wing_Nationalism } localization_key = IDEOLOGY_Left_Wing_Nationalism_ADJ } # Left-Wing Nationalist
 	# <END OF IDEOLOGIES ADJ>  CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 	text = { trigger = { has_government = Hypersocialism } localization_key = Hypersocialism }
 	text = { trigger = { has_government = Marxism_Leninism } localization_key = IDEOLOGY_Marxism_Leninism_ADJ }

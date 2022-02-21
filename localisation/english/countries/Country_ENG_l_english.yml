@@ -18,12 +18,13 @@
  ENG_Socialism_ADJ: "British" 
  
 ### Parties
- ENG_Hypersocialism_party: "National Front"
+ ENG_Hypersocialism_party: "CMLR" # christsoc better
+ ENG_Hypersocialism_party_long: "Committee for Marxist-Leninist Revolution"
  ENG_Marxism_Leninism_party: "CPGB"
  ENG_Marxism_Leninism_party_long: "Communist Party of Great Britain"
  ENG_New_Marxism_party: "CPGB-ML"
- ENG_New_Marxism_party_long: "Communist Party of Great Britain (Marxist-Leninist)"
- ENG_Socialism_party: "Labour"
+ ENG_New_Marxism_party_long: "Communist Party of Great Britain (Marxist-Leninist Tendency)"
+ ENG_Socialism_party: "Labour" # militant pogger
  ENG_Socialism_party_long: "Labour Party"
  ENG_Reactionism_party: "$Reactionism_party$"
  ENG_Reactionism_party_long: "$Reactionism_party_long$"
@@ -31,6 +32,18 @@
 ### Characters
  ENG_Tony_Benn: "Tony Benn"
  ENG_Tony_Benn_desc: ""
+ 
+ ENG_Reg_Birch: "Reg Birch"
+ ENG_Reg_Birch_desc: ""
+ 
+ ENG_John_Buckle: "John Buckle"
+ ENG_John_Buckle_desc: ""
+ 
+ ENG_Gordon_McLennan: "Gordon McLennan"
+ ENG_Gordon_McLennan_desc: ""
+ 
+ ENG_Andy_Brooks: "Andy Brooks"
+ ENG_Andy_Brooks_desc: ""
 
 ### Other
  ENG_IRE_faction: "Council of the British Isles"

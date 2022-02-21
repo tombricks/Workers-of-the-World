@@ -47,6 +47,7 @@ characters = {
 		advisor = {
 			slot = influential_1
 			idea_token = MON_Sonomyn_Luvsan_influential_1
+			removal_cost = -1
 			allowed = {
 				original_tag = MON
 			}

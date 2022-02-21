@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ KUR: "Kurdistan"
+ KUR_DEF: "Kurdistan"
+ KUR_ADJ: "Kurdish" 
+ 
+ KUR_Hypersocialism: "Republic of Kurdistan"
+ KUR_Hypersocialism_DEF: "the Republic of Kurdistan"
+ KUR_Marxism_Leninism: "Republic of Kurdistan"
+ KUR_Marxism_Leninism_DEF: "the Republic of Kurdistan"
+ KUR_New_Marxism: "Republic of Kurdistan"
+ KUR_New_Marxism_DEF: "the Republic of Kurdistan"
+ KUR_Socialism: "Republic of Kurdistan"
+ KUR_Socialism_DEF: "the Republic of Kurdistan"
+
+ KUR_Hypersocialism_party: "$Hypersocialism_party$"
+ KUR_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ KUR_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ KUR_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ KUR_New_Marxism_party: "$New_Marxism_party$"
+ KUR_New_Marxism_party_long: "$New_Marxism_party_long$"
+ KUR_Socialism_party: "$Socialism_party$"
+ KUR_Socialism_party_long: "$Socialism_party_long$"
+ KUR_Reactionism_party: "$Reactionism_party$"
+ KUR_Reactionism_party_long: "$Reactionism_party_long$"
+ 

@@ -27,6 +27,7 @@ remove_subideology = {
 	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Baathism } remove_country_leader_trait = IDEOLOGY_Baathism }
 	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Social_Cromwellianism } remove_country_leader_trait = IDEOLOGY_Social_Cromwellianism }
 	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Basedism } remove_country_leader_trait = IDEOLOGY_Basedism }
+	if = { limit = { has_country_leader_with_trait = IDEOLOGY_Left_Wing_Nationalism } remove_country_leader_trait = IDEOLOGY_Left_Wing_Nationalism }
 	# <END OF IDEOLOGIES EFFECT>
 }
 

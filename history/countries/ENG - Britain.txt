@@ -13,8 +13,10 @@ set_politics = {
 }
 
 set_popularities = {
-	Socialism = 92
-	Hypersocialism = 8
+	Socialism = 48
+	Marxism_Leninism = 42
+	New_Marxism = 6
+	Hypersocialism = 4
 }
 
 create_faction = ENG_IRE_faction
@@ -23,4 +25,11 @@ add_to_faction = IRE
 add_to_faction = NIR
 
 recruit_character = ENG_Tony_Benn
-recruit_character = ENG_John_Tyndall
+recruit_character = ENG_Reg_Birch
+recruit_character = ENG_John_Buckle
+recruit_character = ENG_Gordon_McLennan
+recruit_character = ENG_Andy_Brooks
+
+add_ideas = {
+	ENG_Gordon_McLennan_influential_1
+}

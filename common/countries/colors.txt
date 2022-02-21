@@ -182,10 +182,6 @@ PAL = {
 	color = rgb { 178 78 106 }
 	color_ui = rgb { 178 78 106 }
 }
-ISI = {
-	color = rgb { 15 56 33 }
-	color_ui = rgb { 15 56 33 }
-}
 TUR = {
 	color = rgb { 199 74 71 }
 	color_ui = rgb { 199 74 71 }
@@ -597,4 +593,28 @@ COM = {
 SEY = {
 	color = rgb { 203 163 217 }
 	color_ui = rgb { 203 163 217 }
+}
+NYE = {
+	color = rgb { 89 132 163 }
+	color_ui = rgb { 89 132 163 }
+}
+ARA = {
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 153 0 }
+}
+QAT = {
+	color = rgb { 174 85 0 }
+	color_ui = rgb { 174 85 0 }
+}
+OMA = {
+	color = rgb { 141 27 61 }
+	color_ui = rgb { 141 27 61 }
+}
+ISI = {
+	color = rgb { 28 45 28 }
+	color_ui = rgb { 28 45 28 }
+}
+KUR = {
+	color = rgb { 176 90 57 }
+	color_ui = rgb { 176 90 57 }
 }

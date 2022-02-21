@@ -108,6 +108,7 @@ has_subideology = {
 		has_country_leader_with_trait = IDEOLOGY_Baathism
 		has_country_leader_with_trait = IDEOLOGY_Social_Cromwellianism
 		has_country_leader_with_trait = IDEOLOGY_Basedism
+		has_country_leader_with_trait = IDEOLOGY_Left_Wing_Nationalism
 		# <END OF IDEOLOGIES TRIGGER>
 	}
 }

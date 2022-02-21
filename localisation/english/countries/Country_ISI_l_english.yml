@@ -2,13 +2,11 @@
 ### Country Names and Cosmetics
  ISI: "Islamists"
  ISI_DEF: "Islamists"
- ISI_ADJ: "Islamists" 
+ ISI_ADJ: "Islamist" 
  
- ISI_Reactionism: "Islamic Army of Arabia"
- ISI_Reactionism_DEF: "the Islamic Army of Arabia"
- ISI_Reactionism_ADJ: "Islamists" 
+ ISI_Reactionism: "Islamic Army in Arabia"
+ ISI_Reactionism_DEF: "the Islamic Army in Arabia"
 
-### Parties
  ISI_Hypersocialism_party: "$Hypersocialism_party$"
  ISI_Hypersocialism_party_long: "$Hypersocialism_party_long$"
  ISI_Marxism_Leninism_party: "$Marxism_Leninism_party$"
@@ -17,8 +15,6 @@
  ISI_New_Marxism_party_long: "$New_Marxism_party_long$"
  ISI_Socialism_party: "$Socialism_party$"
  ISI_Socialism_party_long: "$Socialism_party_long$"
- ISI_Reactionism_party: "Al-Gama'a"
- ISI_Reactionism_party_long: "Al-Gama'a al-Islamiyya (The Islamic Group)"
-
- ISI_Omar_Abdel_Rahman: "Omar Abdel-Rahman"
- ISI_Omar_Abdel_Rahman_desc: ""
+ ISI_Reactionism_party: "$Reactionism_party$"
+ ISI_Reactionism_party_long: "$Reactionism_party_long$"
+ 

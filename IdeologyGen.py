@@ -1,5 +1,5 @@
 ideologies = [
-	["Basedism", "Basedism", "Based"],
+	["Left_Wing_Nationalism", "Left-Wing Nationalism", "Left-Wing Nationalist"],
 ]
 
 # TRAITS

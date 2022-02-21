@@ -1,6 +1,7 @@
 add_namespace = LBA_Independence
 add_namespace = IRQ_Independence
-
+add_namespace = ALG_Independence
+add_namespace = SYR_Independence
 
 #######################
 #### LIBYAN EVENTS ####
@@ -121,6 +122,7 @@ country_event = {
 		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.6 - LBA_Independence.6.A"
 
 		set_cosmetic_tag = LBA_Jamahiriya
+		add_ideas = ALG_Revolutionary_Jihad
 		remove_leader_title = yes
 		add_country_leader_trait = TITLE_Premier
 		set_country_flag = Friend_of@CHI
@@ -174,6 +176,12 @@ country_event = {
 					days = 7
 				}
 			}
+			ALB = {
+				country_event = {
+					id = ALG_Independence.1
+					days = 9
+				}
+			}
 			set_global_flag = LBA_Independence_event
 		}
 	}
@@ -218,6 +226,13 @@ country_event = {
 				states = { 291 }
 				save_global_event_target_as = IRQ_Communists
 			}
+			set_country_flag = UAR_declared_loyalty
+			SYR = {
+				country_event = {
+					id = SYR_Independence.1
+					days = 7
+				}
+			}
 		}
 	}
 	
@@ -251,5 +266,192 @@ news_event = {
 	
 	option = {
 		name = IRQ_Independence.2.A
+	}
+}
+
+#########################
+#### ALGERIAN EVENTS ####
+#########################
+
+# ALG: Our Position in the Federation
+country_event = {
+	id = ALG_Independence.1
+	title = ALG_Independence.1.TITLE
+	desc = ALG_Independence.1.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.1" }
+	
+	# Affirm Loyalty
+	option = {
+		name = ALG_Independence.1.A
+		ai_chance = { base = 35 }
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.1 - ALG_Independence.1.A"
+		UAR = { country_event = ALG_Independence.2 }
+	}
+	
+	# Loyalty for Independence
+	option = {
+		name = ALG_Independence.1.B
+		ai_chance = { base = 65 }
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.1 - ALG_Independence.1.B"
+		UAR = { country_event = ALG_Independence.3 }
+	}
+}
+
+# ALG: Algeria remains loyal
+country_event = {
+	id = ALG_Independence.2
+	title = ALG_Independence.2.TITLE
+	desc = ALG_Independence.2.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.2" }
+	
+	option = {
+		name = ALG_Independence.2.A
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.2 - ALG_Independence.2.A"
+		ALG = {
+			set_country_flag = UAR_declared_loyalty
+		}
+	}
+}
+
+
+# ALG: Algeria offers loyalty for a cost
+country_event = {
+	id = ALG_Independence.3
+	title = ALG_Independence.3.TITLE
+	desc = ALG_Independence.3.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.3" }
+	
+	option = {
+		name = ALG_Independence.3.A
+		ai_chance = { base = 80 }
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.3 - ALG_Independence.3.A"
+		ALG = { country_event = ALG_Independence.4 }
+	}
+	
+	#option = {
+	#	name = ALG_Independence.3.B
+	#	ai_chance = { base = 0 } # schizophrenia why the fuck would you deny that
+	#	log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.3 - ALG_Independence.3.B"
+	#	ALG = { country_event = ALG_Independence.5 }
+	#}
+}
+
+# ALG: Algeria remains loyal
+country_event = {
+	id = ALG_Independence.4
+	title = ALG_Independence.4.TITLE
+	desc = ALG_Independence.4.DESC
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.4" }
+	
+	option = {
+		name = ALG_Independence.4.A
+		log = "[GetDateText]: [Root.GetName]: country_event ALG_Independence.2 - ALG_Independence.4.A"
+		UAR = {
+			set_autonomy = {
+				target = ALG
+				autonomy_state = autonomy_free
+			}
+		}
+		drop_cosmetic_tag = yes
+		set_party_name = {
+			ideology = Socialism
+			name = ALG_FLN_party
+			long_name = ALG_FLN_party_long
+		}
+		remove_leader_title = yes
+		add_country_leader_trait = TITLE_President
+		add_to_war = {
+			targeted_alliance = UAR
+			enemy = LBA
+		}
+		set_country_flag = UAR_declared_loyalty
+	}
+}
+
+
+#######################
+#### SYRIAN EVENTS ####
+#######################
+
+# SYR: Syrian Civil War
+country_event = {
+	id = SYR_Independence.1
+	title = SYR_Independence.1.TITLE
+	desc = SYR_Independence.1.DESC
+	
+	is_triggered_only = yes
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: country_event SYR_Independence.1"
+		hidden_effect = {
+			start_civil_war = {
+				# Necessary so that the Free Syrian Republic is actually the rebels
+				ideology = New_Marxism
+				set_politics = {
+					ruling_party = Socialism
+				}
+				size = 0.5
+				states = { 677 }
+				keep_political_leader = yes
+				keep_political_party_members = yes 
+				save_global_event_target_as = SYR_Free
+				set_cosmetic_tag = SYR_Free
+				PREV = { 
+					SYR_Akram_al_Hawrani = {
+						set_nationality = PREV.PREV
+					}
+				}
+				SYR_Akram_al_Hawrani = {
+					add_country_leader_role = {
+						promote_leader = yes
+						country_leader = {
+							ideology = Socialism_ideology
+							traits = { TITLE_President IDEOLOGY_Left_Wing_Nationalism }
+							desc = SYR_Akram_al_Hawrani_desc
+						}
+					}
+				}
+			}
+			set_country_flag = UAR_declared_loyalty
+		}
+	}
+	
+	option = {
+		name = SYR_Independence.1.A
+		log = "[GetDateText]: [Root.GetName]: country_event SYR_Independence.1 - SYR_Independence.1.A"
+		event_target:IRQ_Communists = {
+			change_tag_from = IRQ
+		}
+		every_country = {
+			news_event = SYR_Independence.2
+		}
+	}
+	
+	option = {
+		name = SYR_Independence.1.B
+		log = "[GetDateText]: [Root.GetName]: country_event SYR_Independence.1 - SYR_Independence.1.B"
+		every_country = {
+			news_event = SYR_Independence.2
+		}
+	}
+}
+
+# NEWS: Syrian Civil War
+news_event = {
+	id = SYR_Independence.2
+	title = SYR_Independence.2.TITLE
+	desc = SYR_Independence.2.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = SYR_Independence.2.A
 	}
 }

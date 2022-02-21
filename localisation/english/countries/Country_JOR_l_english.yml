@@ -17,6 +17,10 @@
  JOR_Socialism_DEF: "the Socialist Jordanian State"
  JOR_Socialism_ADJ: "Jordanian" 
 
+### Cosmetics
+ JOR_Arab_Republic_Socialism: "Jordanese Arab Republic"
+ JOR_Arab_Republic_Socialism_DEF: "the Jordanese Arab Republic"
+
 ### Parties
  JOR_Hypersocialism_party: "$Hypersocialism_party$"
  JOR_Hypersocialism_party_long: "$Hypersocialism_party_long$"

@@ -1,0 +1,24 @@
+
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		1955 5024 7995 10791 10850 12702 
+	}
+	history = {
+		owner = QAT
+		add_core_of = QAT
+		add_core_of = ARA
+		buildings = {
+			infrastructure = 1
+			12702 = {
+				naval_base = 6
+
+			}
+		}
+	}
+	manpower=480000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ OMA: "South Arabia"
+ OMA_DEF: "South Arabia"
+ OMA_ADJ: "South Arabian" 
+ 
+ OMA_Hypersocialism: "Federal Republic of South Arabia"
+ OMA_Hypersocialism_DEF: "the Federal Republic of South Arabia"
+ OMA_Marxism_Leninism: "Federal Republic of South Arabia"
+ OMA_Marxism_Leninism_DEF: "the Federal Republic of South Arabia"
+ OMA_New_Marxism: "Federal Republic of South Arabia"
+ OMA_New_Marxism_DEF: "the Federal Republic of South Arabia"
+ OMA_Socialism: "Federal Republic of South Arabia"
+ OMA_Socialism_DEF: "the Federal Republic of South Arabia"
+
+ OMA_Hypersocialism_party: "$Hypersocialism_party$"
+ OMA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ OMA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ OMA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ OMA_New_Marxism_party: "$New_Marxism_party$"
+ OMA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ OMA_Socialism_party: "$Socialism_party$"
+ OMA_Socialism_party_long: "$Socialism_party_long$"
+ OMA_Reactionism_party: "$Reactionism_party$"
+ OMA_Reactionism_party_long: "$Reactionism_party_long$"
+ 

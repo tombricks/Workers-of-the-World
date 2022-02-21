@@ -2,18 +2,9 @@ import os
 
 characters = [
 	{
-		"tag": "ZZZ",
-		"id": "Karl_Marx",
-		"name": "Karl Marx",
-		"leaders": {
-		},
-		"advisors": {
-		}
-	},
-	{
-		"tag": "ZZZ",
-		"id": "Vladimir_Lenin",
-		"name": "Vladimir Lenin",
+		"tag": "SYR",
+		"id": "Akram_al_Hawrani",
+		"name": "Akram al-Hawrani",
 		"leaders": {
 		},
 		"advisors": {

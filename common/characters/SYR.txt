@@ -23,6 +23,7 @@ characters = {
 		advisor = {
 			slot = influential_1
 			idea_token = SYR_Abdel_Hamid_al_Sarraj_influential_1
+			removal_cost = -1
 			allowed = {
 				OR = {
 					original_tag = UAR
@@ -116,6 +117,26 @@ characters = {
 			ideology = Socialism_ideology
 			traits = { TITLE_President IDEOLOGY_Baathism }
 			desc = SYR_Hafez_al_Assad_desc
+		}
+		
+		
+	}
+
+}
+characters = {
+	SYR_Akram_al_Hawrani = {
+		name = SYR_Akram_al_Hawrani
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_Minister_Generic_Leader"
+			}
 		}
 		
 		

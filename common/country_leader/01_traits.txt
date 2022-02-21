@@ -44,6 +44,7 @@ leader_traits = {
 	IDEOLOGY_Baathism = { random = no } # Ba'athism
 	IDEOLOGY_Social_Cromwellianism = { random = no } # Cromwell gang
 	IDEOLOGY_Basedism = { random = no } # Basedism
+	IDEOLOGY_Left_Wing_Nationalism = { random = no } # Left-Wing Nationalism
 	# <END OF IDEOLOGIES> CHANGE THIS AND YOU SHOULD KILL YOURSELF NOW!!!!!!
 
 	NTH_turncoat = {

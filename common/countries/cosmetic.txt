@@ -14,3 +14,7 @@ LBA_Islamic = {
 	color = rgb { 46 61 52 }
 	color_ui = rgb { 46 61 52 }
 }
+SYR_Free = {
+	color = rgb { 132 114 150 }
+	color_ui = rgb { 132 114 150 }
+}

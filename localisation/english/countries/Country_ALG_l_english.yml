@@ -4,18 +4,25 @@
  ALG_DEF: "Algeria"
  ALG_ADJ: "Algerian" 
  
- ALG_Hypersocialism: "Algerian Arab Republic"
- ALG_Hypersocialism_DEF: "the Algerian Arab Republic"
+ ALG_Hypersocialism: "Algerian Republic"
+ ALG_Hypersocialism_DEF: "the Algerian Republic"
  ALG_Hypersocialism_ADJ: "Algerian" 
- ALG_Marxism_Leninism: "Algerian Arab Republic"
- ALG_Marxism_Leninism_DEF: "the Algerian Arab Republic"
+ ALG_Marxism_Leninism: "Algerian Republic"
+ ALG_Marxism_Leninism_DEF: "the Algerian Republic"
  ALG_Marxism_Leninism_ADJ: "Algerian" 
- ALG_New_Marxism: "Algerian Arab Republic"
- ALG_New_Marxism_DEF: "the Algerian Arab Republic"
+ ALG_New_Marxism: "Algerian Republic"
+ ALG_New_Marxism_DEF: "the Algerian Republic"
  ALG_New_Marxism_ADJ: "Algerian" 
- ALG_Socialism: "Algerian Arab Republic"
- ALG_Socialism_DEF: "the Algerian Arab Republic"
+ ALG_Socialism: "Algerian Republic"
+ ALG_Socialism_DEF: "the Algerian Republic"
  ALG_Socialism_ADJ: "Algerian" 
+
+### Cosmetics
+ ALG_Arab_Republic_Socialism: "Algerian Arab Republic"
+ ALG_Arab_Republic_Socialism_DEF: "the Algerian Arab Republic"
+
+ ALG_FLN_party: "FLN"
+ ALG_FLN_party_long: "Front de libération nationale (National Liberation Front)"
 
 ### Parties
  ALG_Hypersocialism_party: "$Hypersocialism_party$"

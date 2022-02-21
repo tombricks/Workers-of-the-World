@@ -3,25 +3,18 @@
 
 countries = [
 	{
-		"tag":				"SEY",
-		"name":				"Seychelles",
-		"adj":				"Seychelles",
-		"ideology":			"New_Marxism",
-		"capital":			"709",
-		"colour":			"203 163 217",
-		"culture":			"African",
-		"long_name":		"Republic of Seychelles",
-		"long_name_def":	"the Republic of Seychelles",
+		"tag":				"KUR",
+		"name":				"Kurdistan",
+		"adj":				"Kurdish",
+		"ideology":			"Marxism_Leninism",
+		"capital":			"419",
+		"colour":			"176 90 57",
+		"culture":			"Middle_Eastern",
+		"long_name":		"Republic of Kurdistan",
+		"long_name_def":	"the Republic of Kurdistan",
 		"parties":			{
-			"New_Marxism": [ "FPPS", "Front Progressiste du Peuple Seychellois (Seychelles People's Progressive Front)" ],
 		},
 		"characters":		{
-			"France_Albert_Rene": {
-				"name": "France-Albert René",
-				"title": "President",
-				"subideology": "Marxism_Leninism",
-				"ideologies": [ "New_Marxism" ]
-			}
 		}
 	}
 ]

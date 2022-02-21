@@ -2,29 +2,30 @@
 state={
 	id=420
 	name="STATE_420"
-	manpower = 1314948
-	
-	state_category = rural
 
 	history={
-		owner = IRN
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = AZR
 		add_core_of = IRN
 		victory_points = {
-			7969 5
+			7969 5 
 		}
 		victory_points = {
-			4901 3
+			4901 3 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
-		# PER
-		# AZR
+
 	}
 
 	provinces={
-		4553 4609 4637 4901 7969 10454 10523 
+		1896 2071 4553 4755 4825 4901 10454 12793 12861 13120 
 	}
-
-	local_supplies=3.0 
+	manpower=1314948
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=3.000
 }

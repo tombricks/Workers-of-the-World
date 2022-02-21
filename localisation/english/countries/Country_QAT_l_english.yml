@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ QAT: "Qatif"
+ QAT_DEF: "Qatif"
+ QAT_ADJ: "Qatif" 
+ 
+ QAT_Hypersocialism: "Qatif Popular Front"
+ QAT_Hypersocialism_DEF: "the Popular Front for the Liberation of Eastern Arabia"
+ QAT_Marxism_Leninism: "Qatif Popular Front"
+ QAT_Marxism_Leninism_DEF: "the Popular Front for the Liberation of Eastern Arabia"
+ QAT_New_Marxism: "Qatif Popular Front"
+ QAT_New_Marxism_DEF: "the Popular Front for the Liberation of Eastern Arabia"
+ QAT_Socialism: "Qatif Popular Front"
+ QAT_Socialism_DEF: "the Popular Front for the Liberation of Eastern Arabia"
+
+ QAT_Hypersocialism_party: "$Hypersocialism_party$"
+ QAT_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ QAT_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ QAT_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ QAT_New_Marxism_party: "$New_Marxism_party$"
+ QAT_New_Marxism_party_long: "$New_Marxism_party_long$"
+ QAT_Socialism_party: "$Socialism_party$"
+ QAT_Socialism_party_long: "$Socialism_party_long$"
+ QAT_Reactionism_party: "$Reactionism_party$"
+ QAT_Reactionism_party_long: "$Reactionism_party_long$"
+ 

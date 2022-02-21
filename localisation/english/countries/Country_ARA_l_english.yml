@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ ARA: "Arabia"
+ ARA_DEF: "Arabia"
+ ARA_ADJ: "Arabian" 
+ 
+ ARA_Hypersocialism: "Arabian Republic"
+ ARA_Hypersocialism_DEF: "the Arabian Republic"
+ ARA_Marxism_Leninism: "Arabian Republic"
+ ARA_Marxism_Leninism_DEF: "the Arabian Republic"
+ ARA_New_Marxism: "Arabian Republic"
+ ARA_New_Marxism_DEF: "the Arabian Republic"
+ ARA_Socialism: "Arabian Republic"
+ ARA_Socialism_DEF: "the Arabian Republic"
+
+ ARA_Hypersocialism_party: "$Hypersocialism_party$"
+ ARA_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ ARA_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ ARA_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ ARA_New_Marxism_party: "$New_Marxism_party$"
+ ARA_New_Marxism_party_long: "$New_Marxism_party_long$"
+ ARA_Socialism_party: "$Socialism_party$"
+ ARA_Socialism_party_long: "$Socialism_party_long$"
+ ARA_Reactionism_party: "$Reactionism_party$"
+ ARA_Reactionism_party_long: "$Reactionism_party_long$"
+ 

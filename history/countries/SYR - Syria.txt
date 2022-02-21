@@ -21,3 +21,5 @@ recruit_character = SYR_Khalid_Bakdash
 recruit_character = SYR_Salah_Jadid
 
 recruit_character = SYR_Hafez_al_Assad
+
+recruit_character = SYR_Akram_al_Hawrani

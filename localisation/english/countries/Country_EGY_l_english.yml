@@ -4,18 +4,22 @@
  EGY_DEF: "Egypt"
  EGY_ADJ: "Egyptian" 
  
- EGY_Hypersocialism: "Egyptian Arab Republic"
- EGY_Hypersocialism_DEF: "the Egyptian Arab Republic"
+ EGY_Hypersocialism: "Arab Republic of Egypt"
+ EGY_Hypersocialism_DEF: "the Arab Republic of Egypt"
  EGY_Hypersocialism_ADJ: "Egyptian" 
- EGY_Marxism_Leninism: "Egyptian Arab Republic"
- EGY_Marxism_Leninism_DEF: "the Egyptian Arab Republic"
+ EGY_Marxism_Leninism: "Arab Republic of Egypt"
+ EGY_Marxism_Leninism_DEF: "the Arab Republic of Egypt"
  EGY_Marxism_Leninism_ADJ: "Egyptian" 
- EGY_New_Marxism: "Egyptian Arab Republic"
- EGY_New_Marxism_DEF: "the Egyptian Arab Republic"
+ EGY_New_Marxism: "Arab Republic of Egypt"
+ EGY_New_Marxism_DEF: "the Arab Republic of Egypt"
  EGY_New_Marxism_ADJ: "Egyptian" 
- EGY_Socialism: "Egyptian Arab Republic"
- EGY_Socialism_DEF: "the Egyptian Arab Republic"
+ EGY_Socialism: "Arab Republic of Egypt"
+ EGY_Socialism_DEF: "the Arab Republic of Egypt"
  EGY_Socialism_ADJ: "Egyptian" 
+
+### Cosmetics
+ EGY_Arab_Republic_Socialism: "Egyptian Arab Republic"
+ EGY_Arab_Republic_Socialism_DEF: "the Egyptian Arab Republic"
 
 ### Parties
  EGY_Hypersocialism_party: "$Hypersocialism_party$"

@@ -4,18 +4,22 @@
  KUW_DEF: "Kuwait"
  KUW_ADJ: "Kuwaiti" 
  
- KUW_Hypersocialism: "Kuwaiti Arab Republic"
- KUW_Hypersocialism_DEF: "the Kuwaiti Arab Republic"
+ KUW_Hypersocialism: "State of Kuwait"
+ KUW_Hypersocialism_DEF: "the State of Kuwait"
  KUW_Hypersocialism_ADJ: "Kuwaiti" 
- KUW_Marxism_Leninism: "Kuwaiti Arab Republic"
- KUW_Marxism_Leninism_DEF: "the Kuwaiti Arab Republic"
+ KUW_Marxism_Leninism: "State of Kuwait"
+ KUW_Marxism_Leninism_DEF: "the State of Kuwait"
  KUW_Marxism_Leninism_ADJ: "Kuwaiti" 
- KUW_New_Marxism: "Kuwaiti Arab Republic"
- KUW_New_Marxism_DEF: "the Kuwaiti Arab Republic"
+ KUW_New_Marxism: "State of Kuwait"
+ KUW_New_Marxism_DEF: "the State of Kuwait"
  KUW_New_Marxism_ADJ: "Kuwaiti" 
- KUW_Socialism: "Kuwaiti Arab Republic"
- KUW_Socialism_DEF: "the Kuwaiti Arab Republic"
+ KUW_Socialism: "State of Kuwait"
+ KUW_Socialism_DEF: "the State of Kuwait"
  KUW_Socialism_ADJ: "Kuwaiti" 
+
+### Cosmetics
+ KUW_Arab_Republic_Socialism: "Kuwaiti Arab Republic"
+ KUW_Arab_Republic_Socialism_DEF: "the Kuwaiti Arab Republic"
 
 ### Parties
  KUW_Hypersocialism_party: "$Hypersocialism_party$"

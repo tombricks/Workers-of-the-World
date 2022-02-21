@@ -4,8 +4,8 @@
  IRQ_DEF: "Iraq"
  IRQ_ADJ: "Iraqi" 
  
- IRQ_Hypersocialism: "Iraqi Arab Republic"
- IRQ_Hypersocialism_DEF: "the Iraqi Arab Republic"
+ IRQ_Hypersocialism: "Iraqi Socialist Republic"
+ IRQ_Hypersocialism_DEF: "the Iraqi Socialist Republic"
  IRQ_Hypersocialism_ADJ: "Iraqi" 
  IRQ_Marxism_Leninism: "Iraqi Socialist Republic"
  IRQ_Marxism_Leninism_DEF: "the Iraqi Socialist Republic"
@@ -13,9 +13,13 @@
  IRQ_New_Marxism: "Iraqi Socialist Republic"
  IRQ_New_Marxism_DEF: "the Iraqi Socialist Republic"
  IRQ_New_Marxism_ADJ: "Iraqi" 
- IRQ_Socialism: "Iraqi Arab Republic"
- IRQ_Socialism_DEF: "the Iraqi Arab Republic"
+ IRQ_Socialism: "Iraqi Socialist Republic"
+ IRQ_Socialism_DEF: "the Iraqi Socialist Republic"
  IRQ_Socialism_ADJ: "Iraqi" 
+
+### Cosmetics
+ IRQ_Arab_Republic_Socialism: "Iraqi Arab Republic"
+ IRQ_Arab_Republic_Socialism_DEF: "the Iraqi Arab Republic"
 
 ### Parties
  IRQ_Hypersocialism_party: "$Hypersocialism_party$"

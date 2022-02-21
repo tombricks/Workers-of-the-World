@@ -22,14 +22,16 @@ add_to_faction = UAR
 add_to_faction = PAL
 add_to_faction = YEM
 
-set_autonomy = { target = ALG autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = TUN autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = LBA autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = JOR autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = LEB autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = SYR autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = IRQ autonomy_state = autonomy_autonomous_zone }
-set_autonomy = { target = KUW autonomy_state = autonomy_autonomous_zone }
+set_autonomy = { target = ALG autonomy_state = autonomy_autonomous_zone } ALG = { set_cosmetic_tag = ALG_Arab_Republic }
+set_autonomy = { target = TUN autonomy_state = autonomy_autonomous_zone } TUN = { set_cosmetic_tag = TUN_Arab_Republic }
+set_autonomy = { target = LBA autonomy_state = autonomy_autonomous_zone } LBA = { set_cosmetic_tag = LBA_Arab_Republic }
+set_autonomy = { target = JOR autonomy_state = autonomy_autonomous_zone } JOR = { set_cosmetic_tag = JOR_Arab_Republic }
+set_autonomy = { target = LEB autonomy_state = autonomy_autonomous_zone } LEB = { set_cosmetic_tag = LEB_Arab_Republic }
+set_autonomy = { target = SYR autonomy_state = autonomy_autonomous_zone } SYR = { set_cosmetic_tag = SYR_Arab_Republic }
+set_autonomy = { target = IRQ autonomy_state = autonomy_autonomous_zone } IRQ = { set_cosmetic_tag = IRQ_Arab_Republic }
+set_autonomy = { target = KUW autonomy_state = autonomy_autonomous_zone } KUW = { set_cosmetic_tag = KUW_Arab_Republic }
+set_autonomy = { target = NYE autonomy_state = autonomy_autonomous_zone } NYE = { set_cosmetic_tag = NYE_Arab_Republic }
+set_autonomy = { target = ARA autonomy_state = autonomy_satellite }
 
 recruit_character = EGY_Kamal_el_Din_Hussein
 recruit_character = SYR_Abdel_Hamid_al_Sarraj

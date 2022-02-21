@@ -646,3 +646,51 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 		}
 	}
 }
+DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER_OVERRIDES_GAME = {
+	always = yes
+}
+
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			FROM = {
+				original_tag = UAR
+			}
+			UAR_original = yes
+		}
+		has_country_flag = UAR_declared_loyalty
+	}
+	if = {
+		limit = {
+			original_tag = UAR
+			FROM = {
+				UAR_original = yes
+			}
+		}
+		FROM = {
+			has_country_flag = UAR_declared_loyalty
+		}
+	}
+}
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			original_tag = UAR
+			FROM = {
+				UAR_original = yes
+			}
+		}
+		FROM = {
+			has_country_flag = UAR_declared_loyalty
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				original_tag = UAR
+			}
+			UAR_original = yes
+		}
+		has_country_flag = UAR_declared_loyalty
+	}
+}

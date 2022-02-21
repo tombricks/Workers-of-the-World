@@ -39,6 +39,7 @@ characters = {
 		advisor = {
 			slot = influential_1
 			idea_token = RUS_Grigory_Romanov_influential_1
+			removal_cost = -1
 			allowed = {
 				original_tag = RUS
 			}
@@ -83,6 +84,7 @@ characters = {
 		advisor = {
 			slot = influential_2
 			idea_token = RUS_Viktor_Grishin_influential_2
+			removal_cost = -1
 			allowed = {
 				original_tag = RUS
 			}

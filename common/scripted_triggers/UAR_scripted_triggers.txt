@@ -1,0 +1,13 @@
+UAR_original = {
+	OR = {
+		original_tag = ALG
+		original_tag = TUN
+		original_tag = LBA
+		original_tag = JOR
+		original_tag = LEB
+		original_tag = SYR
+		original_tag = IRQ
+		original_tag = KUW
+		original_tag = NYE
+	}
+}

@@ -20,8 +20,35 @@ characters={
 			desc = ENG_Tony_Benn_desc
 		}
 	}
-	ENG_John_Tyndall = {
-		name = "John Tyndall"
+	ENG_Reg_Birch = {
+		name = ENG_Reg_Birch
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_Minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = New_Marxism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism }
+			desc = ENG_Reg_Birch_desc
+		}
+		
+		country_leader = {
+			ideology = Hypersocialism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism }
+			desc = ENG_Reg_Birch_desc
+		}
+	}
+	ENG_John_Buckle = {
+		name = ENG_John_Buckle
 
 		allowed_civil_war = {
 		}
@@ -37,8 +64,60 @@ characters={
 		
 		country_leader = {
 			ideology = Hypersocialism_ideology
-			traits = { TITLE_Lord_Protector IDEOLOGY_Social_Cromwellianism }
-			desc = ENG_John_Tyndall_desc
+			traits = { TITLE_General_Secretary IDEOLOGY_Labourism }
+			desc = ENG_John_Buckle_desc
+		}
+	}
+	ENG_Gordon_McLennan = {
+		name = ENG_Gordon_McLennan
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_Minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_General_Secretary IDEOLOGY_Marxism_Leninism }
+			desc = ENG_Gordon_McLennan_desc
+		}
+
+		advisor = {
+			slot = influential_1
+			idea_token = ENG_Gordon_McLennan_influential_1
+			removal_cost = -1
+			allowed = {
+				original_tag = RUS
+			}
+			on_add = {
+				log = "[GetDateText]: [This.GetName]: Added Advisor ENG_Gordon_McLennan"
+			}
+			on_remove = {
+				log = "[GetDateText]: [This.GetName]: Removed Advisor ENG_Gordon_McLennan"
+			}
+			traits = { TITLE_General_Secretary }
+		}
+	}
+	ENG_Andy_Brooks = {
+		name = ENG_Andy_Brooks
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_Minister_Generic_Leader"
+			}
 		}
 	}
 }

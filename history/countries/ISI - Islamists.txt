@@ -9,11 +9,10 @@ set_politics = {
 	ruling_party = Reactionism
 	last_election = "1978.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	Reactionism = 100
 }
 
-recruit_character = ISI_Omar_Abdel_Rahman

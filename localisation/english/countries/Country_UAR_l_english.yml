@@ -23,6 +23,7 @@
 
 ### Other
  UAR_League: "League of Arab States"
+ UAR_declared_loyalty: "Has declared loyalty to [UAR.GetNameWithFlag]"
 
 ### Parties
  UAR_Hypersocialism_party: "$Hypersocialism_party$"

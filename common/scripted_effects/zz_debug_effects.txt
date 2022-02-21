@@ -333,7 +333,7 @@ d_world_ussr = {
 				autonomy_state = autonomy_autonomous_zone
 			}
 		}
-		set_cosmetic_tag = COUNTRY_RUSIET_SOCIALIST_REPUBLIC
+		set_cosmetic_tag = COUNTRY_SOVIET_SOCIALIST_REPUBLIC
 	}
 }
 d_insane_attack = {
@@ -545,6 +545,7 @@ d_add_all_as_influential = {
 		add_advisor_role = {
 			advisor = {
 				slot = influential_1
+				removal_cost = -1
 				cost = 150
 			}
 		}

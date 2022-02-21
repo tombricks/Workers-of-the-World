@@ -50,6 +50,7 @@ characters = {
 		advisor = {
 			slot = influential_1
 			idea_token = IRQ_Fuad_al_Rikabi_influential_1
+			removal_cost = -1
 			allowed = {
 				original_tag = IRQ
 			}

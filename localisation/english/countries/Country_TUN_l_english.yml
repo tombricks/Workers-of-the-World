@@ -4,18 +4,22 @@
  TUN_DEF: "Tunisia"
  TUN_ADJ: "Tunisian" 
  
- TUN_Hypersocialism: "Tunisian Arab Republic"
- TUN_Hypersocialism_DEF: "the Tunisian Arab Republic"
+ TUN_Hypersocialism: "Tunisian Republic"
+ TUN_Hypersocialism_DEF: "the Tunisian Republic"
  TUN_Hypersocialism_ADJ: "Tunisian" 
- TUN_Marxism_Leninism: "Tunisian Arab Republic"
- TUN_Marxism_Leninism_DEF: "the Tunisian Arab Republic"
+ TUN_Marxism_Leninism: "Tunisian Republic"
+ TUN_Marxism_Leninism_DEF: "the Tunisian Republic"
  TUN_Marxism_Leninism_ADJ: "Tunisian" 
- TUN_New_Marxism: "Tunisian Arab Republic"
- TUN_New_Marxism_DEF: "the Tunisian Arab Republic"
+ TUN_New_Marxism: "Tunisian Republic"
+ TUN_New_Marxism_DEF: "the Tunisian Republic"
  TUN_New_Marxism_ADJ: "Tunisian" 
- TUN_Socialism: "Tunisian Arab Republic"
- TUN_Socialism_DEF: "the Tunisian Arab Republic"
+ TUN_Socialism: "Tunisian Republic"
+ TUN_Socialism_DEF: "the Tunisian Republic"
  TUN_Socialism_ADJ: "Tunisian" 
+
+### Cosmetics
+ TUN_Arab_Republic_Socialism: "Tunisian Arab Republic"
+ TUN_Arab_Republic_Socialism_DEF: "the Tunisian Arab Republic"
 
 ### Parties
  TUN_Hypersocialism_party: "$Hypersocialism_party$"

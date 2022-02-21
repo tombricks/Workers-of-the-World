@@ -1,0 +1,30 @@
+﻿l_english:
+### Country Names and Cosmetics
+ NYE: "North Yemen"
+ NYE_DEF: "North Yemen"
+ NYE_ADJ: "North Yemeni" 
+ 
+ NYE_Hypersocialism: "Republic of Yemen"
+ NYE_Hypersocialism_DEF: "the Republic of Yemen"
+ NYE_Marxism_Leninism: "Republic of Yemen"
+ NYE_Marxism_Leninism_DEF: "the Republic of Yemen"
+ NYE_New_Marxism: "Republic of Yemen"
+ NYE_New_Marxism_DEF: "the Republic of Yemen"
+ NYE_Socialism: "Republic of Yemen"
+ NYE_Socialism_DEF: "the Republic of Yemen"
+
+### Cosmetics
+ NYE_Arab_Republic_Socialism: "Yemen Arab Republic"
+ NYE_Arab_Republic_Socialism_DEF: "the Yemen Arab Republic"
+
+ NYE_Hypersocialism_party: "$Hypersocialism_party$"
+ NYE_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ NYE_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ NYE_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ NYE_New_Marxism_party: "$New_Marxism_party$"
+ NYE_New_Marxism_party_long: "$New_Marxism_party_long$"
+ NYE_Socialism_party: "$Socialism_party$"
+ NYE_Socialism_party_long: "$Socialism_party_long$"
+ NYE_Reactionism_party: "$Reactionism_party$"
+ NYE_Reactionism_party_long: "$Reactionism_party_long$"
+ 
