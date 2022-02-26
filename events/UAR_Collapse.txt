@@ -162,6 +162,14 @@ country_event = {
 		name = LBA_Independence.8.A
 		log = "[GetDateText]: [Root.GetName]: country_event LBA_Independence.8 - LBA_Independence.8.A"
 		ai_chance = { base = 100 }
+		LBA = {
+			leave_faction = yes
+			create_faction = LBA_FACTION
+			SUD = {
+				leave_faction = yes
+			}
+			add_to_faction = SUD
+		}
 		declare_war_on = {
 			target = LBA
 			type = annex_everything

@@ -6,12 +6,19 @@ set_war_support = 0.6
 tech_setup_generic = yes
 
 set_politics = {
-	ruling_party = Marxism_Leninism
+	ruling_party = Socialism
 	last_election = "1978.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+set_country_flag = Friend_of@CHI
+
 set_popularities = {
-	Marxism_Leninism = 100
+	Socialism = 80
+	Marxism_Leninism = 20
 }
+
+recruit_character = SUD_Jaafar_Nimeiry
+
+recruit_character = SUD_Abdel_Khaliq_Mahjub

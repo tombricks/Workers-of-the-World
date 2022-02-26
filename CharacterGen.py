@@ -2,10 +2,21 @@ import os
 
 characters = [
 	{
-		"tag": "SYR",
-		"id": "Akram_al_Hawrani",
-		"name": "Akram al-Hawrani",
+		"tag": "SUD",
+		"id": "Jaafar_Nimeiry",
+		"name": "Jaafar Nimeiry",
 		"leaders": {
+			"Socialism": [ "TITLE_President", "IDEOLOGY_Islamic_Socialism" ]
+		},
+		"advisors": {
+		}
+	},
+	{
+		"tag": "SUD",
+		"id": "Abdel_Khaliq_Mahjub",
+		"name": "Abdel Khaliq Mahjub",
+		"leaders": {
+			"Marxism_Leninism": [ "TITLE_Secretary_General", "IDEOLOGY_Marxism_Leninism" ]
 		},
 		"advisors": {
 		}

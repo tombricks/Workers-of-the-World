@@ -85,6 +85,7 @@ add_to_faction = BNG
 add_to_faction = VIE
 add_to_faction = LAO
 add_to_faction = CAM
+set_autonomy = { target = KUR autonomy_state = autonomy_satellite }
 
 recruit_character = RUS_Vasily_Ivanovich_Chuikov
 recruit_character = RUS_Kirill_Semyonov_Moskalenko

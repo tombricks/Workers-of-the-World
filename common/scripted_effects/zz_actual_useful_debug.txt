@@ -23,3 +23,9 @@ d_debug_log_all_ruling_parties = {
 		log = "tombricks log: [THIS.GetName] ([THIS.GetTag]) [THIS.get_ideology_adj]: ruling party long: [THIS.GetRulingPartyLong]"
 	}
 }
+d_debug_log_owned_states = {
+	log = " ---------- logging states owned by [THIS.GetTag] [THIS.GetName] ---------- "
+	every_owned_state = {
+		log = "tombricks log: State [THIS.GetId] [THIS.GetName]"
+	}
+}

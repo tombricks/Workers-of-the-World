@@ -618,3 +618,7 @@ KUR = {
 	color = rgb { 176 90 57 }
 	color_ui = rgb { 176 90 57 }
 }
+DON = {
+	color = rgb { 91 51 83 }
+	color_ui = rgb { 91 51 83 }
+}

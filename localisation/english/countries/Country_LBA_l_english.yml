@@ -41,8 +41,12 @@
  LBA_Reactionism_party: "$Reactionism_party$"
  LBA_Reactionism_party_long: "$Reactionism_party_long$"
 
+### Characters
  LBA_Muammar_Gaddafi: "Muammar Gaddafi"
  LBA_Muammar_Gaddafi_desc: ""
+
+### Other
+ LBA_FACTION: "Group of African States"
 
 ### Events
  LBA_Independence.1.TITLE: "Islamic Legionnaire kills General"

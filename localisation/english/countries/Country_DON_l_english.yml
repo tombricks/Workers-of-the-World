@@ -1,0 +1,26 @@
+﻿l_english:
+### Country Names and Cosmetics
+ DON: "Donbass"
+ DON_DEF: "Donbass"
+ DON_ADJ: "Donbass" 
+ 
+ DON_Hypersocialism: "Federal State of Donbass"
+ DON_Hypersocialism_DEF: "the Federal State of Donbass"
+ DON_Marxism_Leninism: "Federal State of Donbass"
+ DON_Marxism_Leninism_DEF: "the Federal State of Donbass"
+ DON_New_Marxism: "Federal State of Donbass"
+ DON_New_Marxism_DEF: "the Federal State of Donbass"
+ DON_Socialism: "Federal State of Donbass"
+ DON_Socialism_DEF: "the Federal State of Donbass"
+
+ DON_Hypersocialism_party: "$Hypersocialism_party$"
+ DON_Hypersocialism_party_long: "$Hypersocialism_party_long$"
+ DON_Marxism_Leninism_party: "$Marxism_Leninism_party$"
+ DON_Marxism_Leninism_party_long: "$Marxism_Leninism_party_long$"
+ DON_New_Marxism_party: "$New_Marxism_party$"
+ DON_New_Marxism_party_long: "$New_Marxism_party_long$"
+ DON_Socialism_party: "$Socialism_party$"
+ DON_Socialism_party_long: "$Socialism_party_long$"
+ DON_Reactionism_party: "$Reactionism_party$"
+ DON_Reactionism_party_long: "$Reactionism_party_long$"
+ 

@@ -3,15 +3,15 @@
 
 countries = [
 	{
-		"tag":				"KUR",
-		"name":				"Kurdistan",
-		"adj":				"Kurdish",
+		"tag":				"DON",
+		"name":				"Donbass",
+		"adj":				"Donbass",
 		"ideology":			"Marxism_Leninism",
-		"capital":			"419",
-		"colour":			"176 90 57",
-		"culture":			"Middle_Eastern",
-		"long_name":		"Republic of Kurdistan",
-		"long_name_def":	"the Republic of Kurdistan",
+		"capital":			"227",
+		"colour":			"91 51 83",
+		"culture":			"Eastern_European",
+		"long_name":		"Federal State of Donbass",
+		"long_name_def":	"the Federal State of Donbass",
 		"parties":			{
 		},
 		"characters":		{

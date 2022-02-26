@@ -1,0 +1,53 @@
+
+characters = {
+	SUD_Jaafar_Nimeiry = {
+		name = SUD_Jaafar_Nimeiry
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_Minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Socialism_ideology
+			traits = { TITLE_President IDEOLOGY_Islamic_Socialism }
+			desc = SUD_Jaafar_Nimeiry_desc
+		}
+		
+		
+	}
+
+}
+characters = {
+	SUD_Abdel_Khaliq_Mahjub = {
+		name = SUD_Abdel_Khaliq_Mahjub
+
+		allowed_civil_war = {
+		}
+
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Leader"
+			}
+			army = {
+				small = "GFX_Minister_Generic_Leader"
+			}
+		}
+		
+		country_leader = {
+			ideology = Marxism_Leninism_ideology
+			traits = { TITLE_Secretary_General IDEOLOGY_Marxism_Leninism }
+			desc = SUD_Abdel_Khaliq_Mahjub_desc
+		}
+		
+		
+	}
+
+}

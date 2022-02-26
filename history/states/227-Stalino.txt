@@ -10,6 +10,7 @@ state={
 		owner = RUS
 		add_core_of = RUS
 		add_core_of = UKR
+		add_core_of = DON
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

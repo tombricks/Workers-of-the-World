@@ -21,6 +21,7 @@ create_faction = UAR_League
 add_to_faction = UAR
 add_to_faction = PAL
 add_to_faction = YEM
+add_to_faction = SUD
 
 set_autonomy = { target = ALG autonomy_state = autonomy_autonomous_zone } ALG = { set_cosmetic_tag = ALG_Arab_Republic }
 set_autonomy = { target = TUN autonomy_state = autonomy_autonomous_zone } TUN = { set_cosmetic_tag = TUN_Arab_Republic }
