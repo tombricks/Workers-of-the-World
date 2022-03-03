@@ -18,3 +18,7 @@ SYR_Free = {
 	color = rgb { 132 114 150 }
 	color_ui = rgb { 132 114 150 }
 }
+RUS_AllRus = {
+	color = rgb { 48 84 39 }
+	color_ui = rgb { 48 84 39 }
+}

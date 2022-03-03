@@ -40,3 +40,5 @@ recruit_character = SYR_Abdel_Hamid_al_Sarraj
 add_ideas = {
 	SYR_Abdel_Hamid_al_Sarraj_influential_1
 }
+
+country_event = { id = LBA_Independence.1 months = 13 days = 17 }

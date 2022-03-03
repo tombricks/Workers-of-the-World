@@ -1,0 +1,5 @@
+Decisions
+	D00001 Revitalise the International Department - Triggers the E00001 International Department event
+
+Events
+	E00001 The International Department

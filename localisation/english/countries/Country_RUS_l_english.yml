@@ -8,6 +8,12 @@
  RUS_USSR_DEF: "the Union of Soviet Socialist Republics"
  RUS_USSR_ADJ: "Soviet"
 
+ RUS_AllRus_Marxism_Leninism: "All-Russian People's Republic"
+ RUS_AllRus_Marxism_Leninism_DEF: "the All-Russian People's Republic"
+ RUS_AllRus_Marxism_Leninism_ADJ: "Russian"
+ RUS_AllRus_party: "VKPB"
+ RUS_AllRus_party_long: "Vserossiyskaya kommunisticheskaya partiya bol'shevikov (All-Russian Communist Party of Bolsheviks)"
+
 ### Parties
  RUS_Hypersocialism_party: "£party_cpsu VKP(b)"
  RUS_Hypersocialism_party_long: "£party_cpsu Vsesoyuznaya kommunisticheskaya partiya (bol'shevikov) (All-Union Communist Party (Bolsheviks))"

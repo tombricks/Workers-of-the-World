@@ -26,6 +26,17 @@ Anpilov		Potential General Secretary
 Yevegeny	Potential Head of State
 --Most Conservative--
 
+--Soviet Union in 1980--
+General Secretary of the CC of the CPSU				Yegor Ligachev		Leader
+Chairman of the Council of Ministers				Yegor Ligachev		Premier
+Second Secretary of the CC of the CPSU				Grigory Romanov		Deputy Leader
+Chairman of the Presidium of the Supreme Soviet		Viktor Grishin		Head of State
+
+
+--Constitution of the Soviet Union--
+Supreme Soviet of the Soviet Union (Soviet of the Union and the Soviet of Nationalities) has the power the elect commissions. The Presidium of the Supreme Soviet acted as the Supreme Soviet between sessions and its Chairman acts as the head of state.
+The Council of Ministers is the government and its Chairman is the Premier.
+
 -------------------------------- Gameplay --------------------------------
 In the general Cold War against the People's Republic of China, the situation of the USSR is perhaps more impactful on the world as a whole than any other nation. For this reason, I have decided to rid the idea of a Stalinist Civil War. Instead, the player will focus on internal politics and external diplomacy, the two of which are undoubtedly intertwined. 
 
