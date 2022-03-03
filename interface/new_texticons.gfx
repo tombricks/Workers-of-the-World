@@ -22,6 +22,16 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_decision_header_Political_Decisions"
+		texturefile = "gfx/texticons/decision_headers/decision_header_Political_Decisions.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_decision_header_debug_decisions"
+		texturefile = "gfx/texticons/decision_headers/decision_header_debug_decisions.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_skull_emoji"
 		texturefile = "gfx/texticons/skull_emoji.dds"
 		legacy_lazy_load = no

@@ -20,6 +20,12 @@ scripted_gui = {
 				entry_container = "influential_icon_[?v]"
 			}
 		}
+
+		triggers = {
+			ussr_pol_button_visible = {
+				original_tag = RUS
+			}
+		}
 	}
 	Diplomatic_Scripted_GUI = {
 		context_type = selected_country_context

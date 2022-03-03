@@ -47,7 +47,23 @@ guiTypes = {
 			slotsize = { width = 80 height = 0 }
 			add_horizontal = yes
 		}
+		
+		containerWindowType = {
+			name = "active_goal"
+			position = { x = 179 y = 48 }
+			size = { width = 330 height = 50 }
+			clipping = no	
+			background = {
+				name = "Background"		
+				spriteType ="GFX_pol_goal_bg"
+			}
 
+			buttonType = {
+				name = "ussr_pol_button"
+				spriteType = "GFX_ussr_pol_button"
+				position = { x = 0 y = 0 }
+			}
+		}
 	}
 	containerWindowType = {
 		name = "Diplomatic_Scripted_GUI_window"

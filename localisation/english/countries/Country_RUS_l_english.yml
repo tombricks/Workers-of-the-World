@@ -15,14 +15,14 @@
  RUS_AllRus_party_long: "Vserossiyskaya kommunisticheskaya partiya bol'shevikov (All-Russian Communist Party of Bolsheviks)"
 
 ### Parties
- RUS_Hypersocialism_party: "£party_cpsu VKP(b)"
- RUS_Hypersocialism_party_long: "£party_cpsu Vsesoyuznaya kommunisticheskaya partiya (bol'shevikov) (All-Union Communist Party (Bolsheviks))"
+ RUS_Hypersocialism_party: "£party_cpsu KPSS-Marksistskaya"
+ RUS_Hypersocialism_party_long: "£party_cpsu Marksistskaya platforma v KPSS (Marxist Platform of the CPSU)"
  RUS_Marxism_Leninism_party: "£party_cpsu KPSS"
  RUS_Marxism_Leninism_party_long: "£party_cpsu Kommunisticheskaya partiya Sovetskogo Soyuza (Communist Party of the Soviet Union)"
- RUS_New_Marxism_party: "£party_cpsu RKP(b)"
- RUS_New_Marxism_party_long: "£party_cpsu Rossiyskaya kommunisticheskaya partiya (bol'shevikov) (Russian Communist Party (Bolsheviks))"
- RUS_Socialism_party: "£party_cpsu RKP"
- RUS_Socialism_party_long: "£party_cpsu Rossiyskaya kommunisticheskaya partiya (Russian Communist Party)"
+ RUS_New_Marxism_party: "Oppbol"
+ RUS_New_Marxism_party_long: "Oppozitsiya bol'shevikov (Opposition bolsheviks)"
+ RUS_Socialism_party: "£party_cpsu KPSS-Demokraticheskaya"
+ RUS_Socialism_party_long: "£party_cpsu Demokraticheskaya platforma v KPSS (Democratic Platform of the CPSU)"
  RUS_Reactionism_party: ""
  RUS_Reactionism_party_long: ""
 
@@ -105,63 +105,6 @@
  RUS_Gennady_Ivanovich_Obaturov: "Gennady Ivanovich Obaturov"
  RUS_Sergei_Fedorovich_Akhromeev: "Sergei Fedorovich Akhromeev"
  RUS_Grigory_Ivanovich_Salmanov: "Grigory Ivanovich Salmanov"
-
-### Events
- RUS_International_Communist_League.1.TITLE: "Revitalised International Department"
- RUS_International_Communist_League.1.DESC: ""
- RUS_International_Communist_League.1.A: "Excellent"
-
- RUS_International_Communist_League.2.TITLE: "Moscow calls an International Conference"
- RUS_International_Communist_League.2.DESC: ""
- RUS_International_Communist_League.2.A: "We shall help reinstall Monolithic Communism"
-
- RUS_International_Communist_League.3.TITLE: "Inner-Party Session on the Future of the International Communist Movement"
- RUS_International_Communist_League.3.DESC: ""
- RUS_International_Communist_League.3.A: "We are the international Vanguard!"
-
- RUS_International_Communist_League.4.TITLE: "Whispers emerge from Moscow"
- RUS_International_Communist_League.4.DESC: ""
- RUS_International_Communist_League.4.A: "We shall watch closely"
-
- RUS_International_Communist_League.5.TITLE: "Moscow announces the International Communist League"
- RUS_International_Communist_League.5.DESC: ""
- RUS_International_Communist_League.5.A: "Inshallah"
-
- RUS_International_Communist_League.6.TITLE: "Invitation to the International Communist League"
- RUS_International_Communist_League.6.DESC: ""
- RUS_International_Communist_League.6.A: "Accept"
- RUS_International_Communist_League.6.B: "Reject"
-
- RUS_International_Communist_League.7.TITLE: "[FROM.GetName] accepts the invitation"
- RUS_International_Communist_League.7.DESC: ""
- RUS_International_Communist_League.7.A: "A true ally"
-
- RUS_International_Communist_League.8.TITLE: "[FROM.GetName] rejects the invitation"
- RUS_International_Communist_League.8.DESC: ""
- RUS_International_Communist_League.8.A: "You... you can do that?"
-
-
-### Focus Tree
- RUS_Revitalise_the_International_Department: "Revitalise the International Department"
- RUS_Revitalise_the_International_Department_desc: ""
- RUS_Prepare_an_International_Conference: "Prepare an International Conference"
- RUS_Prepare_an_International_Conference_desc: ""
- RUS_Hold_an_Inner_Party_Session: "Hold an Inner-Party Session"
- RUS_Hold_an_Inner_Party_Session_desc: ""
- RUS_Announce_the_International_Communist_League: "Announce the International Communist League"
- RUS_Announce_the_International_Communist_League_desc: ""
- RUS_Announce_the_International_Communist_League_TT: "Every Soviet-Aligned Communist country"
- RUS_Announce_the_International_Communist_League_TT_2: "Unlocks Decisions to invite other Soviet-Aligned Communist countries to the League."
- RUS_Invite_Socialist_Observers: "Invite Socialist Observers"
- RUS_Invite_Socialist_Observers_desc: ""
- RUS_Invite_Socialist_Observers_TT: "Unlocks Decisions to invite Socialist countries as observers to the League."
- RUS_International_Democratic_Centralism: "International Democratic Centralism"
- RUS_International_Democratic_Centralism_desc: ""
- RUS_International_Democratic_Centralism_TT: "Unlocks Decisions in the future to intervene in allied nations and secure Soviet hegemony."
- RUS_Integrate_COMECON: "Integrate COMECON"
- RUS_Integrate_COMECON_desc: ""
- RUS_Hold_the_First_World_Congress: "Hold the First World Congress"
- RUS_Hold_the_First_World_Congress_desc: ""
 
 ### Decisions
  RUS_International_Communist_League_category: "The International Communist League"

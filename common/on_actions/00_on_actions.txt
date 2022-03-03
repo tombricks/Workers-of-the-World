@@ -28,7 +28,6 @@ on_actions = {
 			}
 
 			YUG = { country_event = { id = YUG_Death_of_Tito.1 months = 4 days = 3 } } # May 4 1980 - Death of Tito :wow:
-			RUS = { country_event = { id = RUS_XXVI_Congress.1 months = 13 days = 22 } } # February 23 1981 - Opening of the XXVI Congress of the Communist Party of the Soviet Union
 		}
 	}
 

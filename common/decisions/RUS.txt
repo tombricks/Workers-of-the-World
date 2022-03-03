@@ -31,7 +31,7 @@ RUS_International_Communist_League_category = {
 	RUS_Invite_Mongolia_to_the_Union = {
 		icon = GFX_decision_SOV_the_stalin_constitution
 		visible = {
-			has_completed_focus = RUS_International_Democratic_Centralism
+			has_country_flag = RUS_International_Democratic_Centralism
 			MON = {
 				has_country_leader = {
 					character = MON_Yumjaagiin_Tsedenbal
@@ -50,6 +50,27 @@ RUS_International_Communist_League_category = {
 			MON = {
 				country_event = MON_Annexation.1
 			}
+		}
+	}
+}
+
+political_decisions = {
+	RUS_Opening_of_the_XXVI_Congress_of_the_CPSU = {
+		icon = GFX_decision_SOV_socialism_in_one_country
+		
+		priority = 100
+		days_mission_timeout = 420
+		
+		allowed = {
+			tag = RUS
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: [From.GetName] Complete Decision RUS_Opening_of_the_XXVI_Congress_of_the_CPSU"
 		}
 	}
 }

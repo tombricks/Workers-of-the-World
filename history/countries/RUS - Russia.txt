@@ -28,6 +28,7 @@ create_intelligence_agency = {
 	name = "Komitet Gosudarstvennoy Bezopasnosti"
 	icon = GFX_intelligence_agency_logo_kgb
 }
+activate_mission = RUS_Opening_of_the_XXVI_Congress_of_the_CPSU
 
 recruit_character = RUS_Yegor_Ligachev
 recruit_character = RUS_Grigory_Romanov

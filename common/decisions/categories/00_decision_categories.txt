@@ -13,7 +13,7 @@ RUS_International_Communist_League_category = {
 	}
 	visible = {
 		OR = {
-			has_completed_focus = RUS_Announce_the_International_Communist_League
+			has_country_flag = RUS_Announce_the_International_Communist_League
 			is_debug = yes
 		}
 	}
