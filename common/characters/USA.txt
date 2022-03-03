@@ -7,10 +7,10 @@ characters = {
 
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_Generic_Leader"
+				large = "GFX_usa_gus_hall"
 			}
 			army = {
-				small = "GFX_Minister_Generic_Leader"
+				small = "GFX_usa_gus_hall"
 			}
 		}
 		
