@@ -191,39 +191,36 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
-		size = { width = 320 height = 395}
-		Orientation = CENTER
+		position = { x=210 y =32}
+		size = { width = 320 height = 4000 }
+		Orientation = CENTER_LEFT
 		Origo = center			
 
 		positionType = {
 			name = "subscription_size"
-			position = { x = 320 y = 523 }
-		}
-				
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window"
+			position = { x = -144 y = 523 }
 		}
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 16 y = 18 }
+			position = { x = -144 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
+			orientation = CENTER
 		}
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 16 y = 58}
+			position = { x = -144 y = 58}
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
+			orientation = CENTER
 		}
 
 		@warn_icon_x = 280
@@ -236,7 +233,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 35 y = 356 }
+			position = { x = -144 y = 356 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -244,18 +241,20 @@ guiTypes = {
 			format = centre
 			maxWidth = 250
 			maxHeight = 20	
+			orientation = CENTER
 		}
 		
 
 		positionType = {
 			name = "version_label_subscription_position"
-			position = { x = 35 y = 484 }
+			position = { x = -144 y = 484 }
 		}
 		
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 16 y = 98 }
+			position = { x = -144 y = 98 }
+			orientation = CENTER
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -265,7 +264,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 16 y = 138 }
+			position = { x = -144 y = 138 }
+			orientation = CENTER
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "MENU_BAR_CAREER_PROFILE"
 			buttonFont = "hoi_24header"
@@ -274,7 +274,8 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 16 y = 138 }
+			position = {  x = -144 y = 138 }
+			orientation = CENTER
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CREDITS"
 			buttonFont = "hoi_24header"
@@ -284,7 +285,8 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 178 }
+			position = { x = -144 y = 178 }
+			orientation = CENTER
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
@@ -293,7 +295,8 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 260 }
+			position = { x = -144 y = 260 }
+			orientation = CENTER
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_EXIT"			

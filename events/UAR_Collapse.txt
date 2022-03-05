@@ -414,6 +414,8 @@ country_event = {
 				PREV = { 
 					SYR_Akram_al_Hawrani = {
 						set_nationality = PREV.PREV
+						remove_from_array = { array = PREV.characters value = THIS }
+						add_to_array = { PREV.PREV.characters = THIS }
 					}
 				}
 				SYR_Akram_al_Hawrani = {

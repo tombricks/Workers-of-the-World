@@ -44,21 +44,23 @@ add_ideas = {
 
 create_faction = RUS_BLOC_FACTION
 add_to_array = { global.RUS_cold_war_factions = THIS }
-#set_autonomy = { target = FIN autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = UKR autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = BLR autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = LIT autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = LAT autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = EST autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = AZR autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = ARM autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = GEO autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = KAZ autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = UZB autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = TAJ autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = TKM autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = KYR autonomy_state = autonomy_autonomous_zone }
-#set_autonomy = { target = MOL autonomy_state = autonomy_autonomous_zone }
+
+add_to_array = { RUS_union_republics = FIN }
+add_to_array = { RUS_union_republics = UKR }
+add_to_array = { RUS_union_republics = BLR }
+add_to_array = { RUS_union_republics = LIT }
+add_to_array = { RUS_union_republics = LAT }
+add_to_array = { RUS_union_republics = EST }
+add_to_array = { RUS_union_republics = AZR }
+add_to_array = { RUS_union_republics = ARM }
+add_to_array = { RUS_union_republics = GEO }
+add_to_array = { RUS_union_republics = KAZ }
+add_to_array = { RUS_union_republics = UZB }
+add_to_array = { RUS_union_republics = TAJ }
+add_to_array = { RUS_union_republics = TKM }
+add_to_array = { RUS_union_republics = KYR }
+add_to_array = { RUS_union_republics = MOL }
+
 add_to_faction = MON
 add_to_faction = SWE
 add_to_faction = NOR
@@ -94,7 +96,6 @@ recruit_character = RUS_Philip_Ivanovich_Golikov
 recruit_character = RUS_Sergei_Leonidovich_Sokolov
 recruit_character = RUS_Viktor_Georgievich_Kulikov
 recruit_character = RUS_Nikolai_Vasilievic_Ogarkov
-recruit_character = RUS_Leonid_Ilyich_Brezhnev
 recruit_character = RUS_Dmitry_Fedorovich_Ustinov
 recruit_character = RUS_Pavel_Ivanovich_Batov
 recruit_character = RUS_Alexander_Alexandrovich_Luchinsky

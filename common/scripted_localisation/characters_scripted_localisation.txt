@@ -1,0 +1,15 @@
+defined_text = {
+	name = GetCharacterGFX
+	text = { trigger = { is_character = RUS_Yegor_Ligachev } localization_key = "_RUS_Yegor_Ligachev" }
+	text = { trigger = { is_character = RUS_Viktor_Grishin } localization_key = "_RUS_Viktor_Grishin" }
+	text = { trigger = { is_character = RUS_Grigory_Romanov } localization_key = "_RUS_Grigory_Romanov" }
+	text = { trigger = { is_character = RUS_Yevgeny_Stalin } localization_key = "_RUS_Yevgeny_Stalin" }
+	text = { trigger = { is_character = RUS_Nina_Andreyeva } localization_key = "_RUS_Nina_Andreyeva" }
+	text = { trigger = { is_character = RUS_Viktor_Anpilov } localization_key = "_RUS_Viktor_Anpilov" }
+	text = { trigger = { is_character = ALB_Enver_Hoxha } localization_key = "_ALB_Enver_Hoxha" }
+	text = { trigger = { is_character = ZZZ_Karl_Marx } localization_key = "_ZZZ_Karl_Marx" }
+	text = { trigger = { is_character = ZZZ_Vladimir_Lenin } localization_key = "_ZZZ_Vladimir_Lenin" }
+	text = { trigger = { is_character = LBA_Muammar_Gaddafi } localization_key = "_LBA_Muammar_Gaddafi" }
+	text = { trigger = { is_character = USA_Gus_Hall } localization_key = "_USA_Gus_Hall" }
+	text = { localization_key = "_Generic_Leader" }
+}

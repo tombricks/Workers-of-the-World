@@ -300,25 +300,6 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	RUS_Leonid_Ilyich_Brezhnev = {
-		name = RUS_Leonid_Ilyich_Brezhnev
-		
-		portraits = {
-			army = {
-				large = "GFX_Portrait_Generic_Leader"
-				small = "GFX_Minister_Generic_Leader"
-			}
-		}
-	
-		field_marshal = {
-			traits = { RUS_Marshal_of_the_Soviet_Union }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
 	RUS_Dmitry_Fedorovich_Ustinov = {
 		name = RUS_Dmitry_Fedorovich_Ustinov
 		

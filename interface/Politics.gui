@@ -205,4 +205,76 @@ guiTypes = {
 			pdx_tooltip = influential_minister
 		}
 	}
+	
+	containerWindowType = {
+		name = "characters_scripted_gui_window"
+		size = { width = 640 height = 480 }
+		origo = center
+		orientation = CENTER
+		verticalScrollbar = "right_vertical_slider"
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+
+		gridBoxType = {
+			name = "characters_grid"
+			slotsize = { width = 640 height = 210 }
+			add_horizontal = no
+		}
+	}
+
+	containerWindowType = {
+		name = "character_entry"
+		size = { width = 640 height = 210 }
+		position = {
+			x = 320
+			y = 0
+		}
+		
+		background = {
+			name = "Background"	
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+
+		iconType = {
+			name = "character_portrait"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_world_tension_icon_big_strip"
+		}
+
+		iconType = {
+			name = "character_minister"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_world_tension_icon_big_strip"
+			position = {
+				x = 164
+				y = 64
+			}
+		}
+
+		instantTextBoxType = {
+			name = "character_name"
+			text = "[?character.GetTokenLocalizedKey]"
+			font = "hoi_22chat"
+			maxWidth = 640
+			maxHeight = 24
+			position = {
+				x = 164
+				y = 8
+			}
+		}
+		instantTextBoxType = {
+			name = "character_gfx"
+			text = "[?character.GetCharacterGFX]"
+			font = "hoi_22chat"
+			maxWidth = 640
+			maxHeight = 24
+			position = {
+				x = 164
+				y = 32
+			}
+		}
+	}
 }

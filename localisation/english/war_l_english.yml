@@ -7,3 +7,6 @@
  CIVIL_WAR_NAME: "$ORDER$$SECOND$ Civil War"
  WAR_TAKE_CORE_NAME: "$ORDER$$FIRST$ reclamation of $STATE$"
  WAR_TAKE_CLAIM_NAME: "$ORDER$$FIRST$ Aggression for $STATE$"
+ 
+ UAR_LBA_WAR_NAME: "Arab Wars"
+ LBA_UAR_WAR_NAME: "Arab Wars"

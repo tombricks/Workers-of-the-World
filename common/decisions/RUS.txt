@@ -1,8 +1,26 @@
 RUS_International_Communist_League_category = {
+	RUS_Hide_Invites = {
+		icon = GFX_decision_eng_trade_unions_support
+		visible = {
+			NOT = { has_country_flag = RUS_hide_invites }
+		}
+		complete_effect = {
+			set_country_flag = RUS_hide_invites
+		}
+	}
+	RUS_Show_Invites = {
+		icon = GFX_decision_eng_trade_unions_support
+		visible = {
+			has_country_flag = RUS_hide_invites
+		}
+		complete_effect = {
+			clr_country_flag = RUS_hide_invites
+		}
+	}
 	RUS_Invite_FROM_to_League = {
 		icon = GFX_decision_eng_trade_unions_support
 		visible = {
-			always = yes
+			NOT = { has_country_flag = RUS_hide_invites }
 		}
 
 		target_trigger = {
@@ -23,9 +41,6 @@ RUS_International_Communist_League_category = {
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: [From.GetName] Target Decision RUS_Invite_FROM_to_League"
-			FROM = {
-				country_event = RUS_International_Communist_League.6
-			}
 		}
 	}
 	RUS_Invite_Mongolia_to_the_Union = {

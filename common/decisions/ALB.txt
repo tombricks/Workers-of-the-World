@@ -32,9 +32,13 @@ Political_Decisions = {
 			ZZZ = {
 				ZZZ_Karl_Marx = {
 					set_nationality = ROOT
+					remove_from_array = { array = PREV.characters value = THIS }
+					add_to_array = { ROOT.characters = THIS }
 				}
 				ZZZ_Vladimir_Lenin = {
 					set_nationality = ROOT
+					remove_from_array = { array = PREV.characters value = THIS }
+					add_to_array = { ROOT.characters = THIS }
 				}
 			}
 		}

@@ -63,4 +63,27 @@ scripted_gui = {
 			}
 		}
 	}
+
+	
+	characters_scripted_gui = {
+		context_type = player_context
+		window_name = "characters_scripted_gui_window"
+		visible = { has_country_flag = characters_scripted_gui }
+		properties = {
+			character_portrait = {
+				image = "GFX_Portrait[?character.GetCharacterGFX]"
+			}
+			character_minister = {
+				image = "GFX_Minister[?character.GetCharacterGFX]"
+			}
+		}
+
+		dynamic_lists = {
+			characters_grid = {
+				array = characters
+				entry_container = character_entry
+				value = character
+			}
+		}
+	}
 }

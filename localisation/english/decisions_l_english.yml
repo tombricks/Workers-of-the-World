@@ -20,5 +20,9 @@
  
  Political_Decisions: "Political Decisions"
  Political_Decisions_desc: "\n\n£decision_header_Political_Decisions\n\n\n\n"
+ 
+ Promote_Leader_into_Field_Marshal: "Promote Leader into Field Marshal"
+ Promote_Leader_into_Field_Marshal_desc: "Promotes the Leader into becoming of a Field Marshal"
+ 
  debug_decisions: "Debug Decisions"
  debug_decisions_desc: "\n\n£decision_header_debug_decisions\n\n\n\n"

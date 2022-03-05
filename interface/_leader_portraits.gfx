@@ -114,13 +114,17 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
     	name = "GFX_Portrait_USA_Gus_Hall"
-    	texturefile = "gfx/leaders/USA/USA_gus_hall.png"
+    	texturefile = "gfx/leaders/USA/Gus Hall.dds"
     	noOfFrames = 5
-    	loadType = "INGAME"
     	transparencecheck = no
     	animation_rate_fps = 12
     	looping = yes
     	play_on_show = yes
     	pause_on_loop = 0.0
+	}
+	
+	spriteType = {
+		name = "GFX_Minister_USA_Gus_Hall"
+		texturefile = "gfx/leaders/USA/Gus Hall minister.dds"
 	}
 }

@@ -314,6 +314,11 @@ d_list_characters = {
 			log = "[?THIS.GetTokenKey] [THIS.GetName]"
 		}
 }
+d_list_characters_gfx = {
+	every_character = {
+		log = "[?THIS.GetTokenKey] [THIS.GetName] [THIS.GetCharacterGFX]"
+	}
+}
 d_demote_country_leader = {
 	retire_country_leader = yes
 }
