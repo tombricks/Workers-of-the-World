@@ -51,7 +51,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "active_goal"
 			position = { x = 179 y = 48 }
-			size = { width = 330 height = 50 }
+			size = { width = 330 height = 95 }
 			clipping = no	
 			background = {
 				name = "Background"		

@@ -1,0 +1,22 @@
+scripted_gui = {
+	Ideology_Icons_Scripted_Map_Icons = {
+		context_type = country_mapicon
+		window_name = "Ideology_Icons_Scripted_Map_Icons_window"
+		visible = { has_country_flag = show_ideology_map_icons }
+		properties = {
+			ideology_icon = {
+				image = "[get_subideology_icon]"
+			}
+		}
+	}
+	Flag_Scripted_Map_Icons = {
+		context_type = country_mapicon
+		window_name = "Flag_Scripted_Map_Icons_window"
+		visible = { has_country_flag = show_flag_map_icons }
+		properties = {
+			flag_icon = {
+				image = "[THIS.GetFlag]"
+			}
+		}
+	}
+}

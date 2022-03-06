@@ -26,6 +26,20 @@ scripted_gui = {
 				original_tag = RUS
 			}
 		}
+
+		effects = {
+			ussr_pol_button_click = {
+				if = {
+					limit = {
+						has_country_flag = RUS_Politics_Scripted_GUI_open
+					}
+					clr_country_flag = RUS_Politics_Scripted_GUI_open
+					else = {
+						set_country_flag = RUS_Politics_Scripted_GUI_open
+					}
+				}
+			}
+		}
 	}
 	Diplomatic_Scripted_GUI = {
 		context_type = selected_country_context
@@ -43,27 +57,6 @@ scripted_gui = {
 		}
 	
 	}
-	Ideology_Icons_Scripted_Map_Icons = {
-		context_type = country_mapicon
-		window_name = "Ideology_Icons_Scripted_Map_Icons_window"
-		visible = { has_country_flag = show_ideology_map_icons }
-		properties = {
-			ideology_icon = {
-				image = "[get_subideology_icon]"
-			}
-		}
-	}
-	Flag_Scripted_Map_Icons = {
-		context_type = country_mapicon
-		window_name = "Flag_Scripted_Map_Icons_window"
-		visible = { has_country_flag = show_flag_map_icons }
-		properties = {
-			flag_icon = {
-				image = "[THIS.GetFlag]"
-			}
-		}
-	}
-
 	
 	characters_scripted_gui = {
 		context_type = player_context

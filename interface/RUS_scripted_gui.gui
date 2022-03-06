@@ -1,0 +1,146 @@
+guiTypes = {
+	containerWindowType = {
+		name = "RUS_Politics_Scripted_GUI_window"
+		size = { width = 1080 height = 800 }
+		origo = center
+		orientation = CENTER
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "main_window"
+			position = { x = 4 y = 0 }	
+			size = { width = 1072 height = -1 }
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_window"
+			}
+
+			gridboxtype = {
+				name = "branches_grid"
+				position = { x = 12 y = 5 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 137 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}
+		}
+		
+		icontype = {
+			name = "header_bg"
+			spriteType = "GFX_agency_branch_upgrades_popup_bg"
+			position = { x = 0 y = 45 }
+			centerposition = yes
+			orientation = CENTER_UP
+		}
+		
+		buttonType = {
+			name = "btn_close"
+			position = { x = -44 y = 6 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextboxType = {
+			name = "branch_upgrades_title"
+			position = { x = 265 y = 6 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "The Union of Soviet Socialist Republics"
+			maxWidth = 560
+			maxHeight = 80
+			format = centre
+			fixedsize = yes
+		}
+	}
+
+
+	containerWindowType = {
+		name = "RUS_International_Communist_League_category_window"
+		size = { width = 510 height = 220 }
+		position = { x = 0 y = 0 }
+		
+		instantTextboxType = {
+			name = "members_label"
+			position = { x = 16 y = 4 }
+			font = "hoi_20b"
+			text = "Members ([?RUS.RUS_International_Communist_League_members^num]):"	
+			maxWidth = 350
+			maxHeight = 30
+		}
+
+		containerWindowType = {
+			name = "members_window"
+			size = { width = 504 height = 80 }
+			position = { x = 0 y = 26 }
+			verticalScrollbar = "right_vertical_slider"
+			smooth_scrolling = yes
+
+			background = {
+				name = "bg"
+				spriteType = "GFX_tiled_window_transparent"
+			}
+
+			gridboxType = {
+				name = "members_grid"
+				position = { x = -104 y = 0 }
+				size = { width = 478 height = 200 }
+				slotsize = { width = 239 height = 16 }
+				max_slots_horizontal = 2
+			}
+		}
+		
+		instantTextboxType = {
+			name = "observers_label"
+			position = { x = 16 y = 112 }
+			font = "hoi_20b"
+			text = "Observers ([?RUS.RUS_International_Communist_League_observers^num]):"	
+			maxWidth = 350
+			maxHeight = 30
+		}
+
+		containerWindowType = {
+			name = "observers_window"
+			size = { width = 504 height = 80 }
+			position = { x = 0 y = 134 }
+			verticalScrollbar = "right_vertical_slider"
+			smooth_scrolling = yes
+
+			background = {
+				name = "bg"
+				spriteType = "GFX_tiled_window_transparent"
+			}
+
+			gridboxType = {
+				name = "observers_grid"
+				position = { x = -104 y = 0 }
+				size = { width = 478 height = 200 }
+				slotsize = { width = 239 height = 16 }
+				max_slots_horizontal = 2
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "RUS_ICL_entry"
+		size = { width = 239 height = 16 }
+				
+		instantTextboxType = {
+			name = "members_label"
+			position = { x = 0 y = 0 }
+			font = "Arial12"
+			text = RUS_ICL_entry_text
+			maxWidth = 239
+			maxHeight = 16
+		}
+	}
+}
